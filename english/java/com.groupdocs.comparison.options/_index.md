@@ -1,11 +1,14 @@
 ---
 title: com.groupdocs.comparison.options
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: The package provides classes that allows to specify additional options for documents comparison process.
 type: docs
 weight: 19
 url: /java/com.groupdocs.comparison.options/
 ---
+
+The package provides classes that allows to specify additional options for documents comparison process.
+
 
 ## Classes
 

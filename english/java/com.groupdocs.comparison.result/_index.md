@@ -1,11 +1,14 @@
 ---
 title: com.groupdocs.comparison.result
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: The package provides classes which represents the comparison results.
 type: docs
 weight: 24
 url: /java/com.groupdocs.comparison.result/
 ---
+
+The package provides classes which represents the comparison results.
+
 
 ## Classes
 

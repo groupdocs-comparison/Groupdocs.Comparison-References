@@ -1,11 +1,14 @@
 ---
 title: com.groupdocs.comparison.common.exceptions
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: The package provides different exception classes.
 type: docs
 weight: 14
 url: /java/com.groupdocs.comparison.common.exceptions/
 ---
+
+The package provides different exception classes.
+
 
 ## Classes
 

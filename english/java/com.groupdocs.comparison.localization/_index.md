@@ -1,11 +1,14 @@
 ---
 title: com.groupdocs.comparison.localization
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: The package provides classes checking supported locales.
 type: docs
 weight: 17
 url: /java/com.groupdocs.comparison.localization/
 ---
+
+The package provides classes checking supported locales.
+
 
 ## Classes
 
