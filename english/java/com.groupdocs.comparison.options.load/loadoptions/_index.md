@@ -21,6 +21,7 @@ Allows to specify additional options when loading a document.
 | [LoadOptions(boolean isLoadText)](#LoadOptions-boolean-) |  |
 | [LoadOptions(String password)](#LoadOptions-java.lang.String-) |  |
 | [LoadOptions(boolean isLoadText, String password)](#LoadOptions-boolean-java.lang.String-) |  |
+| [LoadOptions(FileType fileType)](#LoadOptions-com.groupdocs.comparison.result.FileType-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,6 +32,8 @@ Allows to specify additional options when loading a document.
 | [setPassword(String value)](#setPassword-java.lang.String-) | Password of document. |
 | [getFontDirectories()](#getFontDirectories--) | List of font directories to load. |
 | [setFontDirectories(List<String> fontDirectories)](#setFontDirectories-java.util.List-java.lang.String--) | List of font directories to load. |
+| [getFileType()](#getFileType--) | File type of the document |
+| [setFileType(FileType fileType)](#setFileType-com.groupdocs.comparison.result.FileType-) | File type of the document |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -70,6 +73,17 @@ public LoadOptions(boolean isLoadText, String password)
 | --- | --- | --- |
 | isLoadText | boolean |  |
 | password | java.lang.String |  |
+
+### LoadOptions(FileType fileType) {#LoadOptions-com.groupdocs.comparison.result.FileType-}
+```
+public LoadOptions(FileType fileType)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.comparison.result/filetype) |  |
 
 ### isLoadText() {#isLoadText--}
 ```
@@ -139,4 +153,27 @@ List of font directories to load.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontDirectories | java.util.List<java.lang.String> | font directories |
+
+### getFileType() {#getFileType--}
+```
+public FileType getFileType()
+```
+
+
+File type of the document
+
+**Returns:**
+[FileType](../../com.groupdocs.comparison.result/filetype) - file type of the document
+### setFileType(FileType fileType) {#setFileType-com.groupdocs.comparison.result.FileType-}
+```
+public void setFileType(FileType fileType)
+```
+
+
+File type of the document
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.comparison.result/filetype) | file type of the document |
 
