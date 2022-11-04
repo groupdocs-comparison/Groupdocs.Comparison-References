@@ -50,10 +50,13 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [XLSM](#XLSM) | Microsoft Excel Macro-Enabled Worksheet |
 | [POT](#POT) | Microsoft PowerPoint template |
 | [POTX](#POTX) | Microsoft PowerPoint Template |
+| [POTM](#POTM) | Microsoft PowerPoint Template with support for Macros |
 | [PPS](#PPS) | Microsoft PowerPoint 97-2003 Slide Show |
 | [PPSX](#PPSX) | Microsoft PowerPoint Slide Show |
 | [PPTX](#PPTX) | Microsoft PowerPoint Presentation |
 | [PPT](#PPT) | Microsoft PowerPoint 97-2003 Presentation |
+| [PPTM](#PPTM) | Microsoft PowerPoint Macro-Enabled Presentation |
+| [PPSM](#PPSM) | Microsoft PowerPoint Macro-Enabled Slide Show Presentation |
 | [VSDX](#VSDX) | Microsoft Visio Drawing |
 | [VSD](#VSD) | Microsoft Visio 2003-2010 Drawing |
 | [VSS](#VSS) | Microsoft Visio 2003-2010 Stencil |
@@ -78,6 +81,7 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [BMP](#BMP) | Bitmap Picture |
 | [GIF](#GIF) | Graphics Interchange Format |
 | [JPEG](#JPEG) | Joint Photographic Experts Group |
+| [JPG](#JPG) | Joint Photographic Experts Group |
 | [PNG](#PNG) | Portable Network Graphics |
 | [SVG](#SVG) | Scalar Vector Graphics |
 | [EML](#EML) | E-mail Message |
@@ -375,6 +379,14 @@ public static final FileType POTX
 
 Microsoft PowerPoint Template
 
+### POTM {#POTM}
+```
+public static final FileType POTM
+```
+
+
+Microsoft PowerPoint Template with support for Macros
+
 ### PPS {#PPS}
 ```
 public static final FileType PPS
@@ -406,6 +418,22 @@ public static final FileType PPT
 
 
 Microsoft PowerPoint 97-2003 Presentation
+
+### PPTM {#PPTM}
+```
+public static final FileType PPTM
+```
+
+
+Microsoft PowerPoint Macro-Enabled Presentation
+
+### PPSM {#PPSM}
+```
+public static final FileType PPSM
+```
+
+
+Microsoft PowerPoint Macro-Enabled Slide Show Presentation
 
 ### VSDX {#VSDX}
 ```
@@ -594,6 +622,14 @@ Graphics Interchange Format
 ### JPEG {#JPEG}
 ```
 public static final FileType JPEG
+```
+
+
+Joint Photographic Experts Group
+
+### JPG {#JPG}
+```
+public static final FileType JPG
 ```
 
 

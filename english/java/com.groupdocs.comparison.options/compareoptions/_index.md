@@ -24,6 +24,8 @@ Allows to set different compare options.
 | --- | --- |
 | [isLeaveGaps()](#isLeaveGaps--) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
 | [setLeaveGaps(boolean leaveGaps)](#setLeaveGaps-boolean-) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
+| [getComparisonType()](#getComparisonType--) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
+| [setComparisonType(int comparisonType)](#setComparisonType-int-) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
 | [getPaperSize()](#getPaperSize--) | Gets or sets the result document paper size. |
 | [setPaperSize(int value)](#setPaperSize-int-) | Gets or sets the result document paper size. |
 | [isShowDeletedContent()](#isShowDeletedContent--) | Indicates whether to show deleted components in resultant document or not. |
@@ -101,6 +103,29 @@ Indicates whether to display empty lines instead of inserted / deleted component
 | Parameter | Type | Description |
 | --- | --- | --- |
 | leaveGaps | boolean | enabled or not |
+
+### getComparisonType() {#getComparisonType--}
+```
+public int getComparisonType()
+```
+
+
+File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--)
+
+**Returns:**
+int - file type to compare documents as
+### setComparisonType(int comparisonType) {#setComparisonType-int-}
+```
+public void setComparisonType(int comparisonType)
+```
+
+
+File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| comparisonType | int | file type to compare documents as |
 
 ### getPaperSize() {#getPaperSize--}
 ```

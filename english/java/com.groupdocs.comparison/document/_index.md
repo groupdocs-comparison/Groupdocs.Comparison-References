@@ -24,9 +24,12 @@ Represents compared document.
 | [Document(String filePath)](#Document-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
 | [Document(Path filePath)](#Document-java.nio.file.Path-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
 | [Document(Path filePath, String password)](#Document-java.nio.file.Path-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
+| [Document(Path filePath, LoadOptions loadOptions)](#Document-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
 | [Document(String filePath, String password)](#Document-java.lang.String-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
+| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
 | [Document(InputStream stream, String password)](#Document-java.io.InputStream-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
 | [Document(String filePath, boolean isLoadText)](#Document-java.lang.String-boolean-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class. |
+| [Document(InputStream inputStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,7 +38,10 @@ Represents compared document.
 | [setChanges(List<ChangeInfo> value)](#setChanges-java.util.List-com.groupdocs.comparison.result.ChangeInfo--) | List of changes. |
 | [getName()](#getName--) | Document name. |
 | [setName(String value)](#setName-java.lang.String-) | Document name. |
+| [getFileType()](#getFileType--) |  |
+| [setFileType(FileType fileType)](#setFileType-com.groupdocs.comparison.result.FileType-) |  |
 | [createStream()](#createStream--) | Document stream. |
+| [getStreamLength()](#getStreamLength--) |  |
 | [getPassword()](#getPassword--) | Document password. |
 | [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.comparison.options.PreviewOptions-) | Generates document pages preview. |
 | [getDocumentInfo()](#getDocumentInfo--) | Gets information about document - document type, pages count, page sizes etc. |
@@ -93,6 +99,20 @@ Initializes new instance of [Document](../../com.groupdocs.comparison/document) 
 | filePath | java.nio.file.Path | Document path |
 | password | java.lang.String | Document password |
 
+### Document(Path filePath, LoadOptions loadOptions) {#Document-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-}
+```
+public Document(Path filePath, LoadOptions loadOptions)
+```
+
+
+Initializes new instance of [Document](../../com.groupdocs.comparison/document) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.nio.file.Path | Document path |
+| loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | Load options |
+
 ### Document(String filePath, String password) {#Document-java.lang.String-java.lang.String-}
 ```
 public Document(String filePath, String password)
@@ -106,6 +126,20 @@ Initializes new instance of [Document](../../com.groupdocs.comparison/document) 
 | --- | --- | --- |
 | filePath | java.lang.String | Document path |
 | password | java.lang.String | Document password |
+
+### Document(String filePath, LoadOptions loadOptions) {#Document-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-}
+```
+public Document(String filePath, LoadOptions loadOptions)
+```
+
+
+Initializes new instance of [Document](../../com.groupdocs.comparison/document) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Document path |
+| loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | Load options |
 
 ### Document(InputStream stream, String password) {#Document-java.io.InputStream-java.lang.String-}
 ```
@@ -134,6 +168,18 @@ Initializes new instance of [Document](../../com.groupdocs.comparison/document) 
 | --- | --- | --- |
 | filePath | java.lang.String | the file path |
 | isLoadText | boolean | the is load text |
+
+### Document(InputStream inputStream, LoadOptions loadOptions) {#Document-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-}
+```
+public Document(InputStream inputStream, LoadOptions loadOptions)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream |  |
+| loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) |  |
 
 ### getChanges() {#getChanges--}
 ```
@@ -181,6 +227,29 @@ Document name.
 | --- | --- | --- |
 | value | java.lang.String | the value |
 
+### getFileType() {#getFileType--}
+```
+public FileType getFileType()
+```
+
+
+
+
+**Returns:**
+[FileType](../../com.groupdocs.comparison.result/filetype)
+### setFileType(FileType fileType) {#setFileType-com.groupdocs.comparison.result.FileType-}
+```
+public void setFileType(FileType fileType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.comparison.result/filetype) |  |
+
 ### createStream() {#createStream--}
 ```
 public InputStream createStream()
@@ -191,6 +260,16 @@ Document stream.
 
 **Returns:**
 java.io.InputStream - the stream
+### getStreamLength() {#getStreamLength--}
+```
+public long getStreamLength()
+```
+
+
+
+
+**Returns:**
+long
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
