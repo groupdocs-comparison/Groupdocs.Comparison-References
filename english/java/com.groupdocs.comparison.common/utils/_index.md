@@ -28,6 +28,7 @@ The type Utils.
 | Method | Description |
 | --- | --- |
 | [closeStreams(Closeable[] streams)](#closeStreams-java.io.Closeable...-) | Close all streams in array of streams |
+| [wordsRevisionTypeToComparison(int revisionType)](#wordsRevisionTypeToComparison-int-) |  |
 ### Utils() {#Utils--}
 ```
 public Utils()
@@ -53,3 +54,18 @@ Close all streams in array of streams
 | --- | --- | --- |
 | streams | java.io.Closeable[] | streams |
 
+### wordsRevisionTypeToComparison(int revisionType) {#wordsRevisionTypeToComparison-int-}
+```
+public static RevisionType wordsRevisionTypeToComparison(int revisionType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| revisionType | int |  |
+
+**Returns:**
+[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype)

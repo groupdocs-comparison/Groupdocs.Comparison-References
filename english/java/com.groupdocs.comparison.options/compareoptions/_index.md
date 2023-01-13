@@ -73,6 +73,8 @@ Allows to set different compare options.
 | [setDiagramMasterSetting(DiagramMasterSetting value)](#setDiagramMasterSetting-com.groupdocs.comparison.options.style.DiagramMasterSetting-) | Gets or sets the path value for master or use compare without path of master. |
 | [isShowRevisions()](#isShowRevisions--) | Indicates whether to display others revisions in the resulting document or not. |
 | [setShowRevisions(boolean showRevisions)](#setShowRevisions-boolean-) | Indicates whether to display others revisions in the resulting document or not. |
+| [isWordTrackChanges()](#isWordTrackChanges--) | Control to turn on comparison of Words Track Revisions. |
+| [setWordTrackChanges(boolean wordTrackChanges)](#setWordTrackChanges-boolean-) | Control to turn on comparison of Words Track Revisions. |
 ### CompareOptions() {#CompareOptions--}
 ```
 public CompareOptions()
@@ -680,4 +682,27 @@ Indicates whether to display others revisions in the resulting document or not.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | showRevisions | boolean | the show revisions |
+
+### isWordTrackChanges() {#isWordTrackChanges--}
+```
+public boolean isWordTrackChanges()
+```
+
+
+Control to turn on comparison of Words Track Revisions.
+
+**Returns:**
+boolean - Words Track Revisions
+### setWordTrackChanges(boolean wordTrackChanges) {#setWordTrackChanges-boolean-}
+```
+public void setWordTrackChanges(boolean wordTrackChanges)
+```
+
+
+Control to turn on comparison of Words Track Revisions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| wordTrackChanges | boolean | Words Track Revisions |
 

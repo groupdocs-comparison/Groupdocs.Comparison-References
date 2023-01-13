@@ -8,11 +8,8 @@ url: /java/com.groupdocs.comparison.words.revision/revisionhandler/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-java.io.Closeable
 ```
-public class RevisionHandler implements Closeable
+public class RevisionHandler
 ```
 
 Represents the main class that controls revision handling.
@@ -22,18 +19,17 @@ Represents the main class that controls revision handling.
 | --- | --- |
 | [RevisionHandler(String filePath)](#RevisionHandler-java.lang.String-) | Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file with revisions. |
 | [RevisionHandler(Path filePath)](#RevisionHandler-java.nio.file.Path-) | Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file with revisions. |
-| [RevisionHandler(InputStream file)](#RevisionHandler-java.io.InputStream-) | Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a file stream with revisions. |
+| [RevisionHandler(InputStream file, FileType fileType)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-) | Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a file stream with revisions. |
 | [RevisionHandler(Document document)](#RevisionHandler-com.aspose.words.Document-) | Instantiates a new Revision handler. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) | Releases resources. |
 | [getRevisions()](#getRevisions--) | Gets list of all revisions. |
 | [applyRevisionChanges(ApplyRevisionOptions changes)](#applyRevisionChanges-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions and applies them to the same file from which the revisions were taken. |
 | [applyRevisionChanges(Path filePath, ApplyRevisionOptions changes)](#applyRevisionChanges-java.nio.file.Path-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions, and the result is written to the specified file by path. |
 | [applyRevisionChanges(String filePath, ApplyRevisionOptions changes)](#applyRevisionChanges-java.lang.String-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions, and the result is written to the specified file by path. |
-| [applyRevisionChanges(OutputStream document, ApplyRevisionOptions changes)](#applyRevisionChanges-java.io.OutputStream-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions and the result is written to the document stream. |
+| [applyRevisionChanges(OutputStream outputStream, ApplyRevisionOptions changes)](#applyRevisionChanges-java.io.OutputStream-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions and the result is written to the document stream. |
 ### RevisionHandler(String filePath) {#RevisionHandler-java.lang.String-}
 ```
 public RevisionHandler(String filePath)
@@ -60,9 +56,9 @@ Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.wor
 | --- | --- | --- |
 | filePath | java.nio.file.Path | File path |
 
-### RevisionHandler(InputStream file) {#RevisionHandler-java.io.InputStream-}
+### RevisionHandler(InputStream file, FileType fileType) {#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-}
 ```
-public RevisionHandler(InputStream file)
+public RevisionHandler(InputStream file, FileType fileType)
 ```
 
 
@@ -72,6 +68,7 @@ Initializes new instance of [RevisionHandler](../../com.groupdocs.comparison.wor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | java.io.InputStream | Source document stream |
+| fileType | [FileType](../../com.groupdocs.comparison.result/filetype) |  |
 
 ### RevisionHandler(Document document) {#RevisionHandler-com.aspose.words.Document-}
 ```
@@ -85,14 +82,6 @@ Instantiates a new Revision handler.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | com.aspose.words.Document | the document |
-
-### close() {#close--}
-```
-public void close()
-```
-
-
-Releases resources.
 
 ### getRevisions() {#getRevisions--}
 ```
@@ -147,9 +136,9 @@ Processes changes in revisions, and the result is written to the specified file 
 | filePath | java.lang.String | Result file path |
 | changes | [ApplyRevisionOptions](../../com.groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
 
-### applyRevisionChanges(OutputStream document, ApplyRevisionOptions changes) {#applyRevisionChanges-java.io.OutputStream-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-}
+### applyRevisionChanges(OutputStream outputStream, ApplyRevisionOptions changes) {#applyRevisionChanges-java.io.OutputStream-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-}
 ```
-public void applyRevisionChanges(OutputStream document, ApplyRevisionOptions changes)
+public void applyRevisionChanges(OutputStream outputStream, ApplyRevisionOptions changes)
 ```
 
 
@@ -158,6 +147,6 @@ Processes changes in revisions and the result is written to the document stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.OutputStream | Result document |
+| outputStream | java.io.OutputStream | Result document |
 | changes | [ApplyRevisionOptions](../../com.groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
 
