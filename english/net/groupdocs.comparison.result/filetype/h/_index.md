@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/h/
 C-Based header files contain definitions of Functions and Variables
 
 ```csharp
-public static FileType H;
+public static readonly FileType H;
 ```
 
 ### See Also

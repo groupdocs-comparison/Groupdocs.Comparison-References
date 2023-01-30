@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rb/
 Ruby Programming Language format
 
 ```csharp
-public static FileType RB;
+public static readonly FileType RB;
 ```
 
 ### See Also

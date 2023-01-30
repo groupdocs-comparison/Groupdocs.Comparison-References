@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dxf/
 AutoCAD Drawing Interchange
 
 ```csharp
-public static FileType DXF;
+public static readonly FileType DXF;
 ```
 
 ### See Also

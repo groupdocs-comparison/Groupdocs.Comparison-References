@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ods/
 OpenDocument Spreadsheet
 
 ```csharp
-public static FileType ODS;
+public static readonly FileType ODS;
 ```
 
 ### See Also

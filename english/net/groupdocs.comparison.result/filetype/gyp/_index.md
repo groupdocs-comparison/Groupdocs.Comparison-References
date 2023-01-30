@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gyp/
 Build automation tool format
 
 ```csharp
-public static FileType GYP;
+public static readonly FileType GYP;
 ```
 
 ### See Also

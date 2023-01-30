@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ebuild/
 Specialized bash script which automates compilation and installation procedures for software packages
 
 ```csharp
-public static FileType EBUILD;
+public static readonly FileType EBUILD;
 ```
 
 ### See Also

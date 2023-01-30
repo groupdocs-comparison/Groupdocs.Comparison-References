@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/patch/
 List of differences format
 
 ```csharp
-public static FileType PATCH;
+public static readonly FileType PATCH;
 ```
 
 ### See Also

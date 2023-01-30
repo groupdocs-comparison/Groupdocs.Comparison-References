@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gradle/
 Build-automation system format
 
 ```csharp
-public static FileType GRADLE;
+public static readonly FileType GRADLE;
 ```
 
 ### See Also

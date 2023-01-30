@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/java/
 Java Programming Language format
 
 ```csharp
-public static FileType JAVA;
+public static readonly FileType JAVA;
 ```
 
 ### See Also

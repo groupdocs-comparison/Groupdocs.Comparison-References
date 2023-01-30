@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/sc/
 Scala worksheet format
 
 ```csharp
-public static FileType SC;
+public static readonly FileType SC;
 ```
 
 ### See Also

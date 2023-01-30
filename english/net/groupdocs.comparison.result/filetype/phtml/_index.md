@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/phtml/
 Standard file extension for PHP 2 programs format
 
 ```csharp
-public static FileType PHTML;
+public static readonly FileType PHTML;
 ```
 
 ### See Also

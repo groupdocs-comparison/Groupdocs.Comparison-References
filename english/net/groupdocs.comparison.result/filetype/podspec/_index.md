@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/podspec/
 Ruby build settings format
 
 ```csharp
-public static FileType PODSPEC;
+public static readonly FileType PODSPEC;
 ```
 
 ### See Also

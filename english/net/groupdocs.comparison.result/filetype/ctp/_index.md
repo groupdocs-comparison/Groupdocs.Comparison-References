@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ctp/
 CakePHP Template format
 
 ```csharp
-public static FileType CTP;
+public static readonly FileType CTP;
 ```
 
 ### See Also

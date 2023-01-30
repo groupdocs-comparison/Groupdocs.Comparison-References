@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dotm/
 Microsoft Word Macro-Enabled Template
 
 ```csharp
-public static FileType DOTM;
+public static readonly FileType DOTM;
 ```
 
 ### See Also

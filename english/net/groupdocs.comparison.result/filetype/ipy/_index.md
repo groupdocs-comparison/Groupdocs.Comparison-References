@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ipy/
 IPython Script format
 
 ```csharp
-public static FileType IPY;
+public static readonly FileType IPY;
 ```
 
 ### See Also

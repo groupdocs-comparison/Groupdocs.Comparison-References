@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/hh/
 Header information referenced by a C++ source code file
 
 ```csharp
-public static FileType HH;
+public static readonly FileType HH;
 ```
 
 ### See Also

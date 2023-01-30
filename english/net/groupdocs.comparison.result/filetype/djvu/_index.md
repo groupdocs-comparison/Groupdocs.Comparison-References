@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/djvu/
 Deja Vu format
 
 ```csharp
-public static FileType DJVU;
+public static readonly FileType DJVU;
 ```
 
 ### See Also

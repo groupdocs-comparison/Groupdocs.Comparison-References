@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/jsmap/
 JSON file that contains information on how to translate code back to source code
 
 ```csharp
-public static FileType JSMAP;
+public static readonly FileType JSMAP;
 ```
 
 ### See Also

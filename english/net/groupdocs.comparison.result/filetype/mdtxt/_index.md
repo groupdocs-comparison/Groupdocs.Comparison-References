@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mdtxt/
 Markdown Language format
 
 ```csharp
-public static FileType MDTXT;
+public static readonly FileType MDTXT;
 ```
 
 ### See Also

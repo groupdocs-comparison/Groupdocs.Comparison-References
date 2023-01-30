@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/sbt/
 SBT build tool for Scala format
 
 ```csharp
-public static FileType SBT;
+public static readonly FileType SBT;
 ```
 
 ### See Also

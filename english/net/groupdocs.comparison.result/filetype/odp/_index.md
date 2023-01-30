@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/odp/
 OpenDocument Presentation
 
 ```csharp
-public static FileType ODP;
+public static readonly FileType ODP;
 ```
 
 ### See Also

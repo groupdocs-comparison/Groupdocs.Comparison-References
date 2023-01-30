@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ott/
 OpenDocument Text Template
 
 ```csharp
-public static FileType OTT;
+public static readonly FileType OTT;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rbi/
 Ruby Interface file format
 
 ```csharp
-public static FileType RBI;
+public static readonly FileType RBI;
 ```
 
 ### See Also

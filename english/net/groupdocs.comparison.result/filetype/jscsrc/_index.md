@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/jscsrc/
 JavaScript configuration file format
 
 ```csharp
-public static FileType JSCSRC;
+public static readonly FileType JSCSRC;
 ```
 
 ### See Also

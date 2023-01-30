@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/vim/
 Vim source code file format
 
 ```csharp
-public static FileType VIM;
+public static readonly FileType VIM;
 ```
 
 ### See Also

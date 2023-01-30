@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pyw/
 Files used in Windows to indicate a script needs to be run
 
 ```csharp
-public static FileType PYW;
+public static readonly FileType PYW;
 ```
 
 ### See Also

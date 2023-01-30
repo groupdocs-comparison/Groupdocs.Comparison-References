@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mhtml/
 Mime HTML
 
 ```csharp
-public static FileType MHTML;
+public static readonly FileType MHTML;
 ```
 
 ### See Also

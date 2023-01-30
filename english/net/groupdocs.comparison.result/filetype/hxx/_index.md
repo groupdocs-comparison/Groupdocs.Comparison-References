@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/hxx/
 Header Files that are written in the C++ programming language
 
 ```csharp
-public static FileType HXX;
+public static readonly FileType HXX;
 ```
 
 ### See Also

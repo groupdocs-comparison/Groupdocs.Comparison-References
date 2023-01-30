@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pdf/
 Adobe Portable Document format
 
 ```csharp
-public static FileType PDF;
+public static readonly FileType PDF;
 ```
 
 ### See Also

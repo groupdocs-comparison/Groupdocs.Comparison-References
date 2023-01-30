@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/svg/
 Scalar Vector Graphics
 
 ```csharp
-public static FileType SVG;
+public static readonly FileType SVG;
 ```
 
 ### See Also

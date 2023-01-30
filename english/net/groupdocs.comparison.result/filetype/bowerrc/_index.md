@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/bowerrc/
 Configuration file for package control on the server-side
 
 ```csharp
-public static FileType BOWERRC;
+public static readonly FileType BOWERRC;
 ```
 
 ### See Also

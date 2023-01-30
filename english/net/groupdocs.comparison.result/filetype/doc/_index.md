@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/doc/
 Microsoft Word 97-2003 Document
 
 ```csharp
-public static FileType DOC;
+public static readonly FileType DOC;
 ```
 
 ### See Also

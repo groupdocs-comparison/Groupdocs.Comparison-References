@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/xlsb/
 Microsoft Excel Binary Worksheet
 
 ```csharp
-public static FileType XLSB;
+public static readonly FileType XLSB;
 ```
 
 ### See Also

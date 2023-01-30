@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mobi/
 Mobipocket e-book format
 
 ```csharp
-public static FileType MOBI;
+public static readonly FileType MOBI;
 ```
 
 ### See Also

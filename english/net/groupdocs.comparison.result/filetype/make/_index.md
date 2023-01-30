@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/make/
 Makefile is a file containing a set of directives used by a make build automation tool to generate a target/goal
 
 ```csharp
-public static FileType MAKE;
+public static readonly FileType MAKE;
 ```
 
 ### See Also

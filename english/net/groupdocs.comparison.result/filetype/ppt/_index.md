@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ppt/
 Microsoft PowerPoint 97-2003 Presentation
 
 ```csharp
-public static FileType PPT;
+public static readonly FileType PPT;
 ```
 
 ### See Also

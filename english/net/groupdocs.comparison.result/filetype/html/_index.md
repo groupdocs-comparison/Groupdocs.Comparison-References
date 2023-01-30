@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/html/
 HyperText Markup Language
 
 ```csharp
-public static FileType HTML;
+public static readonly FileType HTML;
 ```
 
 ### See Also

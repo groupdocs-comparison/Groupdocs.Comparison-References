@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/py/
 Python Programming Language format
 
 ```csharp
-public static FileType PY;
+public static readonly FileType PY;
 ```
 
 ### See Also

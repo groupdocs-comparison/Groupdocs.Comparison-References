@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/yml/
 Human-readable data-serialization language format
 
 ```csharp
-public static FileType YML;
+public static readonly FileType YML;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/vdx/
 Microsoft Visio 2003-2010 XML Drawing
 
 ```csharp
-public static FileType VDX;
+public static readonly FileType VDX;
 ```
 
 ### See Also

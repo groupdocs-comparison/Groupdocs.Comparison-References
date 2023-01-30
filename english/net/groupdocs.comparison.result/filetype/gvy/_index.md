@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gvy/
 Source code file written in Groovy format
 
 ```csharp
-public static FileType GVY;
+public static readonly FileType GVY;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/haml/
 Markup language for simplified HTML generation
 
 ```csharp
-public static FileType HAML;
+public static readonly FileType HAML;
 ```
 
 ### See Also

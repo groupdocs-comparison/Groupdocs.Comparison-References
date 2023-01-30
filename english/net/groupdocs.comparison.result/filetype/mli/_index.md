@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mli/
 Caml Programming Language format
 
 ```csharp
-public static FileType MLI;
+public static readonly FileType MLI;
 ```
 
 ### See Also

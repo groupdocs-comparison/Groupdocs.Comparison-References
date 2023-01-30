@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/php5/
 PHP Programming Language format
 
 ```csharp
-public static FileType PHP5;
+public static readonly FileType PHP5;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/objcp/
 Objective-C++ Programming Language format
 
 ```csharp
-public static FileType OBJCP;
+public static readonly FileType OBJCP;
 ```
 
 ### See Also

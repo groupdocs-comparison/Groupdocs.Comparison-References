@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/asm/
 ASM format
 
 ```csharp
-public static FileType ASM;
+public static readonly FileType ASM;
 ```
 
 ### See Also

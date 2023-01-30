@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cs/
 CSharp Programming Language format
 
 ```csharp
-public static FileType CS;
+public static readonly FileType CS;
 ```
 
 ### See Also

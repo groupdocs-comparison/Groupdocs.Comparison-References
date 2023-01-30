@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/odt/
 OpenDocument Text
 
 ```csharp
-public static FileType ODT;
+public static readonly FileType ODT;
 ```
 
 ### See Also

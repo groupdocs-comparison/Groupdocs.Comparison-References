@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/stylechangeinfo/
 Style change info
 
 ```csharp
-public class StyleChangeInfo : IEquatable<StyleChangeInfo>
+public sealed class StyleChangeInfo : IEquatable<StyleChangeInfo>
 ```
 
 ## Constructors

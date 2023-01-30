@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/t/
 Perl test file format
 
 ```csharp
-public static FileType T;
+public static readonly FileType T;
 ```
 
 ### See Also

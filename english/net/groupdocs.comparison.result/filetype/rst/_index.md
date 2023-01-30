@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rst/
 Lightweight markup language
 
 ```csharp
-public static FileType RST;
+public static readonly FileType RST;
 ```
 
 ### See Also

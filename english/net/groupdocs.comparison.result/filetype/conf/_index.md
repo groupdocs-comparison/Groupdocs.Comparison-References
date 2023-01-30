@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/conf/
 Configuration file used on Unix and Linux based systems
 
 ```csharp
-public static FileType CONF;
+public static readonly FileType CONF;
 ```
 
 ### See Also

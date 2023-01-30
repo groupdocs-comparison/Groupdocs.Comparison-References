@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/xlt/
 Microsoft Excel template
 
 ```csharp
-public static FileType XLT;
+public static readonly FileType XLT;
 ```
 
 ### See Also

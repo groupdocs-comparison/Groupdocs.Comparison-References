@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/psgi/
 Interface between web servers and web applications and frameworks written in the Perl programming
 
 ```csharp
-public static FileType PSGI;
+public static readonly FileType PSGI;
 ```
 
 ### See Also

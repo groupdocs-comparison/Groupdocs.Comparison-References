@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/csv/
 Comma Separated Values File
 
 ```csharp
-public static FileType CSV;
+public static readonly FileType CSV;
 ```
 
 ### See Also

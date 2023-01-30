@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rjs/
 Ruby Programming Language format
 
 ```csharp
-public static FileType RJS;
+public static readonly FileType RJS;
 ```
 
 ### See Also

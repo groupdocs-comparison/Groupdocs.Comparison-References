@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/xltm/
 Microsoft Excel macro-enabled template
 
 ```csharp
-public static FileType XLTM;
+public static readonly FileType XLTM;
 ```
 
 ### See Also

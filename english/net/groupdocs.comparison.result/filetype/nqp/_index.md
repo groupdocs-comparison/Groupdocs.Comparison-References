@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/nqp/
 Intermediate language used to build the Rakudo Perl 6 compiler
 
 ```csharp
-public static FileType NQP;
+public static readonly FileType NQP;
 ```
 
 ### See Also

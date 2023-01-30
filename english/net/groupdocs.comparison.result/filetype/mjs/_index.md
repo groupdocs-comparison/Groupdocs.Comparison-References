@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mjs/
 Extension for EcmaScript (ES) module files
 
 ```csharp
-public static FileType MJS;
+public static readonly FileType MJS;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/eml/
 E-mail Message
 
 ```csharp
-public static FileType EML;
+public static readonly FileType EML;
 ```
 
 ### See Also

@@ -11,13 +11,13 @@ url: /net/groupdocs.comparison.logging/consolelogger/error/
 Logs error message
 
 ```csharp
-public void Error(string message, Exception exception)
+public void Error(string message, Exception ex)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | String | The Message |
-| exception | Exception | Exception object |
+| ex | Exception | Exception object |
 
 ### See Also
 

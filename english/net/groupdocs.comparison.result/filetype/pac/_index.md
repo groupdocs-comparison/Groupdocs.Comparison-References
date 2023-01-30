@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pac/
 Proxy Auto-Configuration file for JavaScript function format
 
 ```csharp
-public static FileType PAC;
+public static readonly FileType PAC;
 ```
 
 ### See Also

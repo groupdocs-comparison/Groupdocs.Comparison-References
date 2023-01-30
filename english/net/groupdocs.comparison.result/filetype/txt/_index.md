@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/txt/
 Plain Text Document
 
 ```csharp
-public static FileType TXT;
+public static readonly FileType TXT;
 ```
 
 ### See Also

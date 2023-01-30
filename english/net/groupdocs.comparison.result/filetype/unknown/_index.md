@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/unknown/
 Unknown type
 
 ```csharp
-public static FileType UNKNOWN;
+public static readonly FileType UNKNOWN;
 ```
 
 ### See Also

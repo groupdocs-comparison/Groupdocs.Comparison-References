@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rpy/
 Python-based file engine to create and run games
 
 ```csharp
-public static FileType RPY;
+public static readonly FileType RPY;
 ```
 
 ### See Also

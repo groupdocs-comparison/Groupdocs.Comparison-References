@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/prop/
 Properties file format
 
 ```csharp
-public static FileType PROP;
+public static readonly FileType PROP;
 ```
 
 ### See Also

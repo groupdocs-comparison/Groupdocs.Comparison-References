@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dot/
 Microsoft Word 97-2003 Template
 
 ```csharp
-public static FileType DOT;
+public static readonly FileType DOT;
 ```
 
 ### See Also

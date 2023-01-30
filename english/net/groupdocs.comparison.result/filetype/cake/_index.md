@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cake/
 CSharp cross-platform build automation system format
 
 ```csharp
-public static FileType CAKE;
+public static readonly FileType CAKE;
 ```
 
 ### See Also

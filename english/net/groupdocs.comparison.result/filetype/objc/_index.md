@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/objc/
 Objective-C Programming Language format
 
 ```csharp
-public static FileType OBJC;
+public static readonly FileType OBJC;
 ```
 
 ### See Also

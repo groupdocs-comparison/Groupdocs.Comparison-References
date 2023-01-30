@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dir/
 Directory is a location for storing files on computer
 
 ```csharp
-public static FileType DIR;
+public static readonly FileType DIR;
 ```
 
 ### See Also

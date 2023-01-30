@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ru/
 Rack configuration file format
 
 ```csharp
-public static FileType RU;
+public static readonly FileType RU;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pot/
 Microsoft PowerPoint template
 
 ```csharp
-public static FileType POT;
+public static readonly FileType POT;
 ```
 
 ### See Also

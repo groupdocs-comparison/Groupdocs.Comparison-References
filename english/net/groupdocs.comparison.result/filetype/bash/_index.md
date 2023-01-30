@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/bash/
 Type of interpreter that processes shell commands
 
 ```csharp
-public static FileType BASH;
+public static readonly FileType BASH;
 ```
 
 ### See Also

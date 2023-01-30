@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/sass/
 Style sheet language format
 
 ```csharp
-public static FileType SASS;
+public static readonly FileType SASS;
 ```
 
 ### See Also

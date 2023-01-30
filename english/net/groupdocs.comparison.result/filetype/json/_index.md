@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/json/
 Lightweight format for storing and transporting data
 
 ```csharp
-public static FileType JSON;
+public static readonly FileType JSON;
 ```
 
 ### See Also

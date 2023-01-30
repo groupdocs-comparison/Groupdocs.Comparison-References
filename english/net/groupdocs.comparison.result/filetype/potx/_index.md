@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/potx/
 Microsoft PowerPoint Template
 
 ```csharp
-public static FileType POTX;
+public static readonly FileType POTX;
 ```
 
 ### See Also

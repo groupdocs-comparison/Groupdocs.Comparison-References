@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/es6/
 JavaScript standardised scripting language format
 
 ```csharp
-public static FileType ES6;
+public static readonly FileType ES6;
 ```
 
 ### See Also

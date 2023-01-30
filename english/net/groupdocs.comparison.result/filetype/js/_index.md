@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/js/
 JavaScript Programming Language format
 
 ```csharp
-public static FileType JS;
+public static readonly FileType JS;
 ```
 
 ### See Also

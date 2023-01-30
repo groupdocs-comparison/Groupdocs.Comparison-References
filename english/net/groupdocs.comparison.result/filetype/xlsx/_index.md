@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/xlsx/
 Microsoft Excel Worksheet
 
 ```csharp
-public static FileType XLSX;
+public static readonly FileType XLSX;
 ```
 
 ### See Also

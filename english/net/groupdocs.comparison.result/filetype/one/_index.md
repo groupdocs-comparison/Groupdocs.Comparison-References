@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/one/
 Microsoft OneNote Document
 
 ```csharp
-public static FileType ONE;
+public static readonly FileType ONE;
 ```
 
 ### See Also

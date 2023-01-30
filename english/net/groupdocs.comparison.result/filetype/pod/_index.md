@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pod/
 Perl lightweight markup language format
 
 ```csharp
-public static FileType POD;
+public static readonly FileType POD;
 ```
 
 ### See Also

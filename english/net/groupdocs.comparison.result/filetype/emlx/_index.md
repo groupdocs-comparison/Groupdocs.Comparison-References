@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/emlx/
 Apple Mail E-mail File
 
 ```csharp
-public static FileType EMLX;
+public static readonly FileType EMLX;
 ```
 
 ### See Also

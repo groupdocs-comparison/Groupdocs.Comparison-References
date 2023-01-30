@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/png/
 Portable Network Graphics
 
 ```csharp
-public static FileType PNG;
+public static readonly FileType PNG;
 ```
 
 ### See Also

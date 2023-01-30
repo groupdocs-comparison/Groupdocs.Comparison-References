@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/sql/
 Structured Query Language format
 
 ```csharp
-public static FileType SQL;
+public static readonly FileType SQL;
 ```
 
 ### See Also

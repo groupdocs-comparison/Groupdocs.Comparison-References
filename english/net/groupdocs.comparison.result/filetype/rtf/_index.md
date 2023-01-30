@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rtf/
 Rich Text Document
 
 ```csharp
-public static FileType RTF;
+public static readonly FileType RTF;
 ```
 
 ### See Also

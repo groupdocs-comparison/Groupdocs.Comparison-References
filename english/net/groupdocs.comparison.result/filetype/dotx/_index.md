@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dotx/
 Microsoft Word Template
 
 ```csharp
-public static FileType DOTX;
+public static readonly FileType DOTX;
 ```
 
 ### See Also

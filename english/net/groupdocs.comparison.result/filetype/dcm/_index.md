@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dcm/
 Digital Imaging and Communications in Medicine
 
 ```csharp
-public static FileType DCM;
+public static readonly FileType DCM;
 ```
 
 ### See Also

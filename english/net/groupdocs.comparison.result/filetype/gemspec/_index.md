@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gemspec/
 Developer file that specifies the attributes of a RubyGems
 
 ```csharp
-public static FileType GEMSPEC;
+public static readonly FileType GEMSPEC;
 ```
 
 ### See Also

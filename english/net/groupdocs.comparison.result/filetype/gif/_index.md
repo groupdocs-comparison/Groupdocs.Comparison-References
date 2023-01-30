@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gif/
 Graphics Interchange Format
 
 ```csharp
-public static FileType GIF;
+public static readonly FileType GIF;
 ```
 
 ### See Also

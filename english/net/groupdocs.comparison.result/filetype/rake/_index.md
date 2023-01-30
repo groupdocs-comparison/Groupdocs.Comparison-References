@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rake/
 Ruby build automation tool
 
 ```csharp
-public static FileType RAKE;
+public static readonly FileType RAKE;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/less/
 Dynamic preprocessor style sheet language format
 
 ```csharp
-public static FileType LESS;
+public static readonly FileType LESS;
 ```
 
 ### See Also

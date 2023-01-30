@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dwg/
 Autodesk Design Data Formats
 
 ```csharp
-public static FileType DWG;
+public static readonly FileType DWG;
 ```
 
 ### See Also

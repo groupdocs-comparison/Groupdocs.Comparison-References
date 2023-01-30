@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/log/
 Logging keeps a registry of events, processes, messages and communication
 
 ```csharp
-public static FileType LOG;
+public static readonly FileType LOG;
 ```
 
 ### See Also

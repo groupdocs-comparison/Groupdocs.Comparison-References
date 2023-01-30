@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/scala/
 Scala Programming Language format
 
 ```csharp
-public static FileType SCALA;
+public static readonly FileType SCALA;
 ```
 
 ### See Also

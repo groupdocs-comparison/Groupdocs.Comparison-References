@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/gypi/
 Build automation tool format
 
 ```csharp
-public static FileType GYPI;
+public static readonly FileType GYPI;
 ```
 
 ### See Also

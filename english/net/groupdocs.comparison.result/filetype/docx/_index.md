@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/docx/
 Microsoft Word Document
 
 ```csharp
-public static FileType DOCX;
+public static readonly FileType DOCX;
 ```
 
 ### See Also

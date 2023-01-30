@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/xlsm/
 Microsoft Excel Macro-Enabled Worksheet
 
 ```csharp
-public static FileType XLSM;
+public static readonly FileType XLSM;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cad/
 CAD file format
 
 ```csharp
-public static FileType CAD;
+public static readonly FileType CAD;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/as3/
 ActionScript Programming Language format
 
 ```csharp
-public static FileType AS3;
+public static readonly FileType AS3;
 ```
 
 ### See Also

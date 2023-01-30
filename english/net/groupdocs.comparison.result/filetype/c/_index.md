@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/c/
 C-Based Programming Language format
 
 ```csharp
-public static FileType C;
+public static readonly FileType C;
 ```
 
 ### See Also

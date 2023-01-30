@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/scss/
 Style sheet language format
 
 ```csharp
-public static FileType SCSS;
+public static readonly FileType SCSS;
 ```
 
 ### See Also

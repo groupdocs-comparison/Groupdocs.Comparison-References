@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/sh/
 Script programmed for bash format
 
 ```csharp
-public static FileType SH;
+public static readonly FileType SH;
 ```
 
 ### See Also

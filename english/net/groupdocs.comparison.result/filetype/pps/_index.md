@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pps/
 Microsoft PowerPoint 97-2003 Slide Show
 
 ```csharp
-public static FileType PPS;
+public static readonly FileType PPS;
 ```
 
 ### See Also

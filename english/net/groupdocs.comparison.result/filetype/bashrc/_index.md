@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/bashrc/
 File determines the behavior of interactive shells
 
 ```csharp
-public static FileType BASHRC;
+public static readonly FileType BASHRC;
 ```
 
 ### See Also

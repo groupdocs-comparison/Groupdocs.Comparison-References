@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pm/
 Perl module format
 
 ```csharp
-public static FileType PM;
+public static readonly FileType PM;
 ```
 
 ### See Also

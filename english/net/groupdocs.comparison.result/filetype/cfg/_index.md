@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cfg/
 Configuration file used for storing settings
 
 ```csharp
-public static FileType CFG;
+public static readonly FileType CFG;
 ```
 
 ### See Also

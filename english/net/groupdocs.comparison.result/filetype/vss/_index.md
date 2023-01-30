@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/vss/
 Microsoft Visio 2003-2010 Stencil
 
 ```csharp
-public static FileType VSS;
+public static readonly FileType VSS;
 ```
 
 ### See Also

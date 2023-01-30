@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/docm/
 Microsoft Word Macro-Enabled Document
 
 ```csharp
-public static FileType DOCM;
+public static readonly FileType DOCM;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/vst/
 Microsoft Visio 2003-2010 Template
 
 ```csharp
-public static FileType VST;
+public static readonly FileType VST;
 ```
 
 ### See Also

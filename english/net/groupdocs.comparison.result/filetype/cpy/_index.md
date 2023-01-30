@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cpy/
 Controller Python Script format
 
 ```csharp
-public static FileType CPY;
+public static readonly FileType CPY;
 ```
 
 ### See Also

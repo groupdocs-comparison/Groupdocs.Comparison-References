@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/jshintrc/
 JavaScript code quality tool
 
 ```csharp
-public static FileType JSHINTRC;
+public static readonly FileType JSHINTRC;
 ```
 
 ### See Also

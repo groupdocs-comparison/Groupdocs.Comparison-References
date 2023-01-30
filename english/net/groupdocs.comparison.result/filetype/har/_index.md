@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/har/
 The HTTP Archive format
 
 ```csharp
-public static FileType HAR;
+public static readonly FileType HAR;
 ```
 
 ### See Also

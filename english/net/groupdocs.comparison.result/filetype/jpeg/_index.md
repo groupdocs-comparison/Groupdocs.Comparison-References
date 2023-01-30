@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/jpeg/
 Joint Photographic Experts Group
 
 ```csharp
-public static FileType JPEG;
+public static readonly FileType JPEG;
 ```
 
 ### See Also

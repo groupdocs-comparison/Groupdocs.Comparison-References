@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/diff/
 Data comparison tool format
 
 ```csharp
-public static FileType DIFF;
+public static readonly FileType DIFF;
 ```
 
 ### See Also

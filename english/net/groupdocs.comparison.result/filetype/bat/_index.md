@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/bat/
 Script file in DOS, OS/2 and Microsoft Windows
 
 ```csharp
-public static FileType BAT;
+public static readonly FileType BAT;
 ```
 
 ### See Also

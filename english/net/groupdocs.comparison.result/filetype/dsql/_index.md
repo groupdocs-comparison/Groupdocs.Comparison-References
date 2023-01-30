@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/dsql/
 Dynamic Structured Query Language format
 
 ```csharp
-public static FileType DSQL;
+public static readonly FileType DSQL;
 ```
 
 ### See Also

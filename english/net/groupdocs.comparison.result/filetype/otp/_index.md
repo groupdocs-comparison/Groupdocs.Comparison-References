@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/otp/
 OpenDocument Presentation Template
 
 ```csharp
-public static FileType OTP;
+public static readonly FileType OTP;
 ```
 
 ### See Also

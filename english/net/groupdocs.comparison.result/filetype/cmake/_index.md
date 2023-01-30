@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cmake/
 Tool for managing the build process of software
 
 ```csharp
-public static FileType CMAKE;
+public static readonly FileType CMAKE;
 ```
 
 ### See Also

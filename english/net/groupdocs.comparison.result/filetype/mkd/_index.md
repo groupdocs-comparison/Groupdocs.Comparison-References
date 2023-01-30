@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/mkd/
 Markdown Language format
 
 ```csharp
-public static FileType MKD;
+public static readonly FileType MKD;
 ```
 
 ### See Also

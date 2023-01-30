@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/ppsx/
 Microsoft PowerPoint Slide Show
 
 ```csharp
-public static FileType PPSX;
+public static readonly FileType PPSX;
 ```
 
 ### See Also

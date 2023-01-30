@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cmd/
 Script file in DOS, OS/2 and Microsoft Windows
 
 ```csharp
-public static FileType CMD;
+public static readonly FileType CMD;
 ```
 
 ### See Also

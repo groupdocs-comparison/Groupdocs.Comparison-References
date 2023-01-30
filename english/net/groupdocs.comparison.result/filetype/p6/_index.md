@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/p6/
 Perl Programming Language format
 
 ```csharp
-public static FileType P6;
+public static readonly FileType P6;
 ```
 
 ### See Also

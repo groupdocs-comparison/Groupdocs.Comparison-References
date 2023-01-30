@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/markdn/
 Markdown Language format
 
 ```csharp
-public static FileType MARKDN;
+public static readonly FileType MARKDN;
 ```
 
 ### See Also

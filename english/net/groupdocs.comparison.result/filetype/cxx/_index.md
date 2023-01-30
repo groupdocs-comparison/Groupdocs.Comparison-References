@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cxx/
 C-Based Programming Language format
 
 ```csharp
-public static FileType CXX;
+public static readonly FileType CXX;
 ```
 
 ### See Also

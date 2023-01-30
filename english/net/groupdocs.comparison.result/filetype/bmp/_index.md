@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/bmp/
 Bitmap Picture
 
 ```csharp
-public static FileType BMP;
+public static readonly FileType BMP;
 ```
 
 ### See Also

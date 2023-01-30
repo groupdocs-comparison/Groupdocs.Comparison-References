@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/hpp/
 Header Files that are written in the C++ programming language
 
 ```csharp
-public static FileType HPP;
+public static readonly FileType HPP;
 ```
 
 ### See Also

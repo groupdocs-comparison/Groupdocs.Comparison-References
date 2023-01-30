@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pyi/
 Python Interface file format
 
 ```csharp
-public static FileType PYI;
+public static readonly FileType PYI;
 ```
 
 ### See Also

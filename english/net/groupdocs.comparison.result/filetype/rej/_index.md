@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/rej/
 Rejected files format
 
 ```csharp
-public static FileType REJ;
+public static readonly FileType REJ;
 ```
 
 ### See Also

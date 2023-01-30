@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/csx/
 CSharp script file format
 
 ```csharp
-public static FileType CSX;
+public static readonly FileType CSX;
 ```
 
 ### See Also

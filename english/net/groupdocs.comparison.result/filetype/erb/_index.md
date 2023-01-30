@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/erb/
 Ruby Programming Language format
 
 ```csharp
-public static FileType ERB;
+public static readonly FileType ERB;
 ```
 
 ### See Also

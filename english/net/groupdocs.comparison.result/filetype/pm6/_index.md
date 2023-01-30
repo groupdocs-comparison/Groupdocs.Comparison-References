@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pm6/
 Perl module format
 
 ```csharp
-public static FileType PM6;
+public static readonly FileType PM6;
 ```
 
 ### See Also

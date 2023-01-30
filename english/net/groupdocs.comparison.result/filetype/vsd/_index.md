@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/vsd/
 Microsoft Visio 2003-2010 Drawing
 
 ```csharp
-public static FileType VSD;
+public static readonly FileType VSD;
 ```
 
 ### See Also

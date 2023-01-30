@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/webmanifest/
 Manifest file includes information about the app
 
 ```csharp
-public static FileType WEBMANIFEST;
+public static readonly FileType WEBMANIFEST;
 ```
 
 ### See Also

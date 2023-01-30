@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/pptx/
 Microsoft PowerPoint Presentation
 
 ```csharp
-public static FileType PPTX;
+public static readonly FileType PPTX;
 ```
 
 ### See Also

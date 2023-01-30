@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/msg/
 Microsoft Outlook E-mail Message
 
 ```csharp
-public static FileType MSG;
+public static readonly FileType MSG;
 ```
 
 ### See Also

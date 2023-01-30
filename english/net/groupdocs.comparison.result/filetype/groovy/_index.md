@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/groovy/
 Source code file written in Groovy format
 
 ```csharp
-public static FileType GROOVY;
+public static readonly FileType GROOVY;
 ```
 
 ### See Also

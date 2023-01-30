@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.result/filetype/cpp/
 C-Based Programming Language format
 
 ```csharp
-public static FileType CPP;
+public static readonly FileType CPP;
 ```
 
 ### See Also
