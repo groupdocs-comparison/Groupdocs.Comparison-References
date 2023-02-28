@@ -3,13 +3,13 @@ title: MetadataType
 second_title: GroupDocs.Comparison for Java API Reference
 description: Determines from where result document will take metadata information
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.comparison.options.enums/metadatatype/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class MetadataType extends System.Enum
+public enum MetadataType extends Enum<MetadataType>
 ```
 
 Determines from where result document will take metadata information
@@ -17,50 +17,63 @@ Determines from where result document will take metadata information
 
 | Field | Description |
 | --- | --- |
-| [Default](#Default) | Default |
-| [Source](#Source) | Metedata takes from source document |
-| [Target](#Target) | Metadata takes from target document |
-| [FileAuthor](#FileAuthor) | Metadata sets by user |
+| [DEFAULT](#DEFAULT) | Default |
+| [SOURCE](#SOURCE) | Metedata takes from source document |
+| [TARGET](#TARGET) | Metadata takes from target document |
+| [FILE_AUTHOR](#FILE-AUTHOR) | Metadata sets by user |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int type)](#getName-int-) |  |
-### Default {#Default}
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [toString()](#toString--) |  |
+### DEFAULT {#DEFAULT}
 ```
-public static final int Default
+public static final MetadataType DEFAULT
 ```
 
 
 Default
 
-### Source {#Source}
+### SOURCE {#SOURCE}
 ```
-public static final int Source
+public static final MetadataType SOURCE
 ```
 
 
 Metedata takes from source document
 
-### Target {#Target}
+### TARGET {#TARGET}
 ```
-public static final int Target
+public static final MetadataType TARGET
 ```
 
 
 Metadata takes from target document
 
-### FileAuthor {#FileAuthor}
+### FILE_AUTHOR {#FILE-AUTHOR}
 ```
-public static final int FileAuthor
+public static final MetadataType FILE_AUTHOR
 ```
 
 
 Metadata sets by user
 
-### getName(int type) {#getName-int-}
+### values() {#values--}
 ```
-public static String getName(int type)
+public static MetadataType[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.options.enums.MetadataType[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static MetadataType valueOf(String name)
 ```
 
 
@@ -69,7 +82,32 @@ public static String getName(int type)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| name | java.lang.String |  |
+
+**Returns:**
+[MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static MetadataType fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String

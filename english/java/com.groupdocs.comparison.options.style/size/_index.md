@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Comparison for Java API Reference
 description: Document size
 type: docs
-weight: 12
+weight: 11
 url: /java/com.groupdocs.comparison.options.style/size/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Comparison for Java API Reference
 description: Represents information about page
 type: docs
-weight: 15
+weight: 13
 url: /java/com.groupdocs.comparison.result/pageinfo/
 ---
 **Inheritance:**

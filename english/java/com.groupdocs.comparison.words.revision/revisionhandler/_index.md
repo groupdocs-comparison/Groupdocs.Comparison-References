@@ -8,8 +8,11 @@ url: /java/com.groupdocs.comparison.words.revision/revisionhandler/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.io.Closeable
 ```
-public class RevisionHandler
+public class RevisionHandler implements Closeable
 ```
 
 Represents the main class that controls revision handling.
@@ -30,6 +33,7 @@ Represents the main class that controls revision handling.
 | [applyRevisionChanges(Path filePath, ApplyRevisionOptions changes)](#applyRevisionChanges-java.nio.file.Path-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions, and the result is written to the specified file by path. |
 | [applyRevisionChanges(String filePath, ApplyRevisionOptions changes)](#applyRevisionChanges-java.lang.String-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions, and the result is written to the specified file by path. |
 | [applyRevisionChanges(OutputStream outputStream, ApplyRevisionOptions changes)](#applyRevisionChanges-java.io.OutputStream-com.groupdocs.comparison.words.revision.ApplyRevisionOptions-) | Processes changes in revisions and the result is written to the document stream. |
+| [close()](#close--) |  |
 ### RevisionHandler(String filePath) {#RevisionHandler-java.lang.String-}
 ```
 public RevisionHandler(String filePath)
@@ -149,4 +153,12 @@ Processes changes in revisions and the result is written to the document stream.
 | --- | --- | --- |
 | outputStream | java.io.OutputStream | Result document |
 | changes | [ApplyRevisionOptions](../../com.groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
+
+### close() {#close--}
+```
+public void close()
+```
+
+
+
 

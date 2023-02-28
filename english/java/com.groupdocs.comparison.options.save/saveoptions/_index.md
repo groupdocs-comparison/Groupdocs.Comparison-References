@@ -23,7 +23,7 @@ Allows to specify additional options (such as password) when saving a document.
 | Method | Description |
 | --- | --- |
 | [getCloneMetadataType()](#getCloneMetadataType--) | Gets or sets a value indicating whether to clone metadata to target document or not. |
-| [setCloneMetadataType(int value)](#setCloneMetadataType-int-) | Gets or sets a value indicating whether to clone metadata to target document or not. |
+| [setCloneMetadataType(MetadataType value)](#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-) | Gets or sets a value indicating whether to clone metadata to target document or not. |
 | [getFileAuthorMetadata()](#getFileAuthorMetadata--) | Used when MetadataType is set to FileAuthor. |
 | [setFileAuthorMetadata(FileAuthorMetadata value)](#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-) | Used when MetadataType is set to FileAuthor. |
 | [getPassword()](#getPassword--) | Gets or sets the password for result document. |
@@ -41,17 +41,17 @@ Initializes a new instance of the [SaveOptions](../../com.groupdocs.comparison.o
 
 ### getCloneMetadataType() {#getCloneMetadataType--}
 ```
-public final int getCloneMetadataType()
+public final MetadataType getCloneMetadataType()
 ```
 
 
 Gets or sets a value indicating whether to clone metadata to target document or not.
 
 **Returns:**
-int - the clone metadata type
-### setCloneMetadataType(int value) {#setCloneMetadataType-int-}
+[MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) - the clone metadata type
+### setCloneMetadataType(MetadataType value) {#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-}
 ```
-public final void setCloneMetadataType(int value)
+public final void setCloneMetadataType(MetadataType value)
 ```
 
 
@@ -60,7 +60,7 @@ Gets or sets a value indicating whether to clone metadata to target document or 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) | the value |
 
 ### getFileAuthorMetadata() {#getFileAuthorMetadata--}
 ```

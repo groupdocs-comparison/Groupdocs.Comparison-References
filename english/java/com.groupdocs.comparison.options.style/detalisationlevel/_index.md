@@ -3,13 +3,13 @@ title: DetalisationLevel
 second_title: GroupDocs.Comparison for Java API Reference
 description: Specifies the level of comparison details.
 type: docs
-weight: 10
+weight: 13
 url: /java/com.groupdocs.comparison.options.style/detalisationlevel/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class DetalisationLevel extends System.Enum
+public enum DetalisationLevel extends Enum<DetalisationLevel>
 ```
 
 Specifies the level of comparison details.
@@ -17,41 +17,54 @@ Specifies the level of comparison details.
 
 | Field | Description |
 | --- | --- |
-| [Low](#Low) | Low level. |
-| [Middle](#Middle) | Middle level. |
-| [High](#High) | High level. |
+| [LOW](#LOW) | Low level. |
+| [MIDDLE](#MIDDLE) | Middle level. |
+| [HIGH](#HIGH) | High level. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int type)](#getName-int-) |  |
-### Low {#Low}
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [toString()](#toString--) |  |
+### LOW {#LOW}
 ```
-public static final int Low
-```
-
-
-Low level. Provides the best speed comparison sacrificing comparison quality. Comparison is perfromed per-word.
-
-### Middle {#Middle}
-```
-public static final int Middle
+public static final DetalisationLevel LOW
 ```
 
 
-Middle level. A reasonable compromise between comparison speed and quality. Comparison is perfromed per-character, but ignoring character case and spaces count.
+Low level. Provides the best speed comparison sacrificing comparison quality. Comparison is performed per-word.
 
-### High {#High}
+### MIDDLE {#MIDDLE}
 ```
-public static final int High
+public static final DetalisationLevel MIDDLE
 ```
 
 
-High level. The best comparison quality, but the lowest speed. Comparison is perfromed per-character considering character case and spaces count.
+Middle level. A reasonable compromise between comparison speed and quality. Comparison is performed per-character, but ignoring character case and spaces count.
 
-### getName(int type) {#getName-int-}
+### HIGH {#HIGH}
 ```
-public static String getName(int type)
+public static final DetalisationLevel HIGH
+```
+
+
+High level. The best comparison quality, but the lowest speed. Comparison is performed per-character considering character case and spaces count.
+
+### values() {#values--}
+```
+public static DetalisationLevel[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.options.style.DetalisationLevel[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static DetalisationLevel valueOf(String name)
 ```
 
 
@@ -60,7 +73,32 @@ public static String getName(int type)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| name | java.lang.String |  |
+
+**Returns:**
+[DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static DetalisationLevel fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String

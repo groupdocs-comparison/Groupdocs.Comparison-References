@@ -25,7 +25,7 @@ Represents information about change.
 | [getId()](#getId--) | Id of change. |
 | [setId(int value)](#setId-int-) | Id of change. |
 | [getComparisonAction()](#getComparisonAction--) | Action (accept or reject). |
-| [setComparisonAction(int value)](#setComparisonAction-int-) | Action (accept or reject). |
+| [setComparisonAction(ComparisonAction value)](#setComparisonAction-com.groupdocs.comparison.result.ComparisonAction-) | Action (accept or reject). |
 | [getPageInfo()](#getPageInfo--) | Page where current change is placed. |
 | [setPageInfo(PageInfo value)](#setPageInfo-com.groupdocs.comparison.result.PageInfo-) | Page where current change is placed. |
 | [getBox()](#getBox--) | Coordinates of changed element. |
@@ -75,17 +75,17 @@ Id of change.
 
 ### getComparisonAction() {#getComparisonAction--}
 ```
-public final int getComparisonAction()
+public final ComparisonAction getComparisonAction()
 ```
 
 
 Action (accept or reject). This field tells comparison what to do with this change.
 
 **Returns:**
-int - the comparison action
-### setComparisonAction(int value) {#setComparisonAction-int-}
+[ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) - the comparison action
+### setComparisonAction(ComparisonAction value) {#setComparisonAction-com.groupdocs.comparison.result.ComparisonAction-}
 ```
-public final void setComparisonAction(int value)
+public final void setComparisonAction(ComparisonAction value)
 ```
 
 
@@ -94,7 +94,7 @@ Action (accept or reject). This field tells comparison what to do with this chan
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) | the value |
 
 ### getPageInfo() {#getPageInfo--}
 ```
@@ -213,14 +213,14 @@ Authors.
 
 ### getType() {#getType--}
 ```
-public final int getType()
+public final ChangeType getType()
 ```
 
 
 Type of change.
 
 **Returns:**
-int - the type
+[ChangeType](../../com.groupdocs.comparison.result/changetype) - the type
 ### getTargetText() {#getTargetText--}
 ```
 public String getTargetText()

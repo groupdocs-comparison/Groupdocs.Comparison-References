@@ -17,52 +17,56 @@ Specifies the type of change being tracked
 
 | Field | Description |
 | --- | --- |
-| [Insertion](#Insertion) | New content was inserted in the document. |
-| [Deletion](#Deletion) | Content was removed from the document. |
-| [FormatChange](#FormatChange) | Change of formatting was applied to the parent node. |
-| [StyleDefinitionChange](#StyleDefinitionChange) | Change of formatting was applied to the parent style. |
-| [Moving](#Moving) | Content was moved in the document. |
+| [INSERTION](#INSERTION) | New content was inserted in the document. |
+| [DELETION](#DELETION) | Content was removed from the document. |
+| [FORMAT_CHANGE](#FORMAT-CHANGE) | Change of formatting was applied to the parent node. |
+| [STYLE_DEFINITION_CHANGE](#STYLE-DEFINITION-CHANGE) | Change of formatting was applied to the parent style. |
+| [MOVING](#MOVING) | Content was moved in the document. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-### Insertion {#Insertion}
+| [fromInt(int toIntValue)](#fromInt-int-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [toInt()](#toInt--) |  |
+| [toString()](#toString--) |  |
+### INSERTION {#INSERTION}
 ```
-public static final RevisionType Insertion
+public static final RevisionType INSERTION
 ```
 
 
 New content was inserted in the document.
 
-### Deletion {#Deletion}
+### DELETION {#DELETION}
 ```
-public static final RevisionType Deletion
+public static final RevisionType DELETION
 ```
 
 
 Content was removed from the document.
 
-### FormatChange {#FormatChange}
+### FORMAT_CHANGE {#FORMAT-CHANGE}
 ```
-public static final RevisionType FormatChange
+public static final RevisionType FORMAT_CHANGE
 ```
 
 
 Change of formatting was applied to the parent node.
 
-### StyleDefinitionChange {#StyleDefinitionChange}
+### STYLE_DEFINITION_CHANGE {#STYLE-DEFINITION-CHANGE}
 ```
-public static final RevisionType StyleDefinitionChange
+public static final RevisionType STYLE_DEFINITION_CHANGE
 ```
 
 
 Change of formatting was applied to the parent style.
 
-### Moving {#Moving}
+### MOVING {#MOVING}
 ```
-public static final RevisionType Moving
+public static final RevisionType MOVING
 ```
 
 
@@ -93,3 +97,53 @@ public static RevisionType valueOf(String name)
 
 **Returns:**
 [RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype)
+### fromInt(int toIntValue) {#fromInt-int-}
+```
+public static RevisionType fromInt(int toIntValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toIntValue | int |  |
+
+**Returns:**
+[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static RevisionType fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype)
+### toInt() {#toInt--}
+```
+public int toInt()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
