@@ -27,7 +27,9 @@ An action that can be applied to change.
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [fromInt(int intValue)](#fromInt-int-) |  |
 | [toString()](#toString--) |  |
+| [toInt()](#toInt--) |  |
 ### NONE {#NONE}
 ```
 public static final ComparisonAction NONE
@@ -92,6 +94,21 @@ public static ComparisonAction fromString(String toStringValue)
 
 **Returns:**
 [ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction)
+### fromInt(int intValue) {#fromInt-int-}
+```
+public static ComparisonAction fromInt(int intValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | int |  |
+
+**Returns:**
+[ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction)
 ### toString() {#toString--}
 ```
 public String toString()
@@ -102,3 +119,13 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### toInt() {#toInt--}
+```
+public int toInt()
+```
+
+
+
+
+**Returns:**
+int

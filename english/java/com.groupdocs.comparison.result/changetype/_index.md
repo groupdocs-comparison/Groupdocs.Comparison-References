@@ -35,7 +35,9 @@ Specifies change type.
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [fromInt(int intValue)](#fromInt-int-) |  |
 | [toString()](#toString--) |  |
+| [toInt()](#toInt--) |  |
 ### NONE {#NONE}
 ```
 public static final ChangeType NONE
@@ -164,6 +166,21 @@ public static ChangeType fromString(String toStringValue)
 
 **Returns:**
 [ChangeType](../../com.groupdocs.comparison.result/changetype)
+### fromInt(int intValue) {#fromInt-int-}
+```
+public static ChangeType fromInt(int intValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | int |  |
+
+**Returns:**
+[ChangeType](../../com.groupdocs.comparison.result/changetype)
 ### toString() {#toString--}
 ```
 public String toString()
@@ -174,3 +191,13 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### toInt() {#toInt--}
+```
+public int toInt()
+```
+
+
+
+
+**Returns:**
+int
