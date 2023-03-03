@@ -13,11 +13,6 @@ public class ComparisonLogger
 ```
 
 Implements logging messages to integrated or user defined logger.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ComparisonLogger()](#ComparisonLogger--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,12 +30,6 @@ Implements logging messages to integrated or user defined logger.
 | [error(Throwable throwable, String message, Object[] arguments)](#error-java.lang.Throwable-java.lang.String-java.lang.Object...-) | Error message |
 | [isErrorEnabled()](#isErrorEnabled--) | Checks is error logging enabled |
 | [setLogger(ILogger logger)](#setLogger-com.groupdocs.foundation.logging.ILogger-) | Sets the logger. |
-### ComparisonLogger() {#ComparisonLogger--}
-```
-public ComparisonLogger()
-```
-
-
 ### trace(String message, Object[] arguments) {#trace-java.lang.String-java.lang.Object...-}
 ```
 public static void trace(String message, Object[] arguments)

@@ -3,13 +3,13 @@ title: PreviewFormats
 second_title: GroupDocs.Comparison for Java API Reference
 description: Document preview supported formats.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.comparison.options.enums/previewformats/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class PreviewFormats extends System.Enum
+public enum PreviewFormats extends Enum<PreviewFormats>
 ```
 
 Document preview supported formats.
@@ -24,10 +24,13 @@ Document preview supported formats.
 
 | Method | Description |
 | --- | --- |
-| [getName(int type)](#getName-int-) |  |
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [toString()](#toString--) |  |
 ### PNG {#PNG}
 ```
-public static final int PNG
+public static final PreviewFormats PNG
 ```
 
 
@@ -35,7 +38,7 @@ Png (by default), can be take a lot of disc space / traffic if page contains a l
 
 ### JPEG {#JPEG}
 ```
-public static final int JPEG
+public static final PreviewFormats JPEG
 ```
 
 
@@ -43,15 +46,25 @@ Jpeg - faster processing, small disc space using / traffic, but can be worst qua
 
 ### BMP {#BMP}
 ```
-public static final int BMP
+public static final PreviewFormats BMP
 ```
 
 
 BMP - slow processing, high disc space usage / traffic, but best quality.
 
-### getName(int type) {#getName-int-}
+### values() {#values--}
 ```
-public static String getName(int type)
+public static PreviewFormats[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.options.enums.PreviewFormats[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static PreviewFormats valueOf(String name)
 ```
 
 
@@ -60,7 +73,32 @@ public static String getName(int type)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| name | java.lang.String |  |
+
+**Returns:**
+[PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static PreviewFormats fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String

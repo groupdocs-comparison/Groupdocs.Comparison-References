@@ -3,7 +3,7 @@ title: StyleChangeInfo
 second_title: GroupDocs.Comparison for Java API Reference
 description: Style change info
 type: docs
-weight: 17
+weight: 15
 url: /java/com.groupdocs.comparison.result/stylechangeinfo/
 ---
 **Inheritance:**

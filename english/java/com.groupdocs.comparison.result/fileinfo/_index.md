@@ -3,7 +3,7 @@ title: FileInfo
 second_title: GroupDocs.Comparison for Java API Reference
 description: Information about document
 type: docs
-weight: 14
+weight: 12
 url: /java/com.groupdocs.comparison.result/fileinfo/
 ---
 **Inheritance:**

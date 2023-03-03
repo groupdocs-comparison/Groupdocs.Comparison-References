@@ -3,16 +3,13 @@ title: Rectangle
 second_title: GroupDocs.Comparison for Java API Reference
 description: Rectangle model
 type: docs
-weight: 16
+weight: 14
 url: /java/com.groupdocs.comparison.result/rectangle/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-java.lang.Cloneable
 ```
-public final class Rectangle implements Cloneable
+public final class Rectangle
 ```
 
 Rectangle model
@@ -21,6 +18,7 @@ Rectangle model
 | Constructor | Description |
 | --- | --- |
 | [Rectangle()](#Rectangle--) | Instantiates a new Rectangle. |
+| [Rectangle(Rectangle other)](#Rectangle-com.groupdocs.comparison.result.Rectangle-) |  |
 | [Rectangle(double x, double y, double width, double height)](#Rectangle-double-double-double-double-) | Creates a new instance of Rectangle |
 ## Methods
 
@@ -34,7 +32,6 @@ Rectangle model
 | [setX(double value)](#setX-double-) | X coordinate |
 | [getY()](#getY--) | Y coordinate |
 | [setY(double value)](#setY-double-) | Y coordinate |
-| [clone()](#clone--) |  |
 | [equals(Object o)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
 | [toString()](#toString--) |  |
@@ -45,6 +42,17 @@ public Rectangle()
 
 
 Instantiates a new Rectangle.
+
+### Rectangle(Rectangle other) {#Rectangle-com.groupdocs.comparison.result.Rectangle-}
+```
+public Rectangle(Rectangle other)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [Rectangle](../../com.groupdocs.comparison.result/rectangle) |  |
 
 ### Rectangle(double x, double y, double width, double height) {#Rectangle-double-double-double-double-}
 ```
@@ -154,16 +162,6 @@ Y coordinate
 | --- | --- | --- |
 | value | double | the value |
 
-### clone() {#clone--}
-```
-public Rectangle clone()
-```
-
-
-
-
-**Returns:**
-[Rectangle](../../com.groupdocs.comparison.result/rectangle)
 ### equals(Object o) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object o)

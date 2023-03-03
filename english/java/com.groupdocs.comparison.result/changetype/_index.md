@@ -3,13 +3,13 @@ title: ChangeType
 second_title: GroupDocs.Comparison for Java API Reference
 description: Specifies change type.
 type: docs
-weight: 12
+weight: 16
 url: /java/com.groupdocs.comparison.result/changetype/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class ChangeType extends System.Enum
+public enum ChangeType extends Enum<ChangeType>
 ```
 
 Specifies change type.
@@ -17,113 +17,128 @@ Specifies change type.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | The none. |
-| [Modified](#Modified) | The modified. |
-| [Inserted](#Inserted) | The inserted. |
-| [Deleted](#Deleted) | The deleted. |
-| [Added](#Added) | The added. |
-| [NotModified](#NotModified) | The not modified. |
-| [StyleChanged](#StyleChanged) | Style changed. |
-| [Resized](#Resized) | Resized. |
-| [Moved](#Moved) | Moved. |
-| [MovedAndResized](#MovedAndResized) | The moved and resized. |
-| [ShiftedAndResized](#ShiftedAndResized) | The shifted and resized. |
+| [NONE](#NONE) | The none. |
+| [MODIFIED](#MODIFIED) | The modified. |
+| [INSERTED](#INSERTED) | The inserted. |
+| [DELETED](#DELETED) | The deleted. |
+| [ADDED](#ADDED) | The added. |
+| [NOT_MODIFIED](#NOT-MODIFIED) | The not modified. |
+| [STYLE_CHANGED](#STYLE-CHANGED) | Style changed. |
+| [RESIZED](#RESIZED) | Resized. |
+| [MOVED](#MOVED) | Moved. |
+| [MOVED_AND_RESIZED](#MOVED-AND-RESIZED) | The moved and resized. |
+| [SHIFTED_AND_RESIZED](#SHIFTED-AND-RESIZED) | The shifted and resized. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int type)](#getName-int-) |  |
-### None {#None}
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [fromInt(int intValue)](#fromInt-int-) |  |
+| [toString()](#toString--) |  |
+| [toInt()](#toInt--) |  |
+### NONE {#NONE}
 ```
-public static final int None
+public static final ChangeType NONE
 ```
 
 
 The none.
 
-### Modified {#Modified}
+### MODIFIED {#MODIFIED}
 ```
-public static final int Modified
+public static final ChangeType MODIFIED
 ```
 
 
 The modified.
 
-### Inserted {#Inserted}
+### INSERTED {#INSERTED}
 ```
-public static final int Inserted
+public static final ChangeType INSERTED
 ```
 
 
 The inserted.
 
-### Deleted {#Deleted}
+### DELETED {#DELETED}
 ```
-public static final int Deleted
+public static final ChangeType DELETED
 ```
 
 
 The deleted.
 
-### Added {#Added}
+### ADDED {#ADDED}
 ```
-public static final int Added
+public static final ChangeType ADDED
 ```
 
 
 The added.
 
-### NotModified {#NotModified}
+### NOT_MODIFIED {#NOT-MODIFIED}
 ```
-public static final int NotModified
+public static final ChangeType NOT_MODIFIED
 ```
 
 
 The not modified.
 
-### StyleChanged {#StyleChanged}
+### STYLE_CHANGED {#STYLE-CHANGED}
 ```
-public static final int StyleChanged
+public static final ChangeType STYLE_CHANGED
 ```
 
 
 Style changed.
 
-### Resized {#Resized}
+### RESIZED {#RESIZED}
 ```
-public static final int Resized
+public static final ChangeType RESIZED
 ```
 
 
 Resized.
 
-### Moved {#Moved}
+### MOVED {#MOVED}
 ```
-public static final int Moved
+public static final ChangeType MOVED
 ```
 
 
 Moved.
 
-### MovedAndResized {#MovedAndResized}
+### MOVED_AND_RESIZED {#MOVED-AND-RESIZED}
 ```
-public static final int MovedAndResized
+public static final ChangeType MOVED_AND_RESIZED
 ```
 
 
 The moved and resized.
 
-### ShiftedAndResized {#ShiftedAndResized}
+### SHIFTED_AND_RESIZED {#SHIFTED-AND-RESIZED}
 ```
-public static final int ShiftedAndResized
+public static final ChangeType SHIFTED_AND_RESIZED
 ```
 
 
 The shifted and resized.
 
-### getName(int type) {#getName-int-}
+### values() {#values--}
 ```
-public static String getName(int type)
+public static ChangeType[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.result.ChangeType[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static ChangeType valueOf(String name)
 ```
 
 
@@ -132,7 +147,57 @@ public static String getName(int type)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| name | java.lang.String |  |
+
+**Returns:**
+[ChangeType](../../com.groupdocs.comparison.result/changetype)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static ChangeType fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[ChangeType](../../com.groupdocs.comparison.result/changetype)
+### fromInt(int intValue) {#fromInt-int-}
+```
+public static ChangeType fromInt(int intValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| intValue | int |  |
+
+**Returns:**
+[ChangeType](../../com.groupdocs.comparison.result/changetype)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
+### toInt() {#toInt--}
+```
+public int toInt()
+```
+
+
+
+
+**Returns:**
+int

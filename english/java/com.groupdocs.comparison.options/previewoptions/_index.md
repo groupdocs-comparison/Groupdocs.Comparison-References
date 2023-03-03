@@ -34,7 +34,7 @@ Represents document preview options.
 | [getPageNumbers()](#getPageNumbers--) | Page numbers that will be previewed. |
 | [setPageNumbers(int[] value)](#setPageNumbers-int---) | Page numbers that will be previewed. |
 | [getPreviewFormat()](#getPreviewFormat--) | Preview image format. |
-| [setPreviewFormat(int value)](#setPreviewFormat-int-) | Preview image format. |
+| [setPreviewFormat(PreviewFormats value)](#setPreviewFormat-com.groupdocs.comparison.options.enums.PreviewFormats-) | Preview image format. |
 ### PreviewOptions(Delegates.CreatePageStream createPageStream) {#PreviewOptions-com.groupdocs.comparison.common.delegates.Delegates.CreatePageStream-}
 ```
 public PreviewOptions(Delegates.CreatePageStream createPageStream)
@@ -179,17 +179,17 @@ Page numbers that will be previewed.
 
 ### getPreviewFormat() {#getPreviewFormat--}
 ```
-public final int getPreviewFormat()
+public final PreviewFormats getPreviewFormat()
 ```
 
 
 Preview image format.
 
 **Returns:**
-int - preview format
-### setPreviewFormat(int value) {#setPreviewFormat-int-}
+[PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats) - preview format
+### setPreviewFormat(PreviewFormats value) {#setPreviewFormat-com.groupdocs.comparison.options.enums.PreviewFormats-}
 ```
-public final void setPreviewFormat(int value)
+public final void setPreviewFormat(PreviewFormats value)
 ```
 
 
@@ -198,5 +198,5 @@ Preview image format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats) | the value |
 

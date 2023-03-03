@@ -3,7 +3,7 @@ title: StyleSettings
 second_title: GroupDocs.Comparison for Java API Reference
 description: Style settings
 type: docs
-weight: 13
+weight: 12
 url: /java/com.groupdocs.comparison.options.style/stylesettings/
 ---
 **Inheritance:**

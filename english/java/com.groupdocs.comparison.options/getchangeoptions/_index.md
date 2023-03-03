@@ -18,43 +18,43 @@ The option allows to filter changes by type.
 | Constructor | Description |
 | --- | --- |
 | [GetChangeOptions()](#GetChangeOptions--) |  |
-| [GetChangeOptions(int filter)](#GetChangeOptions-int-) |  |
+| [GetChangeOptions(ChangeType filter)](#GetChangeOptions-com.groupdocs.comparison.result.ChangeType-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFilter()](#getFilter--) | Type of changes. |
-| [setFilter(int value)](#setFilter-int-) | Type of changes. |
+| [setFilter(ChangeType value)](#setFilter-com.groupdocs.comparison.result.ChangeType-) | Type of changes. |
 ### GetChangeOptions() {#GetChangeOptions--}
 ```
 public GetChangeOptions()
 ```
 
 
-### GetChangeOptions(int filter) {#GetChangeOptions-int-}
+### GetChangeOptions(ChangeType filter) {#GetChangeOptions-com.groupdocs.comparison.result.ChangeType-}
 ```
-public GetChangeOptions(int filter)
+public GetChangeOptions(ChangeType filter)
 ```
 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filter | int |  |
+| filter | [ChangeType](../../com.groupdocs.comparison.result/changetype) |  |
 
 ### getFilter() {#getFilter--}
 ```
-public final int getFilter()
+public final ChangeType getFilter()
 ```
 
 
 Type of changes.
 
 **Returns:**
-int - filter
-### setFilter(int value) {#setFilter-int-}
+[ChangeType](../../com.groupdocs.comparison.result/changetype) - filter
+### setFilter(ChangeType value) {#setFilter-com.groupdocs.comparison.result.ChangeType-}
 ```
-public final void setFilter(int value)
+public final void setFilter(ChangeType value)
 ```
 
 
@@ -63,5 +63,5 @@ Type of changes.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | filter |
+| value | [ChangeType](../../com.groupdocs.comparison.result/changetype) | filter |
 

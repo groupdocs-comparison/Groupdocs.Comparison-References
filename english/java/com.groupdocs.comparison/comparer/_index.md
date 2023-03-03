@@ -33,6 +33,11 @@ Represents main class that controls the documents comparison process.
 | [Comparer(InputStream document, ComparerSettings settings)](#Comparer-java.io.InputStream-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of [Comparer](../../com.groupdocs.comparison/comparer) class with source document stream and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(InputStream document, LoadOptions loadOptions, ComparerSettings settings)](#Comparer-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of [Comparer](../../com.groupdocs.comparison/comparer) class with document stream, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(ComparerSettings settings)](#Comparer-com.groupdocs.comparison.ComparerSettings-) | Instantiates a new Comparer. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [FILE_PATH](#FILE-PATH) |  |
 ## Methods
 
 | Method | Description |
@@ -362,6 +367,12 @@ Instantiates a new Comparer.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | settings | [ComparerSettings](../../com.groupdocs.comparison/comparersettings) | the settings |
+
+### FILE_PATH {#FILE-PATH}
+```
+public static final String FILE_PATH
+```
+
 
 ### getSource() {#getSource--}
 ```

@@ -17,43 +17,43 @@ Enumerates the type of cell merge.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Cell does not merge. |
-| [Horizontal](#Horizontal) | Cell merges along row. |
-| [Vertical](#Vertical) | Cell merges along column. |
-| [Range](#Range) | Cell merges along row and column creating area. |
+| [NONE](#NONE) | Cell does not merge. |
+| [HORIZONTAL](#HORIZONTAL) | Cell merges along row. |
+| [VERTICAL](#VERTICAL) | Cell merges along column. |
+| [RANGE](#RANGE) | Cell merges along row and column creating area. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-### None {#None}
+### NONE {#NONE}
 ```
-public static final MergeType None
+public static final MergeType NONE
 ```
 
 
 Cell does not merge.
 
-### Horizontal {#Horizontal}
+### HORIZONTAL {#HORIZONTAL}
 ```
-public static final MergeType Horizontal
+public static final MergeType HORIZONTAL
 ```
 
 
 Cell merges along row.
 
-### Vertical {#Vertical}
+### VERTICAL {#VERTICAL}
 ```
-public static final MergeType Vertical
+public static final MergeType VERTICAL
 ```
 
 
 Cell merges along column.
 
-### Range {#Range}
+### RANGE {#RANGE}
 ```
-public static final MergeType Range
+public static final MergeType RANGE
 ```
 
 

@@ -18,6 +18,11 @@ Information about document's author metadata.
 | Constructor | Description |
 | --- | --- |
 | [FileAuthorMetadata()](#FileAuthorMetadata--) | Initializes a new instance of the [FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) class. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [GROUP_DOCS](#GROUP-DOCS) |  |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,12 @@ public FileAuthorMetadata()
 
 
 Initializes a new instance of the [FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) class.
+
+### GROUP_DOCS {#GROUP-DOCS}
+```
+public static final String GROUP_DOCS
+```
+
 
 ### getAuthor() {#getAuthor--}
 ```

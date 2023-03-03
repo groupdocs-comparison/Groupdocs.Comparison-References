@@ -3,13 +3,13 @@ title: PasswordSaveOption
 second_title: GroupDocs.Comparison for Java API Reference
 description: Specifies the password save option.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.comparison.options.enums/passwordsaveoption/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class PasswordSaveOption extends System.Enum
+public enum PasswordSaveOption extends Enum<PasswordSaveOption>
 ```
 
 Specifies the password save option.
@@ -17,50 +17,63 @@ Specifies the password save option.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Default password. |
-| [Source](#Source) | Source password. |
-| [Target](#Target) | Target password. |
-| [User](#User) | The user password. |
+| [NONE](#NONE) | Default password. |
+| [SOURCE](#SOURCE) | Source password. |
+| [TARGET](#TARGET) | Target password. |
+| [USER](#USER) | The user password. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int type)](#getName-int-) |  |
-### None {#None}
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
+| [toString()](#toString--) |  |
+### NONE {#NONE}
 ```
-public static final int None
+public static final PasswordSaveOption NONE
 ```
 
 
 Default password.
 
-### Source {#Source}
+### SOURCE {#SOURCE}
 ```
-public static final int Source
+public static final PasswordSaveOption SOURCE
 ```
 
 
 Source password.
 
-### Target {#Target}
+### TARGET {#TARGET}
 ```
-public static final int Target
+public static final PasswordSaveOption TARGET
 ```
 
 
 Target password.
 
-### User {#User}
+### USER {#USER}
 ```
-public static final int User
+public static final PasswordSaveOption USER
 ```
 
 
 The user password.
 
-### getName(int type) {#getName-int-}
+### values() {#values--}
 ```
-public static String getName(int type)
+public static PasswordSaveOption[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.options.enums.PasswordSaveOption[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static PasswordSaveOption valueOf(String name)
 ```
 
 
@@ -69,7 +82,32 @@ public static String getName(int type)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| name | java.lang.String |  |
+
+**Returns:**
+[PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption)
+### fromString(String toStringValue) {#fromString-java.lang.String-}
+```
+public static PasswordSaveOption fromString(String toStringValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| toStringValue | java.lang.String |  |
+
+**Returns:**
+[PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String

@@ -25,9 +25,9 @@ Allows to set different compare options.
 | [isLeaveGaps()](#isLeaveGaps--) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
 | [setLeaveGaps(boolean leaveGaps)](#setLeaveGaps-boolean-) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
 | [getComparisonType()](#getComparisonType--) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
-| [setComparisonType(int comparisonType)](#setComparisonType-int-) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
+| [setComparisonType(ComparisonType comparisonType)](#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
 | [getPaperSize()](#getPaperSize--) | Gets or sets the result document paper size. |
-| [setPaperSize(int value)](#setPaperSize-int-) | Gets or sets the result document paper size. |
+| [setPaperSize(PaperSize value)](#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-) | Gets or sets the result document paper size. |
 | [isShowDeletedContent()](#isShowDeletedContent--) | Indicates whether to show deleted components in resultant document or not. |
 | [setShowDeletedContent(boolean value)](#setShowDeletedContent-boolean-) | Indicates whether to show deleted components in resultant document or not. |
 | [isShowInsertedContent()](#isShowInsertedContent--) | Indicates whether to show inserted components in resultant document or not. |
@@ -37,7 +37,7 @@ Allows to set different compare options.
 | [isExtendedSummaryPage()](#isExtendedSummaryPage--) | Indicates whether to add extended file comparison information to the summary page or not. |
 | [setExtendedSummaryPage(boolean extendedSummaryPage)](#setExtendedSummaryPage-boolean-) | Indicates whether to add extended file comparison information to the summary page or not. |
 | [isShowOnlySummaryPage()](#isShowOnlySummaryPage--) | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
-| [setShowOnlySummaryPage(boolean auto_ShowOnlySummaryPage)](#setShowOnlySummaryPage-boolean-) | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
+| [setShowOnlySummaryPage(boolean _showOnlySummaryPage)](#setShowOnlySummaryPage-boolean-) | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
 | [isDetectStyleChanges()](#isDetectStyleChanges--) | Indicates whether to detect style changes or not. |
 | [setDetectStyleChanges(boolean value)](#setDetectStyleChanges-boolean-) | Indicates whether to detect style changes or not. |
 | [isMarkNestedContent()](#isMarkNestedContent--) | Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted. |
@@ -47,7 +47,7 @@ Allows to set different compare options.
 | [isHeaderFootersComparison()](#isHeaderFootersComparison--) | Control to turn on comparison of header/footer contents. |
 | [setHeaderFootersComparison(boolean value)](#setHeaderFootersComparison-boolean-) | Control to turn on comparison of header/footer contents. |
 | [getDetalisationLevel()](#getDetalisationLevel--) | Gets or sets the comparison detail level. |
-| [setDetalisationLevel(int value)](#setDetalisationLevel-int-) | Gets or sets the comparison detail level. |
+| [setDetalisationLevel(DetalisationLevel value)](#setDetalisationLevel-com.groupdocs.comparison.options.style.DetalisationLevel-) | Gets or sets the comparison detail level. |
 | [isMarkChangedContent()](#isMarkChangedContent--) | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
 | [setMarkChangedContent(boolean value)](#setMarkChangedContent-boolean-) | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
 | [getInsertedItemStyle()](#getInsertedItemStyle--) | Describes style for inserted components. |
@@ -66,7 +66,7 @@ Allows to set different compare options.
 | [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets sensitivity of comparison. |
 | [setWordsSeparatorChars(char[] value)](#setWordsSeparatorChars-char---) | Gets or sets an array of delimiters to split text into words. |
 | [getPasswordSaveOption()](#getPasswordSaveOption--) | Gets or sets the password save option. |
-| [setPasswordSaveOption(int value)](#setPasswordSaveOption-int-) | Gets or sets the password save option. |
+| [setPasswordSaveOption(PasswordSaveOption value)](#setPasswordSaveOption-com.groupdocs.comparison.options.enums.PasswordSaveOption-) | Gets or sets the password save option. |
 | [getOriginalSize()](#getOriginalSize--) | Get or sets the original sizes of compared documents. |
 | [setOriginalSize(OriginalSize value)](#setOriginalSize-com.groupdocs.comparison.options.OriginalSize-) | Get or sets the original sizes of compared documents. |
 | [getDiagramMasterSetting()](#getDiagramMasterSetting--) | Gets or sets the path value for master or use compare without path of master. |
@@ -108,17 +108,17 @@ Indicates whether to display empty lines instead of inserted / deleted component
 
 ### getComparisonType() {#getComparisonType--}
 ```
-public int getComparisonType()
+public ComparisonType getComparisonType()
 ```
 
 
 File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--)
 
 **Returns:**
-int - file type to compare documents as
-### setComparisonType(int comparisonType) {#setComparisonType-int-}
+com.groupdocs.comparison.options.enums.ComparisonType - file type to compare documents as
+### setComparisonType(ComparisonType comparisonType) {#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-}
 ```
-public void setComparisonType(int comparisonType)
+public void setComparisonType(ComparisonType comparisonType)
 ```
 
 
@@ -127,21 +127,21 @@ File type to compare documents as, ComparisonType Disables [LoadOptions.getFileT
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparisonType | int | file type to compare documents as |
+| comparisonType | com.groupdocs.comparison.options.enums.ComparisonType | file type to compare documents as |
 
 ### getPaperSize() {#getPaperSize--}
 ```
-public final int getPaperSize()
+public final PaperSize getPaperSize()
 ```
 
 
 Gets or sets the result document paper size.
 
 **Returns:**
-int - the paper size
-### setPaperSize(int value) {#setPaperSize-int-}
+[PaperSize](../../com.groupdocs.comparison.options.enums/papersize) - the paper size
+### setPaperSize(PaperSize value) {#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-}
 ```
-public final void setPaperSize(int value)
+public final void setPaperSize(PaperSize value)
 ```
 
 
@@ -150,7 +150,7 @@ Gets or sets the result document paper size.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) | the value |
 
 ### isShowDeletedContent() {#isShowDeletedContent--}
 ```
@@ -254,9 +254,9 @@ Indicates whether to leave in the resulting document only a page with statistics
 
 **Returns:**
 boolean - the boolean
-### setShowOnlySummaryPage(boolean auto_ShowOnlySummaryPage) {#setShowOnlySummaryPage-boolean-}
+### setShowOnlySummaryPage(boolean _showOnlySummaryPage) {#setShowOnlySummaryPage-boolean-}
 ```
-public void setShowOnlySummaryPage(boolean auto_ShowOnlySummaryPage)
+public void setShowOnlySummaryPage(boolean _showOnlySummaryPage)
 ```
 
 
@@ -265,7 +265,7 @@ Indicates whether to leave in the resulting document only a page with statistics
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| auto_ShowOnlySummaryPage | boolean | the auto show only summary page |
+| _showOnlySummaryPage | boolean | the auto show only summary page |
 
 ### isDetectStyleChanges() {#isDetectStyleChanges--}
 ```
@@ -361,17 +361,17 @@ Control to turn on comparison of header/footer contents.
 
 ### getDetalisationLevel() {#getDetalisationLevel--}
 ```
-public final int getDetalisationLevel()
+public final DetalisationLevel getDetalisationLevel()
 ```
 
 
 Gets or sets the comparison detail level.
 
 **Returns:**
-int - the detalisation level
-### setDetalisationLevel(int value) {#setDetalisationLevel-int-}
+[DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) - the detalisation level
+### setDetalisationLevel(DetalisationLevel value) {#setDetalisationLevel-com.groupdocs.comparison.options.style.DetalisationLevel-}
 ```
-public final void setDetalisationLevel(int value)
+public final void setDetalisationLevel(DetalisationLevel value)
 ```
 
 
@@ -380,7 +380,7 @@ Gets or sets the comparison detail level.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) | the value |
 
 ### isMarkChangedContent() {#isMarkChangedContent--}
 ```
@@ -585,7 +585,7 @@ Value: The words separator chars.
 
 ### getPasswordSaveOption() {#getPasswordSaveOption--}
 ```
-public final int getPasswordSaveOption()
+public final PasswordSaveOption getPasswordSaveOption()
 ```
 
 
@@ -594,10 +594,10 @@ Gets or sets the password save option.
 Value: The password save option.
 
 **Returns:**
-int - the password save option
-### setPasswordSaveOption(int value) {#setPasswordSaveOption-int-}
+[PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) - the password save option
+### setPasswordSaveOption(PasswordSaveOption value) {#setPasswordSaveOption-com.groupdocs.comparison.options.enums.PasswordSaveOption-}
 ```
-public final void setPasswordSaveOption(int value)
+public final void setPasswordSaveOption(PasswordSaveOption value)
 ```
 
 
@@ -608,7 +608,7 @@ Value: The password save option.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) | the value |
 
 ### getOriginalSize() {#getOriginalSize--}
 ```

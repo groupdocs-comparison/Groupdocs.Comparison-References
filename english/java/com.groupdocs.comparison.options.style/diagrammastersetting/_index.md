@@ -3,7 +3,7 @@ title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for Java API Reference
 description: Diagram master settings
 type: docs
-weight: 11
+weight: 10
 url: /java/com.groupdocs.comparison.options.style/diagrammastersetting/
 ---
 **Inheritance:**
