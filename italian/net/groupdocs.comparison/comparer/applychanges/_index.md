@@ -16,14 +16,14 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file di risultato |
-| applyChangeOptions | ApplyChangeOptions | Applica opzioni di modifica |
+| filePath | String | Percorso del file dei risultati |
+| applyChangeOptions | ApplyChangeOptions | Applicare le opzioni di modifica |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra i documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Guarda anche
 
@@ -44,14 +44,14 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Documento di risultato |
-| applyChangeOptions | ApplyChangeOptions | Applica opzioni di modifica |
+| document | Stream | Documento risultato |
+| applyChangeOptions | ApplyChangeOptions | Applicare le opzioni di modifica |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra i documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Guarda anche
 
@@ -73,15 +73,15 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file di risultato |
+| filePath | String | Percorso del file dei risultati |
 | saveOptions | SaveOptions | Opzioni di salvataggio |
-| applyChangeOptions | ApplyChangeOptions | Applica opzioni di modifica |
+| applyChangeOptions | ApplyChangeOptions | Applicare le opzioni di modifica |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra i documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Guarda anche
 
@@ -104,15 +104,15 @@ public void ApplyChanges(Stream document, SaveOptions saveOptions,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Documento di risultato |
+| document | Stream | Documento risultato |
 | saveOptions | SaveOptions | Opzioni di salvataggio |
-| applyChangeOptions | ApplyChangeOptions | Applica opzioni di modifica |
+| applyChangeOptions | ApplyChangeOptions | Applicare le opzioni di modifica |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Ulteriori informazioni su come applicare o rifiutare le differenze rilevate tra i documenti confrontati in un documento risultante: [Come applicare o rifiutare le modifiche rilevate durante il confronto dei documenti in C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Guarda anche
 

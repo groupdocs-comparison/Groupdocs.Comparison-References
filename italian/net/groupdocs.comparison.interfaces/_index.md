@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Interfaces
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lo spazio dei nomi fornisce interfacce per creare unistanza di oggetti di output.
+description: Lo spazio dei nomi fornisce le interfacce per istanziare gli oggetti di output.
 type: docs
 weight: 50
 url: /it/net/groupdocs.comparison.interfaces/
 ---
-Lo spazio dei nomi fornisce interfacce per creare un'istanza di oggetti di output.
+Lo spazio dei nomi fornisce le interfacce per istanziare gli oggetti di output.
 
 ## Interfacce
 

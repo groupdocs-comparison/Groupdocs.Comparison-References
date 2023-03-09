@@ -1,14 +1,14 @@
 ---
 title: RevisionHandler
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Inizializza la nuova istanza diRevisionHandlergroupdocs.comparison.words.revision/revisionhandler class con il percorso del file con le revisioni.
+description: Inizializza una nuova istanza diRevisionHandlergroupdocs.comparison.words.revision/revisionhandler class con il percorso del file con le revisioni.
 type: docs
 weight: 10
 url: /it/net/groupdocs.comparison.words.revision/revisionhandler/revisionhandler/
 ---
 ## RevisionHandler(string) {#constructor_1}
 
-Inizializza la nuova istanza di[`RevisionHandler`](../../revisionhandler) class con il percorso del file con le revisioni.
+Inizializza una nuova istanza di[`RevisionHandler`](../../revisionhandler) class con il percorso del file con le revisioni.
 
 ```csharp
 public RevisionHandler(string filePath)
@@ -28,7 +28,7 @@ public RevisionHandler(string filePath)
 
 ## RevisionHandler(Stream) {#constructor}
 
-Inizializza la nuova istanza di[`RevisionHandler`](../../revisionhandler) classe con un flusso di file con revisioni.
+Inizializza una nuova istanza di[`RevisionHandler`](../../revisionhandler) classe con un flusso di file con revisioni.
 
 ```csharp
 public RevisionHandler(Stream file)
@@ -36,7 +36,7 @@ public RevisionHandler(Stream file)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| file | Stream | Flusso di documenti di origine |
+| file | Stream | Flusso del documento di origine |
 
 ### Guarda anche
 

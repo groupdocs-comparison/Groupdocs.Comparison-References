@@ -1,14 +1,14 @@
 ---
 title: LoadText
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Indica che le stringhe passate sono testo di confronto non percorsi di file solo per confronto testo.
+description: Indica che le stringhe passate sono testo di confronto non percorsi di file solo per il confronto di testo.
 type: docs
 weight: 30
 url: /it/net/groupdocs.comparison.options/loadoptions/loadtext/
 ---
 ## LoadOptions.LoadText property
 
-Indica che le stringhe passate sono testo di confronto, non percorsi di file (solo per confronto testo).
+Indica che le stringhe passate sono testo di confronto, non percorsi di file (solo per il confronto di testo).
 
 ```csharp
 public bool LoadText { get; set; }

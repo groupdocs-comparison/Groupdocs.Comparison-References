@@ -1,14 +1,14 @@
 ---
 title: DSQL
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Formato del linguaggio di query strutturato dinamico
+description: Formato Dynamic Structured Query Language
 type: docs
 weight: 340
 url: /it/net/groupdocs.comparison.result/filetype/dsql/
 ---
 ## FileType.DSQL field
 
-Formato del linguaggio di query strutturato dinamico
+Formato Dynamic Structured Query Language
 
 ```csharp
 public static FileType DSQL;

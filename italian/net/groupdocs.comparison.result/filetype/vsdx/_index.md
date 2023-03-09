@@ -1,14 +1,14 @@
 ---
 title: VSDX
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Disegno di Microsoft Visio
+description: Disegno Microsoft Visio
 type: docs
 weight: 1400
 url: /it/net/groupdocs.comparison.result/filetype/vsdx/
 ---
 ## FileType.VSDX field
 
-Disegno di Microsoft Visio
+Disegno Microsoft Visio
 
 ```csharp
 public static FileType VSDX;

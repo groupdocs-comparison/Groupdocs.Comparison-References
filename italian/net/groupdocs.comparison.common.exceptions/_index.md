@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Common.Exceptions
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lo spazio dei nomi fornisce diverse classi di eccezioni.
+description: Lo spazio dei nomi fornisce diverse classi di eccezione.
 type: docs
 weight: 40
 url: /it/net/groupdocs.comparison.common.exceptions/
 ---
-Lo spazio dei nomi fornisce diverse classi di eccezioni.
+Lo spazio dei nomi fornisce diverse classi di eccezione.
 
 ## Classi
 

@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Modello di Microsoft PowerPoint
+description: Modello Microsoft PowerPoint
 type: docs
 weight: 1060
 url: /it/net/groupdocs.comparison.result/filetype/pot/
 ---
 ## FileType.POT field
 
-Modello di Microsoft PowerPoint
+Modello Microsoft PowerPoint
 
 ```csharp
 public static FileType POT;

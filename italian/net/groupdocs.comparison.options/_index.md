@@ -16,7 +16,7 @@ Lo spazio dei nomi fornisce classi che consentono di specificare opzioni aggiunt
 | [CompareOptions](./compareoptions) | Consente di impostare diverse opzioni di confronto. |
 | [DiagramMasterSetting](./diagrammastersetting) | Diagramma impostazioni master |
 | [FileAuthorMetadata](./fileauthormetadata) | Informazioni sui metadati dell'autore del documento. |
-| [GetChangeOptions](./getchangeoptions) | L'opzione permette di filtrare le modifiche per tipo. |
+| [GetChangeOptions](./getchangeoptions) | L'opzione consente di filtrare le modifiche per tipo. |
 | [LoadOptions](./loadoptions) | Consente di specificare opzioni aggiuntive durante il caricamento di un documento. |
 | [OriginalSize](./originalsize) | Rappresenta la dimensione della pagina originale. Utilizzato solo per confrontare immagini con formati diversi. |
 | [PreviewOptions](./previewoptions) | Rappresenta le opzioni di anteprima del documento. |
@@ -28,9 +28,9 @@ Lo spazio dei nomi fornisce classi che consentono di specificare opzioni aggiunt
 | Enumerazione | Descrizione |
 | --- | --- |
 | [ChangeType](./changetype) | Specifica il tipo di modifica. |
-| [DetalisationLevel](./detalisationlevel) | Specifica il livello dei dettagli di confronto. |
+| [DetalisationLevel](./detalisationlevel) | Specifica il livello dei dettagli del confronto. |
 | [MetadataType](./metadatatype) | Determina da dove il documento dei risultati prenderà le informazioni sui metadati |
-| [PaperSize](./papersize) | L'opzione per impostare il formato carta del documento risultante dopo il confronto. |
+| [PaperSize](./papersize) | L'opzione per impostare il formato carta del documento risultato dopo il confronto. |
 | [PasswordSaveOption](./passwordsaveoption) | Specifica l'opzione di salvataggio della password. |
 | [PreviewFormats](./previewformats) | Formati supportati per l'anteprima del documento. |
 

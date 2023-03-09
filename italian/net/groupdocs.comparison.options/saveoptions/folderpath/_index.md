@@ -1,14 +1,14 @@
 ---
 title: FolderPath
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati solo per il confronto di immagini.
+description: Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati solo per il confronto delle immagini.
 type: docs
 weight: 40
 url: /it/net/groupdocs.comparison.options/saveoptions/folderpath/
 ---
 ## SaveOptions.FolderPath property
 
-Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati (solo per il confronto di immagini).
+Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati (solo per il confronto delle immagini).
 
 ```csharp
 public string FolderPath { get; set; }

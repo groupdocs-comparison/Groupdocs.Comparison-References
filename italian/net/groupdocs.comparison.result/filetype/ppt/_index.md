@@ -1,14 +1,14 @@
 ---
 title: PPT
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Presentazione di Microsoft PowerPoint 972003
+description: Presentazione Microsoft PowerPoint 972003
 type: docs
 weight: 1100
 url: /it/net/groupdocs.comparison.result/filetype/ppt/
 ---
 ## FileType.PPT field
 
-Presentazione di Microsoft PowerPoint 97-2003
+Presentazione Microsoft PowerPoint 97-2003
 
 ```csharp
 public static FileType PPT;

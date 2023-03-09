@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Inizializza la nuova istanza diDocumentgroupdocs.comparison/document classe.
+description: Inizializza una nuova istanza diDocumentgroupdocs.comparison/document classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.comparison/document/document/
 ---
 ## Document(Stream) {#constructor}
 
-Inizializza la nuova istanza di[`Document`](../../document) classe.
+Inizializza una nuova istanza di[`Document`](../../document) classe.
 
 ```csharp
 public Document(Stream stream)
@@ -28,7 +28,7 @@ public Document(Stream stream)
 
 ## Document(string) {#constructor_2}
 
-Inizializza la nuova istanza di[`Document`](../../document) classe.
+Inizializza una nuova istanza di[`Document`](../../document) classe.
 
 ```csharp
 public Document(string filePath)
@@ -48,7 +48,7 @@ public Document(string filePath)
 
 ## Document(string, string) {#constructor_3}
 
-Inizializza la nuova istanza di[`Document`](../../document) classe.
+Inizializza una nuova istanza di[`Document`](../../document) classe.
 
 ```csharp
 public Document(string filePath, string password)
@@ -69,7 +69,7 @@ public Document(string filePath, string password)
 
 ## Document(Stream, string) {#constructor_1}
 
-Inizializza la nuova istanza di[`Document`](../../document) classe.
+Inizializza una nuova istanza di[`Document`](../../document) classe.
 
 ```csharp
 public Document(Stream stream, string password)

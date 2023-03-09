@@ -24,7 +24,7 @@ public class FileInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileType](../../groupdocs.comparison.result/fileinfo/filetype) { get; } | Tipo di file |
+| [FileType](../../groupdocs.comparison.result/fileinfo/filetype) { get; } | Tipo file |
 | [Pages](../../groupdocs.comparison.result/fileinfo/pages) { get; set; } | Elenco delle pagine |
 
 ### Guarda anche

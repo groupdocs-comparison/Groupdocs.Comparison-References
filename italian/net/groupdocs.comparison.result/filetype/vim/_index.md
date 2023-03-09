@@ -1,14 +1,14 @@
 ---
 title: VIM
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Formato file codice sorgente Vim
+description: Formato del file del codice sorgente di Vim
 type: docs
 weight: 1380
 url: /it/net/groupdocs.comparison.result/filetype/vim/
 ---
 ## FileType.VIM field
 
-Formato file codice sorgente Vim
+Formato del file del codice sorgente di Vim
 
 ```csharp
 public static FileType VIM;

@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Localization
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lo spazio dei nomi fornisce classi che controllano le localizzazioni supportate.
+description: Lo spazio dei nomi fornisce classi che controllano le impostazioni locali supportate.
 type: docs
 weight: 60
 url: /it/net/groupdocs.comparison.localization/
 ---
-Lo spazio dei nomi fornisce classi che controllano le localizzazioni supportate.
+Lo spazio dei nomi fornisce classi che controllano le impostazioni locali supportate.
 
 ## Classi
 

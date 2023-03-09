@@ -1,14 +1,14 @@
 ---
 title: GetChangeOptions
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lopzione permette di filtrare le modifiche per tipo.
+description: Lopzione consente di filtrare le modifiche per tipo.
 type: docs
 weight: 250
 url: /it/net/groupdocs.comparison.options/getchangeoptions/
 ---
 ## GetChangeOptions class
 
-L'opzione permette di filtrare le modifiche per tipo.
+L'opzione consente di filtrare le modifiche per tipo.
 
 ```csharp
 public class GetChangeOptions

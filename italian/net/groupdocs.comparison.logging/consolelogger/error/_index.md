@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | message | String | Il messaggio |
-| exception | Exception | Oggetto eccezione |
+| ex | Exception | Oggetto eccezione |
 
 ### Guarda anche
 

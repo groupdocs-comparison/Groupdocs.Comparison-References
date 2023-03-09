@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Tipo di documento
+description: Tipo documento
 type: docs
 weight: 10
 url: /it/net/groupdocs.comparison.interfaces/idocumentinfo/filetype/
 ---
 ## IDocumentInfo.FileType property
 
-Tipo di documento
+Tipo documento
 
 ```csharp
 public FileType FileType { get; set; }

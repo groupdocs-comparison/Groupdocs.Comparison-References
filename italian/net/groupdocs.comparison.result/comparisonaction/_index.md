@@ -1,14 +1,14 @@
 ---
 title: ComparisonAction
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Unazione che può essere applicata alla modifica.
+description: Unazione che può essere applicata al cambiamento.
 type: docs
 weight: 380
 url: /it/net/groupdocs.comparison.result/comparisonaction/
 ---
 ## ComparisonAction enumeration
 
-Un'azione che può essere applicata alla modifica.
+Un'azione che può essere applicata al cambiamento.
 
 ```csharp
 public enum ComparisonAction
@@ -19,7 +19,7 @@ public enum ComparisonAction
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Niente da fare |
-| Accept | `1` | La modifica sarà visibile sul file dei risultati |
+| Accept | `1` | La modifica sarà visibile nel file dei risultati |
 | Reject | `2` | Il rifiuto sarà invisibile nel file dei risultati |
 
 ### Guarda anche

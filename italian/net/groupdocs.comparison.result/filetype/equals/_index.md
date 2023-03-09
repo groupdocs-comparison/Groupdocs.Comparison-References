@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Verifica dellequivalenza del tipo di file
+description: Controllo equivalenza tipo file
 type: docs
 weight: 1550
 url: /it/net/groupdocs.comparison.result/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Verifica dell'equivalenza del tipo di file
+Controllo equivalenza tipo file
 
 ```csharp
 public bool Equals(FileType other)
@@ -32,7 +32,7 @@ True se i tipi di file sono equivalenti, false in caso contrario
 
 ## Equals(object) {#equals_1}
 
-Verifica dell'equivalenza con l'oggetto
+Verifica equivalenza con oggetto
 
 ```csharp
 public override bool Equals(object obj)

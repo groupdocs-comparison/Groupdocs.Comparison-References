@@ -1,14 +1,14 @@
 ---
 title: XLTM
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Modello abilitato per le macro di Microsoft Excel
+description: Modello con attivazione macro di Microsoft Excel
 type: docs
 weight: 1490
 url: /it/net/groupdocs.comparison.result/filetype/xltm/
 ---
 ## FileType.XLTM field
 
-Modello abilitato per le macro di Microsoft Excel
+Modello con attivazione macro di Microsoft Excel
 
 ```csharp
 public static FileType XLTM;

@@ -1,14 +1,14 @@
 ---
 title: XLSB
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Foglio di lavoro binario Microsoft Excel
+description: Foglio di lavoro binario di Microsoft Excel
 type: docs
 weight: 1450
 url: /it/net/groupdocs.comparison.result/filetype/xlsb/
 ---
 ## FileType.XLSB field
 
-Foglio di lavoro binario Microsoft Excel
+Foglio di lavoro binario di Microsoft Excel
 
 ```csharp
 public static FileType XLSB;

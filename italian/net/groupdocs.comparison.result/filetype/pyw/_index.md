@@ -1,14 +1,14 @@
 ---
 title: PYW
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: File utilizzati in Windows per indicare che è necessario eseguire uno script
+description: File utilizzati in Windows per indicare che uno script deve essere eseguito
 type: docs
 weight: 1160
 url: /it/net/groupdocs.comparison.result/filetype/pyw/
 ---
 ## FileType.PYW field
 
-File utilizzati in Windows per indicare che è necessario eseguire uno script
+File utilizzati in Windows per indicare che uno script deve essere eseguito
 
 ```csharp
 public static FileType PYW;

@@ -1,14 +1,14 @@
 ---
 title: TargetText
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Testo modificato del documento di destinazione
+description: Testo modificato del documento di destinazione.
 type: docs
 weight: 100
 url: /it/net/groupdocs.comparison.result/changeinfo/targettext/
 ---
 ## ChangeInfo.TargetText property
 
-Testo modificato del documento di destinazione
+Testo modificato del documento di destinazione.
 
 ```csharp
 public string TargetText { get; set; }

@@ -18,10 +18,10 @@ public class Document
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](document#constructor)(Stream) | Inizializza la nuova istanza di[`Document`](../document) classe. |
-| [Document](document#constructor_2)(string) | Inizializza la nuova istanza di[`Document`](../document) classe. |
-| [Document](document#constructor_1)(Stream, string) | Inizializza la nuova istanza di[`Document`](../document) classe. |
-| [Document](document#constructor_3)(string, string) | Inizializza la nuova istanza di[`Document`](../document) classe. |
+| [Document](document#constructor)(Stream) | Inizializza una nuova istanza di[`Document`](../document) classe. |
+| [Document](document#constructor_2)(string) | Inizializza una nuova istanza di[`Document`](../document) classe. |
+| [Document](document#constructor_1)(Stream, string) | Inizializza una nuova istanza di[`Document`](../document) classe. |
+| [Document](document#constructor_3)(string, string) | Inizializza una nuova istanza di[`Document`](../document) classe. |
 
 ## Proprietà
 

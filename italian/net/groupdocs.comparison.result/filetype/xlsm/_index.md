@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Foglio di lavoro abilitato per le macro di Microsoft Excel
+description: Foglio di lavoro con attivazione macro di Microsoft Excel
 type: docs
 weight: 1460
 url: /it/net/groupdocs.comparison.result/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Foglio di lavoro abilitato per le macro di Microsoft Excel
+Foglio di lavoro con attivazione macro di Microsoft Excel
 
 ```csharp
 public static FileType XLSM;

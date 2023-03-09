@@ -1,14 +1,14 @@
 ---
 title: FromFileNameOrExtension
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Restituisce FileType in base al nome del file o allestensione
+description: Restituisce FileType in base al nome file o allestensione
 type: docs
 weight: 1520
 url: /it/net/groupdocs.comparison.result/filetype/fromfilenameorextension/
 ---
 ## FileType.FromFileNameOrExtension method
 
-Restituisce FileType in base al nome del file o all'estensione
+Restituisce FileType in base al nome file o all'estensione
 
 ```csharp
 public static FileType FromFileNameOrExtension(string fileNameOrExtension)
@@ -16,7 +16,7 @@ public static FileType FromFileNameOrExtension(string fileNameOrExtension)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNameOrExtension | String | Nome o estensione del file |
+| fileNameOrExtension | String | Nome file o estensione |
 
 ### Guarda anche
 

@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Cells.Style
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lo spazio dei nomi fornisce classi per lavorare con gli stili dei componenti nel file in formato Celle.
+description: Lo spazio dei nomi fornisce le classi per lavorare con gli stili dei componenti nel file in formato Cells.
 type: docs
 weight: 20
 url: /it/net/groupdocs.comparison.cells.style/
 ---
-Lo spazio dei nomi fornisce classi per lavorare con gli stili dei componenti nel file in formato Celle.
+Lo spazio dei nomi fornisce le classi per lavorare con gli stili dei componenti nel file in formato Cells.
 
 ## Enumerazione
 

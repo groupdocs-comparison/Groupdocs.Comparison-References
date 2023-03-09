@@ -1,14 +1,14 @@
 ---
 title: StyleChanges
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Modifiche allo stile.
+description: Cambi di stile.
 type: docs
 weight: 90
 url: /it/net/groupdocs.comparison.result/changeinfo/stylechanges/
 ---
 ## ChangeInfo.StyleChanges property
 
-Modifiche allo stile.
+Cambi di stile.
 
 ```csharp
 public StyleChangeInfo[] StyleChanges { get; set; }

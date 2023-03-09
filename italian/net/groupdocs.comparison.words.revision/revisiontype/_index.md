@@ -21,7 +21,7 @@ public enum RevisionType
 | Insertion | `0` | Il nuovo contenuto è stato inserito nel documento. |
 | Deletion | `1` | Il contenuto è stato rimosso dal documento. |
 | FormatChange | `2` | La modifica della formattazione è stata applicata al nodo padre. |
-| StyleDefinitionChange | `3` | La modifica della formattazione è stata applicata allo stile padre. |
+| StyleDefinitionChange | `3` | La modifica della formattazione è stata applicata allo stile principale. |
 | Moving | `4` | Il contenuto è stato spostato nel documento. |
 
 ### Guarda anche

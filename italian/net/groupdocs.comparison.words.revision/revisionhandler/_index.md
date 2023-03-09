@@ -18,8 +18,8 @@ public class RevisionHandler : IDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| [RevisionHandler](revisionhandler#constructor)(Stream) | Inizializza la nuova istanza di[`RevisionHandler`](../revisionhandler) classe con un flusso di file con revisioni. |
-| [RevisionHandler](revisionhandler#constructor_1)(string) | Inizializza la nuova istanza di[`RevisionHandler`](../revisionhandler) class con il percorso del file con le revisioni. |
+| [RevisionHandler](revisionhandler#constructor)(Stream) | Inizializza una nuova istanza di[`RevisionHandler`](../revisionhandler) classe con un flusso di file con revisioni. |
+| [RevisionHandler](revisionhandler#constructor_1)(string) | Inizializza una nuova istanza di[`RevisionHandler`](../revisionhandler) class con il percorso del file con le revisioni. |
 
 ## Metodi
 

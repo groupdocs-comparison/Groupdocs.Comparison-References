@@ -41,7 +41,7 @@ public void Add(string filePath, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni su come aprire e confrontare documenti protetti da password in C# utilizzando GroupDocs.Comparison per .NET: [Come aprire e confrontare documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Ulteriori informazioni su come aprire e confrontare i documenti archiviati sul disco locale: [Come aprire e confrontare i file in base al percorso del file](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -70,7 +70,7 @@ public void Add(Stream document)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni su come aprire e confrontare documenti protetti da password in C# utilizzando GroupDocs.Comparison per .NET: [Come aprire e confrontare documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Ulteriori informazioni su come aprire e confrontare i documenti archiviati sul disco locale: [Come aprire e confrontare i file in base al percorso del file](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -99,7 +99,7 @@ public void Add(Stream document, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni su come aprire e confrontare documenti protetti da password in C# utilizzando GroupDocs.Comparison per .NET: [Come aprire e confrontare documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Ulteriori informazioni su come aprire e confrontare i documenti archiviati sul disco locale: [Come aprire e confrontare i file in base al percorso del file](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)

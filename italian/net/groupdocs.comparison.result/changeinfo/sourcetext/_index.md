@@ -1,14 +1,14 @@
 ---
 title: SourceText
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Modificato il testo del documento di origine
+description: Testo modificato del documento sorgente.
 type: docs
 weight: 80
 url: /it/net/groupdocs.comparison.result/changeinfo/sourcetext/
 ---
 ## ChangeInfo.SourceText property
 
-Modificato il testo del documento di origine
+Testo modificato del documento sorgente.
 
 ```csharp
 public string SourceText { get; set; }
