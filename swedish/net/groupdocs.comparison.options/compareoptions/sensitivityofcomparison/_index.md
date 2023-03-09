@@ -16,7 +16,7 @@ public int SensitivityOfComparison { get; set; }
 
 ### Fastighetsvärde
 
-Procentandelen raderade och infogade element av två jämförda objekt i förhållande till alla element i dessa objekt. om denna procentandel överskrids jämförs inte objektet utan anses vara helt infogat och raderat. Minvärde - 0% = &gt; Jämförelsen sker inte för någon längd av den gemensamma undersekvensen av två jämförda objekt. Standardvärde - 75% =&gt; Jämförelse sker om procentandelen raderade och infogade element av två jämförda objekt med avseende på alla element i dessa objekt är inte mer än 75. Maxvärde - 100% =&gt; Jämförelsen sker oavsett längd av den gemensamma undersekvensen av två jämförda objekt.
+Procentandelen raderade och infogade element av två jämförda objekt i förhållande till alla element i dessa objekt. om denna procentandel överskrids jämförs inte objektet utan anses vara helt infogat och raderat. Minvärde - 0% = &gt; Jämförelsen sker inte för någon längd av den gemensamma undersekvensen av två jämförda objekt. Standardvärde - 75% =&gt; Jämförelse sker om andelen raderade och infogade element av två jämförda objekt med avseende på alla element i dessa objekt är inte mer än 75. Maxvärde - 100% =&gt; Jämförelsen sker oavsett längd av den gemensamma undersekvensen av två jämförda objekt.
 
 ### Se även
 

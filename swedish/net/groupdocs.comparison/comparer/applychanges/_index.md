@@ -16,7 +16,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Resultatfilens sökväg |
+| filePath | String | Sökväg till resultatfilen |
 | applyChangeOptions | ApplyChangeOptions | Använd ändringsalternativ |
 
 ### Anmärkningar
@@ -73,7 +73,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Resultatfilens sökväg |
+| filePath | String | Sökväg till resultatfilen |
 | saveOptions | SaveOptions | Spara alternativ |
 | applyChangeOptions | ApplyChangeOptions | Använd ändringsalternativ |
 
