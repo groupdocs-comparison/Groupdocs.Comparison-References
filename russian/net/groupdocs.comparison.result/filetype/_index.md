@@ -100,7 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [JSCSRC](../../groupdocs.comparison.result/filetype/jscsrc) | Формат файла конфигурации JavaScript |
 | static [JSHINTRC](../../groupdocs.comparison.result/filetype/jshintrc) | Инструмент качества кода JavaScript |
 | static [JSMAP](../../groupdocs.comparison.result/filetype/jsmap) | Файл JSON, содержащий информацию о том, как перевести код обратно в исходный код |
-| static [JSON](../../groupdocs.comparison.result/filetype/json) | Облегченный формат для хранения и передачи данных |
+| static [JSON](../../groupdocs.comparison.result/filetype/json) | Облегченный формат для хранения и транспортировки данных |
 | static [LESS](../../groupdocs.comparison.result/filetype/less) | Формат языка таблицы стилей динамического препроцессора |
 | static [LOG](../../groupdocs.comparison.result/filetype/log) | Ведение журнала ведет реестр событий, процессов, сообщений и коммуникаций |
 | static [MAKE](../../groupdocs.comparison.result/filetype/make) | Makefile — это файл, содержащий набор директив, используемых инструментом автоматизации сборки make для создания target/goal |
@@ -192,7 +192,7 @@ public sealed class FileType : IEquatable<FileType>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о форматах файлов, поддерживаемых GroupDocs. Сравнение: [Полный список поддерживаемых форматов документов](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Узнайте больше о получении поддерживаемых типов файлов в C#: [Как получить поддерживаемые форматы файлов в C#](https://docs.groupdocs.com/display/comparisonnet/Get+supported+file+formats)

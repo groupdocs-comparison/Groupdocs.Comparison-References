@@ -20,7 +20,7 @@ public Comparer(string filePath)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -48,7 +48,7 @@ public Comparer(string filePath, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -79,7 +79,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -95,7 +95,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ## Comparer(string, LoadOptions, ComparerSettings) {#constructor_7}
 
-Инициализирует новый экземпляр[`Comparer`](../../comparer) класс с путем к исходному файлу,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) а также[`ComparerSettings`](../../comparersettings) .
+Инициализирует новый экземпляр[`Comparer`](../../comparer) класс с путем к исходному файлу,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) и[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings settings)
@@ -109,7 +109,7 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -140,7 +140,7 @@ public Comparer(Stream document)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -168,7 +168,7 @@ public Comparer(Stream document, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -199,7 +199,7 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
@@ -215,7 +215,7 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ## Comparer(Stream, LoadOptions, ComparerSettings) {#constructor_3}
 
-Инициализирует новый экземпляр[`Comparer`](../../comparer) класс с потоком документов,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) а также[`ComparerSettings`](../../comparersettings) .
+Инициализирует новый экземпляр[`Comparer`](../../comparer) класс с потоком документов,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) и[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings settings)
@@ -229,7 +229,7 @@ public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings setti
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Comparison: [Форматы документов, поддерживаемые GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Подробнее о функциях GroupDocs.Comparison для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)

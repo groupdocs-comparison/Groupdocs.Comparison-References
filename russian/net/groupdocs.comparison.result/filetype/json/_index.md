@@ -1,14 +1,14 @@
 ---
 title: JSON
 second_title: Справочник по API GroupDocs.Comparison для .NET
-description: Облегченный формат для хранения и передачи данных
+description: Облегченный формат для хранения и транспортировки данных
 type: docs
 weight: 630
 url: /ru/net/groupdocs.comparison.result/filetype/json/
 ---
 ## FileType.JSON field
 
-Облегченный формат для хранения и передачи данных
+Облегченный формат для хранения и транспортировки данных
 
 ```csharp
 public static FileType JSON;

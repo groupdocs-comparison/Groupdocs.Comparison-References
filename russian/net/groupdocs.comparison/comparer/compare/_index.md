@@ -16,7 +16,7 @@ public void Compare()
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -43,7 +43,7 @@ public void Compare(string filePath)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -70,7 +70,7 @@ public void Compare(Stream document)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -98,7 +98,7 @@ public void Compare(string filePath, CompareOptions compareOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -128,7 +128,7 @@ public void Compare(Stream document, CompareOptions compareOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -158,7 +158,7 @@ public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -189,7 +189,7 @@ public void Compare(string filePath, SaveOptions saveOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -218,7 +218,7 @@ public void Compare(Stream document, SaveOptions saveOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -246,7 +246,7 @@ public void Compare(CompareOptions compareOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -276,7 +276,7 @@ public void Compare(Stream document, SaveOptions saveOptions, CompareOptions com
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -308,7 +308,7 @@ public void Compare(string filePath, SaveOptions saveOptions, CompareOptions com
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как сравнивать документы: [Как сравнивать документы в C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Подробнее о том, как сравнивать контракты, черновики и юридические документы на C#: [Как сравнивать контракты, проекты и юридические документы](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
