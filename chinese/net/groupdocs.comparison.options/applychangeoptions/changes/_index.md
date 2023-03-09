@@ -1,14 +1,14 @@
 ---
 title: Changes
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 必须应用于结果文档的更改列表
+description: 必须应用于生成的文档的更改列表
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.options/applychangeoptions/changes/
 ---
 ## ApplyChangeOptions.Changes property
 
-必须应用于结果文档的更改列表。
+必须应用于生成的文档的更改列表。
 
 ```csharp
 public ChangeInfo[] Changes { get; set; }

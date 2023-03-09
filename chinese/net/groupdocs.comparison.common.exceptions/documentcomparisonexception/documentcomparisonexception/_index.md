@@ -1,14 +1,14 @@
 ---
 title: DocumentComparisonException
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化一个新的实例DocumentComparisonExceptiongroupdocs.comparison.common.exceptions/documentcomparisonexception类.
+description: 初始化一个新实例DocumentComparisonExceptiongroupdocs.comparison.common.exceptions/documentcomparisonexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.common.exceptions/documentcomparisonexception/documentcomparisonexception/
 ---
 ## DocumentComparisonException constructor
 
-初始化一个新的实例[`DocumentComparisonException`](../../documentcomparisonexception)类.
+初始化一个新实例[`DocumentComparisonException`](../../documentcomparisonexception)类.
 
 ```csharp
 public DocumentComparisonException(string message)

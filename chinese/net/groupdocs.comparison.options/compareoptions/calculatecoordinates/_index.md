@@ -1,14 +1,14 @@
 ---
 title: CalculateCoordinates
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 表示是否计算已更改组件的坐标
+description: 表示是否为变化的元件计算坐标
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.options/compareoptions/calculatecoordinates/
 ---
 ## CompareOptions.CalculateCoordinates property
 
-表示是否计算已更改组件的坐标。
+表示是否为变化的元件计算坐标。
 
 ```csharp
 public bool CalculateCoordinates { get; set; }

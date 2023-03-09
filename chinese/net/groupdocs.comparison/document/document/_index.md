@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化的新实例Documentgroupdocs.comparison/document类.
+description: 初始化新实例Documentgroupdocs.comparison/document类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison/document/document/
 ---
 ## Document(Stream) {#constructor}
 
-初始化的新实例[`Document`](../../document)类.
+初始化新实例[`Document`](../../document)类.
 
 ```csharp
 public Document(Stream stream)
@@ -28,7 +28,7 @@ public Document(Stream stream)
 
 ## Document(string) {#constructor_2}
 
-初始化的新实例[`Document`](../../document)类.
+初始化新实例[`Document`](../../document)类.
 
 ```csharp
 public Document(string filePath)
@@ -48,7 +48,7 @@ public Document(string filePath)
 
 ## Document(string, string) {#constructor_3}
 
-初始化的新实例[`Document`](../../document)类.
+初始化新实例[`Document`](../../document)类.
 
 ```csharp
 public Document(string filePath, string password)
@@ -69,7 +69,7 @@ public Document(string filePath, string password)
 
 ## Document(Stream, string) {#constructor_1}
 
-初始化的新实例[`Document`](../../document)类.
+初始化新实例[`Document`](../../document)类.
 
 ```csharp
 public Document(Stream stream, string password)

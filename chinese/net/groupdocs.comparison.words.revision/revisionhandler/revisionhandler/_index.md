@@ -1,14 +1,14 @@
 ---
 title: RevisionHandler
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化的新实例RevisionHandlergroupdocs.comparison.words.revision/revisionhandler带有修订文件路径的类
+description: 初始化新实例RevisionHandlergroupdocs.comparison.words.revision/revisionhandler带有修订文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.words.revision/revisionhandler/revisionhandler/
 ---
 ## RevisionHandler(string) {#constructor_1}
 
-初始化的新实例[`RevisionHandler`](../../revisionhandler)带有修订文件路径的类。
+初始化新实例[`RevisionHandler`](../../revisionhandler)带有修订文件路径的类.
 
 ```csharp
 public RevisionHandler(string filePath)
@@ -28,7 +28,7 @@ public RevisionHandler(string filePath)
 
 ## RevisionHandler(Stream) {#constructor}
 
-初始化的新实例[`RevisionHandler`](../../revisionhandler)带有带有修订的文件流的类。
+初始化新实例[`RevisionHandler`](../../revisionhandler)带有修订的文件流的类.
 
 ```csharp
 public RevisionHandler(Stream file)

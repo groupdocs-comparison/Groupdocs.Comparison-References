@@ -1,14 +1,14 @@
 ---
 title: Action
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 操作接受或拒绝此字段允许您影响修订的显示
+description: 操作接受或拒绝该字段允许您影响修订的显示
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.words.revision/revisioninfo/action/
 ---
 ## RevisionInfo.Action property
 
-操作（接受或拒绝）。此字段允许您影响修订的显示。
+操作（接受或拒绝）。该字段允许您影响修订的显示。
 
 ```csharp
 public RevisionAction Action { get; set; }

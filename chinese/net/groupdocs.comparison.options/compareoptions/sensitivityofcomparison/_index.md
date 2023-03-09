@@ -1,14 +1,14 @@
 ---
 title: SensitivityOfComparison
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置比较的敏感度
+description: 获取或设置比较灵敏度
 type: docs
 weight: 210
 url: /zh/net/groupdocs.comparison.options/compareoptions/sensitivityofcomparison/
 ---
 ## CompareOptions.SensitivityOfComparison property
 
-获取或设置比较的敏感度。
+获取或设置比较灵敏度。
 
 ```csharp
 public int SensitivityOfComparison { get; set; }
@@ -16,7 +16,7 @@ public int SensitivityOfComparison { get; set; }
 
 ### 适当的价值
 
-两个比较对象的删除和插入元素相对于这些对象的所有元素的百分比。 如果超过此百分比，则不比较对象，但视为完全插入和删除。 最小值 - 0% = &gt; 对于两个比较对象的公共子序列的任何长度都不会发生比较。 默认值 - 75% =&gt; 如果两个比较对象的删除和插入元素相对于这些对象的所有元素的百分比，则比较发生 不超过 75. 最大值 - 100% =&gt; 比较发生在两个比较对象的公共子序列的任意长度。
+两个比较对象的删除和插入元素相对于这些对象的所有元素的百分比。 如果超过此百分比，则不比较对象，但认为已完全插入和删除。 最小值 - 0% = &gt; 比较不会对两个被比较对象的公共子序列的任何长度发生。 默认值 - 75% =&gt; 比较发生 如果两个被比较对象的删除和插入元素相对于这些对象的所有元素的百分比不超过 75. 最大值 - 100% =&gt; 比较发生在两个被比较对象的公共子序列的任意长度处。
 
 ### 也可以看看
 

@@ -18,15 +18,15 @@ public class SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SaveOptions](saveoptions)() | 初始化[`SaveOptions`](../saveoptions)类. |
+| [SaveOptions](saveoptions)() | 初始化一个新的实例[`SaveOptions`](../saveoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CloneMetadataType](../../groupdocs.comparison.options/saveoptions/clonemetadatatype) { get; set; } | 获取或设置是否将元数据克隆到目标文档的值。 |
-| [FileAuthorMetadata](../../groupdocs.comparison.options/saveoptions/fileauthormetadata) { get; set; } | 当 MetadataType 设置为 FileAuthor 时使用。 |
-| [FolderPath](../../groupdocs.comparison.options/saveoptions/folderpath) { get; set; } | 获取或设置保存结果图像的文件夹路径（仅用于图像比较） |
+| [CloneMetadataType](../../groupdocs.comparison.options/saveoptions/clonemetadatatype) { get; set; } | 获取或设置一个值，指示是否将元数据克隆到目标文档。 |
+| [FileAuthorMetadata](../../groupdocs.comparison.options/saveoptions/fileauthormetadata) { get; set; } | 当 MetadataType 设置为 FileAuthor. 时使用 |
+| [FolderPath](../../groupdocs.comparison.options/saveoptions/folderpath) { get; set; } | 获取或设置保存结果图像的文件夹路径（仅用于成像比较）。 |
 | [Password](../../groupdocs.comparison.options/saveoptions/password) { get; set; } | 获取或设置结果文档的密码。 |
 
 ### 也可以看看

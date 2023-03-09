@@ -1,14 +1,14 @@
 ---
 title: ExtendedSummaryPage
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 表示是否将扩展文件比较信息添加到摘要页面
+description: 是否在摘要页面添加扩展文件对比信息
 type: docs
 weight: 110
 url: /zh/net/groupdocs.comparison.options/compareoptions/extendedsummarypage/
 ---
 ## CompareOptions.ExtendedSummaryPage property
 
-表示是否将扩展文件比较信息添加到摘要页面。
+是否在摘要页面添加扩展文件对比信息。
 
 ```csharp
 public bool ExtendedSummaryPage { get; set; }

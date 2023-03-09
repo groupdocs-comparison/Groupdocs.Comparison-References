@@ -1,14 +1,14 @@
 ---
 title: UseSourceMaster
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 设置为 true 以将 master 与源文档一起使用或使用 false 值以将 Master 与 Path 一起使用
+description: 将 master 与源文档一起使用设置为 true 或将 master 与 Path 一起使用设置为 false 值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.comparison.options/diagrammastersetting/usesourcemaster/
 ---
 ## DiagramMasterSetting.UseSourceMaster property
 
-设置为 true 以将 master 与源文档一起使用或使用 false 值以将 Master 与 Path 一起使用
+将 master 与源文档一起使用设置为 true 或将 master 与 Path 一起使用设置为 false 值
 
 ```csharp
 public bool UseSourceMaster { get; set; }

@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 讯息 |
-| exception | Exception | 异常对象 |
+| ex | Exception | 异常对象 |
 
 ### 也可以看看
 

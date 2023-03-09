@@ -12,7 +12,7 @@ url: /zh/net/groupdocs.comparison.options/
 
 | 班级 | 描述 |
 | --- | --- |
-| [ApplyChangeOptions](./applychangeoptions) | 允许在将更改应用到结果文档之前更新更改列表。 |
+| [ApplyChangeOptions](./applychangeoptions) | 允许在将更改应用于生成的文档之前更新更改列表。 |
 | [CompareOptions](./compareoptions) | 允许设置不同的比较选项。 |
 | [DiagramMasterSetting](./diagrammastersetting) | 图表主设置 |
 | [FileAuthorMetadata](./fileauthormetadata) | 有关文档作者元数据的信息。 |
@@ -30,7 +30,7 @@ url: /zh/net/groupdocs.comparison.options/
 | [ChangeType](./changetype) | 指定更改类型。 |
 | [DetalisationLevel](./detalisationlevel) | 指定比较详细信息的级别。 |
 | [MetadataType](./metadatatype) | 确定结果文档将从何处获取元数据信息 |
-| [PaperSize](./papersize) | 设置比较后结果文档的纸张大小的选项。 |
+| [PaperSize](./papersize) | 设置比较后结果文档纸张大小的选项。 |
 | [PasswordSaveOption](./passwordsaveoption) | 指定密码保存选项。 |
 | [PreviewFormats](./previewformats) | 文档预览支持的格式。 |
 

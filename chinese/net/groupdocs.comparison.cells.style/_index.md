@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Cells.Style
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 命名空间提供了用于处理单元格格式文件中的组件样式的类
+description: 命名空间提供了用于在 Cells 格式文件中处理组件样式的类
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.cells.style/
 ---
-命名空间提供了用于处理单元格格式文件中的组件样式的类。
+命名空间提供了用于在 Cells 格式文件中处理组件样式的类。
 
 ## 枚举
 

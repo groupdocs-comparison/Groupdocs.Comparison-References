@@ -1,14 +1,14 @@
 ---
 title: HeaderFootersComparison
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 控件打开页眉/页脚内容的比较
+description: 控件以打开页眉/页脚内容的比较
 type: docs
 weight: 130
 url: /zh/net/groupdocs.comparison.options/compareoptions/headerfooterscomparison/
 ---
 ## CompareOptions.HeaderFootersComparison property
 
-控件打开页眉/页脚内容的比较。
+控件以打开页眉/页脚内容的比较。
 
 ```csharp
 public bool HeaderFootersComparison { get; set; }

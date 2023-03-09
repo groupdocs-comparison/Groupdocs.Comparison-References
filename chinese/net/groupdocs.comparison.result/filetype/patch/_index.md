@@ -1,14 +1,14 @@
 ---
 title: PATCH
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 差异列表格式
+description: 差异列表 format
 type: docs
 weight: 930
 url: /zh/net/groupdocs.comparison.result/filetype/patch/
 ---
 ## FileType.PATCH field
 
-差异列表格式
+差异列表 format
 
 ```csharp
 public static FileType PATCH;

@@ -1,14 +1,14 @@
 ---
 title: CompareVariableProperty
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 控制以 Word 格式打开变量属性的比较
+description: 控件以打开 Word 格式的变量属性比较
 type: docs
 weight: 60
 url: /zh/net/groupdocs.comparison.options/compareoptions/comparevariableproperty/
 ---
 ## CompareOptions.CompareVariableProperty property
 
-控制以 Word 格式打开变量属性的比较。
+控件以打开 Word 格式的变量属性比较。
 
 ```csharp
 public bool CompareVariableProperty { get; set; }

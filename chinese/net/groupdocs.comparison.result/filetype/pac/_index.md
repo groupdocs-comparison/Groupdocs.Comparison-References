@@ -1,14 +1,14 @@
 ---
 title: PAC
 second_title: GroupDocs.Comparison for .NET API 参考
-description: JavaScript 函数格式的代理自动配置文件
+description: JavaScript 函数格式 的代理自动配置文件
 type: docs
 weight: 920
 url: /zh/net/groupdocs.comparison.result/filetype/pac/
 ---
 ## FileType.PAC field
 
-JavaScript 函数格式的代理自动配置文件
+JavaScript 函数格式 的代理自动配置文件
 
 ```csharp
 public static FileType PAC;

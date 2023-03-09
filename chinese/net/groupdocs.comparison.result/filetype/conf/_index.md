@@ -1,14 +1,14 @@
 ---
 title: CONF
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 用于基于 Unix 和 Linux 的系统的配置文件
+description: 在基于 Unix 和 Linux 的系统上使用的配置文件
 type: docs
 weight: 160
 url: /zh/net/groupdocs.comparison.result/filetype/conf/
 ---
 ## FileType.CONF field
 
-用于基于 Unix 和 Linux 的系统的配置文件
+在基于 Unix 和 Linux 的系统上使用的配置文件
 
 ```csharp
 public static FileType CONF;

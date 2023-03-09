@@ -1,14 +1,14 @@
 ---
 title: MasterPath
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 主路径设置此值或使用默认的比较主需要 MasterPath 从一组默认的 shape 创建文档结果
+description: 主路径设置此值或使用默认的比较母版需要 MasterPath 从一组默认形状 创建文档结果
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.options/diagrammastersetting/masterpath/
 ---
 ## DiagramMasterSetting.MasterPath property
 
-主路径。设置此值或使用默认的比较主。需要 MasterPath 从一组默认的 shape 创建文档结果
+主路径。设置此值或使用默认的比较母版。需要 MasterPath 从一组默认形状 创建文档结果
 
 ```csharp
 public string MasterPath { get; set; }

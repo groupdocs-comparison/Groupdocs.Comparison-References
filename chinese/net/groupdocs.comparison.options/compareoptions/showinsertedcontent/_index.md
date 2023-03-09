@@ -1,14 +1,14 @@
 ---
 title: ShowInsertedContent
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 指示是否在结果文档中显示插入的组件
+description: 指示是否在生成的文档中显示插入的组件
 type: docs
 weight: 230
 url: /zh/net/groupdocs.comparison.options/compareoptions/showinsertedcontent/
 ---
 ## CompareOptions.ShowInsertedContent property
 
-指示是否在结果文档中显示插入的组件。
+指示是否在生成的文档中显示插入的组件。
 
 ```csharp
 public bool ShowInsertedContent { get; set; }

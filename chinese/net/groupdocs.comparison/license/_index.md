@@ -29,10 +29,10 @@ public class License
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
-* 更多关于 GroupDocs.Comparison 许可： [评估限制和许可](https://docs.groupdocs.com/display/comparisonnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Comparison)
+* 有关 GroupDocs 的更多信息。比较许可： [评估限制和许可](https://docs.groupdocs.com/display/comparisonnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Comparison)
 
 ### 也可以看看
 

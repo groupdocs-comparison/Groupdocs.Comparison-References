@@ -26,14 +26,14 @@ public class StyleChangeInfo : IEquatable<StyleChangeInfo>
 | --- | --- |
 | [NewValue](../../groupdocs.comparison.result/stylechangeinfo/newvalue) { get; set; } | 获取或设置 property 的新值 |
 | [OldValue](../../groupdocs.comparison.result/stylechangeinfo/oldvalue) { get; set; } | 获取或设置 property 的旧值 |
-| [PropertyName](../../groupdocs.comparison.result/stylechangeinfo/propertyname) { get; set; } | 获取或设置已更改属性的名称 |
+| [PropertyName](../../groupdocs.comparison.result/stylechangeinfo/propertyname) { get; set; } | 获取或设置已更改的属性的名称 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | 与 object 的等价检查 |
-| [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | 样式更改等效性检查 |
+| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | 与 object 的等价性检查 |
+| [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | 样式更改等价性检查 |
 
 ### 也可以看看
 

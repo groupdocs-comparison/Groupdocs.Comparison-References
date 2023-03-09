@@ -1,14 +1,14 @@
 ---
 title: CSV
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 逗号分隔值文件
+description: 逗号分隔值 File
 type: docs
 weight: 200
 url: /zh/net/groupdocs.comparison.result/filetype/csv/
 ---
 ## FileType.CSV field
 
-逗号分隔值文件
+逗号分隔值 File
 
 ```csharp
 public static FileType CSV;

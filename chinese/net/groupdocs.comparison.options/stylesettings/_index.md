@@ -18,7 +18,7 @@ public class StyleSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StyleSettings](stylesettings)() | 初始化[`StyleSettings`](../stylesettings)类. |
+| [StyleSettings](stylesettings)() | 初始化一个新的实例[`StyleSettings`](../stylesettings)类. |
 
 ## 特性
 
@@ -27,10 +27,10 @@ public class StyleSettings
 | [EndStringSeparator](../../groupdocs.comparison.options/stylesettings/endstringseparator) { get; set; } | 获取或设置结束分隔符字符串。 |
 | [FontColor](../../groupdocs.comparison.options/stylesettings/fontcolor) { get; set; } | 获取或设置字体颜色。 |
 | [HighlightColor](../../groupdocs.comparison.options/stylesettings/highlightcolor) { get; set; } | 获取或设置高亮颜色。 |
-| [IsBold](../../groupdocs.comparison.options/stylesettings/isbold) { get; set; } | 获取或设置一个值，指示它是否为粗体。 |
-| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | 获取或设置是否为斜体的值 |
-| [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | 获取或设置是否穿透 |
-| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | 获取或设置一个值，指示这是否是下划线 |
+| [IsBold](../../groupdocs.comparison.options/stylesettings/isbold) { get; set; } | 获取或设置一个值，指示这是否为粗体。 |
+| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | 获取或设置一个值，指示这是否为 italic |
+| [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | 获取或设置一个值，表示是否删除线 |
+| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | 获取或设置一个值，指示这是否是 underline |
 | [OriginalSize](../../groupdocs.comparison.options/stylesettings/originalsize) { get; set; } | 获取或设置比较文档的原始大小 |
 | [StartStringSeparator](../../groupdocs.comparison.options/stylesettings/startstringseparator) { get; set; } | 获取或设置开始分隔符字符串。 |
 | [WordsSeparators](../../groupdocs.comparison.options/stylesettings/wordsseparators) { get; set; } | 获取或设置单词分隔符。 |

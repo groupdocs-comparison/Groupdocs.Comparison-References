@@ -1,14 +1,14 @@
 ---
 title: CompareOptions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化CompareOptionsgroupdocs.comparison.options/compareoptions类.
+description: 初始化一个新的实例CompareOptionsgroupdocs.comparison.options/compareoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.options/compareoptions/compareoptions/
 ---
 ## CompareOptions constructor
 
-初始化[`CompareOptions`](../../compareoptions)类.
+初始化一个新的实例[`CompareOptions`](../../compareoptions)类.
 
 ```csharp
 public CompareOptions()

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文档名称
+description: 文档名称.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.comparison/document/name/
 ---
 ## Document.Name property
 
-文档名称。
+文档名称.
 
 ```csharp
 public string Name { get; set; }

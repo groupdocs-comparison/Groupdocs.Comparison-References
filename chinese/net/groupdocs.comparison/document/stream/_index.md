@@ -1,14 +1,14 @@
 ---
 title: Stream
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文档流
+description: 文件流.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison/document/stream/
 ---
 ## Document.Stream property
 
-文档流。
+文件流.
 
 ```csharp
 public Stream Stream { get; }

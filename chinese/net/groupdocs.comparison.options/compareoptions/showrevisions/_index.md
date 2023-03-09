@@ -1,14 +1,14 @@
 ---
 title: ShowRevisions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 指示是否在结果文档中显示其他修订
+description: 指示是否在生成的文档中显示其他修订
 type: docs
 weight: 250
 url: /zh/net/groupdocs.comparison.options/compareoptions/showrevisions/
 ---
 ## CompareOptions.ShowRevisions property
 
-指示是否在结果文档中显示其他修订。
+指示是否在生成的文档中显示其他修订。
 
 ```csharp
 public bool ShowRevisions { get; set; }

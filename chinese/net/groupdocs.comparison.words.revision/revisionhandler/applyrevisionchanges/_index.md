@@ -1,14 +1,14 @@
 ---
 title: ApplyRevisionChanges
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 处理修订中的更改并将它们应用到从中获取修订的同一文件
+description: 处理修订中的更改并将它们应用于从中获取修订的同一文件
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges/
 ---
 ## ApplyRevisionChanges(ApplyRevisionOptions) {#applyrevisionchanges}
 
-处理修订中的更改并将它们应用到从中获取修订的同一文件。
+处理修订中的更改并将它们应用于从中获取修订的同一文件。
 
 ```csharp
 public void ApplyRevisionChanges(ApplyRevisionOptions changes)
@@ -29,7 +29,7 @@ public void ApplyRevisionChanges(ApplyRevisionOptions changes)
 
 ## ApplyRevisionChanges(string, ApplyRevisionOptions) {#applyrevisionchanges_2}
 
-处理revision中的变化，结果按路径写入指定文件。
+处理revisions中的变化，结果按路径写入指定文件。
 
 ```csharp
 public void ApplyRevisionChanges(string filePath, ApplyRevisionOptions changes)

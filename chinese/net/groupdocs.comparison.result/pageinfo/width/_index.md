@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 页宽
+description: 页面宽度
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison.result/pageinfo/width/
 ---
 ## PageInfo.Width property
 
-页宽
+页面宽度
 
 ```csharp
 public int Width { get; set; }

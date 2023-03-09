@@ -1,14 +1,14 @@
 ---
 title: DCM
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 医学中的数字成像和通信
+description: 医学数字成像和通信
 type: docs
 weight: 240
 url: /zh/net/groupdocs.comparison.result/filetype/dcm/
 ---
 ## FileType.DCM field
 
-医学中的数字成像和通信
+医学数字成像和通信
 
 ```csharp
 public static FileType DCM;

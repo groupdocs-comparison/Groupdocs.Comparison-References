@@ -1,14 +1,14 @@
 ---
 title: EMLX
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Apple 邮件电子邮件文件
+description: Apple Mail 电子邮件文件
 type: docs
 weight: 390
 url: /zh/net/groupdocs.comparison.result/filetype/emlx/
 ---
 ## FileType.EMLX field
 
-Apple 邮件电子邮件文件
+Apple Mail 电子邮件文件
 
 ```csharp
 public static FileType EMLX;

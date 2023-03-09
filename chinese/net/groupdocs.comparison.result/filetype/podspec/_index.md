@@ -1,14 +1,14 @@
 ---
 title: PODSPEC
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Ruby 构建设置格式
+description: Ruby 构建设置 format
 type: docs
 weight: 1050
 url: /zh/net/groupdocs.comparison.result/filetype/podspec/
 ---
 ## FileType.PODSPEC field
 
-Ruby 构建设置格式
+Ruby 构建设置 format
 
 ```csharp
 public static FileType PODSPEC;

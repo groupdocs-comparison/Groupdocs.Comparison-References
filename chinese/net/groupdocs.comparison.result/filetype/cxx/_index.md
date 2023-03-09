@@ -1,14 +1,14 @@
 ---
 title: CXX
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 基于C的编程语言格式
+description: 基于 C 的编程语言格式
 type: docs
 weight: 230
 url: /zh/net/groupdocs.comparison.result/filetype/cxx/
 ---
 ## FileType.CXX field
 
-基于C的编程语言格式
+基于 C 的编程语言格式
 
 ```csharp
 public static FileType CXX;

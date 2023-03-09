@@ -18,7 +18,7 @@ public class FileFormatException : ComparisonException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileFormatException](fileformatexception)(string, string) | 初始化一个新的实例[`FileFormatException`](../fileformatexception)类. |
+| [FileFormatException](fileformatexception)(string, string) | 初始化一个新实例[`FileFormatException`](../fileformatexception)类. |
 
 ### 也可以看看
 

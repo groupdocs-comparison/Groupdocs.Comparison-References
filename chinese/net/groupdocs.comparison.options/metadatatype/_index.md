@@ -21,7 +21,7 @@ public enum MetadataType
 | Default | `0` | 默认 |
 | Source | `1` | 元数据取自源文档 |
 | Target | `2` | 元数据取自目标文档 |
-| FileAuthor | `3` | 用户的元数据集 |
+| FileAuthor | `3` | 用户 的元数据集 |
 
 ### 也可以看看
 

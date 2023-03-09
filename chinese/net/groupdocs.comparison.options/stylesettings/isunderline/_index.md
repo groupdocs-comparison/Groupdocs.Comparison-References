@@ -1,14 +1,14 @@
 ---
 title: IsUnderline
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置一个值指示这是否是下划线
+description: 获取或设置一个值指示这是否是 underline
 type: docs
 weight: 80
 url: /zh/net/groupdocs.comparison.options/stylesettings/isunderline/
 ---
 ## StyleSettings.IsUnderline property
 
-获取或设置一个值，指示这是否是下划线
+获取或设置一个值，指示这是否是 underline
 
 ```csharp
 public bool IsUnderline { get; set; }

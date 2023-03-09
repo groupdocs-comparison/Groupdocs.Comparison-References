@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.comparison.common.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-指定密码错误时抛出的异常
+指定密码错误时抛出的异常。
 
 ```csharp
 public class InvalidPasswordException : ComparisonException
@@ -18,7 +18,7 @@ public class InvalidPasswordException : ComparisonException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception)() | 初始化一个新的实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
+| [InvalidPasswordException](invalidpasswordexception)() | 初始化一个新实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
 
 ### 也可以看看
 

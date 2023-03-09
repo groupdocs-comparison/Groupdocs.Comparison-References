@@ -18,9 +18,9 @@ public enum PasswordSaveOption
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 默认密码。 |
-| Source | `1` | 源密码。 |
-| Target | `2` | 目标密码。 |
+| None | `0` | 默认密码. |
+| Source | `1` | 源密码. |
+| Target | `2` | 目标密码. |
 | User | `3` | 用户密码。 |
 
 ### 也可以看看

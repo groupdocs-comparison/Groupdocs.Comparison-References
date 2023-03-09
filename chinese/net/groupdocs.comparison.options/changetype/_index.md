@@ -18,17 +18,17 @@ public enum ChangeType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 没有。 |
+| None | `0` | 无. |
 | Modified | `1` | 修改后的. |
 | Inserted | `2` | 插入的. |
-| Deleted | `3` | 已删除。 |
-| Added | `4` | 添加的. |
-| NotModified | `5` | 未修改。 |
+| Deleted | `3` | 删除了. |
+| Added | `4` | 添加. |
+| NotModified | `5` | 未修改. |
 | StyleChanged | `6` | 样式已更改。 |
-| Resized | `7` | 调整大小。 |
+| Resized | `7` | 调整大小. |
 | Moved | `8` | 已移动。 |
-| MovedAndResized | `9` | 移动和调整大小。 |
-| ShiftedAndResized | `10` | 移位和调整大小。 |
+| MovedAndResized | `9` | 已移动并调整大小。 |
+| ShiftedAndResized | `10` | 移动和调整大小。 |
 
 ### 也可以看看
 

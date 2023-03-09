@@ -1,14 +1,14 @@
 ---
 title: Changes
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 更改列表
+description: 变更列表
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison/document/changes/
 ---
 ## Document.Changes property
 
-更改列表。
+变更列表。
 
 ```csharp
 public List<ChangeInfo> Changes { get; set; }

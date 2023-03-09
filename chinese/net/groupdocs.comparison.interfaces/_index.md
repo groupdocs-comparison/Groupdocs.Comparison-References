@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Comparison.Interfaces
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 命名空间提供了实例化输出对象的接口
+description: 命名空间提供实例化输出对象的接口
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.interfaces/
 ---
-命名空间提供了实例化输出对象的接口。
+命名空间提供实例化输出对象的接口。
 
 ## 接口
 

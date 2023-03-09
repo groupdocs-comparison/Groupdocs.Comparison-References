@@ -1,14 +1,14 @@
 ---
 title: TargetText
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 更改了目标文档的文本
+description: 目标文档的更改文本
 type: docs
 weight: 100
 url: /zh/net/groupdocs.comparison.result/changeinfo/targettext/
 ---
 ## ChangeInfo.TargetText property
 
-更改了目标文档的文本。
+目标文档的更改文本。
 
 ```csharp
 public string TargetText { get; set; }

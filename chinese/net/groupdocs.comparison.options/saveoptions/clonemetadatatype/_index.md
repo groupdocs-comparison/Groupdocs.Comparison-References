@@ -1,14 +1,14 @@
 ---
 title: CloneMetadataType
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置是否将元数据克隆到目标文档的值
+description: 获取或设置一个值指示是否将元数据克隆到目标文档
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.options/saveoptions/clonemetadatatype/
 ---
 ## SaveOptions.CloneMetadataType property
 
-获取或设置是否将元数据克隆到目标文档的值。
+获取或设置一个值，指示是否将元数据克隆到目标文档。
 
 ```csharp
 public MetadataType CloneMetadataType { get; set; }

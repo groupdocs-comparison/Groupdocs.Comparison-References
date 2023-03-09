@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Delegate它定义了创建输出页面预览流的方法PreviewOptions../groupdocs.comparison.options/previewoptions.
+description: Delegate 定义创建输出页面预览流的方法PreviewOptions../groupdocs.comparison.options/previewoptions.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.comparison.common.delegates/createpagestream/
 ---
 ## CreatePageStream delegate
 
-Delegate，它定义了创建输出页面预览流的方法[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions).
+Delegate 定义创建输出页面预览流的方法[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions).
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);

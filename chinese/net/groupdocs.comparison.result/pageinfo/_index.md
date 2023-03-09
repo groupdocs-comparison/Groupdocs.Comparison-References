@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 表示关于 page 的信息
+description: 代表page 的信息
 type: docs
 weight: 410
 url: /zh/net/groupdocs.comparison.result/pageinfo/
 ---
 ## PageInfo class
 
-表示关于 page 的信息
+代表page 的信息
 
 ```csharp
 public class PageInfo
@@ -26,7 +26,7 @@ public class PageInfo
 | --- | --- |
 | [Height](../../groupdocs.comparison.result/pageinfo/height) { get; set; } | 页面高度 |
 | [PageNumber](../../groupdocs.comparison.result/pageinfo/pagenumber) { get; set; } | 页码 |
-| [Width](../../groupdocs.comparison.result/pageinfo/width) { get; set; } | 页宽 |
+| [Width](../../groupdocs.comparison.result/pageinfo/width) { get; set; } | 页面宽度 |
 
 ### 也可以看看
 

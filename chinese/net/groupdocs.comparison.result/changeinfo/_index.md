@@ -1,14 +1,14 @@
 ---
 title: ChangeInfo
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 表示有关更改的信息
+description: 表示变化的信息
 type: docs
 weight: 370
 url: /zh/net/groupdocs.comparison.result/changeinfo/
 ---
 ## ChangeInfo class
 
-表示有关更改的信息。
+表示变化的信息。
 
 ```csharp
 public class ChangeInfo
@@ -25,16 +25,16 @@ public class ChangeInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [Authors](../../groupdocs.comparison.result/changeinfo/authors) { get; set; } | 作者. |
-| [Box](../../groupdocs.comparison.result/changeinfo/box) { get; set; } | 改变元素的坐标。 |
+| [Box](../../groupdocs.comparison.result/changeinfo/box) { get; set; } | 更改元素的坐标。 |
 | [ComparisonAction](../../groupdocs.comparison.result/changeinfo/comparisonaction) { get; set; } | 操作（接受或拒绝）。此字段告诉比较如何处理此更改。 |
-| [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | 更改组件的类型 |
-| [Id](../../groupdocs.comparison.result/changeinfo/id) { get; set; } | 更改 ID。 |
+| [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | 已更改组件的类型 |
+| [Id](../../groupdocs.comparison.result/changeinfo/id) { get; set; } | 更改 ID. |
 | [PageInfo](../../groupdocs.comparison.result/changeinfo/pageinfo) { get; set; } | 放置当前更改的页面。 |
 | [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | 更改了源文档的文本。 |
 | [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | 样式更改。 |
-| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | 更改了目标文档的文本。 |
-| [Text](../../groupdocs.comparison.result/changeinfo/text) { get; set; } | 文字值变化。 |
-| [Type](../../groupdocs.comparison.result/changeinfo/type) { get; } | 更改类型。 |
+| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | 目标文档的更改文本。 |
+| [Text](../../groupdocs.comparison.result/changeinfo/text) { get; set; } | 文本值的变化。 |
+| [Type](../../groupdocs.comparison.result/changeinfo/type) { get; } | 变化类型。 |
 
 ### 也可以看看
 

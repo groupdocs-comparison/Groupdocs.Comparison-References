@@ -1,14 +1,14 @@
 ---
 title: FromFileNameOrExtension
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 根据文件名或扩展名返回 FileType
+description: 根据文件名或扩展名返回文件类型
 type: docs
 weight: 1520
 url: /zh/net/groupdocs.comparison.result/filetype/fromfilenameorextension/
 ---
 ## FileType.FromFileNameOrExtension method
 
-根据文件名或扩展名返回 FileType
+根据文件名或扩展名返回文件类型
 
 ```csharp
 public static FileType FromFileNameOrExtension(string fileNameOrExtension)

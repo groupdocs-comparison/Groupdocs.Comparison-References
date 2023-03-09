@@ -1,14 +1,14 @@
 ---
 title: ApplyChangeOptions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 允许在将更改应用到结果文档之前更新更改列表
+description: 允许在将更改应用于生成的文档之前更新更改列表
 type: docs
 weight: 190
 url: /zh/net/groupdocs.comparison.options/applychangeoptions/
 ---
 ## ApplyChangeOptions class
 
-允许在将更改应用到结果文档之前更新更改列表。
+允许在将更改应用于生成的文档之前更新更改列表。
 
 ```csharp
 public class ApplyChangeOptions
@@ -24,7 +24,7 @@ public class ApplyChangeOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Changes](../../groupdocs.comparison.options/applychangeoptions/changes) { get; set; } | 必须应用于结果文档的更改列表。 |
+| [Changes](../../groupdocs.comparison.options/applychangeoptions/changes) { get; set; } | 必须应用于生成的文档的更改列表。 |
 | [SaveOriginalState](../../groupdocs.comparison.options/applychangeoptions/saveoriginalstate) { get; set; } | 应用更改后，保持比较结果的原始状态。 |
 
 ### 也可以看看

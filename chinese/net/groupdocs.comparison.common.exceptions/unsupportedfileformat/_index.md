@@ -18,8 +18,8 @@ public class UnsupportedFileFormat : ComparisonException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnsupportedFileFormat](unsupportedfileformat#constructor)() | 初始化一个新的实例[`UnsupportedFileFormat`](../unsupportedfileformat)类. |
-| [UnsupportedFileFormat](unsupportedfileformat#constructor_1)(string) | 初始化一个新的实例[`UnsupportedFileFormat`](../unsupportedfileformat)类. |
+| [UnsupportedFileFormat](unsupportedfileformat#constructor)() | 初始化一个新实例[`UnsupportedFileFormat`](../unsupportedfileformat)类. |
+| [UnsupportedFileFormat](unsupportedfileformat#constructor_1)(string) | 初始化一个新实例[`UnsupportedFileFormat`](../unsupportedfileformat)类. |
 
 ### 也可以看看
 

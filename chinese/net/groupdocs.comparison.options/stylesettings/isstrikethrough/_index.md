@@ -1,14 +1,14 @@
 ---
 title: IsStrikethrough
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置是否穿透
+description: 获取或设置一个值表示是否删除线
 type: docs
 weight: 70
 url: /zh/net/groupdocs.comparison.options/stylesettings/isstrikethrough/
 ---
 ## StyleSettings.IsStrikethrough property
 
-获取或设置是否穿透
+获取或设置一个值，表示是否删除线
 
 ```csharp
 public bool IsStrikethrough { get; set; }
