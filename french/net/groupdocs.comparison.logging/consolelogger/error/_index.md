@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | message | String | Le message |
-| exception | Exception | Objet d'exception |
+| ex | Exception | Objet d'exception |
 
 ### Voir également
 
