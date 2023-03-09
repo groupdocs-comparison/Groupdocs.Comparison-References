@@ -18,18 +18,18 @@ public class RevisionHandler : IDisposable
 
 | İsim | Tanım |
 | --- | --- |
-| [RevisionHandler](revisionhandler#constructor)(Stream) | Yeni örneğini başlatır[`RevisionHandler`](../revisionhandler) revizyonlu bir dosya akışına sahip sınıf. |
-| [RevisionHandler](revisionhandler#constructor_1)(string) | Yeni örneğini başlatır[`RevisionHandler`](../revisionhandler) revizyonlu dosyanın yolunu içeren sınıf. |
+| [RevisionHandler](revisionhandler#constructor)(Stream) | Yeni örneğini başlatır[`RevisionHandler`](../revisionhandler) revizyonları olan bir dosya akışına sahip sınıf. |
+| [RevisionHandler](revisionhandler#constructor_1)(string) | Yeni örneğini başlatır[`RevisionHandler`](../revisionhandler) revizyonları olan dosyanın yolunu içeren sınıf. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ApplyRevisionChanges](../../groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges#applyrevisionchanges)(ApplyRevisionOptions) | Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı aynı dosyaya uygular. |
+| [ApplyRevisionChanges](../../groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges#applyrevisionchanges)(ApplyRevisionOptions) | Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı dosyaya uygular. |
 | [ApplyRevisionChanges](../../groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges#applyrevisionchanges_1)(Stream, ApplyRevisionOptions) | Revizyonlardaki değişiklikleri işler ve sonuç belge akışına yazılır. |
-| [ApplyRevisionChanges](../../groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges#applyrevisionchanges_2)(string, ApplyRevisionOptions) | Revizyonlardaki değişiklikleri işler ve sonuç belirtilen dosyaya path ile yazılır. |
+| [ApplyRevisionChanges](../../groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges#applyrevisionchanges_2)(string, ApplyRevisionOptions) | Revizyonlardaki değişiklikleri işler ve sonuç belirtilen dosyaya path. ile yazılır. |
 | [Dispose](../../groupdocs.comparison.words.revision/revisionhandler/dispose)() | Kaynakları serbest bırakır. |
-| [GetRevisions](../../groupdocs.comparison.words.revision/revisionhandler/getrevisions)() | Tüm revizyonların listesini alır. |
+| [GetRevisions](../../groupdocs.comparison.words.revision/revisionhandler/getrevisions)() | Tüm düzeltmelerin listesini alır. |
 
 ### Ayrıca bakınız
 

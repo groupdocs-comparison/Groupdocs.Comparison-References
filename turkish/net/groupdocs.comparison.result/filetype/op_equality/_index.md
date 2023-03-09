@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Operatör aşırı yüklenmesi
+description: Operatör aşırı yükü
 type: docs
 weight: 1590
 url: /tr/net/groupdocs.comparison.result/filetype/op_equality/
 ---
 ## FileType Equality operator
 
-Operatör aşırı yüklenmesi
+Operatör aşırı yükü
 
 ```csharp
 public static bool operator ==(FileType left, FileType right)
@@ -16,8 +16,8 @@ public static bool operator ==(FileType left, FileType right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | FileType | Ayrıldı[`FileType`](../../filetype) nesne. |
-| right | FileType | Doğru[`FileType`](../../filetype) nesne. |
+| left | FileType | Sol[`FileType`](../../filetype) nesne. |
+| right | FileType | Sağ[`FileType`](../../filetype) nesne. |
 
 ### Ayrıca bakınız
 

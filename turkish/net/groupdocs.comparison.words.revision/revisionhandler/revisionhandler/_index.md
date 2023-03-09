@@ -1,14 +1,14 @@
 ---
 title: RevisionHandler
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni örneğini başlatırRevisionHandlergroupdocs.comparison.words.revision/revisionhandler revizyonlu dosyanın yolunu içeren sınıf.
+description: Yeni örneğini başlatırRevisionHandlergroupdocs.comparison.words.revision/revisionhandler revizyonları olan dosyanın yolunu içeren sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.words.revision/revisionhandler/revisionhandler/
 ---
 ## RevisionHandler(string) {#constructor_1}
 
-Yeni örneğini başlatır[`RevisionHandler`](../../revisionhandler) revizyonlu dosyanın yolunu içeren sınıf.
+Yeni örneğini başlatır[`RevisionHandler`](../../revisionhandler) revizyonları olan dosyanın yolunu içeren sınıf.
 
 ```csharp
 public RevisionHandler(string filePath)
@@ -28,7 +28,7 @@ public RevisionHandler(string filePath)
 
 ## RevisionHandler(Stream) {#constructor}
 
-Yeni örneğini başlatır[`RevisionHandler`](../../revisionhandler) revizyonlu bir dosya akışına sahip sınıf.
+Yeni örneğini başlatır[`RevisionHandler`](../../revisionhandler) revizyonları olan bir dosya akışına sahip sınıf.
 
 ```csharp
 public RevisionHandler(Stream file)

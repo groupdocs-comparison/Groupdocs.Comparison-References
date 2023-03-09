@@ -1,14 +1,14 @@
 ---
 title: MD
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: İşaretleme Dili biçimi
+description: İşaretleme Dili format
 type: docs
 weight: 690
 url: /tr/net/groupdocs.comparison.result/filetype/md/
 ---
 ## FileType.MD field
 
-İşaretleme Dili biçimi
+İşaretleme Dili format
 
 ```csharp
 public static FileType MD;

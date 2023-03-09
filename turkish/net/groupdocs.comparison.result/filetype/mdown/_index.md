@@ -1,14 +1,14 @@
 ---
 title: MDOWN
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: İşaretleme Dili biçimi
+description: İşaretleme Dili format
 type: docs
 weight: 700
 url: /tr/net/groupdocs.comparison.result/filetype/mdown/
 ---
 ## FileType.MDOWN field
 
-İşaretleme Dili biçimi
+İşaretleme Dili format
 
 ```csharp
 public static FileType MDOWN;

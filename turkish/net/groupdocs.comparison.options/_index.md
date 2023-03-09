@@ -14,13 +14,13 @@ Ad alanı, belge karşılaştırma işlemi için ek seçenekler belirlemeye izin
 | --- | --- |
 | [ApplyChangeOptions](./applychangeoptions) | Ortaya çıkan belgeye uygulamadan önce değişiklik listesinin güncellenmesini sağlar. |
 | [CompareOptions](./compareoptions) | Farklı karşılaştırma seçeneklerinin ayarlanmasına izin verir. |
-| [DiagramMasterSetting](./diagrammastersetting) | Şema ana ayarları |
+| [DiagramMasterSetting](./diagrammastersetting) | Diyagram ana ayarları |
 | [FileAuthorMetadata](./fileauthormetadata) | Dokümanın yazar meta verileri hakkında bilgi. |
 | [GetChangeOptions](./getchangeoptions) | Seçenek, değişikliklerin türe göre filtrelenmesine izin verir. |
 | [LoadOptions](./loadoptions) | Bir belge yüklerken ek seçenekler belirlemeye izin verir. |
 | [OriginalSize](./originalsize) | Orijinal sayfa boyutunu temsil eder. Yalnızca farklı biçimlerdeki görüntüleri karşılaştırmak için kullanılır. |
 | [PreviewOptions](./previewoptions) | Belge önizleme seçeneklerini temsil eder. |
-| [SaveOptions](./saveoptions) | Bir belgeyi kaydederken ek seçeneklerin (şifre gibi) belirlenmesine izin verir. |
+| [SaveOptions](./saveoptions) | Bir belgeyi kaydederken ek seçeneklerin (parola gibi) belirtilmesine izin verir. |
 | [Size](./size) | Belge boyutu |
 | [StyleSettings](./stylesettings) | Stil ayarları |
 ## numaralandırma

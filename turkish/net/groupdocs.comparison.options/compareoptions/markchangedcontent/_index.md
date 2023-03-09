@@ -1,14 +1,14 @@
 ---
 title: MarkChangedContent
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Sözcük İşlemedeki şekiller için ve Görüntü belgelerindeki dikdörtgenler için çerçevelerin kullanılıp kullanılmayacağını belirtir.
+description: Kelime İşlemedeki şekiller için ve Görüntü belgelerindeki dikdörtgenler için çerçevelerin kullanılıp kullanılmayacağını belirtir.
 type: docs
 weight: 160
 url: /tr/net/groupdocs.comparison.options/compareoptions/markchangedcontent/
 ---
 ## CompareOptions.MarkChangedContent property
 
-Sözcük İşleme'deki şekiller için ve Görüntü belgelerindeki dikdörtgenler için çerçevelerin kullanılıp kullanılmayacağını belirtir.
+Kelime İşleme'deki şekiller için ve Görüntü belgelerindeki dikdörtgenler için çerçevelerin kullanılıp kullanılmayacağını belirtir.
 
 ```csharp
 public bool MarkChangedContent { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MergeType
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Hücre birleştirme türünü numaralandırır.
+description: Hücre birleştirme türünü sıralar.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.cells.style/mergetype/
 ---
 ## MergeType enumeration
 
-Hücre birleştirme türünü numaralandırır.
+Hücre birleştirme türünü sıralar.
 
 ```csharp
 public enum MergeType
@@ -19,9 +19,9 @@ public enum MergeType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Hücre birleşmiyor. |
-| Horizontal | `1` | Hücre satır boyunca birleşiyor. |
-| Vertical | `2` | Hücre sütun boyunca birleşiyor. |
-| Range | `3` | Hücre, satır ve sütun oluşturma alanı boyunca birleşir. |
+| Horizontal | `1` | Hücre satır boyunca birleşir. |
+| Vertical | `2` | Hücre sütun boyunca birleşir. |
+| Range | `3` | Hücre satır ve sütun boyunca birleşerek alan oluşturur. |
 
 ### Ayrıca bakınız
 

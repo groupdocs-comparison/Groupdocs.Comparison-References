@@ -1,14 +1,14 @@
 ---
 title: UseSourceMaster
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Masterı kaynak belgeyle kullanmak için true olarak ayarlayın veya Path ile Masterı kullanmak için yanlış değeri kullanın
+description: Masterı kaynak belgeyle kullanmak için true olarak ayarlayın veya Masterı Path ile kullanmak için false değeri kullanın
 type: docs
 weight: 30
 url: /tr/net/groupdocs.comparison.options/diagrammastersetting/usesourcemaster/
 ---
 ## DiagramMasterSetting.UseSourceMaster property
 
-Master'ı kaynak belgeyle kullanmak için true olarak ayarlayın veya Path ile Master'ı kullanmak için yanlış değeri kullanın
+Master'ı kaynak belgeyle kullanmak için true olarak ayarlayın veya Master'ı Path ile kullanmak için false değeri kullanın
 
 ```csharp
 public bool UseSourceMaster { get; set; }

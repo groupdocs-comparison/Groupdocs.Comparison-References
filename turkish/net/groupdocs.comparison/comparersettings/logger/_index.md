@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Kaydedici uygulaması
+description: Logger uygulaması
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison/comparersettings/logger/
 ---
 ## ComparerSettings.Logger property
 
-Kaydedici uygulaması
+Logger uygulaması
 
 ```csharp
 public ILogger Logger { get; set; }

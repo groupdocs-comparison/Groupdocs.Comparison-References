@@ -1,14 +1,14 @@
 ---
 title: Changes
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Değişikliklerin listesi.
+description: Değişiklik listesi.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison/document/changes/
 ---
 ## Document.Changes property
 
-Değişikliklerin listesi.
+Değişiklik listesi.
 
 ```csharp
 public List<ChangeInfo> Changes { get; set; }

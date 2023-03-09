@@ -24,7 +24,7 @@ public class ComparerSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [Logger](../../groupdocs.comparison/comparersettings/logger) { get; set; } | Kaydedici uygulaması |
+| [Logger](../../groupdocs.comparison/comparersettings/logger) { get; set; } | Logger uygulaması |
 
 ### Ayrıca bakınız
 

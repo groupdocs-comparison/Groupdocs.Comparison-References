@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Bir belgeyi kaydederken ek seçeneklerin şifre gibi belirlenmesine izin verir.
+description: Bir belgeyi kaydederken ek seçeneklerin parola gibi belirtilmesine izin verir.
 type: docs
 weight: 330
 url: /tr/net/groupdocs.comparison.options/saveoptions/
 ---
 ## SaveOptions class
 
-Bir belgeyi kaydederken ek seçeneklerin (şifre gibi) belirlenmesine izin verir.
+Bir belgeyi kaydederken ek seçeneklerin (parola gibi) belirtilmesine izin verir.
 
 ```csharp
 public class SaveOptions
@@ -18,13 +18,13 @@ public class SaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [SaveOptions](saveoptions)() | Yeni bir örneğini başlatır[`SaveOptions`](../saveoptions) sınıf. |
+| [SaveOptions](saveoptions)() | Yeni bir örneğini başlatır.[`SaveOptions`](../saveoptions) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [CloneMetadataType](../../groupdocs.comparison.options/saveoptions/clonemetadatatype) { get; set; } | Meta verilerin hedef belgeye kopyalanıp kopyalanmayacağını belirten bir değer alır veya ayarlar. |
+| [CloneMetadataType](../../groupdocs.comparison.options/saveoptions/clonemetadatatype) { get; set; } | Meta verilerin hedef belgeye kopyalanıp klonlanmayacağını belirten bir değer alır veya ayarlar. |
 | [FileAuthorMetadata](../../groupdocs.comparison.options/saveoptions/fileauthormetadata) { get; set; } | MetadataType, FileAuthor. olarak ayarlandığında kullanılır. |
 | [FolderPath](../../groupdocs.comparison.options/saveoptions/folderpath) { get; set; } | Sonuç görüntülerinin kaydedilmesi için klasör yolunu alır veya ayarlar (Yalnızca Görüntüleme Karşılaştırması için). |
 | [Password](../../groupdocs.comparison.options/saveoptions/password) { get; set; } | Sonuç belgesi için parolayı alır veya ayarlar. |

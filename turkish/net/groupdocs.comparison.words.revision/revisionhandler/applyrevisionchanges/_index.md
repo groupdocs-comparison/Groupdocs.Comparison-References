@@ -1,14 +1,14 @@
 ---
 title: ApplyRevisionChanges
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı aynı dosyaya uygular.
+description: Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı dosyaya uygular.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison.words.revision/revisionhandler/applyrevisionchanges/
 ---
 ## ApplyRevisionChanges(ApplyRevisionOptions) {#applyrevisionchanges}
 
-Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı aynı dosyaya uygular.
+Revizyonlardaki değişiklikleri işler ve bunları revizyonların alındığı dosyaya uygular.
 
 ```csharp
 public void ApplyRevisionChanges(ApplyRevisionOptions changes)
@@ -29,7 +29,7 @@ public void ApplyRevisionChanges(ApplyRevisionOptions changes)
 
 ## ApplyRevisionChanges(string, ApplyRevisionOptions) {#applyrevisionchanges_2}
 
-Revizyonlardaki değişiklikleri işler ve sonuç belirtilen dosyaya path ile yazılır.
+Revizyonlardaki değişiklikleri işler ve sonuç belirtilen dosyaya path. ile yazılır.
 
 ```csharp
 public void ApplyRevisionChanges(string filePath, ApplyRevisionOptions changes)

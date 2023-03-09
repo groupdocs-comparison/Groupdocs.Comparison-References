@@ -1,14 +1,14 @@
 ---
 title: YAML
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: İnsan tarafından okunabilen veri serileştirme dili biçimi
+description: İnsan tarafından okunabilen veri serileştirme dili format
 type: docs
 weight: 1500
 url: /tr/net/groupdocs.comparison.result/filetype/yaml/
 ---
 ## FileType.YAML field
 
-İnsan tarafından okunabilen veri serileştirme dili biçimi
+İnsan tarafından okunabilen veri serileştirme dili format
 
 ```csharp
 public static FileType YAML;

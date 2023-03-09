@@ -1,14 +1,14 @@
 ---
 title: FileFormatException
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Farklı biçimlerdeki dosyaları karşılaştırırken ortaya çıkan istisna.
+description: Farklı biçimlerdeki dosyalar karşılaştırılırken ortaya çıkan istisna.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.comparison.common.exceptions/fileformatexception/
 ---
 ## FileFormatException class
 
-Farklı biçimlerdeki dosyaları karşılaştırırken ortaya çıkan istisna.
+Farklı biçimlerdeki dosyalar karşılaştırılırken ortaya çıkan istisna.
 
 ```csharp
 public class FileFormatException : ComparisonException

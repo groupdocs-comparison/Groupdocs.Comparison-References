@@ -1,14 +1,14 @@
 ---
 title: CloneMetadataType
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Meta verilerin hedef belgeye kopyalanıp kopyalanmayacağını belirten bir değer alır veya ayarlar.
+description: Meta verilerin hedef belgeye kopyalanıp klonlanmayacağını belirten bir değer alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison.options/saveoptions/clonemetadatatype/
 ---
 ## SaveOptions.CloneMetadataType property
 
-Meta verilerin hedef belgeye kopyalanıp kopyalanmayacağını belirten bir değer alır veya ayarlar.
+Meta verilerin hedef belgeye kopyalanıp klonlanmayacağını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public MetadataType CloneMetadataType { get; set; }

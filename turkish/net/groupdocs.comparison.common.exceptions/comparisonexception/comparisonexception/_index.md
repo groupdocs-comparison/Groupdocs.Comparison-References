@@ -24,7 +24,7 @@ public ComparisonException()
 
 ## ComparisonException(string) {#constructor_1}
 
-Belirtilen bir hata iletisiyle ComparisonException sınıfının yeni bir örneğini başlatır.
+Belirtilen bir hata mesajıyla ComparisonException sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ComparisonException(string message)
@@ -44,7 +44,7 @@ public ComparisonException(string message)
 
 ## ComparisonException(string, Exception) {#constructor_2}
 
-Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile ComparisonException sınıfının yeni bir örneğini başlatır.
+Belirtilen bir hata mesajı ve bu özel durumun nedeni olan iç özel duruma bir başvuru ile ComparisonException sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ComparisonException(string message, Exception innerException)

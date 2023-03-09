@@ -1,14 +1,14 @@
 ---
 title: DeletedItemStyle
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Silinen bileşenlerin stilini açıklar.
+description: Silinen bileşenler için stili tanımlar.
 type: docs
 weight: 70
 url: /tr/net/groupdocs.comparison.options/compareoptions/deleteditemstyle/
 ---
 ## CompareOptions.DeletedItemStyle property
 
-Silinen bileşenlerin stilini açıklar.
+Silinen bileşenler için stili tanımlar.
 
 ```csharp
 public StyleSettings DeletedItemStyle { get; set; }

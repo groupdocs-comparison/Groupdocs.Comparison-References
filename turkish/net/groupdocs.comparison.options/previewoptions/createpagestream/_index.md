@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Çıkış sayfası önizleme akışı oluşturma yöntemini tanımlayan temsilci.
+description: Çıktı sayfası önizleme akışı oluşturmak için yöntemi tanımlayan temsilci.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.comparison.options/previewoptions/createpagestream/
 ---
 ## PreviewOptions.CreatePageStream field
 
-Çıkış sayfası önizleme akışı oluşturma yöntemini tanımlayan temsilci.
+Çıktı sayfası önizleme akışı oluşturmak için yöntemi tanımlayan temsilci.
 
 ```csharp
 public CreatePageStream CreatePageStream;

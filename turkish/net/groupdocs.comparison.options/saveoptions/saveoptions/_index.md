@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni bir örneğini başlatırSaveOptionsgroupdocs.comparison.options/saveoptions sınıf.
+description: Yeni bir örneğini başlatır.SaveOptionsgroupdocs.comparison.options/saveoptions sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.options/saveoptions/saveoptions/
 ---
 ## SaveOptions constructor
 
-Yeni bir örneğini başlatır[`SaveOptions`](../../saveoptions) sınıf.
+Yeni bir örneğini başlatır.[`SaveOptions`](../../saveoptions) sınıf.
 
 ```csharp
 public SaveOptions()

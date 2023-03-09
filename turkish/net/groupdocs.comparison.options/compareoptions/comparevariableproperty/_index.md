@@ -1,14 +1,14 @@
 ---
 title: CompareVariableProperty
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Word formatında değişken özelliklerinin karşılaştırmasını açma kontrolü.
+description: Word formatındaki değişken özelliklerinin karşılaştırmasını açmak için kontrol.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.comparison.options/compareoptions/comparevariableproperty/
 ---
 ## CompareOptions.CompareVariableProperty property
 
-Word formatında değişken özelliklerinin karşılaştırmasını açma kontrolü.
+Word formatındaki değişken özelliklerinin karşılaştırmasını açmak için kontrol.
 
 ```csharp
 public bool CompareVariableProperty { get; set; }

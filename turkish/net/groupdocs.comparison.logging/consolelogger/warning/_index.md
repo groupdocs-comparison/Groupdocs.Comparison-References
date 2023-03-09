@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Günlük uyarı iletisi
+description: Günlük uyarı mesajı
 type: docs
 weight: 40
 url: /tr/net/groupdocs.comparison.logging/consolelogger/warning/
 ---
 ## ConsoleLogger.Warning method
 
-Günlük uyarı iletisi
+Günlük uyarı mesajı
 
 ```csharp
 public void Warning(string message)

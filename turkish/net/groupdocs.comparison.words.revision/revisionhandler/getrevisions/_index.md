@@ -1,14 +1,14 @@
 ---
 title: GetRevisions
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Tüm revizyonların listesini alır.
+description: Tüm düzeltmelerin listesini alır.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.comparison.words.revision/revisionhandler/getrevisions/
 ---
 ## RevisionHandler.GetRevisions method
 
-Tüm revizyonların listesini alır.
+Tüm düzeltmelerin listesini alır.
 
 ```csharp
 public List<RevisionInfo> GetRevisions()

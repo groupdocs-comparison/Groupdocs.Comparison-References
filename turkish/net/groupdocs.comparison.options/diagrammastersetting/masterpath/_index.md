@@ -1,14 +1,14 @@
 ---
 title: MasterPath
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Master Yolu. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. Bir dizi varsayılan şekillerden bir belge sonucu oluşturmak için MasterPath gereklidir
+description: Ana Yol. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. MasterPath varsayılan şekillerden bir belge sonucu oluşturmak için gereklidir
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison.options/diagrammastersetting/masterpath/
 ---
 ## DiagramMasterSetting.MasterPath property
 
-Master Yolu. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. Bir dizi varsayılan şekillerden bir belge sonucu oluşturmak için MasterPath gereklidir
+Ana Yol. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. MasterPath, varsayılan şekillerden bir belge sonucu oluşturmak için gereklidir
 
 ```csharp
 public string MasterPath { get; set; }

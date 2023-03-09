@@ -1,14 +1,14 @@
 ---
 title: UnsupportedFileFormat
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Bu formattaki dosya karşılaştırmayı desteklemediğinde ortaya çıkan istisna
+description: Bu biçim dosyası karşılaştırmayı desteklemediğinde ortaya çıkan istisna
 type: docs
 weight: 90
 url: /tr/net/groupdocs.comparison.common.exceptions/unsupportedfileformat/
 ---
 ## UnsupportedFileFormat class
 
-Bu formattaki dosya karşılaştırmayı desteklemediğinde ortaya çıkan istisna
+Bu biçim dosyası karşılaştırmayı desteklemediğinde ortaya çıkan istisna
 
 ```csharp
 public class UnsupportedFileFormat : ComparisonException

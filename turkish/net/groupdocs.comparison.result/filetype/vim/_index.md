@@ -1,14 +1,14 @@
 ---
 title: VIM
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Vim kaynak kodu dosyası formatı
+description: Vim kaynak kodu dosyası format
 type: docs
 weight: 1380
 url: /tr/net/groupdocs.comparison.result/filetype/vim/
 ---
 ## FileType.VIM field
 
-Vim kaynak kodu dosyası formatı
+Vim kaynak kodu dosyası format
 
 ```csharp
 public static FileType VIM;

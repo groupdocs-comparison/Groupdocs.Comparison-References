@@ -1,14 +1,14 @@
 ---
 title: MLI
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Caml Programlama Dili formatı
+description: Caml Programlama Dili format
 type: docs
 weight: 790
 url: /tr/net/groupdocs.comparison.result/filetype/mli/
 ---
 ## FileType.MLI field
 
-Caml Programlama Dili formatı
+Caml Programlama Dili format
 
 ```csharp
 public static FileType MLI;

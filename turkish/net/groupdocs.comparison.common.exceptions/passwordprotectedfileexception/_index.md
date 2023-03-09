@@ -1,14 +1,14 @@
 ---
 title: PasswordProtectedFileException
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Belge parola ile korunduğunda oluşan istisna.
+description: Belge parola ile korunduğunda ortaya çıkan istisna.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.comparison.common.exceptions/passwordprotectedfileexception/
 ---
 ## PasswordProtectedFileException class
 
-Belge parola ile korunduğunda oluşan istisna.
+Belge parola ile korunduğunda ortaya çıkan istisna.
 
 ```csharp
 public class PasswordProtectedFileException : ComparisonException
