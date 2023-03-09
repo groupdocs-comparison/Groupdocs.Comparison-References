@@ -25,7 +25,7 @@ public sealed class FileType : IEquatable<FileType>
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Dateityp basierend auf Dateiname oder Erweiterung zurückgeben |
+| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Dateityp basierend auf Dateiname oder -erweiterung zurückgeben |
 | [Equals](../../groupdocs.comparison.result/filetype/equals#equals)(FileType) | Dateityp-Äquivalenzprüfung |
 | override [Equals](../../groupdocs.comparison.result/filetype/equals#equals_1)(object) | Äquivalenzprüfung mit Objekt |
 | override [GetHashCode](../../groupdocs.comparison.result/filetype/gethashcode)() | Hashcode abrufen |
@@ -99,7 +99,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [JS](../../groupdocs.comparison.result/filetype/js) | JavaScript-Programmiersprachenformat |
 | static [JSCSRC](../../groupdocs.comparison.result/filetype/jscsrc) | Format der JavaScript-Konfigurationsdatei |
 | static [JSHINTRC](../../groupdocs.comparison.result/filetype/jshintrc) | JavaScript-Code-Qualitätstool |
-| static [JSMAP](../../groupdocs.comparison.result/filetype/jsmap) | JSON-Datei, die Informationen zur Rückübersetzung von Code in Quellcode enthält |
+| static [JSMAP](../../groupdocs.comparison.result/filetype/jsmap) | JSON-Datei, die Informationen zum Zurückübersetzen von Code in Quellcode enthält |
 | static [JSON](../../groupdocs.comparison.result/filetype/json) | Lightweight-Format zum Speichern und Transportieren von Daten |
 | static [LESS](../../groupdocs.comparison.result/filetype/less) | Dynamisches Präprozessor-Stylesheet-Sprachformat |
 | static [LOG](../../groupdocs.comparison.result/filetype/log) | Die Protokollierung führt ein Register von Ereignissen, Prozessen, Nachrichten und Kommunikation |
@@ -192,7 +192,7 @@ public sealed class FileType : IEquatable<FileType>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Erfahren Sie mehr über die von GroupDocs unterstützten Dateiformate.Vergleich: [Vollständige Liste der unterstützten Dokumentformate](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Weitere Informationen zum Abrufen unterstützter Dateitypen in C#: [So erhalten Sie unterstützte Dateiformate in C#](https://docs.groupdocs.com/display/comparisonnet/Get+supported+file+formats)

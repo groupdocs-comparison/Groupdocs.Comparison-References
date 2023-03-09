@@ -16,7 +16,7 @@ public ChangeInfo[] GetChanges()
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Abrufen einer Sammlung erkannter Unterschiede zwischen verglichenen Dokumenten in C#: [So erhalten Sie eine Liste der Änderungen zwischen Dokumenten in C#](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
 * Weitere Informationen zum Abrufen von Änderungskoordinaten in der Bildvorschau von Seiten beim Vergleichen von Dokumenten mit GroupDocs.Comparison für .NET: [Programmgesteuertes Abrufen von Änderungskoordinaten](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
@@ -44,7 +44,7 @@ public ChangeInfo[] GetChanges(GetChangeOptions getChangeOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Abrufen einer Sammlung erkannter Unterschiede zwischen verglichenen Dokumenten in C#: [So erhalten Sie eine Liste der Änderungen zwischen Dokumenten in C#](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
 * Weitere Informationen zum Abrufen von Änderungskoordinaten in der Bildvorschau von Seiten beim Vergleichen von Dokumenten mit GroupDocs.Comparison für .NET: [Programmgesteuertes Abrufen von Änderungskoordinaten](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)

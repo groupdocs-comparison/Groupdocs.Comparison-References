@@ -1,14 +1,14 @@
 ---
 title: JSMAP
 second_title: GroupDocs.Comparison für .NET-API-Referenz
-description: JSONDatei die Informationen zur Rückübersetzung von Code in Quellcode enthält
+description: JSONDatei die Informationen zum Zurückübersetzen von Code in Quellcode enthält
 type: docs
 weight: 620
 url: /de/net/groupdocs.comparison.result/filetype/jsmap/
 ---
 ## FileType.JSMAP field
 
-JSON-Datei, die Informationen zur Rückübersetzung von Code in Quellcode enthält
+JSON-Datei, die Informationen zum Zurückübersetzen von Code in Quellcode enthält
 
 ```csharp
 public static FileType JSMAP;

@@ -24,8 +24,8 @@ public class Comparer : IDisposable
 | [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) mit Quelldokumentstrom und[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
 | [Comparer](comparer#constructor_5)(string, ComparerSettings) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) Klasse mit Quelldateipfad und[`ComparerSettings`](../comparersettings) . |
 | [Comparer](comparer#constructor_6)(string, LoadOptions) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) mit Quelldateipfad und[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
-| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) Klasse mit Dokumentenstrom,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) und[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) Klasse mit Quelldateipfad,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) und[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) Klasse mit Dokumentenstrom,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) Und[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Initialisiert eine neue Instanz von[`Comparer`](../comparer) Klasse mit Quelldateipfad,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) Und[`ComparerSettings`](../comparersettings) . |
 
 ## Eigenschaften
 
