@@ -1,21 +1,21 @@
 ---
 title: GroupDocs.Comparison.Common.Exceptions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 命名空间提供不同的异常类
+description: 命名空间提供了不同的异常类
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison.common.exceptions/
 ---
-命名空间提供不同的异常类。
+命名空间提供了不同的异常类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [ComparisonException](./comparisonexception) | 所有比较过程异常的基类。 |
-| [DocumentComparisonException](./documentcomparisonexception) | 比较文档时发生错误时引发的异常。 |
+| [DocumentComparisonException](./documentcomparisonexception) | 比较文档时发生错误时抛出的异常。 |
 | [FileFormatException](./fileformatexception) | 比较不同格式的文件时抛出的异常。 |
-| [InvalidPasswordException](./invalidpasswordexception) | 指定密码错误时抛出的异常 |
+| [InvalidPasswordException](./invalidpasswordexception) | 指定密码错误时抛出的异常。 |
 | [PasswordProtectedFileException](./passwordprotectedfileexception) | 文档受密码保护时抛出的异常。 |
 | [UnsupportedFileFormat](./unsupportedfileformat) | 该格式文件不支持比较时抛出的异常 |
 

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Valore di testo della modifica.
+description: Valore del testo della modifica.
 type: docs
 weight: 110
 url: /it/net/groupdocs.comparison.result/changeinfo/text/
 ---
 ## ChangeInfo.Text property
 
-Valore di testo della modifica.
+Valore del testo della modifica.
 
 ```csharp
 public string Text { get; set; }

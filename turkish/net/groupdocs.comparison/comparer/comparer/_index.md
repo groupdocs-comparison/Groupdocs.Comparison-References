@@ -1,14 +1,14 @@
 ---
 title: Comparer
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni örneğini başlatırComparergroupdocs.comparison/comparer kaynak dosya yolu ile sınıf.
+description: Yeni örneğini başlatırComparergroupdocs.comparison/comparer kaynak dosya path. ile sınıf
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison/comparer/comparer/
 ---
 ## Comparer(string) {#constructor_4}
 
-Yeni örneğini başlatır[`Comparer`](../../comparer) kaynak dosya yolu ile sınıf.
+Yeni örneğini başlatır[`Comparer`](../../comparer) kaynak dosya path. ile sınıf
 
 ```csharp
 public Comparer(string filePath)
@@ -44,7 +44,7 @@ public Comparer(string filePath, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Dosya yolu |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 
 ### Notlar
 
@@ -95,7 +95,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ## Comparer(string, LoadOptions, ComparerSettings) {#constructor_7}
 
-Yeni örneğini başlatır[`Comparer`](../../comparer) kaynak dosya yoluna sahip sınıf,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) ve[`ComparerSettings`](../../comparersettings) .
+Yeni örneğini başlatır[`Comparer`](../../comparer) kaynak dosya yoluna sahip sınıf,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) Ve[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings settings)
@@ -104,7 +104,7 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Dosya yolu |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 | settings | ComparerSettings | Karşılaştırma ayarları |
 
 ### Notlar
@@ -164,7 +164,7 @@ public Comparer(Stream document, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Stream | Kaynak belge akışı |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 
 ### Notlar
 
@@ -215,7 +215,7 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ## Comparer(Stream, LoadOptions, ComparerSettings) {#constructor_3}
 
-Yeni örneğini başlatır[`Comparer`](../../comparer) belge akışı ile sınıf,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) ve[`ComparerSettings`](../../comparersettings) .
+Yeni örneğini başlatır[`Comparer`](../../comparer) belge akışı ile sınıf,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) Ve[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings settings)
@@ -224,7 +224,7 @@ public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings setti
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Stream | Kaynak belge akışı |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 | settings | ComparerSettings | Karşılaştırma ayarları |
 
 ### Notlar

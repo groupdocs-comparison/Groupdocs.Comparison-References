@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: tarafından kullanılan çıktı sayfası önizleme akışı oluşturma yöntemini tanımlayan TemsilciPreviewOptions../groupdocs.comparison.options/previewoptions .
+description: Tarafından kullanılan çıktı sayfası önizleme akışı oluşturma yöntemini tanımlayan temsilciPreviewOptions../groupdocs.comparison.options/previewoptions .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison.common.delegates/createpagestream/
 ---
 ## CreatePageStream delegate
 
-tarafından kullanılan çıktı sayfası önizleme akışı oluşturma yöntemini tanımlayan Temsilci[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions) .
+Tarafından kullanılan çıktı sayfası önizleme akışı oluşturma yöntemini tanımlayan temsilci[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions) .
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);

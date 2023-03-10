@@ -1,14 +1,14 @@
 ---
 title: SBT
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Scala 格式的 SBT 构建工具
+description: 用于 Scala 格式的 SBT 构建工具
 type: docs
 weight: 1270
 url: /zh/net/groupdocs.comparison.result/filetype/sbt/
 ---
 ## FileType.SBT field
 
-Scala 格式的 SBT 构建工具
+用于 Scala 格式的 SBT 构建工具
 
 ```csharp
 public static FileType SBT;

@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | message | String | Mesaj |
-| exception | Exception | İstisna nesnesi |
+| ex | Exception | İstisna nesnesi |
 
 ### Ayrıca bakınız
 

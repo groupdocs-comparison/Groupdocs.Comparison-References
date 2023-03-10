@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 更改 ID
+description: 更改 ID.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.comparison.result/changeinfo/id/
 ---
 ## ChangeInfo.Id property
 
-更改 ID。
+更改 ID.
 
 ```csharp
 public int Id { get; set; }

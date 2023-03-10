@@ -1,14 +1,14 @@
 ---
 title: CMAKE
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 软件构建过程管理工具
+description: 用于管理软件构建过程的工具
 type: docs
 weight: 140
 url: /zh/net/groupdocs.comparison.result/filetype/cmake/
 ---
 ## FileType.CMAKE field
 
-软件构建过程管理工具
+用于管理软件构建过程的工具
 
 ```csharp
 public static FileType CMAKE;

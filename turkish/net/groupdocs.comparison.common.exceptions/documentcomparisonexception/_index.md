@@ -1,14 +1,14 @@
 ---
 title: DocumentComparisonException
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Belgeler karşılaştırılırken bir hata oluştuğunda oluşan istisna.
+description: Belgeleri karşılaştırırken bir hata oluştuğunda atılan istisna.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.comparison.common.exceptions/documentcomparisonexception/
 ---
 ## DocumentComparisonException class
 
-Belgeler karşılaştırılırken bir hata oluştuğunda oluşan istisna.
+Belgeleri karşılaştırırken bir hata oluştuğunda atılan istisna.
 
 ```csharp
 public class DocumentComparisonException : ComparisonException

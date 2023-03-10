@@ -1,14 +1,14 @@
 ---
 title: DiagramMasterSetting
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni bir örneğini başlatırDiagramMasterSettinggroupdocs.comparison.options/diagrammastersetting sınıf.
+description: Yeni bir örneğini başlatır.DiagramMasterSettinggroupdocs.comparison.options/diagrammastersetting sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.options/diagrammastersetting/diagrammastersetting/
 ---
 ## DiagramMasterSetting constructor
 
-Yeni bir örneğini başlatır[`DiagramMasterSetting`](../../diagrammastersetting) sınıf.
+Yeni bir örneğini başlatır.[`DiagramMasterSetting`](../../diagrammastersetting) sınıf.
 
 ```csharp
 public DiagramMasterSetting()

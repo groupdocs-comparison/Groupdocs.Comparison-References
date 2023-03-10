@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Belirtilen parola yanlış olduğunda oluşturulan özel durum.
+description: Belirtilen şifre yanlış olduğunda atılan istisna.
 type: docs
 weight: 70
 url: /tr/net/groupdocs.comparison.common.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-Belirtilen parola yanlış olduğunda oluşturulan özel durum.
+Belirtilen şifre yanlış olduğunda atılan istisna.
 
 ```csharp
 public class InvalidPasswordException : ComparisonException

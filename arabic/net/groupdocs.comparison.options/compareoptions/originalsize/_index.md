@@ -1,14 +1,14 @@
 ---
 title: OriginalSize
 second_title: GroupDocs.Comparison لمرجع .NET API
-description: الحصول على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها .
+description: احصل على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها .
 type: docs
 weight: 180
 url: /ar/net/groupdocs.comparison.options/compareoptions/originalsize/
 ---
 ## CompareOptions.OriginalSize property
 
-الحصول على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها .
+احصل على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها .
 
 ```csharp
 public OriginalSize OriginalSize { get; set; }

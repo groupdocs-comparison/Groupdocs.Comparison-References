@@ -1,14 +1,14 @@
 ---
 title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化DiagramMasterSettinggroupdocs.comparison.options/diagrammastersetting类.
+description: 初始化一个新的实例DiagramMasterSettinggroupdocs.comparison.options/diagrammastersetting类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.options/diagrammastersetting/diagrammastersetting/
 ---
 ## DiagramMasterSetting constructor
 
-初始化[`DiagramMasterSetting`](../../diagrammastersetting)类.
+初始化一个新的实例[`DiagramMasterSetting`](../../diagrammastersetting)类.
 
 ```csharp
 public DiagramMasterSetting()

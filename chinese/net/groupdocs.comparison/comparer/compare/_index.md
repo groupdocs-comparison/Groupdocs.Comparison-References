@@ -1,14 +1,14 @@
 ---
 title: Compare
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 使用默认选项比较文档而不保存结果
+description: 比较文档而不用默认选项保存结果
 type: docs
 weight: 60
 url: /zh/net/groupdocs.comparison/comparer/compare/
 ---
 ## Compare() {#compare}
 
-使用默认选项比较文档而不保存结果
+比较文档而不用默认选项保存结果
 
 ```csharp
 public void Compare()
@@ -16,10 +16,10 @@ public void Compare()
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -43,10 +43,10 @@ public void Compare(string filePath)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -70,10 +70,10 @@ public void Compare(Stream document)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -98,11 +98,11 @@ public void Compare(string filePath, CompareOptions compareOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
-* 更多关于高级比较选项 - 接受和拒绝检测到的变化，调整比较敏感度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 有关高级比较选项的更多信息 - 接受和拒绝检测到的更改、调整比较灵敏度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 
 ### 也可以看看
 
@@ -128,11 +128,11 @@ public void Compare(Stream document, CompareOptions compareOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
-* 更多关于高级比较选项 - 接受和拒绝检测到的变化，调整比较敏感度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 有关高级比较选项的更多信息 - 接受和拒绝检测到的更改、调整比较灵敏度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 
 ### 也可以看看
 
@@ -158,11 +158,11 @@ public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
-* 更多关于高级比较选项 - 接受和拒绝检测到的变化，调整比较敏感度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 有关高级比较选项的更多信息 - 接受和拒绝检测到的更改、调整比较灵敏度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 
 ### 也可以看看
 
@@ -189,10 +189,10 @@ public void Compare(string filePath, SaveOptions saveOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -205,7 +205,7 @@ public void Compare(string filePath, SaveOptions saveOptions)
 
 ## Compare(Stream, SaveOptions) {#compare_5}
 
-比较文档并将结果保存到文件流
+比较文档并将结果保存到文件 stream
 
 ```csharp
 public void Compare(Stream document, SaveOptions saveOptions)
@@ -218,10 +218,10 @@ public void Compare(Stream document, SaveOptions saveOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -246,10 +246,10 @@ public void Compare(CompareOptions compareOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
 
 ### 也可以看看
 
@@ -276,11 +276,11 @@ public void Compare(Stream document, SaveOptions saveOptions, CompareOptions com
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
-* 更多关于高级比较选项 - 接受和拒绝检测到的变化，调整比较敏感度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 有关高级比较选项的更多信息 - 接受和拒绝检测到的更改、调整比较灵敏度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 
 ### 也可以看看
 
@@ -308,11 +308,11 @@ public void Compare(string filePath, SaveOptions saveOptions, CompareOptions com
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何比较文档： [如何在 C# 中比较文档](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
-* 更多关于如何在 C# 中比较合同、草稿和法律文件： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
-* 更多关于高级比较选项 - 接受和拒绝检测到的变化，调整比较敏感度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 更多关于如何比较文档的信息： [如何在 C# 中比较文件](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
+* 有关如何在 C# 中比较合同、草稿和法律文件的更多信息： [如何比较合同、草稿和法律文件](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
+* 有关高级比较选项的更多信息 - 接受和拒绝检测到的更改、调整比较灵敏度等： [高级比较选项指南](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 
 ### 也可以看看
 

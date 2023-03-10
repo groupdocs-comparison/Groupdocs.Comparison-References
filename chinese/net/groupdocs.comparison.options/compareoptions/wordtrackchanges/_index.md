@@ -1,14 +1,14 @@
 ---
 title: WordTrackChanges
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 控制打开 Words Track Revisions 的比较
+description: 控件以打开 Words Track Revisions 的比较
 type: docs
 weight: 270
 url: /zh/net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
 ---
 ## CompareOptions.WordTrackChanges property
 
-控制打开 Words Track Revisions 的比较。
+控件以打开 Words Track Revisions 的比较。
 
 ```csharp
 public bool WordTrackChanges { get; set; }

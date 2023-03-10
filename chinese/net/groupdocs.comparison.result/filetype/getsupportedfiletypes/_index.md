@@ -1,14 +1,14 @@
 ---
 title: GetSupportedFileTypes
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取支持的文件类型枚举
+description: 获取支持的文件类型 enumeration
 type: docs
 weight: 1580
 url: /zh/net/groupdocs.comparison.result/filetype/getsupportedfiletypes/
 ---
 ## FileType.GetSupportedFileTypes method
 
-获取支持的文件类型枚举
+获取支持的文件类型 enumeration
 
 ```csharp
 public static IEnumerable<FileType> GetSupportedFileTypes()
@@ -16,7 +16,7 @@ public static IEnumerable<FileType> GetSupportedFileTypes()
 
 ### 返回值
 
-枚举文件类型
+文件类型枚举
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DiagramMasterSetting
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Şema ana ayarları
+description: Diyagram ana ayarları
 type: docs
 weight: 230
 url: /tr/net/groupdocs.comparison.options/diagrammastersetting/
 ---
 ## DiagramMasterSetting class
 
-Şema ana ayarları
+Diyagram ana ayarları
 
 ```csharp
 public class DiagramMasterSetting
@@ -18,14 +18,14 @@ public class DiagramMasterSetting
 
 | İsim | Tanım |
 | --- | --- |
-| [DiagramMasterSetting](diagrammastersetting)() | Yeni bir örneğini başlatır[`DiagramMasterSetting`](../diagrammastersetting) sınıf. |
+| [DiagramMasterSetting](diagrammastersetting)() | Yeni bir örneğini başlatır.[`DiagramMasterSetting`](../diagrammastersetting) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | Master Yolu. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. Bir dizi varsayılan şekillerden bir belge sonucu oluşturmak için MasterPath gereklidir |
-| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | Master'ı kaynak belgeyle kullanmak için true olarak ayarlayın veya Path ile Master'ı kullanmak için yanlış değeri kullanın |
+| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | Ana Yol. Bu değeri ayarlayın veya varsayılan Karşılaştırma Yöneticisini kullanın. MasterPath, varsayılan şekillerden bir belge sonucu oluşturmak için gereklidir |
+| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | Master'ı kaynak belgeyle kullanmak için true olarak ayarlayın veya Master'ı Path ile kullanmak için false değeri kullanın |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: RPY
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 用于创建和运行游戏的基于 Python 的文件引擎
+description: 基于 Python 的文件引擎来创建和运行游戏
 type: docs
 weight: 1220
 url: /zh/net/groupdocs.comparison.result/filetype/rpy/
 ---
 ## FileType.RPY field
 
-用于创建和运行游戏的基于 Python 的文件引擎
+基于 Python 的文件引擎来创建和运行游戏
 
 ```csharp
 public static FileType RPY;

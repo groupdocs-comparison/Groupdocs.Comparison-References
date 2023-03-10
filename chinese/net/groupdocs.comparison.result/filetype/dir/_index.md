@@ -1,14 +1,14 @@
 ---
 title: DIR
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 目录是计算机上存储文件的位置
+description: 目录是电脑上存放文件的位置
 type: docs
 weight: 260
 url: /zh/net/groupdocs.comparison.result/filetype/dir/
 ---
 ## FileType.DIR field
 
-目录是计算机上存储文件的位置
+目录是电脑上存放文件的位置
 
 ```csharp
 public static FileType DIR;

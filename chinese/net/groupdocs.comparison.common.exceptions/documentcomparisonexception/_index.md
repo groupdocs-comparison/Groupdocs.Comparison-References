@@ -1,14 +1,14 @@
 ---
 title: DocumentComparisonException
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 比较文档时发生错误时引发的异常
+description: 比较文档时发生错误时抛出的异常
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.common.exceptions/documentcomparisonexception/
 ---
 ## DocumentComparisonException class
 
-比较文档时发生错误时引发的异常。
+比较文档时发生错误时抛出的异常。
 
 ```csharp
 public class DocumentComparisonException : ComparisonException
@@ -18,7 +18,7 @@ public class DocumentComparisonException : ComparisonException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentComparisonException](documentcomparisonexception)(string) | 初始化一个新的实例[`DocumentComparisonException`](../documentcomparisonexception)类. |
+| [DocumentComparisonException](documentcomparisonexception)(string) | 初始化一个新实例[`DocumentComparisonException`](../documentcomparisonexception)类. |
 
 ### 也可以看看
 

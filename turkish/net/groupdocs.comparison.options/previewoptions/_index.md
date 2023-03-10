@@ -27,14 +27,14 @@ public class PreviewOptions
 | --- | --- |
 | [Height](../../groupdocs.comparison.options/previewoptions/height) { get; set; } | Önizleme yüksekliği. |
 | [PageNumbers](../../groupdocs.comparison.options/previewoptions/pagenumbers) { get; set; } | Önizlenecek sayfa numaraları. |
-| [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | Resim biçimini önizleyin. |
+| [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | Önizleme resim formatı. |
 | [Width](../../groupdocs.comparison.options/previewoptions/width) { get; set; } | Önizleme genişliği. |
 
 ## Alanlar
 
 | İsim | Tanım |
 | --- | --- |
-| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) | Çıkış sayfası önizleme akışı oluşturma yöntemini tanımlayan temsilci. |
+| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) | Çıktı sayfası önizleme akışı oluşturmak için yöntemi tanımlayan temsilci. |
 | [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) | Çıktı sayfası önizleme akışını kaldırma yöntemini tanımlayan temsilci. |
 
 ### Ayrıca bakınız

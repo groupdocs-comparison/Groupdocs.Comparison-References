@@ -1,14 +1,14 @@
 ---
 title: ApplyRevisionOptions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 允许您在将修订状态应用于最终文档之前更新它们
+description: 允许您在修订应用于最终文档之前更新修订状态
 type: docs
 weight: 440
 url: /zh/net/groupdocs.comparison.words.revision/applyrevisionoptions/
 ---
 ## ApplyRevisionOptions class
 
-允许您在将修订状态应用于最终文档之前更新它们。
+允许您在修订应用于最终文档之前更新修订状态。
 
 ```csharp
 public class ApplyRevisionOptions

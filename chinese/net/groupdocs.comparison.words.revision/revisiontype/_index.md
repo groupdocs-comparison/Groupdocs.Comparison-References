@@ -1,14 +1,14 @@
 ---
 title: RevisionType
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 指定被跟踪的更改类型
+description: 指定被跟踪的变化类型
 type: docs
 weight: 480
 url: /zh/net/groupdocs.comparison.words.revision/revisiontype/
 ---
 ## RevisionType enumeration
 
-指定被跟踪的更改类型
+指定被跟踪的变化类型
 
 ```csharp
 public enum RevisionType

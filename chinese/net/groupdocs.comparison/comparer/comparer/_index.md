@@ -1,14 +1,14 @@
 ---
 title: Comparer
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化的新实例Comparergroupdocs.comparison/comparer具有源文件路径的类
+description: 初始化新实例Comparergroupdocs.comparison/comparer带有源文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison/comparer/comparer/
 ---
 ## Comparer(string) {#constructor_4}
 
-初始化的新实例[`Comparer`](../../comparer)具有源文件路径的类。
+初始化新实例[`Comparer`](../../comparer)带有源文件路径的类.
 
 ```csharp
 public Comparer(string filePath)
@@ -20,10 +20,10 @@ public Comparer(string filePath)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public Comparer(string filePath)
 
 ## Comparer(string, LoadOptions) {#constructor_6}
 
-初始化的新实例[`Comparer`](../../comparer)带有源文件路径和[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions).
+初始化新实例[`Comparer`](../../comparer)与源文件路径和[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions).
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions)
@@ -48,12 +48,12 @@ public Comparer(string filePath, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* 更多关于如何打开和比较受密码保护的文档： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何从 URL、FTP、Amazon S3、Azure Blob 存储等打开和比较文档： [打开并比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关如何打开和比较受密码保护的文档的更多信息： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他文档的信息： [打开和比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public Comparer(string filePath, LoadOptions loadOptions)
 
 ## Comparer(string, ComparerSettings) {#constructor_5}
 
-初始化的新实例[`Comparer`](../../comparer)具有源文件路径的类和[`ComparerSettings`](../../comparersettings).
+初始化新实例[`Comparer`](../../comparer)具有源文件路径的类和[`ComparerSettings`](../../comparersettings).
 
 ```csharp
 public Comparer(string filePath, ComparerSettings settings)
@@ -74,15 +74,15 @@ public Comparer(string filePath, ComparerSettings settings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件拍 |
+| filePath | String | 锉拍 |
 | settings | ComparerSettings | 比较设置 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### 也可以看看
 
@@ -95,7 +95,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ## Comparer(string, LoadOptions, ComparerSettings) {#constructor_7}
 
-初始化的新实例[`Comparer`](../../comparer)具有源文件路径的类，[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions)和[`ComparerSettings`](../../comparersettings).
+初始化新实例[`Comparer`](../../comparer)带有源文件路径的类，[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions)和[`ComparerSettings`](../../comparersettings).
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings settings)
@@ -109,12 +109,12 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* 更多关于如何打开和比较受密码保护的文档： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何从 URL、FTP、Amazon S3、Azure Blob 存储等打开和比较文档： [打开并比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关如何打开和比较受密码保护的文档的更多信息： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他文档的信息： [打开和比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### 也可以看看
 
@@ -128,7 +128,7 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 
 ## Comparer(Stream) {#constructor}
 
-初始化的新实例[`Comparer`](../../comparer)具有源文档流的类。
+初始化新实例[`Comparer`](../../comparer)带有源文档流的类.
 
 ```csharp
 public Comparer(Stream document)
@@ -140,10 +140,10 @@ public Comparer(Stream document)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### 也可以看看
 
@@ -155,7 +155,7 @@ public Comparer(Stream document)
 
 ## Comparer(Stream, LoadOptions) {#constructor_2}
 
-初始化的新实例[`Comparer`](../../comparer)带有源文档流和[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions).
+初始化新实例[`Comparer`](../../comparer)与源文档流和[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions).
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions)
@@ -168,12 +168,12 @@ public Comparer(Stream document, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* 更多关于如何打开和比较受密码保护的文档： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何从 URL、FTP、Amazon S3、Azure Blob 存储等打开和比较文档： [打开并比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关如何打开和比较受密码保护的文档的更多信息： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他文档的信息： [打开和比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### 也可以看看
 
@@ -186,7 +186,7 @@ public Comparer(Stream document, LoadOptions loadOptions)
 
 ## Comparer(Stream, ComparerSettings) {#constructor_1}
 
-初始化的新实例[`Comparer`](../../comparer)具有源文档流的类和[`ComparerSettings`](../../comparersettings).
+初始化新实例[`Comparer`](../../comparer)带有源文档流的类和[`ComparerSettings`](../../comparersettings).
 
 ```csharp
 public Comparer(Stream document, ComparerSettings settings)
@@ -199,10 +199,10 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### 也可以看看
 
@@ -215,7 +215,7 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ## Comparer(Stream, LoadOptions, ComparerSettings) {#constructor_3}
 
-初始化的新实例[`Comparer`](../../comparer)带有文档流的类，[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions)和[`ComparerSettings`](../../comparersettings).
+初始化新实例[`Comparer`](../../comparer)带有文档流的类，[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions)和[`ComparerSettings`](../../comparersettings).
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings settings)
@@ -229,12 +229,12 @@ public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings setti
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关 GroupDocs.Comparison 支持的文件类型的更多信息： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Comparison 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* 更多关于如何打开和比较受密码保护的文档： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何从 URL、FTP、Amazon S3、Azure Blob 存储等打开和比较文档： [打开并比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* 有关 GroupDocs 支持的文件类型的更多信息。比较： [GroupDocs.Comparison 支持的文档格式](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* 有关 GroupDocs 的更多信息。.NET 功能的比较： [开发者指南](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* 有关如何打开和比较受密码保护的文档的更多信息： [打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他文档的信息： [打开和比较来自第三方存储的文档](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### 也可以看看
 

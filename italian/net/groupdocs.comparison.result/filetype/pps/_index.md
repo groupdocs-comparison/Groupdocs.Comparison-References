@@ -1,14 +1,14 @@
 ---
 title: PPS
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Presentazione di Microsoft PowerPoint 972003
+description: Presentazione Microsoft PowerPoint 972003
 type: docs
 weight: 1080
 url: /it/net/groupdocs.comparison.result/filetype/pps/
 ---
 ## FileType.PPS field
 
-Presentazione di Microsoft PowerPoint 97-2003
+Presentazione Microsoft PowerPoint 97-2003
 
 ```csharp
 public static FileType PPS;

@@ -1,14 +1,14 @@
 ---
 title: ComponentType
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 更改组件的类型
+description: 已更改组件的类型
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.result/changeinfo/componenttype/
 ---
 ## ChangeInfo.ComponentType property
 
-更改组件的类型
+已更改组件的类型
 
 ```csharp
 public string ComponentType { get; set; }

@@ -19,8 +19,8 @@ public enum RevisionAction
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 无事可做。 |
-| Accept | `1` | 如果版本为 INSERTION 类型将显示该版本，如果类型为 DELETION 则将其删除。 |
-| Reject | `2` | 如果版本为 INSERTION 类型将被删除，如果类型为 DELETION 则将显示。 |
+| Accept | `1` | 如果修订是插入类型，则将显示该修订；如果是删除类型，将删除该修订。 |
+| Reject | `2` | 如果修订是 INSERTION 类型，则修订将被删除，如果类型是 DELETION，则将显示修订。 |
 
 ### 也可以看看
 

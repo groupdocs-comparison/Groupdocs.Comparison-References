@@ -18,7 +18,7 @@ public class StyleSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [StyleSettings](stylesettings)() | Yeni bir örneğini başlatır[`StyleSettings`](../stylesettings) sınıf. |
+| [StyleSettings](stylesettings)() | Yeni bir örneğini başlatır.[`StyleSettings`](../stylesettings) sınıf. |
 
 ## Özellikleri
 
@@ -27,10 +27,10 @@ public class StyleSettings
 | [EndStringSeparator](../../groupdocs.comparison.options/stylesettings/endstringseparator) { get; set; } | Bitiş ayırıcı dizesini alır veya ayarlar. |
 | [FontColor](../../groupdocs.comparison.options/stylesettings/fontcolor) { get; set; } | Yazı tipi rengini alır veya ayarlar. |
 | [HighlightColor](../../groupdocs.comparison.options/stylesettings/highlightcolor) { get; set; } | Vurgu rengini alır veya ayarlar. |
-| [IsBold](../../groupdocs.comparison.options/stylesettings/isbold) { get; set; } | Bunun kalın olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar |
+| [IsBold](../../groupdocs.comparison.options/stylesettings/isbold) { get; set; } | Bunun kalın olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar. |
 | [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | Çarpışmanın olup olmadığını gösteren bir değer alır veya ayarlar. |
-| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar |
+| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar. |
 | [OriginalSize](../../groupdocs.comparison.options/stylesettings/originalsize) { get; set; } | Karşılaştırma belgelerinin orijinal boyutlarını alın veya ayarlar |
 | [StartStringSeparator](../../groupdocs.comparison.options/stylesettings/startstringseparator) { get; set; } | Başlangıç ayırıcı dizesini alır veya ayarlar. |
 | [WordsSeparators](../../groupdocs.comparison.options/stylesettings/wordsseparators) { get; set; } | Ayırıcı sözcükleri alır veya ayarlar chars. |

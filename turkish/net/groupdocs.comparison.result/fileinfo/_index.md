@@ -24,7 +24,7 @@ public class FileInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.comparison.result/fileinfo/filetype) { get; } | Dosya tipi |
+| [FileType](../../groupdocs.comparison.result/fileinfo/filetype) { get; } | Dosya türü |
 | [Pages](../../groupdocs.comparison.result/fileinfo/pages) { get; set; } | Sayfa listesi |
 
 ### Ayrıca bakınız

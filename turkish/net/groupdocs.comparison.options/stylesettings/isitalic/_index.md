@@ -1,14 +1,14 @@
 ---
 title: IsItalic
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar
+description: Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.comparison.options/stylesettings/isitalic/
 ---
 ## StyleSettings.IsItalic property
 
-Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar
+Bunun italic olup olmadığını gösteren bir değer alır veya ayarlar.
 
 ```csharp
 public bool IsItalic { get; set; }

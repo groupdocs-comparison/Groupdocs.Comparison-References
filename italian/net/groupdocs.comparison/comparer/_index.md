@@ -18,20 +18,20 @@ public class Comparer : IDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| [Comparer](comparer#constructor)(Stream) | Inizializza la nuova istanza di[`Comparer`](../comparer) classe con flusso di documenti di origine. |
-| [Comparer](comparer#constructor_4)(string) | Inizializza la nuova istanza di[`Comparer`](../comparer) classe con percorso del file di origine. |
-| [Comparer](comparer#constructor_1)(Stream, ComparerSettings) | Inizializza la nuova istanza di[`Comparer`](../comparer)class con il flusso del documento di origine e[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Inizializza la nuova istanza di[`Comparer`](../comparer) con flusso di documenti di origine e[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
-| [Comparer](comparer#constructor_5)(string, ComparerSettings) | Inizializza la nuova istanza di[`Comparer`](../comparer) classe con percorso del file di origine e[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_6)(string, LoadOptions) | Inizializza la nuova istanza di[`Comparer`](../comparer) con percorso del file di origine e[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
-| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Inizializza la nuova istanza di[`Comparer`](../comparer) classe con flusso di documenti,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) e[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Inizializza la nuova istanza di[`Comparer`](../comparer) classe con percorso del file di origine,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) e[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor)(Stream) | Inizializza una nuova istanza di[`Comparer`](../comparer) classe con flusso di documenti di origine. |
+| [Comparer](comparer#constructor_4)(string) | Inizializza una nuova istanza di[`Comparer`](../comparer) classe con percorso file sorgente. |
+| [Comparer](comparer#constructor_1)(Stream, ComparerSettings) | Inizializza una nuova istanza di[`Comparer`](../comparer)class con il flusso del documento di origine e[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Inizializza una nuova istanza di[`Comparer`](../comparer) con il flusso del documento di origine e[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
+| [Comparer](comparer#constructor_5)(string, ComparerSettings) | Inizializza una nuova istanza di[`Comparer`](../comparer) class con percorso del file di origine e[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_6)(string, LoadOptions) | Inizializza una nuova istanza di[`Comparer`](../comparer) con il percorso del file di origine e[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
+| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Inizializza una nuova istanza di[`Comparer`](../comparer) classe con flusso di documenti,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) E[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Inizializza una nuova istanza di[`Comparer`](../comparer) classe con percorso del file di origine,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) E[`ComparerSettings`](../comparersettings) . |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Source](../../groupdocs.comparison/comparer/source) { get; } | File sorgente che viene confrontato. |
+| [Source](../../groupdocs.comparison/comparer/source) { get; } | File di origine che viene confrontato. |
 | [Targets](../../groupdocs.comparison/comparer/targets) { get; } | Elenco dei file di destinazione da confrontare con il file di origine. |
 
 ## Metodi

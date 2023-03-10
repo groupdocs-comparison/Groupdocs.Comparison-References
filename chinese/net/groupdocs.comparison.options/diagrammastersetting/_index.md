@@ -18,14 +18,14 @@ public class DiagramMasterSetting
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagramMasterSetting](diagrammastersetting)() | 初始化[`DiagramMasterSetting`](../diagrammastersetting)类. |
+| [DiagramMasterSetting](diagrammastersetting)() | 初始化一个新的实例[`DiagramMasterSetting`](../diagrammastersetting)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | 主路径。设置此值或使用默认的比较主。需要 MasterPath 从一组默认的 shape 创建文档结果 |
-| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | 设置为 true 以将 master 与源文档一起使用或使用 false 值以将 Master 与 Path 一起使用 |
+| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | 主路径。设置此值或使用默认的比较母版。需要 MasterPath 从一组默认形状 创建文档结果 |
+| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | 将 master 与源文档一起使用设置为 true 或将 master 与 Path 一起使用设置为 false 值 |
 
 ### 也可以看看
 

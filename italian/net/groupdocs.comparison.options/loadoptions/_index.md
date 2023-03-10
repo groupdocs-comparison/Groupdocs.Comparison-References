@@ -25,7 +25,7 @@ public class LoadOptions
 | Nome | Descrizione |
 | --- | --- |
 | [FontDirectories](../../groupdocs.comparison.options/loadoptions/fontdirectories) { get; set; } | Elenco delle directory dei font da caricare. |
-| [LoadText](../../groupdocs.comparison.options/loadoptions/loadtext) { get; set; } | Indica che le stringhe passate sono testo di confronto, non percorsi di file (solo per confronto testo). |
+| [LoadText](../../groupdocs.comparison.options/loadoptions/loadtext) { get; set; } | Indica che le stringhe passate sono testo di confronto, non percorsi di file (solo per il confronto di testo). |
 | [Password](../../groupdocs.comparison.options/loadoptions/password) { get; set; } | Password del documento. |
 
 ### Guarda anche

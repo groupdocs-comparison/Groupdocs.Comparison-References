@@ -1,22 +1,22 @@
 ---
 title: GroupDocs.Comparison.Result
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 命名空间提供了代表比较结果的类
+description: 命名空间提供表示比较结果的类
 type: docs
 weight: 90
 url: /zh/net/groupdocs.comparison.result/
 ---
-命名空间提供了代表比较结果的类。
+命名空间提供表示比较结果的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [CategoryChange](./categorychange) | 变化的分离分为类别 |
-| [ChangeInfo](./changeinfo) | 表示有关更改的信息。 |
-| [FileInfo](./fileinfo) | 关于文档的信息 |
-| [FileType](./filetype) | 表示文件类型。提供获取 GroupDocs.Comparison 支持的所有文件类型列表的方法，通过扩展名检测文件类型等。 |
-| [PageInfo](./pageinfo) | 表示关于 page 的信息 |
+| [CategoryChange](./categorychange) | 的分离变化分为几类 |
+| [ChangeInfo](./changeinfo) | 表示变化的信息。 |
+| [FileInfo](./fileinfo) | 有关文档 的信息 |
+| [FileType](./filetype) | 表示文件类型。提供获取 GroupDocs 支持的所有文件类型列表的方法。比较、按扩展名检测文件类型等。 |
+| [PageInfo](./pageinfo) | 代表page 的信息 |
 | [StyleChangeInfo](./stylechangeinfo) | 样式更改信息 |
 ## 结构
 

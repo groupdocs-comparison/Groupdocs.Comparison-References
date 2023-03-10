@@ -1,14 +1,14 @@
 ---
 title: PaperSize
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Lopzione per impostare il formato carta del documento risultante dopo il confronto.
+description: Lopzione per impostare il formato carta del documento risultato dopo il confronto.
 type: docs
 weight: 290
 url: /it/net/groupdocs.comparison.options/papersize/
 ---
 ## PaperSize enumeration
 
-L'opzione per impostare il formato carta del documento risultante dopo il confronto.
+L'opzione per impostare il formato carta del documento risultato dopo il confronto.
 
 ```csharp
 public enum PaperSize
@@ -25,9 +25,9 @@ public enum PaperSize
 | A3 | `4` | A3 |
 | A4 | `5` | A4 |
 | A5 | `6` | A5 |
-| A6 | `7` | A6 |
-| A7 | `8` | A7 |
-| A8 | `9` | A8 |
+| A6 | `7` | LA6 |
+| A7 | `8` | LA7 |
+| A8 | `9` | LA8 |
 
 ### Guarda anche
 

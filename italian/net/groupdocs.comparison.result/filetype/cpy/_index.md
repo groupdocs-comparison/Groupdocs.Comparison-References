@@ -1,14 +1,14 @@
 ---
 title: CPY
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Controller Python Script format
+description: Formato dello script Python del controller
 type: docs
 weight: 180
 url: /it/net/groupdocs.comparison.result/filetype/cpy/
 ---
 ## FileType.CPY field
 
-Controller Python Script format
+Formato dello script Python del controller
 
 ```csharp
 public static FileType CPY;

@@ -1,14 +1,14 @@
 ---
 title: Comparer
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Inizializza la nuova istanza diComparergroupdocs.comparison/comparer classe con percorso del file di origine.
+description: Inizializza una nuova istanza diComparergroupdocs.comparison/comparer classe con percorso file sorgente.
 type: docs
 weight: 10
 url: /it/net/groupdocs.comparison/comparer/comparer/
 ---
 ## Comparer(string) {#constructor_4}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) classe con percorso del file di origine.
+Inizializza una nuova istanza di[`Comparer`](../../comparer) classe con percorso file sorgente.
 
 ```csharp
 public Comparer(string filePath)
@@ -20,10 +20,10 @@ public Comparer(string filePath)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### Guarda anche
 
@@ -35,7 +35,7 @@ public Comparer(string filePath)
 
 ## Comparer(string, LoadOptions) {#constructor_6}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) con percorso del file di origine e[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer) con il percorso del file di origine e[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) .
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions)
@@ -48,12 +48,12 @@ public Comparer(string filePath, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta i documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, Archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### Guarda anche
 
@@ -66,7 +66,7 @@ public Comparer(string filePath, LoadOptions loadOptions)
 
 ## Comparer(string, ComparerSettings) {#constructor_5}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) classe con percorso del file di origine e[`ComparerSettings`](../../comparersettings) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer) class con percorso del file di origine e[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(string filePath, ComparerSettings settings)
@@ -74,15 +74,15 @@ public Comparer(string filePath, ComparerSettings settings)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | File pacche |
+| filePath | String | Carte di file |
 | settings | ComparerSettings | Impostazioni per il confronto |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### Guarda anche
 
@@ -95,7 +95,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ## Comparer(string, LoadOptions, ComparerSettings) {#constructor_7}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) classe con percorso del file di origine,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) e[`ComparerSettings`](../../comparersettings) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer) classe con percorso del file di origine,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) E[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings settings)
@@ -109,12 +109,12 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta i documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, Archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### Guarda anche
 
@@ -128,7 +128,7 @@ public Comparer(string filePath, LoadOptions loadOptions, ComparerSettings setti
 
 ## Comparer(Stream) {#constructor}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) classe con flusso di documenti di origine.
+Inizializza una nuova istanza di[`Comparer`](../../comparer) classe con flusso di documenti di origine.
 
 ```csharp
 public Comparer(Stream document)
@@ -136,14 +136,14 @@ public Comparer(Stream document)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Flusso di documenti di origine |
+| document | Stream | Flusso del documento di origine |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### Guarda anche
 
@@ -155,7 +155,7 @@ public Comparer(Stream document)
 
 ## Comparer(Stream, LoadOptions) {#constructor_2}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) con flusso di documenti di origine e[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer) con il flusso del documento di origine e[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) .
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions)
@@ -163,17 +163,17 @@ public Comparer(Stream document, LoadOptions loadOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Flusso di documenti di origine |
+| document | Stream | Flusso del documento di origine |
 | loadOptions | LoadOptions | Opzioni di caricamento |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta i documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, Archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### Guarda anche
 
@@ -186,7 +186,7 @@ public Comparer(Stream document, LoadOptions loadOptions)
 
 ## Comparer(Stream, ComparerSettings) {#constructor_1}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer)class con il flusso del documento di origine e[`ComparerSettings`](../../comparersettings) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer)class con il flusso del documento di origine e[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(Stream document, ComparerSettings settings)
@@ -194,15 +194,15 @@ public Comparer(Stream document, ComparerSettings settings)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Flusso di documenti di origine |
+| document | Stream | Flusso del documento di origine |
 | settings | ComparerSettings | Impostazioni per il confronto |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### Guarda anche
 
@@ -215,7 +215,7 @@ public Comparer(Stream document, ComparerSettings settings)
 
 ## Comparer(Stream, LoadOptions, ComparerSettings) {#constructor_3}
 
-Inizializza la nuova istanza di[`Comparer`](../../comparer) classe con flusso di documenti,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) e[`ComparerSettings`](../../comparersettings) .
+Inizializza una nuova istanza di[`Comparer`](../../comparer) classe con flusso di documenti,[`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) E[`ComparerSettings`](../../comparersettings) .
 
 ```csharp
 public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings settings)
@@ -223,18 +223,18 @@ public Comparer(Stream document, LoadOptions loadOptions, ComparerSettings setti
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Flusso di documenti di origine |
+| document | Stream | Flusso del documento di origine |
 | loadOptions | LoadOptions | Opzioni di caricamento |
 | settings | ComparerSettings | Impostazioni per il confronto |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sui tipi di file supportati da GroupDocs. Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
-* Ulteriori informazioni su GroupDocs. Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
-* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta i documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, Archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
+* Ulteriori informazioni sui tipi di file supportati da GroupDocs.Confronto: [Formati di documenti supportati da GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* Ulteriori informazioni su GroupDocs.Confronto per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
+* Ulteriori informazioni su come aprire e confrontare documenti protetti da password: [Apri e confronta documenti protetti da password](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* Ulteriori informazioni su come aprire e confrontare documenti da URL, FTP, Amazon S3, archiviazione BLOB di Azure e altri: [Apri e confronta documenti da archivi di terze parti](https://docs.groupdocs.com/display/comparisonnet/Loading)
 
 ### Guarda anche
 

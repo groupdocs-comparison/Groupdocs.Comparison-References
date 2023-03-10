@@ -16,7 +16,7 @@ public char[] WordsSeparatorChars { set; }
 
 ### 适当的价值
 
-单词分隔符。
+单词分隔符字符。
 
 ### 也可以看看
 

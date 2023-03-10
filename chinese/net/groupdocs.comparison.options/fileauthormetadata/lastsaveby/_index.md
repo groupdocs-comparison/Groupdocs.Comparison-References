@@ -1,14 +1,14 @@
 ---
 title: LastSaveBy
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置上次保存的时间
+description: 获取或设置上次保存时间为.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison.options/fileauthormetadata/lastsaveby/
 ---
 ## FileAuthorMetadata.LastSaveBy property
 
-获取或设置上次保存的时间。
+获取或设置上次保存时间为.
 
 ```csharp
 public string LastSaveBy { get; set; }

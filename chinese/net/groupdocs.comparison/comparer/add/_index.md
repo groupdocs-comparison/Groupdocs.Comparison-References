@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 将文件添加到比较中
+description: 添加文件进行比较
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison/comparer/add/
 ---
 ## Add(string) {#add_2}
 
-将文件添加到比较中。
+添加文件进行比较。
 
 ```csharp
 public void Add(string filePath)
@@ -41,11 +41,11 @@ public void Add(string filePath, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何打开和比较存储在本地磁盘上的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
-* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
+* 有关如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档的更多信息： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较存储在本地磁盘的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
+* 有关如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档的更多信息： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public void Add(string filePath, LoadOptions loadOptions)
 
 ## Add(Stream) {#add}
 
-将文档流添加到比较中。
+添加文档流进行比较。
 
 ```csharp
 public void Add(Stream document)
@@ -70,11 +70,11 @@ public void Add(Stream document)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何打开和比较存储在本地磁盘上的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
-* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
+* 有关如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档的更多信息： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较存储在本地磁盘的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
+* 有关如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档的更多信息： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
 
 ### 也可以看看
 
@@ -99,11 +99,11 @@ public void Add(Stream document, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
-* 更多关于如何打开和比较存储在本地磁盘上的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
-* 更多关于如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
+* 有关如何使用 GroupDocs.Comparison for .NET 在 C# 中打开和比较受密码保护的文档的更多信息： [如何打开和比较受密码保护的文档](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+* 更多关于如何打开和比较存储在本地磁盘的文档： [如何按文件路径打开和比较文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
+* 有关如何打开和比较来自 URL、FTP、Amazon S3、Azure Blob 存储和其他存储的文档的更多信息： [如何打开和比较来自第三方存储的文件](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+stream)
 
 ### 也可以看看
 

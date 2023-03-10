@@ -1,14 +1,14 @@
 ---
 title: MOBI
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Mobipocket 电子书格式
+description: Mobipocket电子书格式
 type: docs
 weight: 800
 url: /zh/net/groupdocs.comparison.result/filetype/mobi/
 ---
 ## FileType.MOBI field
 
-Mobipocket 电子书格式
+Mobipocket电子书格式
 
 ```csharp
 public static FileType MOBI;

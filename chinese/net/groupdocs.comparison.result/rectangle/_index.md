@@ -18,7 +18,7 @@ public struct Rectangle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rectangle](rectangle)(float, float, float, float) | 创建一个新的 Rectangle 实例 |
+| [Rectangle](rectangle)(float, float, float, float) | 创建 Rectangle 的新实例 |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public struct Rectangle
 | [Height](../../groupdocs.comparison.result/rectangle/height) { get; set; } | 高度 |
 | [Width](../../groupdocs.comparison.result/rectangle/width) { get; set; } | 宽度 |
 | [X](../../groupdocs.comparison.result/rectangle/x) { get; set; } | X 坐标 |
-| [Y](../../groupdocs.comparison.result/rectangle/y) { get; set; } | Y 坐标 |
+| [Y](../../groupdocs.comparison.result/rectangle/y) { get; set; } | Y坐标 |
 
 ### 也可以看看
 

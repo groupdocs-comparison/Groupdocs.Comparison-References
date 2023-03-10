@@ -1,14 +1,14 @@
 ---
 title: PHTML
 second_title: GroupDocs.Comparison for .NET API 参考
-description: PHP 2 程序格式的标准文件扩展名
+description: PHP 2 程序的标准文件扩展名 format
 type: docs
 weight: 980
 url: /zh/net/groupdocs.comparison.result/filetype/phtml/
 ---
 ## FileType.PHTML field
 
-PHP 2 程序格式的标准文件扩展名
+PHP 2 程序的标准文件扩展名 format
 
 ```csharp
 public static FileType PHTML;

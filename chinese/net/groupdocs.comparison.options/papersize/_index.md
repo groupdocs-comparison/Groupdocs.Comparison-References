@@ -1,14 +1,14 @@
 ---
 title: PaperSize
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 设置比较后结果文档的纸张大小的选项
+description: 设置比较后结果文档纸张大小的选项
 type: docs
 weight: 290
 url: /zh/net/groupdocs.comparison.options/papersize/
 ---
 ## PaperSize enumeration
 
-设置比较后结果文档的纸张大小的选项。
+设置比较后结果文档纸张大小的选项。
 
 ```csharp
 public enum PaperSize

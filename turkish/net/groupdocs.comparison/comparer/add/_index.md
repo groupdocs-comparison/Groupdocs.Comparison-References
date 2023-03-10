@@ -37,7 +37,7 @@ public void Add(string filePath, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Karşılaştırılan dosya yolu |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 
 ### Notlar
 
@@ -95,7 +95,7 @@ public void Add(Stream document, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Stream | Karşılaştırılan belge akışı |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 
 ### Notlar
 

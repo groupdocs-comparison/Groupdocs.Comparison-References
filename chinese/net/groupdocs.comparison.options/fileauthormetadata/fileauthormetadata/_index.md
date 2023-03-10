@@ -1,14 +1,14 @@
 ---
 title: FileAuthorMetadata
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化FileAuthorMetadatagroupdocs.comparison.options/fileauthormetadata类.
+description: 初始化一个新的实例FileAuthorMetadatagroupdocs.comparison.options/fileauthormetadata类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.options/fileauthormetadata/fileauthormetadata/
 ---
 ## FileAuthorMetadata constructor
 
-初始化[`FileAuthorMetadata`](../../fileauthormetadata)类.
+初始化一个新的实例[`FileAuthorMetadata`](../../fileauthormetadata)类.
 
 ```csharp
 public FileAuthorMetadata()

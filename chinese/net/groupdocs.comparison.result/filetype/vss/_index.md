@@ -1,14 +1,14 @@
 ---
 title: VSS
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Microsoft Visio 20032010 模具
+description: Microsoft Visio 20032010 Stencil
 type: docs
 weight: 1410
 url: /zh/net/groupdocs.comparison.result/filetype/vss/
 ---
 ## FileType.VSS field
 
-Microsoft Visio 2003-2010 模具
+Microsoft Visio 2003-2010 Stencil
 
 ```csharp
 public static FileType VSS;

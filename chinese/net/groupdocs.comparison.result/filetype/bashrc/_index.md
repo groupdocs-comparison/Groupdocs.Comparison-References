@@ -1,14 +1,14 @@
 ---
 title: BASHRC
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文件确定交互式 shell 的行为
+description: 文件决定交互式 shells 的行为
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.result/filetype/bashrc/
 ---
 ## FileType.BASHRC field
 
-文件确定交互式 shell 的行为
+文件决定交互式 shells 的行为
 
 ```csharp
 public static FileType BASHRC;

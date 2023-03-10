@@ -19,13 +19,13 @@ public class Comparer : IDisposable
 | İsim | Tanım |
 | --- | --- |
 | [Comparer](comparer#constructor)(Stream) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak belge akışına sahip sınıf. |
-| [Comparer](comparer#constructor_4)(string) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya yolu ile sınıf. |
+| [Comparer](comparer#constructor_4)(string) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya path. ile sınıf |
 | [Comparer](comparer#constructor_1)(Stream, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer)kaynak belge akışına sahip sınıf ve[`ComparerSettings`](../comparersettings) . |
 | [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak belge akışı ile ve[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
 | [Comparer](comparer#constructor_5)(string, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya yolu ile sınıf ve[`ComparerSettings`](../comparersettings) . |
 | [Comparer](comparer#constructor_6)(string, LoadOptions) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya yolu ile ve[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
-| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer) belge akışı ile sınıf,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) ve[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya yoluna sahip sınıf,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) ve[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer) belge akışı ile sınıf,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) Ve[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Yeni örneğini başlatır[`Comparer`](../comparer) kaynak dosya yoluna sahip sınıf,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) Ve[`ComparerSettings`](../comparersettings) . |
 
 ## Özellikleri
 
@@ -42,10 +42,10 @@ public class Comparer : IDisposable
 | [Add](../../groupdocs.comparison/comparer/add#add_2)(string) | Dosyayı karşılaştırmaya ekler. |
 | [Add](../../groupdocs.comparison/comparer/add#add_1)(Stream, LoadOptions) | Belirtilen yükleme seçenekleriyle karşılaştırmak için belge akışı ekler. |
 | [Add](../../groupdocs.comparison/comparer/add#add_3)(string, LoadOptions) | Dosyayı belirtilen yükleme seçenekleriyle karşılaştırmaya ekler. |
-| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges)(Stream, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular. |
-| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_2)(string, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular. |
-| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_1)(Stream, SaveOptions, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular. |
-| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_3)(string, SaveOptions, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular. |
+| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges)(Stream, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular. |
+| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_2)(string, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular. |
+| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_1)(Stream, SaveOptions, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular. |
+| [ApplyChanges](../../groupdocs.comparison/comparer/applychanges#applychanges_3)(string, SaveOptions, ApplyChangeOptions) | Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular. |
 | [Compare](../../groupdocs.comparison/comparer/compare#compare)() | Sonuçları varsayılan seçeneklerle kaydetmeden belgeleri karşılaştırır |
 | [Compare](../../groupdocs.comparison/comparer/compare#compare_1)(CompareOptions) | Sonucu kaydetmeden belgeleri karşılaştırır. |
 | [Compare](../../groupdocs.comparison/comparer/compare#compare_3)(Stream) | Belgeleri karşılaştırır ve sonucu stream dosyasına kaydeder |
@@ -60,7 +60,7 @@ public class Comparer : IDisposable
 | [Dispose](../../groupdocs.comparison/comparer/dispose)() | Kaynakları serbest bırakır. |
 | [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges)() | Kaynak ve hedef dosya(lar) arasındaki değişikliklerin listesini alır. |
 | [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges_1)(GetChangeOptions) | Kaynak ve hedef dosya(lar) arasındaki değişikliklerin listesini alır. |
-| [GetResultString](../../groupdocs.comparison/comparer/getresultstring)() | Karşılaştırmadan sonra sonuç dizesini alın (Yalnızca Metin Karşılaştırma için). |
+| [GetResultString](../../groupdocs.comparison/comparer/getresultstring)() | Karşılaştırmadan sonra sonuç dizesini al (Yalnızca Metin Karşılaştırma için). |
 
 ### Ayrıca bakınız
 

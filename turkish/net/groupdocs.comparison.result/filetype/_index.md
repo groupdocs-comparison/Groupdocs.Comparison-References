@@ -25,14 +25,14 @@ public sealed class FileType : IEquatable<FileType>
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Dosya adı veya uzantısına göre Dosya Türü döndürür |
-| [Equals](../../groupdocs.comparison.result/filetype/equals#equals)(FileType) | Dosya türü denklik kontrolü |
+| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Dosya adı veya uzantısına göre FileType döndürür |
+| [Equals](../../groupdocs.comparison.result/filetype/equals#equals)(FileType) | Dosya türü eşdeğerliği kontrolü |
 | override [Equals](../../groupdocs.comparison.result/filetype/equals#equals_1)(object) | object ile denklik kontrolü |
-| override [GetHashCode](../../groupdocs.comparison.result/filetype/gethashcode)() | Karma kodunu alın |
+| override [GetHashCode](../../groupdocs.comparison.result/filetype/gethashcode)() | Hash kodunu al |
 | override [ToString](../../groupdocs.comparison.result/filetype/tostring)() | ToString |
-| static [GetSupportedFileTypes](../../groupdocs.comparison.result/filetype/getsupportedfiletypes)() | Desteklenen dosya türlerini alın numaralandırma |
-| [operator ==](../../groupdocs.comparison.result/filetype/op_equality) | Operatör aşırı yüklenmesi |
-| [operator !=](../../groupdocs.comparison.result/filetype/op_inequality) | Operatör aşırı yüklenmesi |
+| static [GetSupportedFileTypes](../../groupdocs.comparison.result/filetype/getsupportedfiletypes)() | Desteklenen dosya türlerini alın |
+| [operator ==](../../groupdocs.comparison.result/filetype/op_equality) | Operatör aşırı yükü |
+| [operator !=](../../groupdocs.comparison.result/filetype/op_inequality) | Operatör aşırı yükü |
 
 ## Alanlar
 
@@ -71,7 +71,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [DOT](../../groupdocs.comparison.result/filetype/dot) | Microsoft Word 97-2003 Şablonu |
 | static [DOTM](../../groupdocs.comparison.result/filetype/dotm) | Microsoft Word Makro Etkin Şablon |
 | static [DOTX](../../groupdocs.comparison.result/filetype/dotx) | Microsoft Word Şablonu |
-| static [DSQL](../../groupdocs.comparison.result/filetype/dsql) | Dinamik Yapılandırılmış Sorgu Dili formatı |
+| static [DSQL](../../groupdocs.comparison.result/filetype/dsql) | Dinamik Yapılandırılmış Sorgu Dili format |
 | static [DWG](../../groupdocs.comparison.result/filetype/dwg) | Autodesk Tasarım Veri Biçimleri |
 | static [DXF](../../groupdocs.comparison.result/filetype/dxf) | AutoCAD Çizim Değişimi |
 | static [EBUILD](../../groupdocs.comparison.result/filetype/ebuild) | Yazılım paketleri için derleme ve kurulum prosedürlerini otomatikleştiren özel bash betiği |
@@ -88,40 +88,40 @@ public sealed class FileType : IEquatable<FileType>
 | static [GYPI](../../groupdocs.comparison.result/filetype/gypi) | Derleme otomasyon aracı format |
 | static [H](../../groupdocs.comparison.result/filetype/h) | C-Tabanlı başlık dosyaları, İşlevlerin ve Değişkenlerin tanımlarını içerir |
 | static [HAML](../../groupdocs.comparison.result/filetype/haml) | Basitleştirilmiş HTML üretimi için işaretleme dili |
-| static [HAR](../../groupdocs.comparison.result/filetype/har) | HTTP Arşivi biçimi |
+| static [HAR](../../groupdocs.comparison.result/filetype/har) | HTTP Arşiv formatı |
 | static [HH](../../groupdocs.comparison.result/filetype/hh) | Bir C++ kaynak kodu tarafından başvurulan başlık bilgisi file |
 | static [HPP](../../groupdocs.comparison.result/filetype/hpp) | C++ programlama dilinde yazılmış Başlık Dosyaları |
 | static [HTML](../../groupdocs.comparison.result/filetype/html) | Köprü Metni İşaretleme Dili |
 | static [HXX](../../groupdocs.comparison.result/filetype/hxx) | C++ programlama dilinde yazılmış Başlık Dosyaları |
 | static [IPY](../../groupdocs.comparison.result/filetype/ipy) | IPython Komut Dosyası biçimi |
-| static [JAVA](../../groupdocs.comparison.result/filetype/java) | Java Programlama Dili biçimi |
+| static [JAVA](../../groupdocs.comparison.result/filetype/java) | Java Programlama Dili format |
 | static [JPEG](../../groupdocs.comparison.result/filetype/jpeg) | Ortak Fotoğraf Uzmanları Grubu |
 | static [JS](../../groupdocs.comparison.result/filetype/js) | JavaScript Programlama Dili format |
 | static [JSCSRC](../../groupdocs.comparison.result/filetype/jscsrc) | JavaScript yapılandırma dosyası format |
 | static [JSHINTRC](../../groupdocs.comparison.result/filetype/jshintrc) | JavaScript kodu kalite aracı |
 | static [JSMAP](../../groupdocs.comparison.result/filetype/jsmap) | Kodun kaynak code 'ye nasıl çevrileceğine ilişkin bilgiler içeren JSON dosyası |
 | static [JSON](../../groupdocs.comparison.result/filetype/json) | Verileri depolamak ve taşımak için hafif biçim |
-| static [LESS](../../groupdocs.comparison.result/filetype/less) | Dinamik önişlemci stil sayfası dili formatı |
-| static [LOG](../../groupdocs.comparison.result/filetype/log) | Günlüğe kaydetme, olayların, süreçlerin, mesajların ve iletişimin bir kaydını tutar |
-| static [MAKE](../../groupdocs.comparison.result/filetype/make) | Makefile, make build otomasyon aracı tarafından bir hedef/hedef oluşturmak için kullanılan bir dizi yönergeyi içeren bir dosyadır |
-| static [MARKDN](../../groupdocs.comparison.result/filetype/markdn) | İşaretleme Dili biçimi |
-| static [MARKDOWN](../../groupdocs.comparison.result/filetype/markdown) | İşaretleme Dili biçimi |
-| static [MD](../../groupdocs.comparison.result/filetype/md) | İşaretleme Dili biçimi |
-| static [MDOWN](../../groupdocs.comparison.result/filetype/mdown) | İşaretleme Dili biçimi |
-| static [MDTEXT](../../groupdocs.comparison.result/filetype/mdtext) | İşaretleme Dili biçimi |
-| static [MDTXT](../../groupdocs.comparison.result/filetype/mdtxt) | İşaretleme Dili biçimi |
-| static [MDWN](../../groupdocs.comparison.result/filetype/mdwn) | İşaretleme Dili biçimi |
+| static [LESS](../../groupdocs.comparison.result/filetype/less) | Dinamik önişlemci stil sayfası dil format |
+| static [LOG](../../groupdocs.comparison.result/filetype/log) | Günlüğe kaydetme, olayların, işlemlerin, mesajların ve iletişimin kaydını tutar |
+| static [MAKE](../../groupdocs.comparison.result/filetype/make) | Makefile, make build otomasyon aracı tarafından bir hedef/goal oluşturmak için kullanılan bir dizi yönerge içeren bir dosyadır. |
+| static [MARKDN](../../groupdocs.comparison.result/filetype/markdn) | İşaretleme Dili format |
+| static [MARKDOWN](../../groupdocs.comparison.result/filetype/markdown) | İşaretleme Dili format |
+| static [MD](../../groupdocs.comparison.result/filetype/md) | İşaretleme Dili format |
+| static [MDOWN](../../groupdocs.comparison.result/filetype/mdown) | İşaretleme Dili format |
+| static [MDTEXT](../../groupdocs.comparison.result/filetype/mdtext) | İşaretleme Dili format |
+| static [MDTXT](../../groupdocs.comparison.result/filetype/mdtxt) | İşaretleme Dili format |
+| static [MDWN](../../groupdocs.comparison.result/filetype/mdwn) | İşaretleme Dili format |
 | static [MHTML](../../groupdocs.comparison.result/filetype/mhtml) | Mime HTML |
 | static [MJS](../../groupdocs.comparison.result/filetype/mjs) | EcmaScript (ES) modülü dosyaları için uzantı |
-| static [MK](../../groupdocs.comparison.result/filetype/mk) | Makefile, make build otomasyon aracı tarafından bir hedef/hedef oluşturmak için kullanılan bir dizi yönergeyi içeren bir dosyadır |
-| static [MKD](../../groupdocs.comparison.result/filetype/mkd) | İşaretleme Dili biçimi |
-| static [ML](../../groupdocs.comparison.result/filetype/ml) | Caml Programlama Dili formatı |
-| static [MLI](../../groupdocs.comparison.result/filetype/mli) | Caml Programlama Dili formatı |
+| static [MK](../../groupdocs.comparison.result/filetype/mk) | Makefile, make build otomasyon aracı tarafından bir hedef/goal oluşturmak için kullanılan bir dizi yönerge içeren bir dosyadır. |
+| static [MKD](../../groupdocs.comparison.result/filetype/mkd) | İşaretleme Dili format |
+| static [ML](../../groupdocs.comparison.result/filetype/ml) | Caml Programlama Dili format |
+| static [MLI](../../groupdocs.comparison.result/filetype/mli) | Caml Programlama Dili format |
 | static [MOBI](../../groupdocs.comparison.result/filetype/mobi) | Mobipocket e-kitap formatı |
 | static [MSG](../../groupdocs.comparison.result/filetype/msg) | Microsoft Outlook E-posta Mesajı |
 | static [NQP](../../groupdocs.comparison.result/filetype/nqp) | Rakudo Perl 6 derleyicisini oluşturmak için kullanılan ara dil |
-| static [OBJC](../../groupdocs.comparison.result/filetype/objc) | Objective-C Programlama Dili formatı |
-| static [OBJCP](../../groupdocs.comparison.result/filetype/objcp) | Objective-C++ Programlama Dili formatı |
+| static [OBJC](../../groupdocs.comparison.result/filetype/objc) | Objective-C Programlama Dili format |
+| static [OBJCP](../../groupdocs.comparison.result/filetype/objcp) | Objective-C++ Programlama Dili format |
 | static [ODP](../../groupdocs.comparison.result/filetype/odp) | OpenDocument Sunumu |
 | static [ODS](../../groupdocs.comparison.result/filetype/ods) | OpenDocument Hesap Tablosu |
 | static [ODT](../../groupdocs.comparison.result/filetype/odt) | OpenDocument Metni |
@@ -175,7 +175,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [TXT](../../groupdocs.comparison.result/filetype/txt) | Düz Metin Belgesi |
 | static [UNKNOWN](../../groupdocs.comparison.result/filetype/unknown) | Bilinmeyen tür |
 | static [VDX](../../groupdocs.comparison.result/filetype/vdx) | Microsoft Visio 2003-2010 XML Çizimi |
-| static [VIM](../../groupdocs.comparison.result/filetype/vim) | Vim kaynak kodu dosyası formatı |
+| static [VIM](../../groupdocs.comparison.result/filetype/vim) | Vim kaynak kodu dosyası format |
 | static [VSD](../../groupdocs.comparison.result/filetype/vsd) | Microsoft Visio 2003-2010 Çizimi |
 | static [VSDX](../../groupdocs.comparison.result/filetype/vsdx) | Microsoft Visio Çizimi |
 | static [VSS](../../groupdocs.comparison.result/filetype/vss) | Microsoft Visio 2003-2010 Şablon |
@@ -187,8 +187,8 @@ public sealed class FileType : IEquatable<FileType>
 | static [XLSX](../../groupdocs.comparison.result/filetype/xlsx) | Microsoft Excel Çalışma Sayfası |
 | static [XLT](../../groupdocs.comparison.result/filetype/xlt) | Microsoft Excel şablonu |
 | static [XLTM](../../groupdocs.comparison.result/filetype/xltm) | Makro özellikli Microsoft Excel şablonu |
-| static [YAML](../../groupdocs.comparison.result/filetype/yaml) | İnsan tarafından okunabilen veri serileştirme dili biçimi |
-| static [YML](../../groupdocs.comparison.result/filetype/yml) | İnsan tarafından okunabilen veri serileştirme dili biçimi |
+| static [YAML](../../groupdocs.comparison.result/filetype/yaml) | İnsan tarafından okunabilen veri serileştirme dili format |
+| static [YML](../../groupdocs.comparison.result/filetype/yml) | İnsan tarafından okunabilen veri serileştirme dili format |
 
 ### Notlar
 

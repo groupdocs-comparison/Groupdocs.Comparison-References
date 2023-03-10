@@ -30,10 +30,10 @@ public class ChangeInfo
 | [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | Tipo di componente modificato |
 | [Id](../../groupdocs.comparison.result/changeinfo/id) { get; set; } | ID della modifica. |
 | [PageInfo](../../groupdocs.comparison.result/changeinfo/pageinfo) { get; set; } | Pagina in cui è posizionata la modifica corrente. |
-| [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | Modificato il testo del documento di origine |
-| [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | Modifiche allo stile. |
-| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | Testo modificato del documento di destinazione |
-| [Text](../../groupdocs.comparison.result/changeinfo/text) { get; set; } | Valore di testo della modifica. |
+| [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | Testo modificato del documento sorgente. |
+| [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | Cambi di stile. |
+| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | Testo modificato del documento di destinazione. |
+| [Text](../../groupdocs.comparison.result/changeinfo/text) { get; set; } | Valore del testo della modifica. |
 | [Type](../../groupdocs.comparison.result/changeinfo/type) { get; } | Tipo di modifica. |
 
 ### Guarda anche

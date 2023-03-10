@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Comparison für .NET-API-Referenz
-description: Dokumentgröße
+description: Dokumentengröße
 type: docs
 weight: 340
 url: /de/net/groupdocs.comparison.options/size/
 ---
 ## Size class
 
-Dokumentgröße
+Dokumentengröße
 
 ```csharp
 public class Size

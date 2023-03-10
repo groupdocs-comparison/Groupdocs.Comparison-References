@@ -1,14 +1,14 @@
 ---
 title: MarkChangedContent
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 指示是否对文字处理中的形状和图像文档中的矩形使用框架
+description: 指示是否将框架用于字处理中的形状和图像文档中的矩形
 type: docs
 weight: 160
 url: /zh/net/groupdocs.comparison.options/compareoptions/markchangedcontent/
 ---
 ## CompareOptions.MarkChangedContent property
 
-指示是否对文字处理中的形状和图像文档中的矩形使用框架。
+指示是否将框架用于字处理中的形状和图像文档中的矩形。
 
 ```csharp
 public bool MarkChangedContent { get; set; }

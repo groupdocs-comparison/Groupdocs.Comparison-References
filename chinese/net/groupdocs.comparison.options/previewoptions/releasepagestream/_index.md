@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 定义删除输出页面预览流的方法的委托
+description: 委托定义了删除输出页面预览流的方法
 type: docs
 weight: 70
 url: /zh/net/groupdocs.comparison.options/previewoptions/releasepagestream/
 ---
 ## PreviewOptions.ReleasePageStream field
 
-定义删除输出页面预览流的方法的委托。
+委托定义了删除输出页面预览流的方法。
 
 ```csharp
 public ReleasePageStream ReleasePageStream;

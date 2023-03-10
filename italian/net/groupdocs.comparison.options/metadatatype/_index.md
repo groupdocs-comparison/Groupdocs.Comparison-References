@@ -19,9 +19,9 @@ public enum MetadataType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Default | `0` | Predefinito |
-| Source | `1` | I metadati prendono dal documento di origine |
+| Source | `1` | Metedata prende dal documento sorgente |
 | Target | `2` | I metadati prendono dal documento di destinazione |
-| FileAuthor | `3` | Set di metadati per utente |
+| FileAuthor | `3` | Set di metadati dell'utente |
 
 ### Guarda anche
 

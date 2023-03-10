@@ -1,14 +1,14 @@
 ---
 title: DIR
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Directory è un percorso per la memorizzazione di file sul computer
+description: La directory è una posizione per larchiviazione dei file sul computer
 type: docs
 weight: 260
 url: /it/net/groupdocs.comparison.result/filetype/dir/
 ---
 ## FileType.DIR field
 
-Directory è un percorso per la memorizzazione di file sul computer
+La directory è una posizione per l'archiviazione dei file sul computer
 
 ```csharp
 public static FileType DIR;

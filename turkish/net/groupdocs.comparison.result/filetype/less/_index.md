@@ -1,14 +1,14 @@
 ---
 title: LESS
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Dinamik önişlemci stil sayfası dili formatı
+description: Dinamik önişlemci stil sayfası dil format
 type: docs
 weight: 640
 url: /tr/net/groupdocs.comparison.result/filetype/less/
 ---
 ## FileType.LESS field
 
-Dinamik önişlemci stil sayfası dili formatı
+Dinamik önişlemci stil sayfası dil format
 
 ```csharp
 public static FileType LESS;

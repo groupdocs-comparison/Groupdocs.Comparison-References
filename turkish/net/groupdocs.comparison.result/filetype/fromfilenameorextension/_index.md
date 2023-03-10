@@ -1,14 +1,14 @@
 ---
 title: FromFileNameOrExtension
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Dosya adı veya uzantısına göre Dosya Türü döndürür
+description: Dosya adı veya uzantısına göre FileType döndürür
 type: docs
 weight: 1520
 url: /tr/net/groupdocs.comparison.result/filetype/fromfilenameorextension/
 ---
 ## FileType.FromFileNameOrExtension method
 
-Dosya adı veya uzantısına göre Dosya Türü döndürür
+Dosya adı veya uzantısına göre FileType döndürür
 
 ```csharp
 public static FileType FromFileNameOrExtension(string fileNameOrExtension)

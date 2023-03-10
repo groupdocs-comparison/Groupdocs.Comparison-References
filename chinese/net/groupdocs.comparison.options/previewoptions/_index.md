@@ -18,24 +18,24 @@ public class PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PreviewOptions](previewoptions#constructor)(CreatePageStream) | 初始化一个新的实例[`PreviewOptions`](../previewoptions)类. |
-| [PreviewOptions](previewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新的实例[`PreviewOptions`](../previewoptions)类. |
+| [PreviewOptions](previewoptions#constructor)(CreatePageStream) | 初始化一个新实例[`PreviewOptions`](../previewoptions)类. |
+| [PreviewOptions](previewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新实例[`PreviewOptions`](../previewoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.comparison.options/previewoptions/height) { get; set; } | 预览高度。 |
+| [Height](../../groupdocs.comparison.options/previewoptions/height) { get; set; } | 预览高度. |
 | [PageNumbers](../../groupdocs.comparison.options/previewoptions/pagenumbers) { get; set; } | 将被预览的页码。 |
-| [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | 预览图像格式。 |
+| [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | 预览图片格式. |
 | [Width](../../groupdocs.comparison.options/previewoptions/width) { get; set; } | 预览宽度. |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) | 定义创建输出页面预览流的方法的委托。 |
-| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) | 定义删除输出页面预览流的方法的委托。 |
+| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) | 委托定义了创建输出页面预览流的方法。 |
+| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) | 委托定义了删除输出页面预览流的方法。 |
 
 ### 也可以看看
 

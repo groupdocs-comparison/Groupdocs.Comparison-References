@@ -16,11 +16,11 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageNumber | Int32 | Il numero di pagine visualizzate in anteprima. |
+| pageNumber | Int32 | Il numero della pagina visualizzata in anteprima. |
 
 ### Valore di ritorno
 
-Flusso di immagini
+Flusso dell'immagine
 
 ### Guarda anche
 

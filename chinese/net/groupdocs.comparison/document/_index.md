@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 表示比较文档
+description: 表示对比文件
 type: docs
 weight: 120
 url: /zh/net/groupdocs.comparison/document/
 ---
 ## Document class
 
-表示比较文档。
+表示对比文件。
 
 ```csharp
 public class Document
@@ -18,19 +18,19 @@ public class Document
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Document](document#constructor)(Stream) | 初始化的新实例[`Document`](../document)类. |
-| [Document](document#constructor_2)(string) | 初始化的新实例[`Document`](../document)类. |
-| [Document](document#constructor_1)(Stream, string) | 初始化的新实例[`Document`](../document)类. |
-| [Document](document#constructor_3)(string, string) | 初始化的新实例[`Document`](../document)类. |
+| [Document](document#constructor)(Stream) | 初始化新实例[`Document`](../document)类. |
+| [Document](document#constructor_2)(string) | 初始化新实例[`Document`](../document)类. |
+| [Document](document#constructor_1)(Stream, string) | 初始化新实例[`Document`](../document)类. |
+| [Document](document#constructor_3)(string, string) | 初始化新实例[`Document`](../document)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | 更改列表。 |
-| [Name](../../groupdocs.comparison/document/name) { get; set; } | 文档名称。 |
-| [Password](../../groupdocs.comparison/document/password) { get; } | 文档密码。 |
-| [Stream](../../groupdocs.comparison/document/stream) { get; } | 文档流。 |
+| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | 变更列表。 |
+| [Name](../../groupdocs.comparison/document/name) { get; set; } | 文档名称. |
+| [Password](../../groupdocs.comparison/document/password) { get; } | 文件密码. |
+| [Stream](../../groupdocs.comparison/document/stream) { get; } | 文件流. |
 
 ## 方法
 

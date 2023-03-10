@@ -1,14 +1,14 @@
 ---
 title: REJ
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 被拒绝的文件格式
+description: 拒绝的文件格式
 type: docs
 weight: 1200
 url: /zh/net/groupdocs.comparison.result/filetype/rej/
 ---
 ## FileType.REJ field
 
-被拒绝的文件格式
+拒绝的文件格式
 
 ```csharp
 public static FileType REJ;

@@ -1,14 +1,14 @@
 ---
 title: DSQL
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Dinamik Yapılandırılmış Sorgu Dili formatı
+description: Dinamik Yapılandırılmış Sorgu Dili format
 type: docs
 weight: 340
 url: /tr/net/groupdocs.comparison.result/filetype/dsql/
 ---
 ## FileType.DSQL field
 
-Dinamik Yapılandırılmış Sorgu Dili formatı
+Dinamik Yapılandırılmış Sorgu Dili format
 
 ```csharp
 public static FileType DSQL;

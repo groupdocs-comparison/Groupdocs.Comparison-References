@@ -16,8 +16,8 @@ public static bool operator !=(FileType left, FileType right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | FileType | La gauche[`FileType`](../../filetype) objet. |
-| right | FileType | Droit[`FileType`](../../filetype) objet. |
+| left | FileType | Gauche[`FileType`](../../filetype) objet. |
+| right | FileType | Droite[`FileType`](../../filetype) objet. |
 
 ### Voir également
 

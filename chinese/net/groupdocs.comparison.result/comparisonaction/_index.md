@@ -20,7 +20,7 @@ public enum ComparisonAction
 | --- | --- | --- |
 | None | `0` | 无事可做 |
 | Accept | `1` | 更改将在结果文件中可见 |
-| Reject | `2` | 拒绝将在结果文件中不可见 |
+| Reject | `2` | 拒绝在结果文件 上是不可见的 |
 
 ### 也可以看看
 

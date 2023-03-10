@@ -21,7 +21,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как применять или отклонять обнаруженные различия между сравниваемыми документами в результирующем документе: [Как применить или отклонить изменения, обнаруженные при сравнении документов в C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -49,7 +49,7 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как применять или отклонять обнаруженные различия между сравниваемыми документами в результирующем документе: [Как применить или отклонить изменения, обнаруженные при сравнении документов в C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -79,7 +79,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как применять или отклонять обнаруженные различия между сравниваемыми документами в результирующем документе: [Как применить или отклонить изменения, обнаруженные при сравнении документов в C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -110,7 +110,7 @@ public void ApplyChanges(Stream document, SaveOptions saveOptions,
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как применять или отклонять обнаруженные различия между сравниваемыми документами в результирующем документе: [Как применить или отклонить изменения, обнаруженные при сравнении документов в C#](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 

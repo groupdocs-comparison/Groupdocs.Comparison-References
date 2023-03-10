@@ -21,7 +21,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Anwenden oder Zurückweisen erkannter Unterschiede zwischen verglichenen Dokumenten in einem Ergebnisdokument: [Anwenden oder Ablehnen von Änderungen, die während des Dokumentvergleichs in C# erkannt wurden](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -49,7 +49,7 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Anwenden oder Zurückweisen erkannter Unterschiede zwischen verglichenen Dokumenten in einem Ergebnisdokument: [Anwenden oder Ablehnen von Änderungen, die während des Dokumentvergleichs in C# erkannt wurden](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -79,7 +79,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Anwenden oder Zurückweisen erkannter Unterschiede zwischen verglichenen Dokumenten in einem Ergebnisdokument: [Anwenden oder Ablehnen von Änderungen, die während des Dokumentvergleichs in C# erkannt wurden](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
@@ -110,7 +110,7 @@ public void ApplyChanges(Stream document, SaveOptions saveOptions,
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Anwenden oder Zurückweisen erkannter Unterschiede zwischen verglichenen Dokumenten in einem Ergebnisdokument: [Anwenden oder Ablehnen von Änderungen, die während des Dokumentvergleichs in C# erkannt wurden](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 

@@ -1,14 +1,14 @@
 ---
 title: CompareBookmarks
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Word formatında yer imlerinin karşılaştırmasını açma kontrolü.
+description: Yer imlerinin Word formatında karşılaştırılmasını açma kontrolü.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.comparison.options/compareoptions/comparebookmarks/
 ---
 ## CompareOptions.CompareBookmarks property
 
-Word formatında yer imlerinin karşılaştırmasını açma kontrolü.
+Yer imlerinin Word formatında karşılaştırılmasını açma kontrolü.
 
 ```csharp
 public bool CompareBookmarks { get; set; }

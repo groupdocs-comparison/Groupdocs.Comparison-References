@@ -1,14 +1,14 @@
 ---
 title: MAKE
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Makefile 是一个包含一组指令的文件make 构建自动化工具使用这些指令生成目标/目标
+description: Makefile 是一个包含一组指令的文件make 构建自动化工具使用这些指令来生成目标/目标
 type: docs
 weight: 660
 url: /zh/net/groupdocs.comparison.result/filetype/make/
 ---
 ## FileType.MAKE field
 
-Makefile 是一个包含一组指令的文件，make 构建自动化工具使用这些指令生成目标/目标
+Makefile 是一个包含一组指令的文件，make 构建自动化工具使用这些指令来生成目标/目标
 
 ```csharp
 public static FileType MAKE;

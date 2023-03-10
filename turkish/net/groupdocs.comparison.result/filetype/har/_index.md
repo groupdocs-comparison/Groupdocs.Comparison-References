@@ -1,14 +1,14 @@
 ---
 title: HAR
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: HTTP Arşivi biçimi
+description: HTTP Arşiv formatı
 type: docs
 weight: 510
 url: /tr/net/groupdocs.comparison.result/filetype/har/
 ---
 ## FileType.HAR field
 
-HTTP Arşivi biçimi
+HTTP Arşiv formatı
 
 ```csharp
 public static FileType HAR;

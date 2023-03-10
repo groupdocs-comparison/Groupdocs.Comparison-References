@@ -1,14 +1,14 @@
 ---
 title: Source
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: File sorgente che viene confrontato.
+description: File di origine che viene confrontato.
 type: docs
 weight: 20
 url: /it/net/groupdocs.comparison/comparer/source/
 ---
 ## Comparer.Source property
 
-File sorgente che viene confrontato.
+File di origine che viene confrontato.
 
 ```csharp
 public Document Source { get; }

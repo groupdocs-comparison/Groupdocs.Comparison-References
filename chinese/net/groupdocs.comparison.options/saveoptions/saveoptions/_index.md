@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化SaveOptionsgroupdocs.comparison.options/saveoptions类.
+description: 初始化一个新的实例SaveOptionsgroupdocs.comparison.options/saveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.options/saveoptions/saveoptions/
 ---
 ## SaveOptions constructor
 
-初始化[`SaveOptions`](../../saveoptions)类.
+初始化一个新的实例[`SaveOptions`](../../saveoptions)类.
 
 ```csharp
 public SaveOptions()

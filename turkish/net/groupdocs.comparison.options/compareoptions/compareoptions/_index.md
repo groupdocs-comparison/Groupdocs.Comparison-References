@@ -1,14 +1,14 @@
 ---
 title: CompareOptions
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni bir örneğini başlatırCompareOptionsgroupdocs.comparison.options/compareoptions sınıf.
+description: Yeni bir örneğini başlatır.CompareOptionsgroupdocs.comparison.options/compareoptions sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.options/compareoptions/compareoptions/
 ---
 ## CompareOptions constructor
 
-Yeni bir örneğini başlatır[`CompareOptions`](../../compareoptions) sınıf.
+Yeni bir örneğini başlatır.[`CompareOptions`](../../compareoptions) sınıf.
 
 ```csharp
 public CompareOptions()

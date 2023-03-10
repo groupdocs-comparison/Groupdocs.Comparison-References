@@ -1,14 +1,14 @@
 ---
 title: GEMSPEC
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: File sviluppatore che specifica gli attributi di una RubyGems
+description: File di sviluppo che specifica gli attributi di un RubyGems
 type: docs
 weight: 420
 url: /it/net/groupdocs.comparison.result/filetype/gemspec/
 ---
 ## FileType.GEMSPEC field
 
-File sviluppatore che specifica gli attributi di una RubyGems
+File di sviluppo che specifica gli attributi di un RubyGems
 
 ```csharp
 public static FileType GEMSPEC;

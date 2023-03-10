@@ -1,14 +1,14 @@
 ---
 title: UnsupportedFileFormat
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化一个新的实例UnsupportedFileFormatgroupdocs.comparison.common.exceptions/unsupportedfileformat类.
+description: 初始化一个新实例UnsupportedFileFormatgroupdocs.comparison.common.exceptions/unsupportedfileformat类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.common.exceptions/unsupportedfileformat/unsupportedfileformat/
 ---
 ## UnsupportedFileFormat() {#constructor}
 
-初始化一个新的实例[`UnsupportedFileFormat`](../../unsupportedfileformat)类.
+初始化一个新实例[`UnsupportedFileFormat`](../../unsupportedfileformat)类.
 
 ```csharp
 public UnsupportedFileFormat()
@@ -24,7 +24,7 @@ public UnsupportedFileFormat()
 
 ## UnsupportedFileFormat(string) {#constructor_1}
 
-初始化一个新的实例[`UnsupportedFileFormat`](../../unsupportedfileformat)类.
+初始化一个新实例[`UnsupportedFileFormat`](../../unsupportedfileformat)类.
 
 ```csharp
 public UnsupportedFileFormat(string pathFile)

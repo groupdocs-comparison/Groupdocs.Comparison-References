@@ -20,9 +20,9 @@ public void GeneratePreview(PreviewOptions previewOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 详细了解如何为文档页面生成预览： [如何使用 GroupDocs.Comparison 生成文档页面预览](https://docs.groupdocs.com/display/comparisonnet/Generate+document+pages+preview)
+* 了解有关如何为文档页面生成预览的更多信息： [如何使用 GroupDocs.Comparison 生成文档页面预览](https://docs.groupdocs.com/display/comparisonnet/Generate+document+pages+preview)
 
 ### 也可以看看
 

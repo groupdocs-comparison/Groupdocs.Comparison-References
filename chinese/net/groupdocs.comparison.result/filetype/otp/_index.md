@@ -1,14 +1,14 @@
 ---
 title: OTP
 second_title: GroupDocs.Comparison for .NET API 参考
-description: OpenDocument 演示模板
+description: OpenDocument 演示文稿模板
 type: docs
 weight: 890
 url: /zh/net/groupdocs.comparison.result/filetype/otp/
 ---
 ## FileType.OTP field
 
-OpenDocument 演示模板
+OpenDocument 演示文稿模板
 
 ```csharp
 public static FileType OTP;

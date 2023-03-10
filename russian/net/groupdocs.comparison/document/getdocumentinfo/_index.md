@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о типе файла документа, количестве страниц, размере и многих других свойствах формата: [Как получить информацию о документе с помощью GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Get+file+info)
 

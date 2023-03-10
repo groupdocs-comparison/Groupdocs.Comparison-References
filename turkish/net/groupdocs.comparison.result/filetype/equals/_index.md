@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Dosya türü denklik kontrolü
+description: Dosya türü eşdeğerliği kontrolü
 type: docs
 weight: 1550
 url: /tr/net/groupdocs.comparison.result/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Dosya türü denklik kontrolü
+Dosya türü eşdeğerliği kontrolü
 
 ```csharp
 public bool Equals(FileType other)

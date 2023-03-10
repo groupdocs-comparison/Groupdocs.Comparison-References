@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 运算符重载
+description: 运算符超载
 type: docs
 weight: 1600
 url: /zh/net/groupdocs.comparison.result/filetype/op_inequality/
 ---
 ## FileType Inequality operator
 
-运算符重载
+运算符超载
 
 ```csharp
 public static bool operator !=(FileType left, FileType right)
@@ -16,7 +16,7 @@ public static bool operator !=(FileType left, FileType right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | FileType | 剩下[`FileType`](../../filetype)目的。 |
+| left | FileType | 左边[`FileType`](../../filetype)目的。 |
 | right | FileType | 正确的[`FileType`](../../filetype)目的。 |
 
 ### 也可以看看

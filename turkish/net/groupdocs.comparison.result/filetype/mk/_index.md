@@ -1,14 +1,14 @@
 ---
 title: MK
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Makefile make build otomasyon aracı tarafından bir hedef/hedef oluşturmak için kullanılan bir dizi yönergeyi içeren bir dosyadır
+description: Makefile make build otomasyon aracı tarafından bir hedef/goal oluşturmak için kullanılan bir dizi yönerge içeren bir dosyadır.
 type: docs
 weight: 760
 url: /tr/net/groupdocs.comparison.result/filetype/mk/
 ---
 ## FileType.MK field
 
-Makefile, make build otomasyon aracı tarafından bir hedef/hedef oluşturmak için kullanılan bir dizi yönergeyi içeren bir dosyadır
+Makefile, make build otomasyon aracı tarafından bir hedef/goal oluşturmak için kullanılan bir dizi yönerge içeren bir dosyadır.
 
 ```csharp
 public static FileType MK;

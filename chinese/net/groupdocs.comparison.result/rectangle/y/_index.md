@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Y 坐标
+description: Y坐标
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.result/rectangle/y/
 ---
 ## Rectangle.Y property
 
-Y 坐标
+Y坐标
 
 ```csharp
 public float Y { get; set; }

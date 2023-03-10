@@ -32,7 +32,7 @@ public class StyleChangeInfo : IEquatable<StyleChangeInfo>
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | Verifica dell'equivalenza con l'oggetto |
+| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | Verifica equivalenza con oggetto |
 | [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | Controllo equivalenza cambio stile |
 
 ### Guarda anche

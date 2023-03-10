@@ -37,7 +37,7 @@ public void ApplyRevisionChanges(string filePath, ApplyRevisionOptions changes)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Resultatfilens sökväg |
+| filePath | String | Sökväg till resultatfilen |
 | changes | ApplyRevisionOptions | Lista över ändrade revisioner |
 
 ### Se även

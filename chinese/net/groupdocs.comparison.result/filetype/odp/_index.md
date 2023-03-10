@@ -1,14 +1,14 @@
 ---
 title: ODP
 second_title: GroupDocs.Comparison for .NET API 参考
-description: OpenDocument 演示文稿
+description: OpenDocument Presentation
 type: docs
 weight: 850
 url: /zh/net/groupdocs.comparison.result/filetype/odp/
 ---
 ## FileType.ODP field
 
-OpenDocument 演示文稿
+OpenDocument Presentation
 
 ```csharp
 public static FileType ODP;

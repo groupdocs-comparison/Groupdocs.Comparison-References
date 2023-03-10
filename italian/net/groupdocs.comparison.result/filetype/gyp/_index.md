@@ -1,14 +1,14 @@
 ---
 title: GYP
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Formato strumento di automazione build
+description: Formato dello strumento di automazione della creazione
 type: docs
 weight: 470
 url: /it/net/groupdocs.comparison.result/filetype/gyp/
 ---
 ## FileType.GYP field
 
-Formato strumento di automazione build
+Formato dello strumento di automazione della creazione
 
 ```csharp
 public static FileType GYP;

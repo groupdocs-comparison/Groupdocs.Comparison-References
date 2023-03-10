@@ -16,7 +16,7 @@ public int SensitivityOfComparison { get; set; }
 
 ### Mülk değeri
 
-Bu nesnelerin tüm öğeleriyle ilişkili olarak karşılaştırılan iki nesnenin silinen ve eklenen öğelerinin yüzdesi. bu yüzde aşılırsa, nesne karşılaştırılmaz, ancak tamamen eklenmiş ve silinmiş olarak kabul edilir. Minimum değer - %0 = &gt; Karşılaştırılan iki nesnenin ortak alt dizisinin herhangi bir uzunluğu için karşılaştırma yapılmaz. Varsayılan değer - %75 =&gt; Karşılaştırma gerçekleşir , karşılaştırılan iki nesnenin silinen ve eklenen öğelerinin bu nesnelerin tüm öğelerine göre yüzdesi ise 75. Maksimum değer - %100 =&gt; Karşılaştırma, karşılaştırılan iki nesnenin ortak alt dizisinin herhangi bir uzunluğunda gerçekleşir.
+Karşılaştırılan iki nesnenin silinen ve eklenen öğelerinin, bu nesnelerin tüm öğelerine göre yüzdesi. bu yüzde aşılırsa, nesne karşılaştırılmaz ancak tamamen eklenmiş ve silinmiş kabul edilir. Min değer - %0 = &gt; Karşılaştırılan iki nesnenin ortak alt dizisinin herhangi bir uzunluğu için karşılaştırma yapılmaz. Varsayılan değer - %75 =&gt; Karşılaştırılan iki nesnenin silinen ve eklenen öğelerinin bu nesnelerin tüm öğelerine göre yüzdesi ise karşılaştırma gerçekleşir 75'ten fazla değil. Maks değer - %100 =&gt; Karşılaştırma, karşılaştırılan iki nesnenin ortak alt dizisinin herhangi bir uzunluğunda gerçekleşir.
 
 ### Ayrıca bakınız
 

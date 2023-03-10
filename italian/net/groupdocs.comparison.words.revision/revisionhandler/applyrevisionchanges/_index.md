@@ -37,7 +37,7 @@ public void ApplyRevisionChanges(string filePath, ApplyRevisionOptions changes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Percorso del file di risultato |
+| filePath | String | Percorso del file dei risultati |
 | changes | ApplyRevisionOptions | Elenco delle revisioni modificate |
 
 ### Guarda anche
@@ -59,7 +59,7 @@ public void ApplyRevisionChanges(Stream document, ApplyRevisionOptions changes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| document | Stream | Documento di risultato |
+| document | Stream | Documento risultato |
 | changes | ApplyRevisionOptions | Elenco delle revisioni modificate |
 
 ### Guarda anche

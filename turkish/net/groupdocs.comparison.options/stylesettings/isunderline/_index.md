@@ -1,14 +1,14 @@
 ---
 title: IsUnderline
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar
+description: Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.comparison.options/stylesettings/isunderline/
 ---
 ## StyleSettings.IsUnderline property
 
-Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar
+Bunun underline olup olmadığını gösteren bir değer alır veya ayarlar.
 
 ```csharp
 public bool IsUnderline { get; set; }

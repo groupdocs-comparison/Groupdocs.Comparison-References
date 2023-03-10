@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Bunun kalın olup olmadığını belirten bir değer alır veya ayarlar.
+description: Bunun kalın olup olmadığını gösteren bir değer alır veya ayarlar.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.comparison.options/stylesettings/isbold/
 ---
 ## StyleSettings.IsBold property
 
-Bunun kalın olup olmadığını belirten bir değer alır veya ayarlar.
+Bunun kalın olup olmadığını gösteren bir değer alır veya ayarlar.
 
 ```csharp
 public bool IsBold { get; set; }

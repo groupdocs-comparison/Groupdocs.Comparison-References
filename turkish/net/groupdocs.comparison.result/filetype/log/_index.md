@@ -1,14 +1,14 @@
 ---
 title: LOG
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Günlüğe kaydetme olayların süreçlerin mesajların ve iletişimin bir kaydını tutar
+description: Günlüğe kaydetme olayların işlemlerin mesajların ve iletişimin kaydını tutar
 type: docs
 weight: 650
 url: /tr/net/groupdocs.comparison.result/filetype/log/
 ---
 ## FileType.LOG field
 
-Günlüğe kaydetme, olayların, süreçlerin, mesajların ve iletişimin bir kaydını tutar
+Günlüğe kaydetme, olayların, işlemlerin, mesajların ve iletişimin kaydını tutar
 
 ```csharp
 public static FileType LOG;

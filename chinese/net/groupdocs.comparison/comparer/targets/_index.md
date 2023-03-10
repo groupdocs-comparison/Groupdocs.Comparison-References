@@ -1,14 +1,14 @@
 ---
 title: Targets
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 与源文件比较的目标文件列表
+description: 要与源文件进行比较的目标文件列表
 type: docs
 weight: 30
 url: /zh/net/groupdocs.comparison/comparer/targets/
 ---
 ## Comparer.Targets property
 
-与源文件比较的目标文件列表。
+要与源文件进行比较的目标文件列表。
 
 ```csharp
 public List<Document> Targets { get; }

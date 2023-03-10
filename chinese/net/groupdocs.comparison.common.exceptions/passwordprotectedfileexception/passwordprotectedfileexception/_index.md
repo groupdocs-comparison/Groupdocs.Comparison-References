@@ -1,14 +1,14 @@
 ---
 title: PasswordProtectedFileException
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化一个新的实例InvalidPasswordExceptiongroupdocs.comparison.common.exceptions/invalidpasswordexception类.
+description: 初始化一个新实例InvalidPasswordExceptiongroupdocs.comparison.common.exceptions/invalidpasswordexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.common.exceptions/passwordprotectedfileexception/passwordprotectedfileexception/
 ---
 ## PasswordProtectedFileException constructor
 
-初始化一个新的实例[`InvalidPasswordException`](../../invalidpasswordexception)类.
+初始化一个新实例[`InvalidPasswordException`](../../invalidpasswordexception)类.
 
 ```csharp
 public PasswordProtectedFileException()

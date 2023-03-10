@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文件类型等价检查
+description: 文件类型等效性检查
 type: docs
 weight: 1550
 url: /zh/net/groupdocs.comparison.result/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-文件类型等价检查
+文件类型等效性检查
 
 ```csharp
 public bool Equals(FileType other)
@@ -32,7 +32,7 @@ public bool Equals(FileType other)
 
 ## Equals(object) {#equals_1}
 
-与 object 的等价检查
+与 object 的等价性检查
 
 ```csharp
 public override bool Equals(object obj)

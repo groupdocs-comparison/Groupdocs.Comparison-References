@@ -1,14 +1,14 @@
 ---
 title: WordsSeparatorChars
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Metni kelimelere bölmek için bir dizi sınırlayıcı alır veya ayarlar.
+description: Metni kelimelere bölmek için bir sınırlayıcı dizisi alır veya ayarlar.
 type: docs
 weight: 260
 url: /tr/net/groupdocs.comparison.options/compareoptions/wordsseparatorchars/
 ---
 ## CompareOptions.WordsSeparatorChars property
 
-Metni kelimelere bölmek için bir dizi sınırlayıcı alır veya ayarlar.
+Metni kelimelere bölmek için bir sınırlayıcı dizisi alır veya ayarlar.
 
 ```csharp
 public char[] WordsSeparatorChars { set; }

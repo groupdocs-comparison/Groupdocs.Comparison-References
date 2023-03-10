@@ -1,14 +1,14 @@
 ---
 title: ApplyChanges
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 接受或拒绝更改并将其应用于结果文档
+description: 接受或拒绝更改并将其应用于生成的文档
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison/comparer/applychanges/
 ---
 ## ApplyChanges(string, ApplyChangeOptions) {#applychanges_2}
 
-接受或拒绝更改并将其应用于结果文档。
+接受或拒绝更改并将其应用于生成的文档。
 
 ```csharp
 public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
@@ -21,9 +21,9 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何应用或拒绝结果文档中比较文档之间检测到的差异： [如何在 C# 中应用或拒绝在文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* 更多关于如何在结果文档中应用或拒绝比较文档之间检测到的差异： [如何应用或拒绝在 C# 中的文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 ## ApplyChanges(Stream, ApplyChangeOptions) {#applychanges}
 
-接受或拒绝更改并将其应用于结果文档。
+接受或拒绝更改并将其应用于生成的文档。
 
 ```csharp
 public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
@@ -49,9 +49,9 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何应用或拒绝结果文档中比较文档之间检测到的差异： [如何在 C# 中应用或拒绝在文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* 更多关于如何在结果文档中应用或拒绝比较文档之间检测到的差异： [如何应用或拒绝在 C# 中的文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 ## ApplyChanges(string, SaveOptions, ApplyChangeOptions) {#applychanges_3}
 
-接受或拒绝更改并将其应用于结果文档。
+接受或拒绝更改并将其应用于生成的文档。
 
 ```csharp
 public void ApplyChanges(string filePath, SaveOptions saveOptions, 
@@ -79,9 +79,9 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何应用或拒绝结果文档中比较文档之间检测到的差异： [如何在 C# 中应用或拒绝在文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* 更多关于如何在结果文档中应用或拒绝比较文档之间检测到的差异： [如何应用或拒绝在 C# 中的文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### 也可以看看
 
@@ -95,7 +95,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 ## ApplyChanges(Stream, SaveOptions, ApplyChangeOptions) {#applychanges_1}
 
-接受或拒绝更改并将其应用于结果文档。
+接受或拒绝更改并将其应用于生成的文档。
 
 ```csharp
 public void ApplyChanges(Stream document, SaveOptions saveOptions, 
@@ -110,9 +110,9 @@ public void ApplyChanges(Stream document, SaveOptions saveOptions,
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何应用或拒绝结果文档中比较文档之间检测到的差异： [如何在 C# 中应用或拒绝在文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* 更多关于如何在结果文档中应用或拒绝比较文档之间检测到的差异： [如何应用或拒绝在 C# 中的文档比较期间检测到的更改](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### 也可以看看
 

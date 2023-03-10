@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文档密码
+description: 文件密码.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison/document/password/
 ---
 ## Document.Password property
 
-文档密码。
+文件密码.
 
 ```csharp
 public string Password { get; }

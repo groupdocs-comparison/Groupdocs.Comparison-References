@@ -1,14 +1,14 @@
 ---
 title: StyleSettings
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化StyleSettingsgroupdocs.comparison.options/stylesettings类.
+description: 初始化一个新的实例StyleSettingsgroupdocs.comparison.options/stylesettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.options/stylesettings/stylesettings/
 ---
 ## StyleSettings constructor
 
-初始化[`StyleSettings`](../../stylesettings)类.
+初始化一个新的实例[`StyleSettings`](../../stylesettings)类.
 
 ```csharp
 public StyleSettings()

@@ -24,8 +24,8 @@ public class Comparer : IDisposable
 | [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Инициализирует новый экземпляр[`Comparer`](../comparer) с исходным потоком документов и[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
 | [Comparer](comparer#constructor_5)(string, ComparerSettings) | Инициализирует новый экземпляр[`Comparer`](../comparer) класс с путем к исходному файлу и[`ComparerSettings`](../comparersettings) . |
 | [Comparer](comparer#constructor_6)(string, LoadOptions) | Инициализирует новый экземпляр[`Comparer`](../comparer) с путем к исходному файлу и[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) . |
-| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Инициализирует новый экземпляр[`Comparer`](../comparer) класс с потоком документов,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) а также[`ComparerSettings`](../comparersettings) . |
-| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Инициализирует новый экземпляр[`Comparer`](../comparer) класс с путем к исходному файлу,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) а также[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Инициализирует новый экземпляр[`Comparer`](../comparer) класс с потоком документов,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) и[`ComparerSettings`](../comparersettings) . |
+| [Comparer](comparer#constructor_7)(string, LoadOptions, ComparerSettings) | Инициализирует новый экземпляр[`Comparer`](../comparer) класс с путем к исходному файлу,[`LoadOptions`](../../groupdocs.comparison.options/loadoptions) и[`ComparerSettings`](../comparersettings) . |
 
 ## Характеристики
 

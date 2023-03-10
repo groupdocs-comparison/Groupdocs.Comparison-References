@@ -18,9 +18,9 @@ public interface IDocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileType](../../groupdocs.comparison.interfaces/idocumentinfo/filetype) { get; set; } | Tipo di documento |
+| [FileType](../../groupdocs.comparison.interfaces/idocumentinfo/filetype) { get; set; } | Tipo documento |
 | [PageCount](../../groupdocs.comparison.interfaces/idocumentinfo/pagecount) { get; set; } | Numero di pagine |
-| [PagesInfo](../../groupdocs.comparison.interfaces/idocumentinfo/pagesinfo) { get; set; } | Informazioni sulle pagine (numero pagina, larghezza, altezza) |
+| [PagesInfo](../../groupdocs.comparison.interfaces/idocumentinfo/pagesinfo) { get; set; } | Informazioni sulle pagine (numero di pagina, larghezza, altezza) |
 | [Size](../../groupdocs.comparison.interfaces/idocumentinfo/size) { get; set; } | Dimensione file |
 
 ### Guarda anche

@@ -1,14 +1,14 @@
 ---
 title: FileAuthorMetadata
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni bir örneğini başlatırFileAuthorMetadatagroupdocs.comparison.options/fileauthormetadata sınıf.
+description: Yeni bir örneğini başlatır.FileAuthorMetadatagroupdocs.comparison.options/fileauthormetadata sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.options/fileauthormetadata/fileauthormetadata/
 ---
 ## FileAuthorMetadata constructor
 
-Yeni bir örneğini başlatır[`FileAuthorMetadata`](../../fileauthormetadata) sınıf.
+Yeni bir örneğini başlatır.[`FileAuthorMetadata`](../../fileauthormetadata) sınıf.
 
 ```csharp
 public FileAuthorMetadata()

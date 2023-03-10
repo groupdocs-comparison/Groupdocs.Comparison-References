@@ -25,9 +25,9 @@ public sealed class FileType : IEquatable<FileType>
 
 | Nome | Descrizione |
 | --- | --- |
-| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Restituisce FileType in base al nome del file o all'estensione |
-| [Equals](../../groupdocs.comparison.result/filetype/equals#equals)(FileType) | Verifica dell'equivalenza del tipo di file |
-| override [Equals](../../groupdocs.comparison.result/filetype/equals#equals_1)(object) | Verifica dell'equivalenza con l'oggetto |
+| static [FromFileNameOrExtension](../../groupdocs.comparison.result/filetype/fromfilenameorextension)(string) | Restituisce FileType in base al nome file o all'estensione |
+| [Equals](../../groupdocs.comparison.result/filetype/equals#equals)(FileType) | Controllo equivalenza tipo file |
+| override [Equals](../../groupdocs.comparison.result/filetype/equals#equals_1)(object) | Verifica equivalenza con oggetto |
 | override [GetHashCode](../../groupdocs.comparison.result/filetype/gethashcode)() | Ottieni codice hash |
 | override [ToString](../../groupdocs.comparison.result/filetype/tostring)() | ToString |
 | static [GetSupportedFileTypes](../../groupdocs.comparison.result/filetype/getsupportedfiletypes)() | Ottieni l'enumerazione dei tipi di file supportati |
@@ -55,7 +55,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [CMD](../../groupdocs.comparison.result/filetype/cmd) | File script in DOS, OS/2 e Microsoft Windows |
 | static [CONF](../../groupdocs.comparison.result/filetype/conf) | File di configurazione utilizzato su sistemi basati su Unix e Linux |
 | static [CPP](../../groupdocs.comparison.result/filetype/cpp) | Formato linguaggio di programmazione basato su C |
-| static [CPY](../../groupdocs.comparison.result/filetype/cpy) | Controller Python Script format |
+| static [CPY](../../groupdocs.comparison.result/filetype/cpy) | Formato dello script Python del controller |
 | static [CS](../../groupdocs.comparison.result/filetype/cs) | Formato linguaggio di programmazione CSharp |
 | static [CSV](../../groupdocs.comparison.result/filetype/csv) | File con valori separati da virgola |
 | static [CSX](../../groupdocs.comparison.result/filetype/csx) | Formato file di script CSharp |
@@ -63,7 +63,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [CXX](../../groupdocs.comparison.result/filetype/cxx) | Formato linguaggio di programmazione basato su C |
 | static [DCM](../../groupdocs.comparison.result/filetype/dcm) | Imaging digitale e comunicazione in medicina |
 | static [DIFF](../../groupdocs.comparison.result/filetype/diff) | Formato strumento di confronto dati |
-| static [DIR](../../groupdocs.comparison.result/filetype/dir) | Directory è un percorso per la memorizzazione di file sul computer |
+| static [DIR](../../groupdocs.comparison.result/filetype/dir) | La directory è una posizione per l'archiviazione dei file sul computer |
 | static [DJVU](../../groupdocs.comparison.result/filetype/djvu) | Formato Deja Vu |
 | static [DOC](../../groupdocs.comparison.result/filetype/doc) | Documento Microsoft Word 97-2003 |
 | static [DOCM](../../groupdocs.comparison.result/filetype/docm) | Documento con attivazione macro di Microsoft Word |
@@ -71,7 +71,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [DOT](../../groupdocs.comparison.result/filetype/dot) | Modello Microsoft Word 97-2003 |
 | static [DOTM](../../groupdocs.comparison.result/filetype/dotm) | Modello con attivazione macro di Microsoft Word |
 | static [DOTX](../../groupdocs.comparison.result/filetype/dotx) | Modello Microsoft Word |
-| static [DSQL](../../groupdocs.comparison.result/filetype/dsql) | Formato del linguaggio di query strutturato dinamico |
+| static [DSQL](../../groupdocs.comparison.result/filetype/dsql) | Formato Dynamic Structured Query Language |
 | static [DWG](../../groupdocs.comparison.result/filetype/dwg) | Formati dei dati di progettazione Autodesk |
 | static [DXF](../../groupdocs.comparison.result/filetype/dxf) | Interscambio disegni AutoCAD |
 | static [EBUILD](../../groupdocs.comparison.result/filetype/ebuild) | Script bash specializzato che automatizza le procedure di compilazione e installazione dei pacchetti software |
@@ -79,13 +79,13 @@ public sealed class FileType : IEquatable<FileType>
 | static [EMLX](../../groupdocs.comparison.result/filetype/emlx) | File di posta elettronica di Apple Mail |
 | static [ERB](../../groupdocs.comparison.result/filetype/erb) | Formato linguaggio di programmazione Ruby |
 | static [ES6](../../groupdocs.comparison.result/filetype/es6) | Formato del linguaggio di scripting standardizzato JavaScript |
-| static [GEMSPEC](../../groupdocs.comparison.result/filetype/gemspec) | File sviluppatore che specifica gli attributi di una RubyGems |
+| static [GEMSPEC](../../groupdocs.comparison.result/filetype/gemspec) | File di sviluppo che specifica gli attributi di un RubyGems |
 | static [GIF](../../groupdocs.comparison.result/filetype/gif) | Formato di interscambio grafico |
 | static [GRADLE](../../groupdocs.comparison.result/filetype/gradle) | Formato del sistema di automazione della compilazione |
 | static [GROOVY](../../groupdocs.comparison.result/filetype/groovy) | File del codice sorgente scritto in formato Groovy |
 | static [GVY](../../groupdocs.comparison.result/filetype/gvy) | File del codice sorgente scritto in formato Groovy |
-| static [GYP](../../groupdocs.comparison.result/filetype/gyp) | Formato strumento di automazione build |
-| static [GYPI](../../groupdocs.comparison.result/filetype/gypi) | Formato strumento di automazione build |
+| static [GYP](../../groupdocs.comparison.result/filetype/gyp) | Formato dello strumento di automazione della creazione |
+| static [GYPI](../../groupdocs.comparison.result/filetype/gypi) | Formato dello strumento di automazione della creazione |
 | static [H](../../groupdocs.comparison.result/filetype/h) | I file di intestazione basati su C contengono definizioni di funzioni e variabili |
 | static [HAML](../../groupdocs.comparison.result/filetype/haml) | Linguaggio di markup per la generazione HTML semplificata |
 | static [HAR](../../groupdocs.comparison.result/filetype/har) | Il formato dell'archivio HTTP |
@@ -143,18 +143,18 @@ public sealed class FileType : IEquatable<FileType>
 | static [PNG](../../groupdocs.comparison.result/filetype/png) | Grafica di rete portatile |
 | static [POD](../../groupdocs.comparison.result/filetype/pod) | Formato del linguaggio di markup leggero Perl |
 | static [PODSPEC](../../groupdocs.comparison.result/filetype/podspec) | Formato impostazioni build Ruby |
-| static [POT](../../groupdocs.comparison.result/filetype/pot) | Modello di Microsoft PowerPoint |
+| static [POT](../../groupdocs.comparison.result/filetype/pot) | Modello Microsoft PowerPoint |
 | static [POTX](../../groupdocs.comparison.result/filetype/potx) | Modello Microsoft PowerPoint |
-| static [PPS](../../groupdocs.comparison.result/filetype/pps) | Presentazione di Microsoft PowerPoint 97-2003 |
+| static [PPS](../../groupdocs.comparison.result/filetype/pps) | Presentazione Microsoft PowerPoint 97-2003 |
 | static [PPSX](../../groupdocs.comparison.result/filetype/ppsx) | Presentazione di Microsoft PowerPoint |
-| static [PPT](../../groupdocs.comparison.result/filetype/ppt) | Presentazione di Microsoft PowerPoint 97-2003 |
-| static [PPTX](../../groupdocs.comparison.result/filetype/pptx) | Presentazione di Microsoft PowerPoint |
+| static [PPT](../../groupdocs.comparison.result/filetype/ppt) | Presentazione Microsoft PowerPoint 97-2003 |
+| static [PPTX](../../groupdocs.comparison.result/filetype/pptx) | Presentazione Microsoft PowerPoint |
 | static [PROP](../../groupdocs.comparison.result/filetype/prop) | Formato file proprietà |
 | static [PSGI](../../groupdocs.comparison.result/filetype/psgi) | Interfaccia tra web server e applicazioni web e framework scritti nella programmazione Perl |
 | static [PY](../../groupdocs.comparison.result/filetype/py) | Formato linguaggio di programmazione Python |
 | static [PYI](../../groupdocs.comparison.result/filetype/pyi) | Formato file interfaccia Python |
-| static [PYW](../../groupdocs.comparison.result/filetype/pyw) | File utilizzati in Windows per indicare che è necessario eseguire uno script |
-| static [RAKE](../../groupdocs.comparison.result/filetype/rake) | Strumento di automazione build di Ruby |
+| static [PYW](../../groupdocs.comparison.result/filetype/pyw) | File utilizzati in Windows per indicare che uno script deve essere eseguito |
+| static [RAKE](../../groupdocs.comparison.result/filetype/rake) | Strumento di automazione della build Ruby |
 | static [RB](../../groupdocs.comparison.result/filetype/rb) | Formato linguaggio di programmazione Ruby |
 | static [RBI](../../groupdocs.comparison.result/filetype/rbi) | Formato file interfaccia Ruby |
 | static [REJ](../../groupdocs.comparison.result/filetype/rej) | Formato file rifiutati |
@@ -175,24 +175,24 @@ public sealed class FileType : IEquatable<FileType>
 | static [TXT](../../groupdocs.comparison.result/filetype/txt) | Documento di testo semplice |
 | static [UNKNOWN](../../groupdocs.comparison.result/filetype/unknown) | Tipo sconosciuto |
 | static [VDX](../../groupdocs.comparison.result/filetype/vdx) | Disegno XML Microsoft Visio 2003-2010 |
-| static [VIM](../../groupdocs.comparison.result/filetype/vim) | Formato file codice sorgente Vim |
+| static [VIM](../../groupdocs.comparison.result/filetype/vim) | Formato del file del codice sorgente di Vim |
 | static [VSD](../../groupdocs.comparison.result/filetype/vsd) | Microsoft Visio 2003-2010 Disegno |
-| static [VSDX](../../groupdocs.comparison.result/filetype/vsdx) | Disegno di Microsoft Visio |
+| static [VSDX](../../groupdocs.comparison.result/filetype/vsdx) | Disegno Microsoft Visio |
 | static [VSS](../../groupdocs.comparison.result/filetype/vss) | Microsoft Visio 2003-2010 Stencil |
 | static [VST](../../groupdocs.comparison.result/filetype/vst) | Modello Microsoft Visio 2003-2010 |
 | static [WEBMANIFEST](../../groupdocs.comparison.result/filetype/webmanifest) | Il file manifest include informazioni sull'app |
 | static [XLS](../../groupdocs.comparison.result/filetype/xls) | Foglio di lavoro Microsoft Excel 97-2003 |
-| static [XLSB](../../groupdocs.comparison.result/filetype/xlsb) | Foglio di lavoro binario Microsoft Excel |
-| static [XLSM](../../groupdocs.comparison.result/filetype/xlsm) | Foglio di lavoro abilitato per le macro di Microsoft Excel |
+| static [XLSB](../../groupdocs.comparison.result/filetype/xlsb) | Foglio di lavoro binario di Microsoft Excel |
+| static [XLSM](../../groupdocs.comparison.result/filetype/xlsm) | Foglio di lavoro con attivazione macro di Microsoft Excel |
 | static [XLSX](../../groupdocs.comparison.result/filetype/xlsx) | Foglio di lavoro Microsoft Excel |
 | static [XLT](../../groupdocs.comparison.result/filetype/xlt) | Modello Microsoft Excel |
-| static [XLTM](../../groupdocs.comparison.result/filetype/xltm) | Modello abilitato per le macro di Microsoft Excel |
+| static [XLTM](../../groupdocs.comparison.result/filetype/xltm) | Modello con attivazione macro di Microsoft Excel |
 | static [YAML](../../groupdocs.comparison.result/filetype/yaml) | Formato del linguaggio di serializzazione dei dati leggibile dall'uomo |
 | static [YML](../../groupdocs.comparison.result/filetype/yml) | Formato del linguaggio di serializzazione dei dati leggibile dall'uomo |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui formati di file supportati da GroupDocs.Confronto: [Elenco completo dei formati di documenti supportati](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
 * Ulteriori informazioni su come ottenere i tipi di file supportati in C#: [Come ottenere i formati di file supportati in C#](https://docs.groupdocs.com/display/comparisonnet/Get+supported+file+formats)

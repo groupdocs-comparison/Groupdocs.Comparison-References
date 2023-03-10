@@ -1,14 +1,14 @@
 ---
 title: MJS
 second_title: GroupDocs.Comparison for .NET API 参考
-description: EcmaScript ES 模块文件的扩展名
+description: EcmaScript ES 模块文件的扩展
 type: docs
 weight: 750
 url: /zh/net/groupdocs.comparison.result/filetype/mjs/
 ---
 ## FileType.MJS field
 
-EcmaScript (ES) 模块文件的扩展名
+EcmaScript (ES) 模块文件的扩展
 
 ```csharp
 public static FileType MJS;

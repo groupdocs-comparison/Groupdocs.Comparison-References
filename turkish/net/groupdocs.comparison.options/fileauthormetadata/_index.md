@@ -18,7 +18,7 @@ public class FileAuthorMetadata
 
 | İsim | Tanım |
 | --- | --- |
-| [FileAuthorMetadata](fileauthormetadata)() | Yeni bir örneğini başlatır[`FileAuthorMetadata`](../fileauthormetadata) sınıf. |
+| [FileAuthorMetadata](fileauthormetadata)() | Yeni bir örneğini başlatır.[`FileAuthorMetadata`](../fileauthormetadata) sınıf. |
 
 ## Özellikleri
 

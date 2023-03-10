@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 便携式网络显卡
+description: 便携式网络图形
 type: docs
 weight: 1030
 url: /zh/net/groupdocs.comparison.result/filetype/png/
 ---
 ## FileType.PNG field
 
-便携式网络显卡
+便携式网络图形
 
 ```csharp
 public static FileType PNG;

@@ -1,14 +1,14 @@
 ---
 title: RAKE
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Strumento di automazione build di Ruby
+description: Strumento di automazione della build Ruby
 type: docs
 weight: 1170
 url: /it/net/groupdocs.comparison.result/filetype/rake/
 ---
 ## FileType.RAKE field
 
-Strumento di automazione build di Ruby
+Strumento di automazione della build Ruby
 
 ```csharp
 public static FileType RAKE;

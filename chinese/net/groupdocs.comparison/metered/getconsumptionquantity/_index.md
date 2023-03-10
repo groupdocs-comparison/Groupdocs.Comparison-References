@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionQuantity
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取消费量
+description: 获取消费数量
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison/metered/getconsumptionquantity/
 ---
 ## Metered.GetConsumptionQuantity method
 
-获取消费量
+获取消费数量
 
 ```csharp
 public static decimal GetConsumptionQuantity()

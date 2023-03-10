@@ -18,8 +18,8 @@ public static class SupportedLocales
 
 | Nome | Descrizione |
 | --- | --- |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | Determina se [è supportata la locale] [le impostazioni cultura specificate]. |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | Determina se [è supportata la locale] [le impostazioni cultura specificate]. |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | Determina se [è supportata la locale] [la cultura specificata]. |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | Determina se [è supportata la locale] [la cultura specificata]. |
 
 ### Guarda anche
 

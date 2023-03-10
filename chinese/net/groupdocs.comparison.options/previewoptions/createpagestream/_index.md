@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 定义创建输出页面预览流的方法的委托
+description: 委托定义了创建输出页面预览流的方法
 type: docs
 weight: 60
 url: /zh/net/groupdocs.comparison.options/previewoptions/createpagestream/
 ---
 ## PreviewOptions.CreatePageStream field
 
-定义创建输出页面预览流的方法的委托。
+委托定义了创建输出页面预览流的方法。
 
 ```csharp
 public CreatePageStream CreatePageStream;

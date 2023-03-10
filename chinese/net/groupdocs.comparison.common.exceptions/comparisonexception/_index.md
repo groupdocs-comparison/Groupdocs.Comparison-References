@@ -18,9 +18,9 @@ public class ComparisonException : ApplicationException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComparisonException](comparisonexception#constructor)() | 初始化ComparisonException 类的新实例。 |
-| [ComparisonException](comparisonexception#constructor_1)(string) | 使用指定的错误消息初始化ComparisonException类的新实例。 |
-| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化ComparisonException 类的新实例。 |
+| [ComparisonException](comparisonexception#constructor)() | 初始化 ComparisonException 类的新实例。 |
+| [ComparisonException](comparisonexception#constructor_1)(string) | 使用指定的错误消息初始化 ComparisonException 类的新实例。 |
+| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化 ComparisonException 类的新实例。 |
 
 ### 也可以看看
 

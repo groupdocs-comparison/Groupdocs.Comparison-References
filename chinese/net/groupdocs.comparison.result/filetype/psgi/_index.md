@@ -1,14 +1,14 @@
 ---
 title: PSGI
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Web 服务器和 Web 应用程序之间的接口以及用 Perl 编程编写的框架
+description: web 服务器与 web 应用程序和框架之间的接口用 Perl 编程编写
 type: docs
 weight: 1130
 url: /zh/net/groupdocs.comparison.result/filetype/psgi/
 ---
 ## FileType.PSGI field
 
-Web 服务器和 Web 应用程序之间的接口以及用 Perl 编程编写的框架
+web 服务器与 web 应用程序和框架之间的接口，用 Perl 编程编写
 
 ```csharp
 public static FileType PSGI;

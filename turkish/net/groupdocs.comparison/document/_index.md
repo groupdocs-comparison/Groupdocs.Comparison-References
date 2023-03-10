@@ -27,7 +27,7 @@ public class Document
 
 | İsim | Tanım |
 | --- | --- |
-| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | Değişikliklerin listesi. |
+| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | Değişiklik listesi. |
 | [Name](../../groupdocs.comparison/document/name) { get; set; } | Belge adı. |
 | [Password](../../groupdocs.comparison/document/password) { get; } | Belge şifresi. |
 | [Stream](../../groupdocs.comparison/document/stream) { get; } | Belge akışı. |

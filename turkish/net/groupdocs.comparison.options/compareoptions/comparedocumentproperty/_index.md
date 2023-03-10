@@ -1,14 +1,14 @@
 ---
 title: CompareDocumentProperty
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yerleşik ve özel özelliklerin Word biçiminde karşılaştırmasını açma denetimi.
+description: Word formatında yerleşik ve özel özelliklerin karşılaştırmasını açmak için kontrol.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.comparison.options/compareoptions/comparedocumentproperty/
 ---
 ## CompareOptions.CompareDocumentProperty property
 
-Yerleşik ve özel özelliklerin Word biçiminde karşılaştırmasını açma denetimi.
+Word formatında yerleşik ve özel özelliklerin karşılaştırmasını açmak için kontrol.
 
 ```csharp
 public bool CompareDocumentProperty { get; set; }

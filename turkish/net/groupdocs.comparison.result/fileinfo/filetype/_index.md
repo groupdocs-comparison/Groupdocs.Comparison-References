@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Dosya tipi
+description: Dosya türü
 type: docs
 weight: 20
 url: /tr/net/groupdocs.comparison.result/fileinfo/filetype/
 ---
 ## FileInfo.FileType property
 
-Dosya tipi
+Dosya türü
 
 ```csharp
 public FileType FileType { get; }

@@ -1,14 +1,14 @@
 ---
 title: FolderPath
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置保存结果图像的文件夹路径仅用于图像比较
+description: 获取或设置保存结果图像的文件夹路径仅用于成像比较
 type: docs
 weight: 40
 url: /zh/net/groupdocs.comparison.options/saveoptions/folderpath/
 ---
 ## SaveOptions.FolderPath property
 
-获取或设置保存结果图像的文件夹路径（仅用于图像比较）
+获取或设置保存结果图像的文件夹路径（仅用于成像比较）。
 
 ```csharp
 public string FolderPath { get; set; }

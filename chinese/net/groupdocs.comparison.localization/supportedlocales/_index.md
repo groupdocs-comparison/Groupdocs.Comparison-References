@@ -1,14 +1,14 @@
 ---
 title: SupportedLocales
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 提供用于检查 GroupDocs.Comparison 支持的语言环境的方法的类
+description: 提供检查 GroupDocs.Comparison 支持的语言环境的方法的类
 type: docs
 weight: 150
 url: /zh/net/groupdocs.comparison.localization/supportedlocales/
 ---
 ## SupportedLocales class
 
-提供用于检查 GroupDocs.Comparison 支持的语言环境的方法的类
+提供检查 GroupDocs.Comparison 支持的语言环境的方法的类
 
 ```csharp
 public static class SupportedLocales
@@ -18,8 +18,8 @@ public static class SupportedLocales
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | 确定[是否支持区域设置] [指定的文化]。 |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | 确定[是否支持区域设置] [指定的文化]。 |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | 确定是否[是否支持语言环境] [指定的文化]. |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | 确定是否[是否支持语言环境] [指定的文化]. |
 
 ### 也可以看看
 

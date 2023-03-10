@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 记录仪接口
+description: 记录器接口
 type: docs
 weight: 170
 url: /zh/net/groupdocs.comparison.logging/ilogger/
 ---
 ## ILogger interface
 
-记录仪接口
+记录器接口
 
 ```csharp
 public interface ILogger
@@ -20,7 +20,7 @@ public interface ILogger
 | --- | --- |
 | [Error](../../groupdocs.comparison.logging/ilogger/error)(string, Exception) | 错误信息 |
 | [Trace](../../groupdocs.comparison.logging/ilogger/trace)(string) | 跟踪消息 |
-| [Warning](../../groupdocs.comparison.logging/ilogger/warning)(string) | 警告信息 |
+| [Warning](../../groupdocs.comparison.logging/ilogger/warning)(string) | 警告消息 |
 
 ### 也可以看看
 

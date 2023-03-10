@@ -1,14 +1,14 @@
 ---
 title: ShowOnlySummaryPage
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 指示是否在结果文档中只留下一个页面其中包含在结果文档中检测到的更改的统计信息
+description: 指示是否在生成的文档中只留下一个页面其中包含生成的文档中检测到的更改的统计信息
 type: docs
 weight: 240
 url: /zh/net/groupdocs.comparison.options/compareoptions/showonlysummarypage/
 ---
 ## CompareOptions.ShowOnlySummaryPage property
 
-指示是否在结果文档中只留下一个页面，其中包含在结果文档中检测到的更改的统计信息。
+指示是否在生成的文档中只留下一个页面，其中包含生成的文档中检测到的更改的统计信息。
 
 ```csharp
 public bool ShowOnlySummaryPage { get; set; }

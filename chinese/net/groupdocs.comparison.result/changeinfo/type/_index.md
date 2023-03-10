@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 更改类型
+description: 变化类型
 type: docs
 weight: 120
 url: /zh/net/groupdocs.comparison.result/changeinfo/type/
 ---
 ## ChangeInfo.Type property
 
-更改类型。
+变化类型。
 
 ```csharp
 public ChangeType Type { get; }

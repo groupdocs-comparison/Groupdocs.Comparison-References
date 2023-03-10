@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Verifica dellequivalenza con loggetto
+description: Verifica equivalenza con oggetto
 type: docs
 weight: 50
 url: /it/net/groupdocs.comparison.result/stylechangeinfo/equals/
 ---
 ## Equals(object) {#equals_1}
 
-Verifica dell'equivalenza con l'oggetto
+Verifica equivalenza con oggetto
 
 ```csharp
 public override bool Equals(object obj)

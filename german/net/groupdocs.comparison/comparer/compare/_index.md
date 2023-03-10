@@ -16,7 +16,7 @@ public void Compare()
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -43,7 +43,7 @@ public void Compare(string filePath)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -70,7 +70,7 @@ public void Compare(Stream document)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -98,7 +98,7 @@ public void Compare(string filePath, CompareOptions compareOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -128,7 +128,7 @@ public void Compare(Stream document, CompareOptions compareOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -158,7 +158,7 @@ public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -189,7 +189,7 @@ public void Compare(string filePath, SaveOptions saveOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -218,7 +218,7 @@ public void Compare(Stream document, SaveOptions saveOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -246,7 +246,7 @@ public void Compare(CompareOptions compareOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -276,7 +276,7 @@ public void Compare(Stream document, SaveOptions saveOptions, CompareOptions com
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)
@@ -308,7 +308,7 @@ public void Compare(string filePath, SaveOptions saveOptions, CompareOptions com
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Vergleichen von Dokumenten: [So vergleichen Sie Dokumente in C#](https://docs.groupdocs.com/display/comparisonnet/Compare+documents)
 * Mehr zum Vergleichen von Verträgen, Entwürfen und Rechtsdokumenten in C#: [So vergleichen Sie Verträge, Entwürfe und juristische Dokumente](https://docs.groupdocs.com/display/comparisonnet/How+to+Compare+Contracts%2C+Drafts+and+Legal+Documents)

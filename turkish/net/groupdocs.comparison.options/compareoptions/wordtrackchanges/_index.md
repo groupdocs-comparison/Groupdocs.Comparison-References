@@ -1,14 +1,14 @@
 ---
 title: WordTrackChanges
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Words Track Revizyonlarının karşılaştırmasını açma kontrolü.
+description: Words Track Revizyonlarının karşılaştırmasını açmak için kontrol.
 type: docs
 weight: 270
 url: /tr/net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
 ---
 ## CompareOptions.WordTrackChanges property
 
-Words Track Revizyonlarının karşılaştırmasını açma kontrolü.
+Words Track Revizyonlarının karşılaştırmasını açmak için kontrol.
 
 ```csharp
 public bool WordTrackChanges { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: tarafından kullanılan çıktı sayfası önizleme akışını serbest bırakma yöntemini tanımlayan TemsilciPreviewOptions../groupdocs.comparison.options/previewoptions .
+description: Tarafından kullanılan çıktı sayfası önizleme akışını serbest bırakma yöntemini tanımlayan temsilciPreviewOptions../groupdocs.comparison.options/previewoptions .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.comparison.common.delegates/releasepagestream/
 ---
 ## ReleasePageStream delegate
 
-tarafından kullanılan çıktı sayfası önizleme akışını serbest bırakma yöntemini tanımlayan Temsilci[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions) .
+Tarafından kullanılan çıktı sayfası önizleme akışını serbest bırakma yöntemini tanımlayan temsilci[`PreviewOptions`](../../groupdocs.comparison.options/previewoptions) .
 
 ```csharp
 public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
@@ -17,7 +17,7 @@ public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pageNumber | Int32 | Önizlenen sayfa sayısı. |
-| pageStream | Stream | Yayınlanacak sayfa akışı. |
+| pageStream | Stream | Serbest bırakılacak sayfa akışı. |
 
 ### Ayrıca bakınız
 

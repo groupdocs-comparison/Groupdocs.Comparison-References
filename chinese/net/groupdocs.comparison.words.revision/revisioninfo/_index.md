@@ -24,7 +24,7 @@ public class RevisionInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Action](../../groupdocs.comparison.words.revision/revisioninfo/action) { get; set; } | 操作（接受或拒绝）。此字段允许您影响修订的显示。 |
+| [Action](../../groupdocs.comparison.words.revision/revisioninfo/action) { get; set; } | 操作（接受或拒绝）。该字段允许您影响修订的显示。 |
 | [Author](../../groupdocs.comparison.words.revision/revisioninfo/author) { get; } | 作者. |
 | [Text](../../groupdocs.comparison.words.revision/revisioninfo/text) { get; } | 正在修订的文本。 |
 | [Type](../../groupdocs.comparison.words.revision/revisioninfo/type) { get; } | RevisionHandler 类型，取决于 Action（接受或拒绝）逻辑更改的类型。 |

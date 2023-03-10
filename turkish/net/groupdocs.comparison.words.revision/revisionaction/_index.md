@@ -19,8 +19,8 @@ public enum RevisionAction
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Yapacak bir şey yok. |
-| Accept | `1` | Revizyon, INSERTION türündeyse görüntülenecek veya DELETION türündeyse kaldırılacaktır. |
-| Reject | `2` | Revizyon, INSERTION türündeyse kaldırılacak veya DELETION türündeyse görüntülenecektir. |
+| Accept | `1` | Revizyon, INSERTION türündeyse görüntülenecek veya DELETION. türündeyse kaldırılacaktır. |
+| Reject | `2` | INSERTION türündeyse revizyon kaldırılacak veya DELETION. türündeyse görüntülenecektir. |
 
 ### Ayrıca bakınız
 

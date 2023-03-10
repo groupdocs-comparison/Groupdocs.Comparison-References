@@ -1,14 +1,14 @@
 ---
 title: FileInfo
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 关于文档的信息
+description: 有关文档 的信息
 type: docs
 weight: 390
 url: /zh/net/groupdocs.comparison.result/fileinfo/
 ---
 ## FileInfo class
 
-关于文档的信息
+有关文档 的信息
 
 ```csharp
 public class FileInfo

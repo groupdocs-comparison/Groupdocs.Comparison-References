@@ -21,7 +21,7 @@ public enum MergeType
 | None | `0` | La cella non si unisce. |
 | Horizontal | `1` | La cella si unisce lungo la riga. |
 | Vertical | `2` | La cella si unisce lungo la colonna. |
-| Range | `3` | La cella si unisce lungo l'area di creazione di righe e colonne. |
+| Range | `3` | Le celle si uniscono lungo l'area di creazione di righe e colonne. |
 
 ### Guarda anche
 

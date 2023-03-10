@@ -21,7 +21,7 @@ Der Namensraum stellt Klassen bereit, die es ermöglichen, zusätzliche Optionen
 | [OriginalSize](./originalsize) | Steht für die ursprüngliche Seitengröße. Wird nur zum Vergleichen von Bildern mit unterschiedlichen Formaten verwendet. |
 | [PreviewOptions](./previewoptions) | Steht für Dokumentvorschauoptionen. |
 | [SaveOptions](./saveoptions) | Ermöglicht die Angabe zusätzlicher Optionen (z. B. Passwort) beim Speichern eines Dokuments. |
-| [Size](./size) | Dokumentgröße |
+| [Size](./size) | Dokumentengröße |
 | [StyleSettings](./stylesettings) | Stileinstellungen |
 ## Aufzählung
 

@@ -18,7 +18,7 @@ public class PasswordProtectedFileException : ComparisonException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PasswordProtectedFileException](passwordprotectedfileexception)() | 初始化一个新的实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
+| [PasswordProtectedFileException](passwordprotectedfileexception)() | 初始化一个新实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
 
 ### 也可以看看
 

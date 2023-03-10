@@ -1,14 +1,14 @@
 ---
 title: FileAuthorMetadata
 second_title: GroupDocs.Confronto per Riferimento API .NET
-description: Usato quando MetadataType è impostato su FileAuthor.
+description: Utilizzato quando MetadataType è impostato su FileAuthor.
 type: docs
 weight: 30
 url: /it/net/groupdocs.comparison.options/saveoptions/fileauthormetadata/
 ---
 ## SaveOptions.FileAuthorMetadata property
 
-Usato quando MetadataType è impostato su FileAuthor.
+Utilizzato quando MetadataType è impostato su FileAuthor.
 
 ```csharp
 public FileAuthorMetadata FileAuthorMetadata { get; set; }

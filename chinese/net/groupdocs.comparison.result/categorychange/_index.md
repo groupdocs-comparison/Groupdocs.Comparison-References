@@ -1,14 +1,14 @@
 ---
 title: CategoryChange
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 变化的分离分为类别
+description: 的分离变化分为几类
 type: docs
 weight: 360
 url: /zh/net/groupdocs.comparison.result/categorychange/
 ---
 ## CategoryChange class
 
-变化的分离分为类别
+的分离变化分为几类
 
 ```csharp
 public class CategoryChange

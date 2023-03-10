@@ -1,14 +1,14 @@
 ---
 title: FileFormatException
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化一个新的实例FileFormatExceptiongroupdocs.comparison.common.exceptions/fileformatexception类.
+description: 初始化一个新实例FileFormatExceptiongroupdocs.comparison.common.exceptions/fileformatexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.common.exceptions/fileformatexception/fileformatexception/
 ---
 ## FileFormatException constructor
 
-初始化一个新的实例[`FileFormatException`](../../fileformatexception)类.
+初始化一个新实例[`FileFormatException`](../../fileformatexception)类.
 
 ```csharp
 public FileFormatException(string sourcePath, string targetPath)

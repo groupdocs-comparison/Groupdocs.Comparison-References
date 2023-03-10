@@ -41,7 +41,7 @@ public void Add(string filePath, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как открывать и сравнивать защищенные паролем документы на C# с помощью GroupDocs.Comparison для .NET: [Как открыть и сравнить защищенные паролем документы](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Подробнее о том, как открывать и сравнивать документы, хранящиеся на локальном диске: [Как открывать и сравнивать файлы по пути к файлу](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -70,7 +70,7 @@ public void Add(Stream document)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как открывать и сравнивать защищенные паролем документы на C# с помощью GroupDocs.Comparison для .NET: [Как открыть и сравнить защищенные паролем документы](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Подробнее о том, как открывать и сравнивать документы, хранящиеся на локальном диске: [Как открывать и сравнивать файлы по пути к файлу](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -99,7 +99,7 @@ public void Add(Stream document, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как открывать и сравнивать защищенные паролем документы на C# с помощью GroupDocs.Comparison для .NET: [Как открыть и сравнить защищенные паролем документы](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Подробнее о том, как открывать и сравнивать документы, хранящиеся на локальном диске: [Как открывать и сравнивать файлы по пути к файлу](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)

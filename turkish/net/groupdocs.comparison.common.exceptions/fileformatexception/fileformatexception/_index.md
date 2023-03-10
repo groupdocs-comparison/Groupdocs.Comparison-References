@@ -17,7 +17,7 @@ public FileFormatException(string sourcePath, string targetPath)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | sourcePath | String | Kaynak dosya yolu |
-| targetPath | String | Hedef dosya yolu |
+| targetPath | String | hedef dosya yolu |
 
 ### Ayrıca bakınız
 

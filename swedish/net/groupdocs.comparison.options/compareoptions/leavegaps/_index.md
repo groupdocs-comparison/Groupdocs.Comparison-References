@@ -1,14 +1,14 @@
 ---
 title: LeaveGaps
 second_title: GroupDocs.Comparison för .NET API-referens
-description: Indikerar om tomma rader ska visas istället för infogade/borttagna komponenter i det slutliga dokumentet eller inte används med egenskaperna ShowInsertedContent eller ShowDeletedContent.
+description: Indikerar om tomma rader ska visas istället för infogade/borttagna komponenter i slutdokumentet eller inte används med egenskaperna ShowInsertedContent eller ShowDeletedContent.
 type: docs
 weight: 150
 url: /sv/net/groupdocs.comparison.options/compareoptions/leavegaps/
 ---
 ## CompareOptions.LeaveGaps property
 
-Indikerar om tomma rader ska visas istället för infogade/borttagna komponenter i det slutliga dokumentet eller inte (används med egenskaperna ShowInsertedContent eller ShowDeletedContent).
+Indikerar om tomma rader ska visas istället för infogade/borttagna komponenter i slutdokumentet eller inte (används med egenskaperna ShowInsertedContent eller ShowDeletedContent).
 
 ```csharp
 public bool LeaveGaps { get; set; }

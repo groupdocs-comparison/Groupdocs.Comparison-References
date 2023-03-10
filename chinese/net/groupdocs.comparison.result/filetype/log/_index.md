@@ -1,14 +1,14 @@
 ---
 title: LOG
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 日志记录事件进程消息和通信的注册表
+description: 日志记录保留事件进程消息和通信的注册表
 type: docs
 weight: 650
 url: /zh/net/groupdocs.comparison.result/filetype/log/
 ---
 ## FileType.LOG field
 
-日志记录事件、进程、消息和通信的注册表
+日志记录保留事件、进程、消息和通信的注册表
 
 ```csharp
 public static FileType LOG;

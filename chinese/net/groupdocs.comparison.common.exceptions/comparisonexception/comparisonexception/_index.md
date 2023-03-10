@@ -1,14 +1,14 @@
 ---
 title: ComparisonException
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 初始化ComparisonException 类的新实例
+description: 初始化 ComparisonException 类的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.comparison.common.exceptions/comparisonexception/comparisonexception/
 ---
 ## ComparisonException() {#constructor}
 
-初始化ComparisonException 类的新实例。
+初始化 ComparisonException 类的新实例。
 
 ```csharp
 public ComparisonException()
@@ -24,7 +24,7 @@ public ComparisonException()
 
 ## ComparisonException(string) {#constructor_1}
 
-使用指定的错误消息初始化ComparisonException类的新实例。
+使用指定的错误消息初始化 ComparisonException 类的新实例。
 
 ```csharp
 public ComparisonException(string message)
@@ -44,7 +44,7 @@ public ComparisonException(string message)
 
 ## ComparisonException(string, Exception) {#constructor_2}
 
-使用指定的错误消息和对导致此异常的内部异常的引用初始化ComparisonException 类的新实例。
+使用指定的错误消息和对导致此异常的内部异常的引用初始化 ComparisonException 类的新实例。
 
 ```csharp
 public ComparisonException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public ComparisonException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息 |
-| innerException | Exception | 内在异常 |
+| innerException | Exception | 内部异常 |
 
 ### 也可以看看
 

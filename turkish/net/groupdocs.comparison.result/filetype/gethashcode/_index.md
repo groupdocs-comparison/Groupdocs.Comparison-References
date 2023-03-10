@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Karma kodunu alın
+description: Hash kodunu al
 type: docs
 weight: 1560
 url: /tr/net/groupdocs.comparison.result/filetype/gethashcode/
 ---
 ## FileType.GetHashCode method
 
-Karma kodunu alın
+Hash kodunu al
 
 ```csharp
 public override int GetHashCode()

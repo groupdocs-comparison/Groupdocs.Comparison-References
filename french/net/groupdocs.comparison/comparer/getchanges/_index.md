@@ -18,7 +18,7 @@ public ChangeInfo[] GetChanges()
 
 **Apprendre encore plus**
 
-* En savoir plus sur la façon d'obtenir la collecte des différences détectées entre les documents comparés en C# : [Comment obtenir la liste des modifications entre les documents en C #](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
+* En savoir plus sur la façon d'obtenir la collecte des différences détectées entre les documents comparés en C# : [Comment obtenir la liste des modifications entre les documents en C#](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
 * En savoir plus sur la façon d'obtenir les coordonnées des modifications dans l'aperçu de l'image des pages lors de la comparaison de documents à l'aide de GroupDocs.Comparison pour .NET : [Comment obtenir les coordonnées des changements par programmation](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
 
 ### Voir également
@@ -46,7 +46,7 @@ public ChangeInfo[] GetChanges(GetChangeOptions getChangeOptions)
 
 **Apprendre encore plus**
 
-* En savoir plus sur la façon d'obtenir la collecte des différences détectées entre les documents comparés en C# : [Comment obtenir la liste des modifications entre les documents en C #](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
+* En savoir plus sur la façon d'obtenir la collecte des différences détectées entre les documents comparés en C# : [Comment obtenir la liste des modifications entre les documents en C#](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
 * En savoir plus sur la façon d'obtenir les coordonnées des modifications dans l'aperçu de l'image des pages lors de la comparaison de documents à l'aide de GroupDocs.Comparison pour .NET : [Comment obtenir les coordonnées des changements par programmation](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
 
 ### Voir également

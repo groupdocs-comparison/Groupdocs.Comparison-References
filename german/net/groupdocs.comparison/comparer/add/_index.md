@@ -41,7 +41,7 @@ public void Add(string filePath, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Öffnen und Vergleichen passwortgeschützter Dokumente in C# mit GroupDocs.Comparison für .NET: [So öffnen und vergleichen Sie passwortgeschützte Dokumente](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Weitere Informationen zum Öffnen und Vergleichen von Dokumenten, die auf der lokalen Festplatte gespeichert sind: [So öffnen und vergleichen Sie Dateien nach Dateipfad](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -70,7 +70,7 @@ public void Add(Stream document)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Öffnen und Vergleichen passwortgeschützter Dokumente in C# mit GroupDocs.Comparison für .NET: [So öffnen und vergleichen Sie passwortgeschützte Dokumente](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Weitere Informationen zum Öffnen und Vergleichen von Dokumenten, die auf der lokalen Festplatte gespeichert sind: [So öffnen und vergleichen Sie Dateien nach Dateipfad](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)
@@ -99,7 +99,7 @@ public void Add(Stream document, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Öffnen und Vergleichen passwortgeschützter Dokumente in C# mit GroupDocs.Comparison für .NET: [So öffnen und vergleichen Sie passwortgeschützte Dokumente](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
 * Weitere Informationen zum Öffnen und Vergleichen von Dokumenten, die auf der lokalen Festplatte gespeichert sind: [So öffnen und vergleichen Sie Dateien nach Dateipfad](https://docs.groupdocs.com/display/comparisonnet/Load+document+from+local+disk)

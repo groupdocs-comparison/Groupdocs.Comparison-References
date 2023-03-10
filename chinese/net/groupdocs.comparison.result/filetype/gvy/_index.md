@@ -1,14 +1,14 @@
 ---
 title: GVY
 second_title: GroupDocs.Comparison for .NET API 参考
-description: Groovy 格式编写的源代码文件
+description: 以 Groovy 格式编写的源代码文件
 type: docs
 weight: 460
 url: /zh/net/groupdocs.comparison.result/filetype/gvy/
 ---
 ## FileType.GVY field
 
-Groovy 格式编写的源代码文件
+以 Groovy 格式编写的源代码文件
 
 ```csharp
 public static FileType GVY;

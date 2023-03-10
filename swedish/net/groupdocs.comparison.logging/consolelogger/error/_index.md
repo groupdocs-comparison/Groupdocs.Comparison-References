@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | message | String | Budskapet |
-| exception | Exception | Undantagsobjekt |
+| ex | Exception | Undantagsobjekt |
 
 ### Se även
 

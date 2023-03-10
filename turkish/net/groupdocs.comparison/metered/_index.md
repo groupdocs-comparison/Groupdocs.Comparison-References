@@ -18,7 +18,7 @@ public class Metered
 
 | İsim | Tanım |
 | --- | --- |
-| [Metered](metered)() | Yeni bir örneğini başlatır[`Metered`](../metered) sınıf. |
+| [Metered](metered)() | Yeni bir örneğini başlatır.[`Metered`](../metered) sınıf. |
 
 ## yöntemler
 

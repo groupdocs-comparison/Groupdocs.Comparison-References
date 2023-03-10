@@ -1,14 +1,14 @@
 ---
 title: BOWERRC
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 服务端包控制配置文件
+description: 服务器端包控制的配置文件
 type: docs
 weight: 80
 url: /zh/net/groupdocs.comparison.result/filetype/bowerrc/
 ---
 ## FileType.BOWERRC field
 
-服务端包控制配置文件
+服务器端包控制的配置文件
 
 ```csharp
 public static FileType BOWERRC;

@@ -1,14 +1,14 @@
 ---
 title: ComparisonException
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Tüm karşılaştırma süreci istisnaları için temel sınıf.
+description: Tüm karşılaştırma işlemi istisnaları için temel sınıf.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.comparison.common.exceptions/comparisonexception/
 ---
 ## ComparisonException class
 
-Tüm karşılaştırma süreci istisnaları için temel sınıf.
+Tüm karşılaştırma işlemi istisnaları için temel sınıf.
 
 ```csharp
 public class ComparisonException : ApplicationException
@@ -19,8 +19,8 @@ public class ComparisonException : ApplicationException
 | İsim | Tanım |
 | --- | --- |
 | [ComparisonException](comparisonexception#constructor)() | ComparisonException sınıfının yeni bir örneğini başlatır. |
-| [ComparisonException](comparisonexception#constructor_1)(string) | Belirtilen bir hata iletisiyle ComparisonException sınıfının yeni bir örneğini başlatır. |
-| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile ComparisonException sınıfının yeni bir örneğini başlatır. |
+| [ComparisonException](comparisonexception#constructor_1)(string) | Belirtilen bir hata mesajıyla ComparisonException sınıfının yeni bir örneğini başlatır. |
+| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | Belirtilen bir hata mesajı ve bu özel durumun nedeni olan iç özel duruma bir başvuru ile ComparisonException sınıfının yeni bir örneğini başlatır. |
 
 ### Ayrıca bakınız
 

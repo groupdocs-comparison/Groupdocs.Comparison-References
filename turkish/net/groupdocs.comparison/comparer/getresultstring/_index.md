@@ -1,14 +1,14 @@
 ---
 title: GetResultString
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Karşılaştırmadan sonra sonuç dizesini alın Yalnızca Metin Karşılaştırma için.
+description: Karşılaştırmadan sonra sonuç dizesini al Yalnızca Metin Karşılaştırma için.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.comparison/comparer/getresultstring/
 ---
 ## Comparer.GetResultString method
 
-Karşılaştırmadan sonra sonuç dizesini alın (Yalnızca Metin Karşılaştırma için).
+Karşılaştırmadan sonra sonuç dizesini al (Yalnızca Metin Karşılaştırma için).
 
 ```csharp
 public string GetResultString()

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 与 object 的等价检查
+description: 与 object 的等价性检查
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.result/stylechangeinfo/equals/
 ---
 ## Equals(object) {#equals_1}
 
-与 object 的等价检查
+与 object 的等价性检查
 
 ```csharp
 public override bool Equals(object obj)
@@ -32,7 +32,7 @@ public override bool Equals(object obj)
 
 ## Equals(StyleChangeInfo) {#equals}
 
-样式更改等效性检查
+样式更改等价性检查
 
 ```csharp
 public bool Equals(StyleChangeInfo other)

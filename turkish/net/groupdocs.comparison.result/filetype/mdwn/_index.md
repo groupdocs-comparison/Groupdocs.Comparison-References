@@ -1,14 +1,14 @@
 ---
 title: MDWN
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: İşaretleme Dili biçimi
+description: İşaretleme Dili format
 type: docs
 weight: 730
 url: /tr/net/groupdocs.comparison.result/filetype/mdwn/
 ---
 ## FileType.MDWN field
 
-İşaretleme Dili biçimi
+İşaretleme Dili format
 
 ```csharp
 public static FileType MDWN;

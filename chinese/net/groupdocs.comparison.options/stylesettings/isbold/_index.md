@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置一个值指示它是否为粗体
+description: 获取或设置一个值指示这是否为粗体
 type: docs
 weight: 50
 url: /zh/net/groupdocs.comparison.options/stylesettings/isbold/
 ---
 ## StyleSettings.IsBold property
 
-获取或设置一个值，指示它是否为粗体。
+获取或设置一个值，指示这是否为粗体。
 
 ```csharp
 public bool IsBold { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 获取或设置 master 的路径值或使用没有 master 路径的比较此选项仅适用于 Diagram.
+description: 获取或设置主机的路径值或使用不带主机路径的比较此选项仅适用于 Diagram.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.comparison.options/compareoptions/diagrammastersetting/
 ---
 ## CompareOptions.DiagramMasterSetting property
 
-获取或设置 master 的路径值或使用没有 master 路径的比较。此选项仅适用于 Diagram.
+获取或设置主机的路径值或使用不带主机路径的比较。此选项仅适用于 Diagram.
 
 ```csharp
 public DiagramMasterSetting DiagramMasterSetting { get; set; }
@@ -16,7 +16,7 @@ public DiagramMasterSetting DiagramMasterSetting { get; set; }
 
 ### 适当的价值
 
-Diagram. 的主选项
+Diagram. 的主要选项
 
 ### 也可以看看
 

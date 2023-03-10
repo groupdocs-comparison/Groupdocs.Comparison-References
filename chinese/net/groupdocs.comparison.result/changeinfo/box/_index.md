@@ -1,14 +1,14 @@
 ---
 title: Box
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 改变元素的坐标
+description: 更改元素的坐标
 type: docs
 weight: 30
 url: /zh/net/groupdocs.comparison.result/changeinfo/box/
 ---
 ## ChangeInfo.Box property
 
-改变元素的坐标。
+更改元素的坐标。
 
 ```csharp
 public Rectangle Box { get; set; }

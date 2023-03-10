@@ -11,9 +11,9 @@ is_root: true
 | ad alanı | Tanım |
 | --- | --- |
 | [GroupDocs.Comparison](./groupdocs.comparison) | Ad alanı, tüm popüler belge biçimleri için belgeleri karşılaştırmak için sınıflar sağlar. |
-| [GroupDocs.Comparison.Cells.Style](./groupdocs.comparison.cells.style) | Ad alanı, Hücreler biçimindeki dosyada bileşen stilleriyle çalışmak için sınıflar sağlar. |
-| [GroupDocs.Comparison.Common.Delegates](./groupdocs.comparison.common.delegates) | Ad alanı, aşağıdakiler tarafından kullanılan akışları oluşturmak ve serbest bırakmak için sınıflar sağlar.[`PreviewOptions`](groupdocs.comparison.options/previewoptions) . |
-| [GroupDocs.Comparison.Common.Exceptions](./groupdocs.comparison.common.exceptions) | Ad alanı farklı istisna sınıfları sağlar. |
+| [GroupDocs.Comparison.Cells.Style](./groupdocs.comparison.cells.style) | Ad alanı, Hücre biçim dosyasındaki bileşen stilleriyle çalışmak için sınıflar sağlar. |
+| [GroupDocs.Comparison.Common.Delegates](./groupdocs.comparison.common.delegates) | Ad alanı, tarafından kullanılan akışları oluşturmak ve serbest bırakmak için sınıflar sağlar.[`PreviewOptions`](groupdocs.comparison.options/previewoptions) . |
+| [GroupDocs.Comparison.Common.Exceptions](./groupdocs.comparison.common.exceptions) | Ad alanı, farklı istisna sınıfları sağlar. |
 | [GroupDocs.Comparison.Interfaces](./groupdocs.comparison.interfaces) | Ad alanı, çıktı nesnelerini başlatmak için arabirimler sağlar. |
 | [GroupDocs.Comparison.Localization](./groupdocs.comparison.localization) | Ad alanı, desteklenen yerel ayarları kontrol eden sınıflar sağlar. |
 | [GroupDocs.Comparison.Logging](./groupdocs.comparison.logging) | Ad alanı, entegre veya kendi kaydedicinizle çalışmak için sınıflar sağlar. |

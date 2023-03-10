@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Comparison for .NET API 参考
-description: 文字值变化
+description: 文本值的变化
 type: docs
 weight: 110
 url: /zh/net/groupdocs.comparison.result/changeinfo/text/
 ---
 ## ChangeInfo.Text property
 
-文字值变化。
+文本值的变化。
 
 ```csharp
 public string Text { get; set; }

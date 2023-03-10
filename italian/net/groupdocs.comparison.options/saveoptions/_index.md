@@ -25,8 +25,8 @@ public class SaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [CloneMetadataType](../../groupdocs.comparison.options/saveoptions/clonemetadatatype) { get; set; } | Ottiene o imposta un valore che indica se clonare o meno i metadati nel documento di destinazione. |
-| [FileAuthorMetadata](../../groupdocs.comparison.options/saveoptions/fileauthormetadata) { get; set; } | Usato quando MetadataType è impostato su FileAuthor. |
-| [FolderPath](../../groupdocs.comparison.options/saveoptions/folderpath) { get; set; } | Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati (solo per il confronto di immagini). |
+| [FileAuthorMetadata](../../groupdocs.comparison.options/saveoptions/fileauthormetadata) { get; set; } | Utilizzato quando MetadataType è impostato su FileAuthor. |
+| [FolderPath](../../groupdocs.comparison.options/saveoptions/folderpath) { get; set; } | Ottiene o imposta il percorso della cartella per il salvataggio delle immagini dei risultati (solo per il confronto delle immagini). |
 | [Password](../../groupdocs.comparison.options/saveoptions/password) { get; set; } | Ottiene o imposta la password per il documento risultato. |
 
 ### Guarda anche

@@ -1,14 +1,14 @@
 ---
 title: StyleSettings
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Yeni bir örneğini başlatırStyleSettingsgroupdocs.comparison.options/stylesettings sınıf.
+description: Yeni bir örneğini başlatır.StyleSettingsgroupdocs.comparison.options/stylesettings sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.comparison.options/stylesettings/stylesettings/
 ---
 ## StyleSettings constructor
 
-Yeni bir örneğini başlatır[`StyleSettings`](../../stylesettings) sınıf.
+Yeni bir örneğini başlatır.[`StyleSettings`](../../stylesettings) sınıf.
 
 ```csharp
 public StyleSettings()

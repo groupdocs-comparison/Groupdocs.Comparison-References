@@ -1,14 +1,14 @@
 ---
 title: ApplyChanges
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular.
+description: Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.comparison/comparer/applychanges/
 ---
 ## ApplyChanges(string, ApplyChangeOptions) {#applychanges_2}
 
-Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular.
+Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular.
 
 ```csharp
 public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
@@ -23,7 +23,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 **Daha fazla bilgi edin**
 
-* Karşılaştırılan belgeler arasında algılanan farklılıkların bir sonuçtaki belgede nasıl uygulanacağı veya reddedileceği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında tespit edilen değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Elde edilen bir belgede karşılaştırılan belgeler arasında algılanan farklılıkların nasıl uygulandığı veya reddedildiği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında algılanan değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Ayrıca bakınız
 
@@ -36,7 +36,7 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 
 ## ApplyChanges(Stream, ApplyChangeOptions) {#applychanges}
 
-Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular.
+Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular.
 
 ```csharp
 public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
@@ -51,7 +51,7 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 **Daha fazla bilgi edin**
 
-* Karşılaştırılan belgeler arasında algılanan farklılıkların bir sonuçtaki belgede nasıl uygulanacağı veya reddedileceği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında tespit edilen değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Elde edilen bir belgede karşılaştırılan belgeler arasında algılanan farklılıkların nasıl uygulandığı veya reddedildiği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında algılanan değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Ayrıca bakınız
 
@@ -64,7 +64,7 @@ public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
 
 ## ApplyChanges(string, SaveOptions, ApplyChangeOptions) {#applychanges_3}
 
-Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular.
+Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular.
 
 ```csharp
 public void ApplyChanges(string filePath, SaveOptions saveOptions, 
@@ -81,7 +81,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 **Daha fazla bilgi edin**
 
-* Karşılaştırılan belgeler arasında algılanan farklılıkların bir sonuçtaki belgede nasıl uygulanacağı veya reddedileceği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında tespit edilen değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Elde edilen bir belgede karşılaştırılan belgeler arasında algılanan farklılıkların nasıl uygulandığı veya reddedildiği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında algılanan değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Ayrıca bakınız
 
@@ -95,7 +95,7 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 
 ## ApplyChanges(Stream, SaveOptions, ApplyChangeOptions) {#applychanges_1}
 
-Değişiklikleri kabul eder veya reddeder ve bunları ortaya çıkan belgeye uygular.
+Değişiklikleri kabul eder veya reddeder ve bunları sonuç belgesine uygular.
 
 ```csharp
 public void ApplyChanges(Stream document, SaveOptions saveOptions, 
@@ -112,7 +112,7 @@ public void ApplyChanges(Stream document, SaveOptions saveOptions,
 
 **Daha fazla bilgi edin**
 
-* Karşılaştırılan belgeler arasında algılanan farklılıkların bir sonuçtaki belgede nasıl uygulanacağı veya reddedileceği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında tespit edilen değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
+* Elde edilen bir belgede karşılaştırılan belgeler arasında algılanan farklılıkların nasıl uygulandığı veya reddedildiği hakkında daha fazla bilgi: [C#'da belge karşılaştırması sırasında algılanan değişiklikler nasıl uygulanır veya reddedilir?](https://docs.groupdocs.com/display/comparisonnet/Accept+or+Reject+detected+changes)
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: PreviewFormat
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: Resim biçimini önizleyin.
+description: Önizleme resim formatı.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.comparison.options/previewoptions/previewformat/
 ---
 ## PreviewOptions.PreviewFormat property
 
-Resim biçimini önizleyin.
+Önizleme resim formatı.
 
 ```csharp
 public PreviewFormats PreviewFormat { get; set; }

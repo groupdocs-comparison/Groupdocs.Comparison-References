@@ -1,14 +1,14 @@
 ---
 title: OBJCP
 second_title: .NET API Başvurusu için GroupDocs.Comparison
-description: ObjectiveC Programlama Dili formatı
+description: ObjectiveC Programlama Dili format
 type: docs
 weight: 840
 url: /tr/net/groupdocs.comparison.result/filetype/objcp/
 ---
 ## FileType.OBJCP field
 
-Objective-C++ Programlama Dili formatı
+Objective-C++ Programlama Dili format
 
 ```csharp
 public static FileType OBJCP;

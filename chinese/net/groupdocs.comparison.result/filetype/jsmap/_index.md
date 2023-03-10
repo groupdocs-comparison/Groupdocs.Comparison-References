@@ -1,14 +1,14 @@
 ---
 title: JSMAP
 second_title: GroupDocs.Comparison for .NET API 参考
-description: JSON 文件包含有关如何将代码转换回源代码的信息
+description: JSON 文件其中包含有关如何将代码转换回源代码的信息
 type: docs
 weight: 620
 url: /zh/net/groupdocs.comparison.result/filetype/jsmap/
 ---
 ## FileType.JSMAP field
 
-JSON 文件，包含有关如何将代码转换回源代码的信息
+JSON 文件，其中包含有关如何将代码转换回源代码的信息
 
 ```csharp
 public static FileType JSMAP;

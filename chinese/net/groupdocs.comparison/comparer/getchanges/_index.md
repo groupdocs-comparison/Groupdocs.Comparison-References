@@ -16,10 +16,10 @@ public ChangeInfo[] GetChanges()
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何在 C# 中获取比较文档之间检测到的差异的集合： [如何在 C# 中获取文档之间的更改列表](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
-* 更多关于如何在使用 GroupDocs.Comparison for .NET 比较文档时在页面图像预览中获取更改坐标： [如何以编程方式获取更改坐标](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
+* 有关如何在 C# 中获取比较文档之间检测到的差异的集合的更多信息： [如何在C#中获取文档之间的更改列表](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
+* 更多关于使用 GroupDocs.Comparison for .NET 比较文档时如何在页面图像预览中获取更改坐标的信息： [如何以编程方式获取更改坐标](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
 
 ### 也可以看看
 
@@ -44,10 +44,10 @@ public ChangeInfo[] GetChanges(GetChangeOptions getChangeOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于如何在 C# 中获取比较文档之间检测到的差异的集合： [如何在 C# 中获取文档之间的更改列表](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
-* 更多关于如何在使用 GroupDocs.Comparison for .NET 比较文档时在页面图像预览中获取更改坐标： [如何以编程方式获取更改坐标](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
+* 有关如何在 C# 中获取比较文档之间检测到的差异的集合的更多信息： [如何在C#中获取文档之间的更改列表](https://docs.groupdocs.com/display/comparisonnet/Get+list+of+changes)
+* 更多关于使用 GroupDocs.Comparison for .NET 比较文档时如何在页面图像预览中获取更改坐标的信息： [如何以编程方式获取更改坐标](https://docs.groupdocs.com/display/comparisonnet/Get+changes+coordinates)
 
 ### 也可以看看
 

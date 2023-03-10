@@ -18,7 +18,7 @@ public class FileAuthorMetadata
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileAuthorMetadata](fileauthormetadata)() | 初始化[`FileAuthorMetadata`](../fileauthormetadata)类. |
+| [FileAuthorMetadata](fileauthormetadata)() | 初始化一个新的实例[`FileAuthorMetadata`](../fileauthormetadata)类. |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public class FileAuthorMetadata
 | --- | --- |
 | [Author](../../groupdocs.comparison.options/fileauthormetadata/author) { get; set; } | 获取或设置作者。 |
 | [Company](../../groupdocs.comparison.options/fileauthormetadata/company) { get; set; } | 获取或设置公司。 |
-| [LastSaveBy](../../groupdocs.comparison.options/fileauthormetadata/lastsaveby) { get; set; } | 获取或设置上次保存的时间。 |
+| [LastSaveBy](../../groupdocs.comparison.options/fileauthormetadata/lastsaveby) { get; set; } | 获取或设置上次保存时间为. |
 
 ### 也可以看看
 

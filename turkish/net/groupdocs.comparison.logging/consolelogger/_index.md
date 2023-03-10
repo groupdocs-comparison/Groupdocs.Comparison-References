@@ -26,7 +26,7 @@ public sealed class ConsoleLogger : ILogger
 | --- | --- |
 | [Error](../../groupdocs.comparison.logging/consolelogger/error)(string, Exception) | Günlük hatası mesajı |
 | [Trace](../../groupdocs.comparison.logging/consolelogger/trace)(string) | Karşılaştırma sürecini günlüğe kaydeder. |
-| [Warning](../../groupdocs.comparison.logging/consolelogger/warning)(string) | Günlük uyarı iletisi |
+| [Warning](../../groupdocs.comparison.logging/consolelogger/warning)(string) | Günlük uyarı mesajı |
 
 ### Ayrıca bakınız
 

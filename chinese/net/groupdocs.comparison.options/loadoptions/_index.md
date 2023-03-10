@@ -26,7 +26,7 @@ public class LoadOptions
 | --- | --- |
 | [FontDirectories](../../groupdocs.comparison.options/loadoptions/fontdirectories) { get; set; } | 要加载的字体目录列表。 |
 | [LoadText](../../groupdocs.comparison.options/loadoptions/loadtext) { get; set; } | 表示传递的字符串是比较文本，而不是文件路径（仅用于文本比较）。 |
-| [Password](../../groupdocs.comparison.options/loadoptions/password) { get; set; } | 文档的密码。 |
+| [Password](../../groupdocs.comparison.options/loadoptions/password) { get; set; } | 文件密码. |
 
 ### 也可以看看
 
