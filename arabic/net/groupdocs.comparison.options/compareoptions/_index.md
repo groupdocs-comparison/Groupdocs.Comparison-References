@@ -40,9 +40,9 @@ public class CompareOptions
 | [LeaveGaps](../../groupdocs.comparison.options/compareoptions/leavegaps) { get; set; } | يشير إلى ما إذا كان سيتم عرض الأسطر الفارغة بدلاً من المكونات المدرجة / المحذوفة في المستند النهائي أم لا (تُستخدم مع خصائص ShowInsertedContent أو ShowDeletedContent) . |
 | [MarkChangedContent](../../groupdocs.comparison.options/compareoptions/markchangedcontent) { get; set; } | يشير إلى ما إذا كان سيتم استخدام الإطارات للأشكال في معالجة الكلمات والمستطيلات في مستندات الصور. |
 | [MarkNestedContent](../../groupdocs.comparison.options/compareoptions/marknestedcontent) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم وضع علامة على العناصر الفرعية للعنصر المحذوف أو المُدرج على أنها محذوفة أو مدرجة. |
-| [OriginalSize](../../groupdocs.comparison.options/compareoptions/originalsize) { get; set; } | الحصول على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها . |
+| [OriginalSize](../../groupdocs.comparison.options/compareoptions/originalsize) { get; set; } | احصل على أو تعيين الأحجام الأصلية للمستندات التي تمت مقارنتها . |
 | [PaperSize](../../groupdocs.comparison.options/compareoptions/papersize) { get; set; } | الحصول على أو تحديد حجم ورق المستند الناتج. |
-| [PasswordSaveOption](../../groupdocs.comparison.options/compareoptions/passwordsaveoption) { get; set; } | الحصول على أو تعيين خيار حفظ كلمة المرور. |
+| [PasswordSaveOption](../../groupdocs.comparison.options/compareoptions/passwordsaveoption) { get; set; } | الحصول على أو تعيين خيار حفظ كلمة المرور . |
 | [SensitivityOfComparison](../../groupdocs.comparison.options/compareoptions/sensitivityofcomparison) { get; set; } | الحصول على حساسية المقارنة أو تعيينها . |
 | [ShowDeletedContent](../../groupdocs.comparison.options/compareoptions/showdeletedcontent) { get; set; } | يشير إلى ما إذا كان سيتم إظهار المكونات المحذوفة في المستند الناتج أم لا. |
 | [ShowInsertedContent](../../groupdocs.comparison.options/compareoptions/showinsertedcontent) { get; set; } | يشير إلى ما إذا كان سيتم إظهار المكونات المدرجة في المستند الناتج أم لا. |

@@ -17,7 +17,7 @@ public void Error(string message, Exception exception)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | message | String | الرسالة |
-| exception | Exception | كائن الاستثناء |
+| ex | Exception | كائن الاستثناء |
 
 ### أنظر أيضا
 

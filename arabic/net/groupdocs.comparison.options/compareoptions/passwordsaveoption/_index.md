@@ -1,14 +1,14 @@
 ---
 title: PasswordSaveOption
 second_title: GroupDocs.Comparison لمرجع .NET API
-description: الحصول على أو تعيين خيار حفظ كلمة المرور.
+description: الحصول على أو تعيين خيار حفظ كلمة المرور .
 type: docs
 weight: 200
 url: /ar/net/groupdocs.comparison.options/compareoptions/passwordsaveoption/
 ---
 ## CompareOptions.PasswordSaveOption property
 
-الحصول على أو تعيين خيار حفظ كلمة المرور.
+الحصول على أو تعيين خيار حفظ كلمة المرور .
 
 ```csharp
 public PasswordSaveOption PasswordSaveOption { get; set; }

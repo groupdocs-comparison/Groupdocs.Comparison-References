@@ -26,7 +26,7 @@ public enum ChangeType
 | NotModified | `5` | لم يتم تعديله . |
 | StyleChanged | `6` | تم تغيير النمط . |
 | Resized | `7` | الحجم . |
-| Moved | `8` | تم نقله . |
+| Moved | `8` | تم نقله. |
 | MovedAndResized | `9` | تم نقله وتغيير حجمه . |
 | ShiftedAndResized | `10` | التحول وتغيير الحجم . |
 
