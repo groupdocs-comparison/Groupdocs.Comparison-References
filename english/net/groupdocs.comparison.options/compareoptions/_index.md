@@ -43,11 +43,13 @@ public class CompareOptions
 | [OriginalSize](../../groupdocs.comparison.options/compareoptions/originalsize) { get; set; } | Get or sets the original sizes of compared documents. |
 | [PaperSize](../../groupdocs.comparison.options/compareoptions/papersize) { get; set; } | Gets or sets the result document paper size. |
 | [PasswordSaveOption](../../groupdocs.comparison.options/compareoptions/passwordsaveoption) { get; set; } | Gets or sets the password save option. |
+| [RevisionAuthorName](../../groupdocs.comparison.options/compareoptions/revisionauthorname) { get; set; } | Gets or sets revision author name. Enabled if not null. |
 | [SensitivityOfComparison](../../groupdocs.comparison.options/compareoptions/sensitivityofcomparison) { get; set; } | Gets or sets a sensitivity of comparison. |
 | [ShowDeletedContent](../../groupdocs.comparison.options/compareoptions/showdeletedcontent) { get; set; } | Indicates whether to show deleted components in resultant document or not. |
 | [ShowInsertedContent](../../groupdocs.comparison.options/compareoptions/showinsertedcontent) { get; set; } | Indicates whether to show inserted components in resultant document or not. |
 | [ShowOnlySummaryPage](../../groupdocs.comparison.options/compareoptions/showonlysummarypage) { get; set; } | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
 | [ShowRevisions](../../groupdocs.comparison.options/compareoptions/showrevisions) { get; set; } | Indicates whether to display others revisions in the resulting document or not. |
+| [UserMasterPath](../../groupdocs.comparison.options/compareoptions/usermasterpath) { get; set; } | Path to user master's template for Diagrams. |
 | [WordsSeparatorChars](../../groupdocs.comparison.options/compareoptions/wordsseparatorchars) { set; } | Gets or sets an array of delimiters to split text into words. |
 | [WordTrackChanges](../../groupdocs.comparison.options/compareoptions/wordtrackchanges) { get; set; } | Control to turn on comparison of Words Track Revisions. |
 

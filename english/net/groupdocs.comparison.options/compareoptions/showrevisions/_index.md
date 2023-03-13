@@ -3,7 +3,7 @@ title: ShowRevisions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to display others revisions in the resulting document or not.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.comparison.options/compareoptions/showrevisions/
 ---
 ## CompareOptions.ShowRevisions property

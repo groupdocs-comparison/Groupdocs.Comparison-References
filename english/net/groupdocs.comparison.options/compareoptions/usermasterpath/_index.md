@@ -1,17 +1,17 @@
 ---
-title: WordTrackChanges
+title: UserMasterPath
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Control to turn on comparison of Words Track Revisions.
+description: Path to user masters template for Diagrams.
 type: docs
-weight: 290
-url: /net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
+weight: 270
+url: /net/groupdocs.comparison.options/compareoptions/usermasterpath/
 ---
-## CompareOptions.WordTrackChanges property
+## CompareOptions.UserMasterPath property
 
-Control to turn on comparison of Words Track Revisions.
+Path to user master's template for Diagrams.
 
 ```csharp
-public bool WordTrackChanges { get; set; }
+public string UserMasterPath { get; set; }
 ```
 
 ### See Also
