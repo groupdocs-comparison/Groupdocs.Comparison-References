@@ -3,7 +3,7 @@ title: GetChanges
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets list of changes between source and target files.
 type: docs
-weight: 80
+weight: 110
 url: /net/groupdocs.comparison/comparer/getchanges/
 ---
 ## GetChanges() {#getchanges}

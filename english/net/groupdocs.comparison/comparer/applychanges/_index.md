@@ -3,7 +3,7 @@ title: ApplyChanges
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Accepts or rejects changes and applies them to resultant document.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.comparison/comparer/applychanges/
 ---
 ## ApplyChanges(string, ApplyChangeOptions) {#applychanges_2}

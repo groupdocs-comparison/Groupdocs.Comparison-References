@@ -3,7 +3,7 @@ title: StyleSettings
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Style settings
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.comparison.options/stylesettings/
 ---
 ## StyleSettings class

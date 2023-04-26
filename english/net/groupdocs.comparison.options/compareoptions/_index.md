@@ -33,7 +33,9 @@ public class CompareOptions
 | [DetalisationLevel](../../groupdocs.comparison.options/compareoptions/detalisationlevel) { get; set; } | Gets or sets the comparison detail level. |
 | [DetectStyleChanges](../../groupdocs.comparison.options/compareoptions/detectstylechanges) { get; set; } | Indicates whether to detect style changes or not. |
 | [DiagramMasterSetting](../../groupdocs.comparison.options/compareoptions/diagrammastersetting) { get; set; } | Gets or sets the path value for master or use compare without path of master. This option only for Diagram. |
+| [DirectoryCompare](../../groupdocs.comparison.options/compareoptions/directorycompare) { get; set; } | Control to turn on comparison of folders. |
 | [ExtendedSummaryPage](../../groupdocs.comparison.options/compareoptions/extendedsummarypage) { get; set; } | Indicates whether to add extended file comparison information to the summary page or not. |
+| [FolderComparisonExtension](../../groupdocs.comparison.options/compareoptions/foldercomparisonextension) { get; set; } | Gets or sets the format of the resulting folder comparison file. |
 | [GenerateSummaryPage](../../groupdocs.comparison.options/compareoptions/generatesummarypage) { get; set; } | Indicates whether to add summary page with detected changes statistics to resultant document or not. |
 | [HeaderFootersComparison](../../groupdocs.comparison.options/compareoptions/headerfooterscomparison) { get; set; } | Control to turn on comparison of header/footer contents. |
 | [InsertedItemStyle](../../groupdocs.comparison.options/compareoptions/inserteditemstyle) { get; set; } | Describes style for inserted components. |
@@ -47,6 +49,7 @@ public class CompareOptions
 | [SensitivityOfComparison](../../groupdocs.comparison.options/compareoptions/sensitivityofcomparison) { get; set; } | Gets or sets a sensitivity of comparison. |
 | [ShowDeletedContent](../../groupdocs.comparison.options/compareoptions/showdeletedcontent) { get; set; } | Indicates whether to show deleted components in resultant document or not. |
 | [ShowInsertedContent](../../groupdocs.comparison.options/compareoptions/showinsertedcontent) { get; set; } | Indicates whether to show inserted components in resultant document or not. |
+| [ShowOnlyChanged](../../groupdocs.comparison.options/compareoptions/showonlychanged) { get; set; } | Controls to enable the display of only changed items. |
 | [ShowOnlySummaryPage](../../groupdocs.comparison.options/compareoptions/showonlysummarypage) { get; set; } | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
 | [ShowRevisions](../../groupdocs.comparison.options/compareoptions/showrevisions) { get; set; } | Indicates whether to display others revisions in the resulting document or not. |
 | [UserMasterPath](../../groupdocs.comparison.options/compareoptions/usermasterpath) { get; set; } | Path to user master's template for Diagrams. |

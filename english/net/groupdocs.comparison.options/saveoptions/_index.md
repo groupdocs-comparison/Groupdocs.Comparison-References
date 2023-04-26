@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows to specify additional options such as password when saving a document.
 type: docs
-weight: 330
+weight: 340
 url: /net/groupdocs.comparison.options/saveoptions/
 ---
 ## SaveOptions class

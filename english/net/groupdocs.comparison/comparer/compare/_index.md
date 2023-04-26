@@ -3,7 +3,7 @@ title: Compare
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Compares documents without saving result with default options
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.comparison/comparer/compare/
 ---
 ## Compare() {#compare}

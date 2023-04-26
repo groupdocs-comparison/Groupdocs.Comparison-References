@@ -3,7 +3,7 @@ title: CategoryChange
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The separation of changes divided into categories
 type: docs
-weight: 360
+weight: 370
 url: /net/groupdocs.comparison.result/categorychange/
 ---
 ## CategoryChange class

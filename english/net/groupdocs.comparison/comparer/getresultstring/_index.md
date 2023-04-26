@@ -3,7 +3,7 @@ title: GetResultString
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Get result string after comparison For Text Comparison only.
 type: docs
-weight: 90
+weight: 120
 url: /net/groupdocs.comparison/comparer/getresultstring/
 ---
 ## Comparer.GetResultString method
