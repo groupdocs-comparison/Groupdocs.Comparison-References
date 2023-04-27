@@ -3,7 +3,7 @@ title: Add
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Adds file to comparison.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.comparison/comparer/add/
 ---
 ## Add(string) {#add_2}
@@ -26,7 +26,24 @@ public void Add(string filePath)
 
 ---
 
-## Add(string, LoadOptions) {#add_3}
+## Add(string, CompareOptions) {#add_3}
+
+Adds folder to comparison.
+
+```csharp
+public void Add(string filePath, CompareOptions compareOptions)
+```
+
+### See Also
+
+* class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
+* class [Comparer](../../comparer)
+* namespace [GroupDocs.Comparison](../../comparer)
+* assembly [GroupDocs.Comparison](../../../)
+
+---
+
+## Add(string, LoadOptions) {#add_4}
 
 Adds file to comparison with loading options specified.
 

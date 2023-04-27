@@ -1,17 +1,17 @@
 ---
-title: WordTrackChanges
+title: ShowOnlyChanged
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Control to turn on comparison of Words Track Revisions.
+description: Controls to enable the display of only changed items.
 type: docs
-weight: 320
-url: /net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
+weight: 270
+url: /net/groupdocs.comparison.options/compareoptions/showonlychanged/
 ---
-## CompareOptions.WordTrackChanges property
+## CompareOptions.ShowOnlyChanged property
 
-Control to turn on comparison of Words Track Revisions.
+Controls to enable the display of only changed items.
 
 ```csharp
-public bool WordTrackChanges { get; set; }
+public bool ShowOnlyChanged { get; set; }
 ```
 
 ### See Also

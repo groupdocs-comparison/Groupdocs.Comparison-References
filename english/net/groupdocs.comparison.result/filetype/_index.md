@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Comparison detect file type by extension etc.
 type: docs
-weight: 400
+weight: 410
 url: /net/groupdocs.comparison.result/filetype/
 ---
 ## FileType class

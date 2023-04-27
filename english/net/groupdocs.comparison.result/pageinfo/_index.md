@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents information about page
 type: docs
-weight: 410
+weight: 420
 url: /net/groupdocs.comparison.result/pageinfo/
 ---
 ## PageInfo class

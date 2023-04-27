@@ -1,17 +1,17 @@
 ---
-title: WordTrackChanges
+title: DirectoryCompare
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Control to turn on comparison of Words Track Revisions.
+description: Control to turn on comparison of folders.
 type: docs
-weight: 320
-url: /net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
+weight: 110
+url: /net/groupdocs.comparison.options/compareoptions/directorycompare/
 ---
-## CompareOptions.WordTrackChanges property
+## CompareOptions.DirectoryCompare property
 
-Control to turn on comparison of Words Track Revisions.
+Control to turn on comparison of folders.
 
 ```csharp
-public bool WordTrackChanges { get; set; }
+public bool DirectoryCompare { get; set; }
 ```
 
 ### See Also

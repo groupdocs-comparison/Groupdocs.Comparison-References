@@ -29,6 +29,7 @@ The namespace provides classes that allows to specify additional options for doc
 | --- | --- |
 | [ChangeType](./changetype) | Specifies change type. |
 | [DetalisationLevel](./detalisationlevel) | Specifies the level of comparison details. |
+| [FolderComparisonExtension](./foldercomparisonextension) | Folder extensions. |
 | [MetadataType](./metadatatype) | Determines from where result document will take metadata information |
 | [PaperSize](./papersize) | The option to set the Paper size of the result document after comparison. |
 | [PasswordSaveOption](./passwordsaveoption) | Specifies the password save option. |

@@ -1,17 +1,17 @@
 ---
-title: Dispose
+title: sourceFolder
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Releases resources.
+description: Source folder that is being compared.
 type: docs
-weight: 100
-url: /net/groupdocs.comparison/comparer/dispose/
+weight: 30
+url: /net/groupdocs.comparison/comparer/sourcefolder/
 ---
-## Comparer.Dispose method
+## Comparer.sourceFolder property
 
-Releases resources.
+Source folder that is being compared.
 
 ```csharp
-public void Dispose()
+public string sourceFolder { get; }
 ```
 
 ### See Also

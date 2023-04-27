@@ -33,7 +33,24 @@ public Comparer(string filePath)
 
 ---
 
-## Comparer(string, LoadOptions) {#constructor_6}
+## Comparer(string, CompareOptions) {#constructor_6}
+
+Folder comparer.
+
+```csharp
+public Comparer(string folderPath, CompareOptions compareOptions)
+```
+
+### See Also
+
+* class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
+* class [Comparer](../../comparer)
+* namespace [GroupDocs.Comparison](../../comparer)
+* assembly [GroupDocs.Comparison](../../../)
+
+---
+
+## Comparer(string, LoadOptions) {#constructor_7}
 
 Initializes new instance of [`Comparer`](../../comparer) with source file path and [`LoadOptions`](../../../groupdocs.comparison.options/loadoptions).
 
@@ -93,7 +110,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 ---
 
-## Comparer(string, LoadOptions, ComparerSettings) {#constructor_7}
+## Comparer(string, LoadOptions, ComparerSettings) {#constructor_8}
 
 Initializes new instance of [`Comparer`](../../comparer) class with source file path, [`LoadOptions`](../../../groupdocs.comparison.options/loadoptions) and [`ComparerSettings`](../../comparersettings).
 

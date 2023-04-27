@@ -3,7 +3,7 @@ title: FileInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Information about document
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.comparison.result/fileinfo/
 ---
 ## FileInfo class
