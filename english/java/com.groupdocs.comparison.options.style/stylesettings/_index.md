@@ -1,7 +1,7 @@
 ---
 title: StyleSettings
 second_title: GroupDocs.Comparison for Java API Reference
-description: Style settings
+description: This class represents style settings for text formatting.
 type: docs
 weight: 12
 url: /java/com.groupdocs.comparison.options.style/stylesettings/
@@ -12,43 +12,65 @@ java.lang.Object
 public class StyleSettings
 ```
 
-Style settings
+This class represents style settings for text formatting.
+
+Use this class to customize the font color, highlight color, style attributes (bold, underline, italic, strikethrough), string separators, original sizes, and word separators for text.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+    comparer.add(targetFile);
+
+    StyleSettings styleSettings = new StyleSettings();
+    styleSettings.setFontColor(Color.GREEN);
+    styleSettings.setBold(true);
+    styleSettings.setUnderline(true);
+
+    final CompareOptions compareOptions = new CompareOptions();
+    compareOptions.setInsertedItemStyle(styleSettings);
+
+    comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [StyleSettings()](#StyleSettings--) | Initializes a new instance of the [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) class. |
+| [StyleSettings()](#StyleSettings--) | Initializes a new instance of the StyleSettings class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFontColor()](#getFontColor--) | Gets or sets the font color. |
-| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
-| [getHighlightColor()](#getHighlightColor--) | Gets or sets the highlight color. |
-| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | Gets or sets the highlight color. |
-| [isBold()](#isBold--) | Gets or sets a value indicating whether this is bold. |
-| [setBold(boolean value)](#setBold-boolean-) | Gets or sets a value indicating whether this is bold. |
-| [isUnderline()](#isUnderline--) | Gets or sets a value indicating whether this is underline |
-| [setUnderline(boolean value)](#setUnderline-boolean-) | Gets or sets a value indicating whether this is underline |
-| [isItalic()](#isItalic--) | Gets or sets a value indicating whether this is italic |
-| [setItalic(boolean value)](#setItalic-boolean-) | Gets or sets a value indicating whether this is italic |
-| [isStrikethrough()](#isStrikethrough--) | Gets or sets a value indicating whether strike through |
-| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | Gets or sets a value indicating whether strike through |
-| [getStartStringSeparator()](#getStartStringSeparator--) | Gets or sets the begin separator string. |
-| [setStartStringSeparator(String value)](#setStartStringSeparator-java.lang.String-) | Gets or sets the begin separator string. |
-| [getEndStringSeparator()](#getEndStringSeparator--) | Gets or sets the end separator string. |
-| [setEndStringSeparator(String value)](#setEndStringSeparator-java.lang.String-) | Gets or sets the end separator string. |
-| [getOriginalSize()](#getOriginalSize--) | Get or sets the original sizes of comparing documents |
-| [setOriginalSize(Size value)](#setOriginalSize-com.groupdocs.comparison.options.style.Size-) | Get or sets the original sizes of comparing documents |
-| [getWordsSeparators()](#getWordsSeparators--) | Gets or sets the words separator chars. |
-| [setWordsSeparators(char[] value)](#setWordsSeparators-char---) | Gets or sets the words separator chars. |
+| [getFontColor()](#getFontColor--) | Gets the font color. |
+| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Sets the font color. |
+| [getHighlightColor()](#getHighlightColor--) | Gets the highlight color. |
+| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | Sets the highlight color. |
+| [isBold()](#isBold--) | Gets a flag that indicates whether the text will be bold or not. |
+| [setBold(boolean value)](#setBold-boolean-) | Sets a flag that indicates whether the text should be bold or not. |
+| [isUnderline()](#isUnderline--) | Gets a flag that indicates whether the text will be underlined or not. |
+| [setUnderline(boolean value)](#setUnderline-boolean-) | Sets a flag that indicates whether the text should be underlined or not. |
+| [isItalic()](#isItalic--) | Gets a flag that indicates whether the text will be italic or not. |
+| [setItalic(boolean value)](#setItalic-boolean-) | Sets a flag that indicates whether the text should be italic or not. |
+| [isStrikethrough()](#isStrikethrough--) | Gets a flag that indicates whether the text will be strike through or not. |
+| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | Sets a flag that indicates whether the text should be strike through or not. |
+| [getStartStringSeparator()](#getStartStringSeparator--) | Gets the start string separator. |
+| [setStartStringSeparator(String value)](#setStartStringSeparator-java.lang.String-) | Sets the start string separator. |
+| [getEndStringSeparator()](#getEndStringSeparator--) | Gets the end string separator. |
+| [setEndStringSeparator(String value)](#setEndStringSeparator-java.lang.String-) | Sets the end string separator. |
+| [getOriginalSize()](#getOriginalSize--) | Gets the original size of comparing documents. |
+| [setOriginalSize(Size value)](#setOriginalSize-com.groupdocs.comparison.options.style.Size-) | Sets the original size of comparing documents. |
+| [getWordsSeparators()](#getWordsSeparators--) | Gets the word separator chars. |
+| [setWordsSeparators(char[] value)](#setWordsSeparators-char---) | Sets the word separator chars. |
 ### StyleSettings() {#StyleSettings--}
 ```
 public StyleSettings()
 ```
 
 
-Initializes a new instance of the [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) class.
+Initializes a new instance of the StyleSettings class.
 
 ### getFontColor() {#getFontColor--}
 ```
@@ -56,22 +78,22 @@ public final Color getFontColor()
 ```
 
 
-Gets or sets the font color.
+Gets the font color.
 
 **Returns:**
-java.awt.Color - the font color
+java.awt.Color - the font color.
 ### setFontColor(Color value) {#setFontColor-java.awt.Color-}
 ```
 public final void setFontColor(Color value)
 ```
 
 
-Gets or sets the font color.
+Sets the font color.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | the value |
+| value | java.awt.Color | The new font color. |
 
 ### getHighlightColor() {#getHighlightColor--}
 ```
@@ -79,22 +101,22 @@ public final Color getHighlightColor()
 ```
 
 
-Gets or sets the highlight color.
+Gets the highlight color.
 
 **Returns:**
-java.awt.Color - the highlight color
+java.awt.Color - the highlight color.
 ### setHighlightColor(Color value) {#setHighlightColor-java.awt.Color-}
 ```
 public final void setHighlightColor(Color value)
 ```
 
 
-Gets or sets the highlight color.
+Sets the highlight color.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | the value |
+| value | java.awt.Color | The new highlight color. |
 
 ### isBold() {#isBold--}
 ```
@@ -102,22 +124,22 @@ public final boolean isBold()
 ```
 
 
-Gets or sets a value indicating whether this is bold.
+Gets a flag that indicates whether the text will be bold or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if the text will be bold, false otherwise.
 ### setBold(boolean value) {#setBold-boolean-}
 ```
 public final void setBold(boolean value)
 ```
 
 
-Gets or sets a value indicating whether this is bold.
+Sets a flag that indicates whether the text should be bold or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if the text should be bold, false otherwise. |
 
 ### isUnderline() {#isUnderline--}
 ```
@@ -125,22 +147,22 @@ public final boolean isUnderline()
 ```
 
 
-Gets or sets a value indicating whether this is underline
+Gets a flag that indicates whether the text will be underlined or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if the text will be underlined, false otherwise.
 ### setUnderline(boolean value) {#setUnderline-boolean-}
 ```
 public final void setUnderline(boolean value)
 ```
 
 
-Gets or sets a value indicating whether this is underline
+Sets a flag that indicates whether the text should be underlined or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if the text should be underlined, false otherwise. |
 
 ### isItalic() {#isItalic--}
 ```
@@ -148,22 +170,22 @@ public final boolean isItalic()
 ```
 
 
-Gets or sets a value indicating whether this is italic
+Gets a flag that indicates whether the text will be italic or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if the text will be italic, false otherwise.
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
 public final void setItalic(boolean value)
 ```
 
 
-Gets or sets a value indicating whether this is italic
+Sets a flag that indicates whether the text should be italic or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if the text should be italic, false otherwise. |
 
 ### isStrikethrough() {#isStrikethrough--}
 ```
@@ -171,22 +193,22 @@ public final boolean isStrikethrough()
 ```
 
 
-Gets or sets a value indicating whether strike through
+Gets a flag that indicates whether the text will be strike through or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if the text will be strike through, false otherwise.
 ### setStrikethrough(boolean value) {#setStrikethrough-boolean-}
 ```
 public final void setStrikethrough(boolean value)
 ```
 
 
-Gets or sets a value indicating whether strike through
+Sets a flag that indicates whether the text should be strike through or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if the text should be strike through, false otherwise. |
 
 ### getStartStringSeparator() {#getStartStringSeparator--}
 ```
@@ -194,22 +216,22 @@ public final String getStartStringSeparator()
 ```
 
 
-Gets or sets the begin separator string.
+Gets the start string separator.
 
 **Returns:**
-java.lang.String - the start string separator
+java.lang.String - the start string separator.
 ### setStartStringSeparator(String value) {#setStartStringSeparator-java.lang.String-}
 ```
 public final void setStartStringSeparator(String value)
 ```
 
 
-Gets or sets the begin separator string.
+Sets the start string separator.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | The new start string separator. |
 
 ### getEndStringSeparator() {#getEndStringSeparator--}
 ```
@@ -217,22 +239,22 @@ public final String getEndStringSeparator()
 ```
 
 
-Gets or sets the end separator string.
+Gets the end string separator.
 
 **Returns:**
-java.lang.String - the end string separator
+java.lang.String - the end string separator.
 ### setEndStringSeparator(String value) {#setEndStringSeparator-java.lang.String-}
 ```
 public final void setEndStringSeparator(String value)
 ```
 
 
-Gets or sets the end separator string.
+Sets the end string separator.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | The new end string separator. |
 
 ### getOriginalSize() {#getOriginalSize--}
 ```
@@ -240,22 +262,22 @@ public final Size getOriginalSize()
 ```
 
 
-Get or sets the original sizes of comparing documents
+Gets the original size of comparing documents.
 
 **Returns:**
-[Size](../../com.groupdocs.comparison.options.style/size) - the original size
+[Size](../../com.groupdocs.comparison.options.style/size) - the original size of comparing documents.
 ### setOriginalSize(Size value) {#setOriginalSize-com.groupdocs.comparison.options.style.Size-}
 ```
 public final void setOriginalSize(Size value)
 ```
 
 
-Get or sets the original sizes of comparing documents
+Sets the original size of comparing documents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Size](../../com.groupdocs.comparison.options.style/size) | the value |
+| value | [Size](../../com.groupdocs.comparison.options.style/size) | The new original size of comparing documents. |
 
 ### getWordsSeparators() {#getWordsSeparators--}
 ```
@@ -263,20 +285,20 @@ public final char[] getWordsSeparators()
 ```
 
 
-Gets or sets the words separator chars.
+Gets the word separator chars.
 
 **Returns:**
-char[] - the words separators
+char[] - the word separators.
 ### setWordsSeparators(char[] value) {#setWordsSeparators-char---}
 ```
 public final void setWordsSeparators(char[] value)
 ```
 
 
-Gets or sets the words separator chars.
+Sets the word separator chars.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | char[] | the value |
+| value | char[] | The new word separators. |
 

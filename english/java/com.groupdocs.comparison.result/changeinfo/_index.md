@@ -1,9 +1,9 @@
 ---
 title: ChangeInfo
 second_title: GroupDocs.Comparison for Java API Reference
-description: Represents information about change.
+description: The ChangeInfo class represents information about a specific change in a document comparison.
 type: docs
-weight: 11
+weight: 10
 url: /java/com.groupdocs.comparison.result/changeinfo/
 ---
 **Inheritance:**
@@ -12,7 +12,31 @@ java.lang.Object
 public class ChangeInfo
 ```
 
-Represents information about change.
+The ChangeInfo class represents information about a specific change in a document comparison.
+
+It provides details such as the type of change, the affected area, and the content before and after the change. Use this class to retrieve information about individual changes within a comparison result.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+     comparer.add(targetFile);
+
+     comparer.compare(resultFile);
+     // Get a list of changes from the comparison result
+     ChangeInfo[] changes = comparer.getChanges();
+     // Iterate through the changes and retrieve information
+     for (ChangeInfo change : changes) {
+         ChangeType changeType = change.getType();
+         String componentType = change.getComponentType();
+         PageInfo pageInfo = change.getPageInfo();
+         // Process the change information as needed
+         // ...
+     }
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,27 +46,27 @@ Represents information about change.
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--) | Id of change. |
-| [setId(int value)](#setId-int-) | Id of change. |
-| [getComparisonAction()](#getComparisonAction--) | Action (accept or reject). |
-| [setComparisonAction(ComparisonAction value)](#setComparisonAction-com.groupdocs.comparison.result.ComparisonAction-) | Action (accept or reject). |
-| [getPageInfo()](#getPageInfo--) | Page where current change is placed. |
-| [setPageInfo(PageInfo value)](#setPageInfo-com.groupdocs.comparison.result.PageInfo-) | Page where current change is placed. |
-| [getBox()](#getBox--) | Coordinates of changed element. |
-| [setBox(Rectangle value)](#setBox-com.groupdocs.comparison.result.Rectangle-) | Coordinates of changed element. |
-| [getText()](#getText--) | Text value of change. |
-| [setText(String value)](#setText-java.lang.String-) | Text value of change. |
-| [getStyleChanges()](#getStyleChanges--) | Style changes. |
-| [setStyleChanges(List<StyleChangeInfo> value)](#setStyleChanges-java.util.List-com.groupdocs.comparison.result.StyleChangeInfo--) | Style changes. |
-| [getAuthors()](#getAuthors--) | Authors. |
-| [setAuthors(List<String> value)](#setAuthors-java.util.List-java.lang.String--) | Authors. |
-| [getType()](#getType--) | Type of change. |
-| [getTargetText()](#getTargetText--) | Changed text of target doc. |
-| [setTargetText(String mTargetText)](#setTargetText-java.lang.String-) | Changed text of target doc. |
-| [getSourceText()](#getSourceText--) | Changed text of source doc. |
-| [setSourceText(String sourceText)](#setSourceText-java.lang.String-) | Changed text of source doc. |
-| [getComponentType()](#getComponentType--) | Type of changed component |
-| [setComponentType(String componentType)](#setComponentType-java.lang.String-) | Type of changed component |
+| [getId()](#getId--) | Gets unique id of the change. |
+| [setId(int value)](#setId-int-) | Sets unique id of the change. |
+| [getComparisonAction()](#getComparisonAction--) | Gets the action that will be applied to the change. |
+| [setComparisonAction(ComparisonAction value)](#setComparisonAction-com.groupdocs.comparison.result.ComparisonAction-) | Sets the action that should be applied to the change. |
+| [getPageInfo()](#getPageInfo--) | Gets information about the page, on which current change was found. |
+| [setPageInfo(PageInfo value)](#setPageInfo-com.groupdocs.comparison.result.PageInfo-) | Sets information about the page, on which current change was found. |
+| [getBox()](#getBox--) | Gets coordinates of changed element on the page. |
+| [setBox(Rectangle value)](#setBox-com.groupdocs.comparison.result.Rectangle-) | Sets coordinates of changed element on the page. |
+| [getText()](#getText--) | Gets text value of the change. |
+| [setText(String value)](#setText-java.lang.String-) | Sets text value of the change. |
+| [getStyleChanges()](#getStyleChanges--) | Gets the list of style changes. |
+| [setStyleChanges(List<StyleChangeInfo> value)](#setStyleChanges-java.util.List-com.groupdocs.comparison.result.StyleChangeInfo--) | Sets the list of style changes. |
+| [getAuthors()](#getAuthors--) | Gets the list of authors. |
+| [setAuthors(List<String> value)](#setAuthors-java.util.List-java.lang.String--) | Sets the list of authors. |
+| [getType()](#getType--) | Gets the type of the change represented by enum [ChangeType](../../com.groupdocs.comparison.result/changetype). |
+| [getTargetText()](#getTargetText--) | Gets changed text from target document. |
+| [setTargetText(String value)](#setTargetText-java.lang.String-) | Sets changed text from target document. |
+| [getSourceText()](#getSourceText--) | Gets changed text from source document. |
+| [setSourceText(String value)](#setSourceText-java.lang.String-) | Sets changed text from source document. |
+| [getComponentType()](#getComponentType--) | Gets the type of the changed component. |
+| [setComponentType(String value)](#setComponentType-java.lang.String-) | Sets the type of the changed component. |
 | [toString()](#toString--) |  |
 ### ChangeInfo() {#ChangeInfo--}
 ```
@@ -56,22 +80,22 @@ public final int getId()
 ```
 
 
-Id of change.
+Gets unique id of the change.
 
 **Returns:**
-int - the id
+int - the id of the change
 ### setId(int value) {#setId-int-}
 ```
 public final void setId(int value)
 ```
 
 
-Id of change.
+Sets unique id of the change.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | int | The id of the change |
 
 ### getComparisonAction() {#getComparisonAction--}
 ```
@@ -79,22 +103,26 @@ public final ComparisonAction getComparisonAction()
 ```
 
 
-Action (accept or reject). This field tells comparison what to do with this change.
+Gets the action that will be applied to the change.
+
+Action ([ComparisonAction.ACCEPT](../../com.groupdocs.comparison.result/comparisonaction\#ACCEPT) or [ComparisonAction.REJECT](../../com.groupdocs.comparison.result/comparisonaction\#REJECT)) tells comparison what to do with this change.
 
 **Returns:**
-[ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) - the comparison action
+[ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) - the action that will be applied to the change
 ### setComparisonAction(ComparisonAction value) {#setComparisonAction-com.groupdocs.comparison.result.ComparisonAction-}
 ```
 public final void setComparisonAction(ComparisonAction value)
 ```
 
 
-Action (accept or reject). This field tells comparison what to do with this change.
+Sets the action that should be applied to the change.
+
+Action ([ComparisonAction.ACCEPT](../../com.groupdocs.comparison.result/comparisonaction\#ACCEPT) or [ComparisonAction.REJECT](../../com.groupdocs.comparison.result/comparisonaction\#REJECT)) tells comparison what to do with this change.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) | the value |
+| value | [ComparisonAction](../../com.groupdocs.comparison.result/comparisonaction) | The action that should be applied to the change |
 
 ### getPageInfo() {#getPageInfo--}
 ```
@@ -102,22 +130,22 @@ public final PageInfo getPageInfo()
 ```
 
 
-Page where current change is placed.
+Gets information about the page, on which current change was found.
 
 **Returns:**
-[PageInfo](../../com.groupdocs.comparison.result/pageinfo) - the page info
+[PageInfo](../../com.groupdocs.comparison.result/pageinfo) - information about the page
 ### setPageInfo(PageInfo value) {#setPageInfo-com.groupdocs.comparison.result.PageInfo-}
 ```
 public final void setPageInfo(PageInfo value)
 ```
 
 
-Page where current change is placed.
+Sets information about the page, on which current change was found.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageInfo](../../com.groupdocs.comparison.result/pageinfo) | the value |
+| value | [PageInfo](../../com.groupdocs.comparison.result/pageinfo) | Information about the page |
 
 ### getBox() {#getBox--}
 ```
@@ -125,22 +153,22 @@ public final Rectangle getBox()
 ```
 
 
-Coordinates of changed element.
+Gets coordinates of changed element on the page.
 
 **Returns:**
-[Rectangle](../../com.groupdocs.comparison.result/rectangle) - the box
+[Rectangle](../../com.groupdocs.comparison.result/rectangle) - coordinates of changed element
 ### setBox(Rectangle value) {#setBox-com.groupdocs.comparison.result.Rectangle-}
 ```
 public final void setBox(Rectangle value)
 ```
 
 
-Coordinates of changed element.
+Sets coordinates of changed element on the page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Rectangle](../../com.groupdocs.comparison.result/rectangle) | the value |
+| value | [Rectangle](../../com.groupdocs.comparison.result/rectangle) | Coordinates of changed element, not null |
 
 ### getText() {#getText--}
 ```
@@ -148,22 +176,22 @@ public final String getText()
 ```
 
 
-Text value of change.
+Gets text value of the change.
 
 **Returns:**
-java.lang.String - the text
+java.lang.String - text value of the change
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
 
-Text value of change.
+Sets text value of the change.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | Text value of the change |
 
 ### getStyleChanges() {#getStyleChanges--}
 ```
@@ -171,22 +199,22 @@ public final List<StyleChangeInfo> getStyleChanges()
 ```
 
 
-Style changes.
+Gets the list of style changes.
 
 **Returns:**
-java.util.List<com.groupdocs.comparison.result.StyleChangeInfo> - the style changes
+java.util.List<com.groupdocs.comparison.result.StyleChangeInfo> - the list of style changes
 ### setStyleChanges(List<StyleChangeInfo> value) {#setStyleChanges-java.util.List-com.groupdocs.comparison.result.StyleChangeInfo--}
 ```
 public final void setStyleChanges(List<StyleChangeInfo> value)
 ```
 
 
-Style changes.
+Sets the list of style changes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List<com.groupdocs.comparison.result.StyleChangeInfo> | the value |
+| value | java.util.List<com.groupdocs.comparison.result.StyleChangeInfo> | The list of style changes |
 
 ### getAuthors() {#getAuthors--}
 ```
@@ -194,22 +222,22 @@ public final List<String> getAuthors()
 ```
 
 
-Authors.
+Gets the list of authors.
 
 **Returns:**
-java.util.List<java.lang.String> - the authors
+java.util.List<java.lang.String> - the list of authors
 ### setAuthors(List<String> value) {#setAuthors-java.util.List-java.lang.String--}
 ```
 public final void setAuthors(List<String> value)
 ```
 
 
-Authors.
+Sets the list of authors.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List<java.lang.String> | the value |
+| value | java.util.List<java.lang.String> | The list of authors |
 
 ### getType() {#getType--}
 ```
@@ -217,32 +245,32 @@ public final ChangeType getType()
 ```
 
 
-Type of change.
+Gets the type of the change represented by enum [ChangeType](../../com.groupdocs.comparison.result/changetype).
 
 **Returns:**
-[ChangeType](../../com.groupdocs.comparison.result/changetype) - the type
+[ChangeType](../../com.groupdocs.comparison.result/changetype) - the type of the change
 ### getTargetText() {#getTargetText--}
 ```
 public String getTargetText()
 ```
 
 
-Changed text of target doc.
+Gets changed text from target document.
 
 **Returns:**
-java.lang.String - Changed text of target doc.
-### setTargetText(String mTargetText) {#setTargetText-java.lang.String-}
+java.lang.String - the changed text
+### setTargetText(String value) {#setTargetText-java.lang.String-}
 ```
-public void setTargetText(String mTargetText)
+public void setTargetText(String value)
 ```
 
 
-Changed text of target doc.
+Sets changed text from target document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mTargetText | java.lang.String | Changed text of target doc. |
+| value | java.lang.String | The changed text |
 
 ### getSourceText() {#getSourceText--}
 ```
@@ -250,22 +278,22 @@ public String getSourceText()
 ```
 
 
-Changed text of source doc.
+Gets changed text from source document.
 
 **Returns:**
-java.lang.String - text of source doc.
-### setSourceText(String sourceText) {#setSourceText-java.lang.String-}
+java.lang.String - the changed text
+### setSourceText(String value) {#setSourceText-java.lang.String-}
 ```
-public void setSourceText(String sourceText)
+public void setSourceText(String value)
 ```
 
 
-Changed text of source doc.
+Sets changed text from source document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceText | java.lang.String | text of source doc. |
+| value | java.lang.String | The changed text |
 
 ### getComponentType() {#getComponentType--}
 ```
@@ -273,22 +301,22 @@ public String getComponentType()
 ```
 
 
-Type of changed component
+Gets the type of the changed component.
 
 **Returns:**
-java.lang.String - the component type
-### setComponentType(String componentType) {#setComponentType-java.lang.String-}
+java.lang.String - the type of the changed component
+### setComponentType(String value) {#setComponentType-java.lang.String-}
 ```
-public void setComponentType(String componentType)
+public void setComponentType(String value)
 ```
 
 
-Type of changed component
+Sets the type of the changed component.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| componentType | java.lang.String | the component type |
+| value | java.lang.String | The type of the changed component |
 
 ### toString() {#toString--}
 ```

@@ -3,7 +3,7 @@ title: com.groupdocs.comparison.options.save
 second_title: GroupDocs.Comparison for Java API Reference
 description: 
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.comparison.options.save/
 ---
 
@@ -11,4 +11,4 @@ url: /java/com.groupdocs.comparison.options.save/
 
 | Class | Description |
 | --- | --- |
-| [SaveOptions](../com.groupdocs.comparison.options.save/saveoptions) | Allows to specify additional options (such as password) when saving a document. |
+| [SaveOptions](../com.groupdocs.comparison.options.save/saveoptions) | Allows specifying additional options when saving a document. |

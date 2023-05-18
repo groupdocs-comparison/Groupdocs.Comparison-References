@@ -1,7 +1,7 @@
 ---
 title: PreviewFormats
 second_title: GroupDocs.Comparison for Java API Reference
-description: Document preview supported formats.
+description: Enumerates the supported preview formats for document comparison.
 type: docs
 weight: 14
 url: /java/com.groupdocs.comparison.options.enums/previewformats/
@@ -12,29 +12,54 @@ java.lang.Object, java.lang.Enum
 public enum PreviewFormats extends Enum<PreviewFormats>
 ```
 
-Document preview supported formats.
+Enumerates the supported preview formats for document comparison.
+
+The PreviewFormats enum provides a list of formats that can be used to generate previews of compared documents.
+
+Supported formats include:
+
+ *  \#PNG.PNG - Portable Network Graphics (.png)
+ *  \#JPEG.JPEG - Joint Photographic Experts Group (.jpeg)
+ *  \#BMP.BMP - Bitmap Picture (.bmp)
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+    comparer.add(targetFile);
+
+    PreviewOptions previewOptions = new PreviewOptions(
+            pageNumber -> Files.newOutputStream(Paths.get(String.format("preview-page_%d.png", pageNumber)))
+    );
+    previewOptions.setPreviewFormat(PreviewFormats.PNG);
+
+    comparer.getTargets().get(0).generatePreview(previewOptions);
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [PNG](#PNG) | Png (by default), can be take a lot of disc space / traffic if page contains a lot of color graphics. |
-| [JPEG](#JPEG) | Jpeg - faster processing, small disc space using / traffic, but can be worst quality. |
-| [BMP](#BMP) | BMP - slow processing, high disc space usage / traffic, but best quality. |
+| [PNG](#PNG) | PNG - may consume significant disk space or network traffic if the page contains numerous color graphics. |
+| [JPEG](#JPEG) | Jpeg - provides faster processing with smaller disk space usage and network traffic, but may result in lower image quality. |
+| [BMP](#BMP) | BMP - offers the best image quality but requires slower processing with higher disk space usage and network traffic. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
-| [toString()](#toString--) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of PreviewFormats to get the enum constant. |
+| [toString()](#toString--) | String representation of PreviewFormats. |
 ### PNG {#PNG}
 ```
 public static final PreviewFormats PNG
 ```
 
 
-Png (by default), can be take a lot of disc space / traffic if page contains a lot of color graphics.
+PNG - may consume significant disk space or network traffic if the page contains numerous color graphics. Default preview format.
 
 ### JPEG {#JPEG}
 ```
@@ -42,7 +67,7 @@ public static final PreviewFormats JPEG
 ```
 
 
-Jpeg - faster processing, small disc space using / traffic, but can be worst quality.
+Jpeg - provides faster processing with smaller disk space usage and network traffic, but may result in lower image quality.
 
 ### BMP {#BMP}
 ```
@@ -50,7 +75,7 @@ public static final PreviewFormats BMP
 ```
 
 
-BMP - slow processing, high disc space usage / traffic, but best quality.
+BMP - offers the best image quality but requires slower processing with higher disk space usage and network traffic.
 
 ### values() {#values--}
 ```
@@ -83,22 +108,22 @@ public static PreviewFormats fromString(String toStringValue)
 ```
 
 
-
+Parses string representation of PreviewFormats to get the enum constant.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| toStringValue | java.lang.String |  |
+| toStringValue | java.lang.String | The string representation of PreviewFormats |
 
 **Returns:**
-[PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats)
+[PreviewFormats](../../com.groupdocs.comparison.options.enums/previewformats) - PreviewFormats enum constant associated with input string
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-
+String representation of PreviewFormats.
 
 **Returns:**
-java.lang.String
+java.lang.String - string value of enum constant

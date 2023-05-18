@@ -1,9 +1,9 @@
 ---
 title: Rectangle
 second_title: GroupDocs.Comparison for Java API Reference
-description: Rectangle model
+description: The Rectangle class represents changed area on a document.
 type: docs
-weight: 14
+weight: 12
 url: /java/com.groupdocs.comparison.result/rectangle/
 ---
 **Inheritance:**
@@ -12,26 +12,45 @@ java.lang.Object
 public final class Rectangle
 ```
 
-Rectangle model
+The Rectangle class represents changed area on a document.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+     comparer.add(targetFile);
+
+     comparer.compare(resultFile);
+     final ChangeInfo[] changes = comparer.getChanges();
+     for (ChangeInfo change : changes) {
+         final Rectangle box = change.getBox();
+         // Print the changed area on page
+         System.out.println("Changed area on a page: "
+                 + box.getX() + ", " + box.getY() + ", " + box.getWidth() + ", " + box.getHeight());
+     }
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Rectangle()](#Rectangle--) | Instantiates a new Rectangle. |
-| [Rectangle(Rectangle other)](#Rectangle-com.groupdocs.comparison.result.Rectangle-) |  |
-| [Rectangle(double x, double y, double width, double height)](#Rectangle-double-double-double-double-) | Creates a new instance of Rectangle |
+| [Rectangle()](#Rectangle--) | Initializes a new instance of the Rectangle class. |
+| [Rectangle(Rectangle other)](#Rectangle-com.groupdocs.comparison.result.Rectangle-) | Creates a new Rectangle object that is a copy of the specified rectangle. |
+| [Rectangle(double x, double y, double width, double height)](#Rectangle-double-double-double-double-) | Creates a new instance of the Rectangle class with the specified x, y, width, and height. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getHeight()](#getHeight--) | Height |
-| [setHeight(double value)](#setHeight-double-) | Height |
-| [getWidth()](#getWidth--) | Width |
-| [setWidth(double value)](#setWidth-double-) | Width |
-| [getX()](#getX--) | X coordinate |
-| [setX(double value)](#setX-double-) | X coordinate |
-| [getY()](#getY--) | Y coordinate |
-| [setY(double value)](#setY-double-) | Y coordinate |
+| [getHeight()](#getHeight--) | Gets the height of the rectangle. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the rectangle. |
+| [getWidth()](#getWidth--) | Gets the width of the rectangle. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the rectangle. |
+| [getX()](#getX--) | Gets the x-coordinate of the top-left corner of the rectangle. |
+| [setX(double value)](#setX-double-) | Sets the x-coordinate of the top-left corner of the rectangle. |
+| [getY()](#getY--) | Gets the y-coordinate of the top-left corner of the rectangle. |
+| [setY(double value)](#setY-double-) | Sets the y-coordinate of the top-left corner of the rectangle. |
 | [equals(Object o)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
 | [toString()](#toString--) |  |
@@ -41,7 +60,7 @@ public Rectangle()
 ```
 
 
-Instantiates a new Rectangle.
+Initializes a new instance of the Rectangle class.
 
 ### Rectangle(Rectangle other) {#Rectangle-com.groupdocs.comparison.result.Rectangle-}
 ```
@@ -49,10 +68,12 @@ public Rectangle(Rectangle other)
 ```
 
 
+Creates a new Rectangle object that is a copy of the specified rectangle.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [Rectangle](../../com.groupdocs.comparison.result/rectangle) |  |
+| other | [Rectangle](../../com.groupdocs.comparison.result/rectangle) | The rectangle to be copied |
 
 ### Rectangle(double x, double y, double width, double height) {#Rectangle-double-double-double-double-}
 ```
@@ -60,107 +81,107 @@ public Rectangle(double x, double y, double width, double height)
 ```
 
 
-Creates a new instance of Rectangle
+Creates a new instance of the Rectangle class with the specified x, y, width, and height.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | double | X position of rectangle |
-| y | double | Y position of Rectangle |
-| width | double | Width of Rectangle |
-| height | double | Height of Rectangle |
+| x | double | The x-coordinate of the top-left corner of the rectangle |
+| y | double | The y-coordinate of the top-left corner of the rectangle |
+| width | double | The width of the rectangle |
+| height | double | The height of the rectangle |
 
 ### getHeight() {#getHeight--}
 ```
-public final double getHeight()
+public double getHeight()
 ```
 
 
-Height
+Gets the height of the rectangle.
 
 **Returns:**
-double - the height
+double - the height of the rectangle
 ### setHeight(double value) {#setHeight-double-}
 ```
-public final void setHeight(double value)
+public void setHeight(double value)
 ```
 
 
-Height
+Sets the height of the rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the value |
+| value | double | The height of the rectangle |
 
 ### getWidth() {#getWidth--}
 ```
-public final double getWidth()
+public double getWidth()
 ```
 
 
-Width
+Gets the width of the rectangle.
 
 **Returns:**
-double - the width
+double - the width of the rectangle
 ### setWidth(double value) {#setWidth-double-}
 ```
-public final void setWidth(double value)
+public void setWidth(double value)
 ```
 
 
-Width
+Sets the width of the rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the value |
+| value | double | The width of the rectangle |
 
 ### getX() {#getX--}
 ```
-public final double getX()
+public double getX()
 ```
 
 
-X coordinate
+Gets the x-coordinate of the top-left corner of the rectangle.
 
 **Returns:**
-double - the x
+double - the x-coordinate of the top-left corner of the rectangle
 ### setX(double value) {#setX-double-}
 ```
-public final void setX(double value)
+public void setX(double value)
 ```
 
 
-X coordinate
+Sets the x-coordinate of the top-left corner of the rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the value |
+| value | double | The x-coordinate of the top-left corner of the rectangle |
 
 ### getY() {#getY--}
 ```
-public final double getY()
+public double getY()
 ```
 
 
-Y coordinate
+Gets the y-coordinate of the top-left corner of the rectangle.
 
 **Returns:**
-double - the y
+double - the y-coordinate of the top-left corner of the rectangle
 ### setY(double value) {#setY-double-}
 ```
-public final void setY(double value)
+public void setY(double value)
 ```
 
 
-Y coordinate
+Sets the y-coordinate of the top-left corner of the rectangle.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the value |
+| value | double | The y-coordinate of the top-left corner of the rectangle |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: OriginalSize
 second_title: GroupDocs.Comparison for Java API Reference
-description: Represents original page size.
+description: Represents the original size of a document in a comparison result.
 type: docs
 weight: 14
 url: /java/com.groupdocs.comparison.options/originalsize/
@@ -12,7 +12,26 @@ java.lang.Object
 public class OriginalSize
 ```
 
-Represents original page size. Used only for comparing image with different formats.
+Represents the original size of a document in a comparison result.
+
+The original size includes the dimensions (width and height) of the document's pages.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+     comparer.add(targetFile);
+
+     CompareOptions compareOptions = new CompareOptions();
+     final OriginalSize originalSize = compareOptions.getOriginalSize();
+     originalSize.setWidth(480);
+     originalSize.setHeight(640);
+
+     comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,10 +41,10 @@ Represents original page size. Used only for comparing image with different form
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Width of original document |
-| [setWidth(int value)](#setWidth-int-) | Width of original document |
-| [getHeight()](#getHeight--) | Height of original document |
-| [setHeight(int value)](#setHeight-int-) | Height of original document |
+| [getWidth()](#getWidth--) | Gets the width of the document's pages. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of the document's pages. |
+| [getHeight()](#getHeight--) | Gets the height of the document's pages. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the document's pages. |
 ### OriginalSize() {#OriginalSize--}
 ```
 public OriginalSize()
@@ -38,22 +57,22 @@ public final int getWidth()
 ```
 
 
-Width of original document
+Gets the width of the document's pages.
 
 **Returns:**
-int - width
+int - the width of the document's pages.
 ### setWidth(int value) {#setWidth-int-}
 ```
 public final void setWidth(int value)
 ```
 
 
-Width of original document
+Sets the width of the document's pages.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | width |
+| value | int | The width of the document's pages. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -61,20 +80,20 @@ public final int getHeight()
 ```
 
 
-Height of original document
+Gets the height of the document's pages.
 
 **Returns:**
-int - height
+int - the height of the document's pages.
 ### setHeight(int value) {#setHeight-int-}
 ```
 public final void setHeight(int value)
 ```
 
 
-Height of original document
+Sets the height of the document's pages.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | height |
+| value | int | The height of the document's pages. |
 

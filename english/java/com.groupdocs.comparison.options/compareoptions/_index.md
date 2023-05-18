@@ -1,7 +1,7 @@
 ---
 title: CompareOptions
 second_title: GroupDocs.Comparison for Java API Reference
-description: Allows to set different compare options.
+description: Allows configuring the process of document comparison.
 type: docs
 weight: 11
 url: /java/com.groupdocs.comparison.options/compareoptions/
@@ -12,76 +12,112 @@ java.lang.Object
 public class CompareOptions
 ```
 
-Allows to set different compare options.
+Allows configuring the process of document comparison.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+     comparer.add(targetFile);
+
+     final StyleSettings styleSettings = new StyleSettings();
+     styleSettings.setHighlightColor(Color.RED);
+     styleSettings.setFontColor(Color.GREEN);
+     styleSettings.setUnderline(true);
+
+     CompareOptions compareOptions = new CompareOptions();
+     compareOptions.setInsertedItemStyle(styleSettings);
+
+     comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CompareOptions()](#CompareOptions--) | Initializes a new instance of the [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) class. |
+| [CompareOptions()](#CompareOptions--) | Initializes a new instance of the CompareOptions class. |
+| [CompareOptions(StyleSettings insertedItemStyle, StyleSettings deletedItemStyle, StyleSettings changedItemStyle)](#CompareOptions-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-) | Initializes a new instance of the CompareOptions class with settings for different styles. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isLeaveGaps()](#isLeaveGaps--) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
-| [setLeaveGaps(boolean leaveGaps)](#setLeaveGaps-boolean-) | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
-| [getComparisonType()](#getComparisonType--) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
-| [setComparisonType(ComparisonType comparisonType)](#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-) | File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) |
-| [getPaperSize()](#getPaperSize--) | Gets or sets the result document paper size. |
-| [setPaperSize(PaperSize value)](#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-) | Gets or sets the result document paper size. |
-| [isShowDeletedContent()](#isShowDeletedContent--) | Indicates whether to show deleted components in resultant document or not. |
-| [setShowDeletedContent(boolean value)](#setShowDeletedContent-boolean-) | Indicates whether to show deleted components in resultant document or not. |
-| [isShowInsertedContent()](#isShowInsertedContent--) | Indicates whether to show inserted components in resultant document or not. |
-| [setShowInsertedContent(boolean value)](#setShowInsertedContent-boolean-) | Indicates whether to show inserted components in resultant document or not. |
-| [isGenerateSummaryPage()](#isGenerateSummaryPage--) | Indicates whether to add summary page with detected changes statistics to resultant document or not. |
-| [setGenerateSummaryPage(boolean value)](#setGenerateSummaryPage-boolean-) | Indicates whether to add summary page with detected changes statistics to resultant document or not. |
-| [isExtendedSummaryPage()](#isExtendedSummaryPage--) | Indicates whether to add extended file comparison information to the summary page or not. |
-| [setExtendedSummaryPage(boolean extendedSummaryPage)](#setExtendedSummaryPage-boolean-) | Indicates whether to add extended file comparison information to the summary page or not. |
-| [isShowOnlySummaryPage()](#isShowOnlySummaryPage--) | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
-| [setShowOnlySummaryPage(boolean _showOnlySummaryPage)](#setShowOnlySummaryPage-boolean-) | Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not. |
-| [isDetectStyleChanges()](#isDetectStyleChanges--) | Indicates whether to detect style changes or not. |
-| [setDetectStyleChanges(boolean value)](#setDetectStyleChanges-boolean-) | Indicates whether to detect style changes or not. |
-| [isMarkNestedContent()](#isMarkNestedContent--) | Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted. |
-| [setMarkNestedContent(boolean value)](#setMarkNestedContent-boolean-) | Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted. |
-| [isCalculateCoordinates()](#isCalculateCoordinates--) | Indicates whether to calculate coordinates for changed components. |
-| [setCalculateCoordinates(boolean value)](#setCalculateCoordinates-boolean-) | Indicates whether to calculate coordinates for changed components. |
-| [isHeaderFootersComparison()](#isHeaderFootersComparison--) | Control to turn on comparison of header/footer contents. |
-| [setHeaderFootersComparison(boolean value)](#setHeaderFootersComparison-boolean-) | Control to turn on comparison of header/footer contents. |
-| [getDetalisationLevel()](#getDetalisationLevel--) | Gets or sets the comparison detail level. |
-| [setDetalisationLevel(DetalisationLevel value)](#setDetalisationLevel-com.groupdocs.comparison.options.style.DetalisationLevel-) | Gets or sets the comparison detail level. |
-| [isMarkChangedContent()](#isMarkChangedContent--) | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
-| [setMarkChangedContent(boolean value)](#setMarkChangedContent-boolean-) | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
-| [getInsertedItemStyle()](#getInsertedItemStyle--) | Describes style for inserted components. |
-| [setInsertedItemStyle(StyleSettings value)](#setInsertedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Describes style for inserted components. |
-| [getDeletedItemStyle()](#getDeletedItemStyle--) | Describes style for deleted components. |
-| [setDeletedItemStyle(StyleSettings value)](#setDeletedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Describes style for deleted components. |
-| [getChangedItemStyle()](#getChangedItemStyle--) | Describes style for changed components. |
-| [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Describes style for changed components. |
-| [isCompareBookmarks()](#isCompareBookmarks--) | Control to turn on comparison of bookmarks in Word format. |
-| [setCompareBookmarks(boolean compareBookmarks)](#setCompareBookmarks-boolean-) | Sets compare bookmarks. |
-| [isCompareVariableProperty()](#isCompareVariableProperty--) | Control to turn on comparison of variables properties in Word format. |
-| [setCompareVariableProperty(boolean compareVariableProperty)](#setCompareVariableProperty-boolean-) | Sets compare variable property. |
-| [isCompareDocumentProperty()](#isCompareDocumentProperty--) | Control to turn on comparison of built and custom properties in Word format. |
-| [setCompareDocumentProperty(boolean compareDocumentProperty)](#setCompareDocumentProperty-boolean-) | Control to turn on comparison of built and custom properties in Word format. |
-| [getSensitivityOfComparison()](#getSensitivityOfComparison--) | Gets or sets a sensitivity of comparison. |
-| [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets sensitivity of comparison. |
-| [setWordsSeparatorChars(char[] value)](#setWordsSeparatorChars-char---) | Gets or sets an array of delimiters to split text into words. |
-| [getPasswordSaveOption()](#getPasswordSaveOption--) | Gets or sets the password save option. |
-| [setPasswordSaveOption(PasswordSaveOption value)](#setPasswordSaveOption-com.groupdocs.comparison.options.enums.PasswordSaveOption-) | Gets or sets the password save option. |
-| [getOriginalSize()](#getOriginalSize--) | Get or sets the original sizes of compared documents. |
-| [setOriginalSize(OriginalSize value)](#setOriginalSize-com.groupdocs.comparison.options.OriginalSize-) | Get or sets the original sizes of compared documents. |
-| [getDiagramMasterSetting()](#getDiagramMasterSetting--) | Gets or sets the path value for master or use compare without path of master. |
-| [setDiagramMasterSetting(DiagramMasterSetting value)](#setDiagramMasterSetting-com.groupdocs.comparison.options.style.DiagramMasterSetting-) | Gets or sets the path value for master or use compare without path of master. |
-| [isShowRevisions()](#isShowRevisions--) | Indicates whether to display others revisions in the resulting document or not. |
-| [setShowRevisions(boolean showRevisions)](#setShowRevisions-boolean-) | Indicates whether to display others revisions in the resulting document or not. |
-| [isWordTrackChanges()](#isWordTrackChanges--) | Control to turn on comparison of Words Track Revisions. |
-| [setWordTrackChanges(boolean wordTrackChanges)](#setWordTrackChanges-boolean-) | Control to turn on comparison of Words Track Revisions. |
+| [isLeaveGaps()](#isLeaveGaps--) | Gets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
+| [setLeaveGaps(boolean value)](#setLeaveGaps-boolean-) | Sets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
+| [getComparisonType()](#getComparisonType--) | Gets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
+| [setComparisonType(ComparisonType comparisonType)](#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-) | Sets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
+| [getPaperSize()](#getPaperSize--) | Gets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object. |
+| [setPaperSize(PaperSize value)](#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-) | Sets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object. |
+| [isShowDeletedContent()](#isShowDeletedContent--) | Gets a flag that indicates whether to show deleted components in resultant document or not. |
+| [setShowDeletedContent(boolean value)](#setShowDeletedContent-boolean-) | Sets a flag that indicates whether to show deleted components in resultant document or not. |
+| [isShowInsertedContent()](#isShowInsertedContent--) | Gets a flag that indicates whether to show inserted components in resultant document or not. |
+| [setShowInsertedContent(boolean value)](#setShowInsertedContent-boolean-) | Sets a flag that indicates whether to show inserted components in resultant document or not. |
+| [isGenerateSummaryPage()](#isGenerateSummaryPage--) | Gets a flag that indicates whether to add summary page with detected changes statistics to resultant document or not. |
+| [setGenerateSummaryPage(boolean value)](#setGenerateSummaryPage-boolean-) | Sets a flag that indicates whether to add summary page with detected changes statistics to resultant document or not. |
+| [isExtendedSummaryPage()](#isExtendedSummaryPage--) | Gets a flag that indicates whether to add extended file comparison information to the summary page or not. |
+| [setExtendedSummaryPage(boolean value)](#setExtendedSummaryPage-boolean-) | Sets a flag that indicates whether to add extended file comparison information to the summary page or not. |
+| [isShowOnlySummaryPage()](#isShowOnlySummaryPage--) | Gets a flag that indicates whether to leave in the resulting document only a page with statistics of detected changes or not. |
+| [setShowOnlySummaryPage(boolean value)](#setShowOnlySummaryPage-boolean-) | Sets a flag that indicates whether to leave in the resulting document only a page with statistics of detected changes or not. |
+| [isDetectStyleChanges()](#isDetectStyleChanges--) | Gets a flag that indicates whether to detect style changes or not. |
+| [setDetectStyleChanges(boolean value)](#setDetectStyleChanges-boolean-) | Sets a flag that indicates whether to detect style changes or not. |
+| [isMarkNestedContent()](#isMarkNestedContent--) | Gets a flag that indicates whether to mark the children of the deleted or inserted elements as deleted or inserted. |
+| [setMarkNestedContent(boolean value)](#setMarkNestedContent-boolean-) | Sets a flag that indicates whether to mark the children of the deleted or inserted elements as deleted or inserted. |
+| [isCalculateCoordinates()](#isCalculateCoordinates--) | Gets a flag that indicates whether to calculate coordinates for changed components. |
+| [setCalculateCoordinates(boolean value)](#setCalculateCoordinates-boolean-) | Sets a flag that indicates whether to calculate coordinates for changed components. |
+| [isHeaderFootersComparison()](#isHeaderFootersComparison--) | Gets a flag that indicates whether to compare header/footer contents. |
+| [setHeaderFootersComparison(boolean value)](#setHeaderFootersComparison-boolean-) | Sets a flag that indicates whether to compare header/footer contents. |
+| [getDetalisationLevel()](#getDetalisationLevel--) | Gets a level of comparison detalization represented as [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel). |
+| [setDetalisationLevel(DetalisationLevel value)](#setDetalisationLevel-com.groupdocs.comparison.options.style.DetalisationLevel-) | Sets a level of comparison detalization represented as [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel). |
+| [isMarkChangedContent()](#isMarkChangedContent--) | Gets a flag that indicates whether frames for shapes in Word Processing and for rectangles in Image documents will be used. |
+| [setMarkChangedContent(boolean value)](#setMarkChangedContent-boolean-) | Sets a flag that indicates whether frames for shapes in Word Processing and for rectangles in Image documents will be used. |
+| [getInsertedItemStyle()](#getInsertedItemStyle--) | Gets a style settings that will be applied to inserted items. |
+| [setInsertedItemStyle(StyleSettings value)](#setInsertedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to inserted items. |
+| [getDeletedItemStyle()](#getDeletedItemStyle--) | Gets a style settings that will be applied to deleted items. |
+| [setDeletedItemStyle(StyleSettings value)](#setDeletedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to deleted items. |
+| [getChangedItemStyle()](#getChangedItemStyle--) | Gets a style settings that will be applied to changed items. |
+| [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to changed items. |
+| [isCompareBookmarks()](#isCompareBookmarks--) | Gets a flag that indicates whether bookmarks in Word documents will be compared. |
+| [setCompareBookmarks(boolean value)](#setCompareBookmarks-boolean-) | Sets a flag that indicates whether bookmarks in Word documents should be compared. |
+| [isCompareVariableProperty()](#isCompareVariableProperty--) | Gets a flag that indicates whether variables properties in Word documents will be compared. |
+| [setCompareVariableProperty(boolean value)](#setCompareVariableProperty-boolean-) | Sets a flag that indicates whether variables properties in Word documents should be compared. |
+| [isCompareDocumentProperty()](#isCompareDocumentProperty--) | Gets a flag that indicates whether built and custom properties in Word documents will be compared. |
+| [setCompareDocumentProperty(boolean value)](#setCompareDocumentProperty-boolean-) | Sets a flag that indicates whether built and custom properties in Word documents should be compared. |
+| [getSensitivityOfComparison()](#getSensitivityOfComparison--) | Gets a sensitivity of comparison. |
+| [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets a sensitivity of comparison. |
+| [setWordsSeparatorChars(char[] value)](#setWordsSeparatorChars-char---) | Sets an array of delimiters which will be used to split text into words. |
+| [getPasswordSaveOption()](#getPasswordSaveOption--) | Gets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object. |
+| [setPasswordSaveOption(PasswordSaveOption value)](#setPasswordSaveOption-com.groupdocs.comparison.options.enums.PasswordSaveOption-) | Sets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object. |
+| [getOriginalSize()](#getOriginalSize--) | Gets an original sizes of compared documents represented by [OriginalSize](../../com.groupdocs.comparison.options/originalsize) object. |
+| [setOriginalSize(OriginalSize value)](#setOriginalSize-com.groupdocs.comparison.options.OriginalSize-) | Sets an original sizes of compared documents represented by [OriginalSize](../../com.groupdocs.comparison.options/originalsize) object. |
+| [getDiagramMasterSetting()](#getDiagramMasterSetting--) | Gets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object. |
+| [setDiagramMasterSetting(DiagramMasterSetting value)](#setDiagramMasterSetting-com.groupdocs.comparison.options.style.DiagramMasterSetting-) | Sets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object. |
+| [isShowRevisions()](#isShowRevisions--) | Gets a flag that indicates whether others revisions in the resulting document will be displayed. |
+| [setShowRevisions(boolean value)](#setShowRevisions-boolean-) | Sets a flag that indicates whether others revisions in the resulting document should be displayed. |
+| [isWordTrackChanges()](#isWordTrackChanges--) | Gets a flag that indicates whether Words Track Revisions will be compared. |
+| [setWordTrackChanges(boolean value)](#setWordTrackChanges-boolean-) | Sets a flag that indicates whether Words Track Revisions should be compared. |
 ### CompareOptions() {#CompareOptions--}
 ```
 public CompareOptions()
 ```
 
 
-Initializes a new instance of the [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) class.
+Initializes a new instance of the CompareOptions class.
+
+### CompareOptions(StyleSettings insertedItemStyle, StyleSettings deletedItemStyle, StyleSettings changedItemStyle) {#CompareOptions-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-}
+```
+public CompareOptions(StyleSettings insertedItemStyle, StyleSettings deletedItemStyle, StyleSettings changedItemStyle)
+```
+
+
+Initializes a new instance of the CompareOptions class with settings for different styles.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| insertedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for inserted items |
+| deletedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for deleted items |
+| changedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for changed style items |
 
 ### isLeaveGaps() {#isLeaveGaps--}
 ```
@@ -89,22 +125,26 @@ public boolean isLeaveGaps()
 ```
 
 
-Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties).
+Gets a flag that determines whether to leave empty lines instead of inserted/deleted components or not.
+
+Whether to display empty lines instead of inserted/deleted components in the final document or not. Used with [isShowInsertedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowInsertedContent--) or [isShowDeletedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowDeletedContent--) properties.
 
 **Returns:**
-boolean - enabled or not
-### setLeaveGaps(boolean leaveGaps) {#setLeaveGaps-boolean-}
+boolean - true if empty lines should be displayed instead of inserted/deleted components, otherwise false
+### setLeaveGaps(boolean value) {#setLeaveGaps-boolean-}
 ```
-public void setLeaveGaps(boolean leaveGaps)
+public void setLeaveGaps(boolean value)
 ```
 
 
-Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties).
+Sets a flag that determines whether to leave empty lines instead of inserted/deleted components or not.
+
+Whether to display empty lines instead of inserted/deleted components in the final document or not. Used with [isShowInsertedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowInsertedContent--) or [isShowDeletedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowDeletedContent--) properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| leaveGaps | boolean | enabled or not |
+| value | boolean | true if empty lines should be displayed instead of inserted/deleted components, otherwise false |
 
 ### getComparisonType() {#getComparisonType--}
 ```
@@ -112,22 +152,26 @@ public ComparisonType getComparisonType()
 ```
 
 
-File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--)
+Gets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them.
+
+When this option is set, [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--) option will be omitted.
 
 **Returns:**
-com.groupdocs.comparison.options.enums.ComparisonType - file type to compare documents as
+[ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) - the type of source and target documents
 ### setComparisonType(ComparisonType comparisonType) {#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-}
 ```
 public void setComparisonType(ComparisonType comparisonType)
 ```
 
 
-File type to compare documents as, ComparisonType Disables [LoadOptions.getFileType()](../../com.groupdocs.comparison.options.load/loadoptions\#getFileType--)
+Sets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them.
+
+When this option is set, [LoadOptions.setFileType(FileType)](../../com.groupdocs.comparison.options.load/loadoptions\#setFileType-FileType-) option will be omitted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparisonType | com.groupdocs.comparison.options.enums.ComparisonType | file type to compare documents as |
+| comparisonType | [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) | The type of source and target documents |
 
 ### getPaperSize() {#getPaperSize--}
 ```
@@ -135,22 +179,22 @@ public final PaperSize getPaperSize()
 ```
 
 
-Gets or sets the result document paper size.
+Gets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object.
 
 **Returns:**
-[PaperSize](../../com.groupdocs.comparison.options.enums/papersize) - the paper size
+[PaperSize](../../com.groupdocs.comparison.options.enums/papersize) - the size of a paper in result document
 ### setPaperSize(PaperSize value) {#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-}
 ```
 public final void setPaperSize(PaperSize value)
 ```
 
 
-Gets or sets the result document paper size.
+Sets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) | the value |
+| value | [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) | The size of a paper in result document |
 
 ### isShowDeletedContent() {#isShowDeletedContent--}
 ```
@@ -158,22 +202,22 @@ public final boolean isShowDeletedContent()
 ```
 
 
-Indicates whether to show deleted components in resultant document or not.
+Gets a flag that indicates whether to show deleted components in resultant document or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if deleted components in resultant document will be shown, otherwise false
 ### setShowDeletedContent(boolean value) {#setShowDeletedContent-boolean-}
 ```
 public final void setShowDeletedContent(boolean value)
 ```
 
 
-Indicates whether to show deleted components in resultant document or not.
+Sets a flag that indicates whether to show deleted components in resultant document or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if deleted components in resultant document should be shown, otherwise false |
 
 ### isShowInsertedContent() {#isShowInsertedContent--}
 ```
@@ -181,22 +225,22 @@ public final boolean isShowInsertedContent()
 ```
 
 
-Indicates whether to show inserted components in resultant document or not.
+Gets a flag that indicates whether to show inserted components in resultant document or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if inserted components in resultant document should be shown, otherwise false
 ### setShowInsertedContent(boolean value) {#setShowInsertedContent-boolean-}
 ```
 public final void setShowInsertedContent(boolean value)
 ```
 
 
-Indicates whether to show inserted components in resultant document or not.
+Sets a flag that indicates whether to show inserted components in resultant document or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if inserted components in resultant document should be shown, otherwise false |
 
 ### isGenerateSummaryPage() {#isGenerateSummaryPage--}
 ```
@@ -204,22 +248,22 @@ public final boolean isGenerateSummaryPage()
 ```
 
 
-Indicates whether to add summary page with detected changes statistics to resultant document or not.
+Gets a flag that indicates whether to add summary page with detected changes statistics to resultant document or not.
 
 **Returns:**
-boolean - the generate summary page
+boolean - true if summary page will be added, otherwise false
 ### setGenerateSummaryPage(boolean value) {#setGenerateSummaryPage-boolean-}
 ```
 public final void setGenerateSummaryPage(boolean value)
 ```
 
 
-Indicates whether to add summary page with detected changes statistics to resultant document or not.
+Sets a flag that indicates whether to add summary page with detected changes statistics to resultant document or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if summary page should be added, otherwise false |
 
 ### isExtendedSummaryPage() {#isExtendedSummaryPage--}
 ```
@@ -227,22 +271,22 @@ public boolean isExtendedSummaryPage()
 ```
 
 
-Indicates whether to add extended file comparison information to the summary page or not.
+Gets a flag that indicates whether to add extended file comparison information to the summary page or not.
 
 **Returns:**
-boolean - the boolean
-### setExtendedSummaryPage(boolean extendedSummaryPage) {#setExtendedSummaryPage-boolean-}
+boolean - true if extended file comparison information will be added to summary page, otherwise false
+### setExtendedSummaryPage(boolean value) {#setExtendedSummaryPage-boolean-}
 ```
-public void setExtendedSummaryPage(boolean extendedSummaryPage)
+public void setExtendedSummaryPage(boolean value)
 ```
 
 
-Indicates whether to add extended file comparison information to the summary page or not.
+Sets a flag that indicates whether to add extended file comparison information to the summary page or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extendedSummaryPage | boolean | the extended summary page |
+| value | boolean | true if extended file comparison information should be added to summary page, otherwise false |
 
 ### isShowOnlySummaryPage() {#isShowOnlySummaryPage--}
 ```
@@ -250,22 +294,22 @@ public boolean isShowOnlySummaryPage()
 ```
 
 
-Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not.
+Gets a flag that indicates whether to leave in the resulting document only a page with statistics of detected changes or not.
 
 **Returns:**
-boolean - the boolean
-### setShowOnlySummaryPage(boolean _showOnlySummaryPage) {#setShowOnlySummaryPage-boolean-}
+boolean - true if in the resulting document only a page with statistics of detected changes will be left, otherwise false
+### setShowOnlySummaryPage(boolean value) {#setShowOnlySummaryPage-boolean-}
 ```
-public void setShowOnlySummaryPage(boolean _showOnlySummaryPage)
+public void setShowOnlySummaryPage(boolean value)
 ```
 
 
-Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not.
+Sets a flag that indicates whether to leave in the resulting document only a page with statistics of detected changes or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| _showOnlySummaryPage | boolean | the auto show only summary page |
+| value | boolean | true if in the resulting document only a page with statistics of detected changes should be left, otherwise false |
 
 ### isDetectStyleChanges() {#isDetectStyleChanges--}
 ```
@@ -273,22 +317,22 @@ public final boolean isDetectStyleChanges()
 ```
 
 
-Indicates whether to detect style changes or not.
+Gets a flag that indicates whether to detect style changes or not.
 
 **Returns:**
-boolean - the boolean
+boolean - true if style changes will be detected, otherwise false
 ### setDetectStyleChanges(boolean value) {#setDetectStyleChanges-boolean-}
 ```
 public final void setDetectStyleChanges(boolean value)
 ```
 
 
-Indicates whether to detect style changes or not.
+Sets a flag that indicates whether to detect style changes or not.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if style changes should be detected, otherwise false |
 
 ### isMarkNestedContent() {#isMarkNestedContent--}
 ```
@@ -296,22 +340,22 @@ public final boolean isMarkNestedContent()
 ```
 
 
-Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted.
+Gets a flag that indicates whether to mark the children of the deleted or inserted elements as deleted or inserted.
 
 **Returns:**
-boolean - the boolean
+boolean - true if the children of the deleted or inserted elements will be marked as deleted or inserted, otherwise false
 ### setMarkNestedContent(boolean value) {#setMarkNestedContent-boolean-}
 ```
 public final void setMarkNestedContent(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted.
+Sets a flag that indicates whether to mark the children of the deleted or inserted elements as deleted or inserted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if the children of the deleted or inserted elements should be marked as deleted or inserted, otherwise false |
 
 ### isCalculateCoordinates() {#isCalculateCoordinates--}
 ```
@@ -319,22 +363,22 @@ public final boolean isCalculateCoordinates()
 ```
 
 
-Indicates whether to calculate coordinates for changed components.
+Gets a flag that indicates whether to calculate coordinates for changed components.
 
 **Returns:**
-boolean - the boolean
+boolean - true if coordinates for changed components will be calculated, otherwise false
 ### setCalculateCoordinates(boolean value) {#setCalculateCoordinates-boolean-}
 ```
 public final void setCalculateCoordinates(boolean value)
 ```
 
 
-Indicates whether to calculate coordinates for changed components.
+Sets a flag that indicates whether to calculate coordinates for changed components.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if coordinates for changed components should be calculated, otherwise false |
 
 ### isHeaderFootersComparison() {#isHeaderFootersComparison--}
 ```
@@ -342,22 +386,22 @@ public final boolean isHeaderFootersComparison()
 ```
 
 
-Control to turn on comparison of header/footer contents.
+Gets a flag that indicates whether to compare header/footer contents.
 
 **Returns:**
-boolean - the boolean
+boolean - true if header/footer contents will be compared, otherwise false
 ### setHeaderFootersComparison(boolean value) {#setHeaderFootersComparison-boolean-}
 ```
 public final void setHeaderFootersComparison(boolean value)
 ```
 
 
-Control to turn on comparison of header/footer contents.
+Sets a flag that indicates whether to compare header/footer contents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if header/footer contents should be compared, otherwise false |
 
 ### getDetalisationLevel() {#getDetalisationLevel--}
 ```
@@ -365,22 +409,26 @@ public final DetalisationLevel getDetalisationLevel()
 ```
 
 
-Gets or sets the comparison detail level.
+Gets a level of comparison detalization represented as [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel).
+
+Default value is [DetalisationLevel.LOW](../../com.groupdocs.comparison.options.style/detalisationlevel\#LOW).
 
 **Returns:**
-[DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) - the detalisation level
+[DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) - the level of comparison detalization
 ### setDetalisationLevel(DetalisationLevel value) {#setDetalisationLevel-com.groupdocs.comparison.options.style.DetalisationLevel-}
 ```
 public final void setDetalisationLevel(DetalisationLevel value)
 ```
 
 
-Gets or sets the comparison detail level.
+Sets a level of comparison detalization represented as [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel).
+
+Default value is [DetalisationLevel.LOW](../../com.groupdocs.comparison.options.style/detalisationlevel\#LOW)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) | the value |
+| value | [DetalisationLevel](../../com.groupdocs.comparison.options.style/detalisationlevel) | The level of comparison detalization |
 
 ### isMarkChangedContent() {#isMarkChangedContent--}
 ```
@@ -388,22 +436,22 @@ public final boolean isMarkChangedContent()
 ```
 
 
-Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents.
+Gets a flag that indicates whether frames for shapes in Word Processing and for rectangles in Image documents will be used.
 
 **Returns:**
-boolean - the boolean
+boolean - true if frames will be used, otherwise false
 ### setMarkChangedContent(boolean value) {#setMarkChangedContent-boolean-}
 ```
 public final void setMarkChangedContent(boolean value)
 ```
 
 
-Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents.
+Sets a flag that indicates whether frames for shapes in Word Processing and for rectangles in Image documents will be used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if frames should be used, otherwise false |
 
 ### getInsertedItemStyle() {#getInsertedItemStyle--}
 ```
@@ -411,22 +459,22 @@ public final StyleSettings getInsertedItemStyle()
 ```
 
 
-Describes style for inserted components.
+Gets a style settings that will be applied to inserted items.
 
 **Returns:**
-[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - the inserted item style
+[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - style settings of inserted items
 ### setInsertedItemStyle(StyleSettings value) {#setInsertedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-}
 ```
 public final void setInsertedItemStyle(StyleSettings value)
 ```
 
 
-Describes style for inserted components.
+Sets a style settings that will be applied to inserted items.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | the value |
+| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of inserted items |
 
 ### getDeletedItemStyle() {#getDeletedItemStyle--}
 ```
@@ -434,22 +482,22 @@ public final StyleSettings getDeletedItemStyle()
 ```
 
 
-Describes style for deleted components.
+Gets a style settings that will be applied to deleted items.
 
 **Returns:**
-[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - the deleted item style
+[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - style settings of deleted items
 ### setDeletedItemStyle(StyleSettings value) {#setDeletedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-}
 ```
 public final void setDeletedItemStyle(StyleSettings value)
 ```
 
 
-Describes style for deleted components.
+Sets a style settings that will be applied to deleted items.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | the value |
+| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of deleted items |
 
 ### getChangedItemStyle() {#getChangedItemStyle--}
 ```
@@ -457,22 +505,22 @@ public final StyleSettings getChangedItemStyle()
 ```
 
 
-Describes style for changed components.
+Gets a style settings that will be applied to changed items.
 
 **Returns:**
-[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - the changed item style
+[StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - style settings of changed items
 ### setChangedItemStyle(StyleSettings value) {#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-}
 ```
 public final void setChangedItemStyle(StyleSettings value)
 ```
 
 
-Describes style for changed components.
+Sets a style settings that will be applied to changed items.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | the value |
+| value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of changed items |
 
 ### isCompareBookmarks() {#isCompareBookmarks--}
 ```
@@ -480,22 +528,22 @@ public boolean isCompareBookmarks()
 ```
 
 
-Control to turn on comparison of bookmarks in Word format.
+Gets a flag that indicates whether bookmarks in Word documents will be compared.
 
 **Returns:**
-boolean - the boolean
-### setCompareBookmarks(boolean compareBookmarks) {#setCompareBookmarks-boolean-}
+boolean - true if bookmarks in Word documents will be compared, otherwise false
+### setCompareBookmarks(boolean value) {#setCompareBookmarks-boolean-}
 ```
-public void setCompareBookmarks(boolean compareBookmarks)
+public void setCompareBookmarks(boolean value)
 ```
 
 
-Sets compare bookmarks.
+Sets a flag that indicates whether bookmarks in Word documents should be compared.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compareBookmarks | boolean | the compare bookmarks |
+| value | boolean | true if bookmarks in Word documents should be compared, otherwise false |
 
 ### isCompareVariableProperty() {#isCompareVariableProperty--}
 ```
@@ -503,22 +551,22 @@ public boolean isCompareVariableProperty()
 ```
 
 
-Control to turn on comparison of variables properties in Word format.
+Gets a flag that indicates whether variables properties in Word documents will be compared.
 
 **Returns:**
-boolean - the boolean
-### setCompareVariableProperty(boolean compareVariableProperty) {#setCompareVariableProperty-boolean-}
+boolean - true if variables properties in Word documents will be compared, otherwise false
+### setCompareVariableProperty(boolean value) {#setCompareVariableProperty-boolean-}
 ```
-public void setCompareVariableProperty(boolean compareVariableProperty)
+public void setCompareVariableProperty(boolean value)
 ```
 
 
-Sets compare variable property.
+Sets a flag that indicates whether variables properties in Word documents should be compared.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compareVariableProperty | boolean | the compare variable property |
+| value | boolean | true if variables properties in Word documents should be compared, otherwise false |
 
 ### isCompareDocumentProperty() {#isCompareDocumentProperty--}
 ```
@@ -526,22 +574,22 @@ public boolean isCompareDocumentProperty()
 ```
 
 
-Control to turn on comparison of built and custom properties in Word format.
+Gets a flag that indicates whether built and custom properties in Word documents will be compared.
 
 **Returns:**
-boolean - the boolean
-### setCompareDocumentProperty(boolean compareDocumentProperty) {#setCompareDocumentProperty-boolean-}
+boolean - true if built and custom properties in Word documents will be compared, otherwise false
+### setCompareDocumentProperty(boolean value) {#setCompareDocumentProperty-boolean-}
 ```
-public void setCompareDocumentProperty(boolean compareDocumentProperty)
+public void setCompareDocumentProperty(boolean value)
 ```
 
 
-Control to turn on comparison of built and custom properties in Word format.
+Sets a flag that indicates whether built and custom properties in Word documents should be compared.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compareDocumentProperty | boolean | the compare document property |
+| value | boolean | true if built and custom properties in Word documents should be compared, otherwise false |
 
 ### getSensitivityOfComparison() {#getSensitivityOfComparison--}
 ```
@@ -549,9 +597,14 @@ public final int getSensitivityOfComparison()
 ```
 
 
-Gets or sets a sensitivity of comparison.
+Gets a sensitivity of comparison.
 
-Value: The percentage of deleted and inserted elements of two compared objects in relation to all elements of these objects. if this percentage if exceeded, the object aren't compared but are considered completely inserted and deleted. Min value - 0% => The comparison doesn't occur for any length of the common subsequence of two compared object. Default value - 75% => Comparison occurs if the percentage of deleted and inserted elements of two compared object with respect to all elements of these objects isn't more then 75. Max value - 100% => The comparison occurs at any length of the common subsequence of two compared objects.
+The percentage of deleted and inserted elements of two compared objects in relation to all elements of these objects.
+
+ *  If this percentage if exceeded, the object aren't compared but are considered completely inserted and deleted.
+ *  Min value - 0% => The comparison doesn't occur for any length of the common subsequence of two compared object.
+ *  Default value - 75% => Comparison occurs if the percentage of deleted and inserted elements of two compared object with respect to all elements of these objects isn't more then 75.
+ *  Max value - 100% => The comparison occurs at any length of the common subsequence of two compared objects.
 
 **Returns:**
 int - the sensitivity of comparison
@@ -561,12 +614,19 @@ public final void setSensitivityOfComparison(int value)
 ```
 
 
-Sets sensitivity of comparison.
+Sets a sensitivity of comparison.
+
+The percentage of deleted and inserted elements of two compared objects in relation to all elements of these objects.
+
+ *  If this percentage if exceeded, the object aren't compared but are considered completely inserted and deleted.
+ *  Min value - 0% => The comparison doesn't occur for any length of the common subsequence of two compared object.
+ *  Default value - 75% => Comparison occurs if the percentage of deleted and inserted elements of two compared object with respect to all elements of these objects isn't more then 75.
+ *  Max value - 100% => The comparison occurs at any length of the common subsequence of two compared objects.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the value |
+| value | int | The sensitivity of comparison |
 
 ### setWordsSeparatorChars(char[] value) {#setWordsSeparatorChars-char---}
 ```
@@ -574,14 +634,12 @@ public final void setWordsSeparatorChars(char[] value)
 ```
 
 
-Gets or sets an array of delimiters to split text into words.
-
-Value: The words separator chars.
+Sets an array of delimiters which will be used to split text into words.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | char[] | the value |
+| value | char[] | The array of delimiters to split text into words |
 
 ### getPasswordSaveOption() {#getPasswordSaveOption--}
 ```
@@ -589,9 +647,7 @@ public final PasswordSaveOption getPasswordSaveOption()
 ```
 
 
-Gets or sets the password save option.
-
-Value: The password save option.
+Gets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object.
 
 **Returns:**
 [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) - the password save option
@@ -601,14 +657,12 @@ public final void setPasswordSaveOption(PasswordSaveOption value)
 ```
 
 
-Gets or sets the password save option.
-
-Value: The password save option.
+Sets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) | the value |
+| value | [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) | The password save option |
 
 ### getOriginalSize() {#getOriginalSize--}
 ```
@@ -616,22 +670,22 @@ public final OriginalSize getOriginalSize()
 ```
 
 
-Get or sets the original sizes of compared documents.
+Gets an original sizes of compared documents represented by [OriginalSize](../../com.groupdocs.comparison.options/originalsize) object.
 
 **Returns:**
-[OriginalSize](../../com.groupdocs.comparison.options/originalsize) - the original size
+[OriginalSize](../../com.groupdocs.comparison.options/originalsize) - the original size of documents
 ### setOriginalSize(OriginalSize value) {#setOriginalSize-com.groupdocs.comparison.options.OriginalSize-}
 ```
 public final void setOriginalSize(OriginalSize value)
 ```
 
 
-Get or sets the original sizes of compared documents.
+Sets an original sizes of compared documents represented by [OriginalSize](../../com.groupdocs.comparison.options/originalsize) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OriginalSize](../../com.groupdocs.comparison.options/originalsize) | the value |
+| value | [OriginalSize](../../com.groupdocs.comparison.options/originalsize) | The original size of documents |
 
 ### getDiagramMasterSetting() {#getDiagramMasterSetting--}
 ```
@@ -639,26 +693,22 @@ public final DiagramMasterSetting getDiagramMasterSetting()
 ```
 
 
-Gets or sets the path value for master or use compare without path of master. This option only for Diagram.
-
-Value: The master option for Diagram.
+Gets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object.
 
 **Returns:**
-[DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) - the diagram master setting
+[DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) - the diagram master page setting
 ### setDiagramMasterSetting(DiagramMasterSetting value) {#setDiagramMasterSetting-com.groupdocs.comparison.options.style.DiagramMasterSetting-}
 ```
 public final void setDiagramMasterSetting(DiagramMasterSetting value)
 ```
 
 
-Gets or sets the path value for master or use compare without path of master. This option only for Diagram.
-
-Value: The master option for Diagram.
+Sets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) | the value |
+| value | [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) | The diagram master page setting |
 
 ### isShowRevisions() {#isShowRevisions--}
 ```
@@ -666,22 +716,22 @@ public boolean isShowRevisions()
 ```
 
 
-Indicates whether to display others revisions in the resulting document or not.
+Gets a flag that indicates whether others revisions in the resulting document will be displayed.
 
 **Returns:**
-boolean - the boolean
-### setShowRevisions(boolean showRevisions) {#setShowRevisions-boolean-}
+boolean - value true if others revisions in the resulting document will be displayed, otherwise false
+### setShowRevisions(boolean value) {#setShowRevisions-boolean-}
 ```
-public void setShowRevisions(boolean showRevisions)
+public void setShowRevisions(boolean value)
 ```
 
 
-Indicates whether to display others revisions in the resulting document or not.
+Sets a flag that indicates whether others revisions in the resulting document should be displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| showRevisions | boolean | the show revisions |
+| value | boolean | true if others revisions in the resulting document should be displayed, otherwise false |
 
 ### isWordTrackChanges() {#isWordTrackChanges--}
 ```
@@ -689,20 +739,20 @@ public boolean isWordTrackChanges()
 ```
 
 
-Control to turn on comparison of Words Track Revisions.
+Gets a flag that indicates whether Words Track Revisions will be compared.
 
 **Returns:**
-boolean - Words Track Revisions
-### setWordTrackChanges(boolean wordTrackChanges) {#setWordTrackChanges-boolean-}
+boolean - true if Words Track Revisions will be compared, otherwise false
+### setWordTrackChanges(boolean value) {#setWordTrackChanges-boolean-}
 ```
-public void setWordTrackChanges(boolean wordTrackChanges)
+public void setWordTrackChanges(boolean value)
 ```
 
 
-Control to turn on comparison of Words Track Revisions.
+Sets a flag that indicates whether Words Track Revisions should be compared.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wordTrackChanges | boolean | Words Track Revisions |
+| value | boolean | true if Words Track Revisions should be compared, otherwise false |
 

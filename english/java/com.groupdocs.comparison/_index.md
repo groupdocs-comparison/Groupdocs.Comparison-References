@@ -20,6 +20,6 @@ The main class of this namespace is [Comparer](../../com.groupdocs.comparison/co
 
 | Class | Description |
 | --- | --- |
-| [Comparer](../com.groupdocs.comparison/comparer) | Represents main class that controls the documents comparison process. |
-| [ComparerSettings](../com.groupdocs.comparison/comparersettings) | Defines settings for customizing [Comparer](../com.groupdocs.comparison/comparer) behaviour. |
-| [Document](../com.groupdocs.comparison/document) | Represents compared document. |
+| [Comparer](../com.groupdocs.comparison/comparer) | The Comparer class provides functionality for comparing documents and generating comparison results. |
+| [ComparerSettings](../com.groupdocs.comparison/comparersettings) | Defines settings for customizing the behavior of the [Comparer](../com.groupdocs.comparison/comparer) class. |
+| [Document](../com.groupdocs.comparison/document) | Represents a document for comparison process. |

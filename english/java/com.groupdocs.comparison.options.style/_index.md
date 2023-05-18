@@ -3,7 +3,7 @@ title: com.groupdocs.comparison.options.style
 second_title: GroupDocs.Comparison for Java API Reference
 description: 
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.comparison.options.style/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.groupdocs.comparison.options.style/
 
 | Class | Description |
 | --- | --- |
-| [DiagramMasterSetting](../com.groupdocs.comparison.options.style/diagrammastersetting) | Diagram master settings |
-| [Size](../com.groupdocs.comparison.options.style/size) | Document size |
-| [StyleSettings](../com.groupdocs.comparison.options.style/stylesettings) | Style settings |
+| [DiagramMasterSetting](../com.groupdocs.comparison.options.style/diagrammastersetting) | Represents the settings for diagram master comparison. |
+| [Size](../com.groupdocs.comparison.options.style/size) | Represents the size of document in comparison. |
+| [StyleSettings](../com.groupdocs.comparison.options.style/stylesettings) | This class represents style settings for text formatting. |
 
 ## Enumerations
 

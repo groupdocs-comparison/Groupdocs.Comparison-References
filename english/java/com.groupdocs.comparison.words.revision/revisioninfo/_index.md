@@ -1,7 +1,7 @@
 ---
 title: RevisionInfo
 second_title: GroupDocs.Comparison for Java API Reference
-description: Provides information about one revision.
+description: Represents a revision in the document.
 type: docs
 weight: 12
 url: /java/com.groupdocs.comparison.words.revision/revisioninfo/
@@ -12,7 +12,25 @@ java.lang.Object
 public class RevisionInfo
 ```
 
-Provides information about one revision.
+Represents a revision in the document.
+
+A revision encapsulates information about revision change made to the document. This class provides methods to retrieve information about the revision, such as its type, content, author, and so on.
+
+Example usage:
+
+```
+
+ try (RevisionHandler revisionHandler = new RevisionHandler(sourceFile)) {
+     List revisionList = revisionHandler.getRevisions();
+
+     for (RevisionInfo revisionInfo : revisionList) {
+         System.out.println("Revision Type: " + revisionInfo.getType());
+         System.out.println("Text: " + revisionInfo.getText());
+         System.out.println("Author: " + revisionInfo.getAuthor());
+     }
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,14 +40,14 @@ Provides information about one revision.
 
 | Method | Description |
 | --- | --- |
-| [getAction()](#getAction--) | Action (accept or reject). |
-| [setAction(RevisionAction action)](#setAction-com.groupdocs.comparison.words.revision.RevisionAction-) | Action (accept or reject). |
-| [getText()](#getText--) | The text that is in revision. |
-| [setText(String text)](#setText-java.lang.String-) | The text that is in revision. |
-| [getAuthor()](#getAuthor--) | Author. |
-| [setAuthor(String author)](#setAuthor-java.lang.String-) | Author. |
-| [getType()](#getType--) | RevisionHandler type, depending on the type the Action (accept or reject) logic changes. |
-| [setType(RevisionType type)](#setType-com.groupdocs.comparison.words.revision.RevisionType-) | RevisionHandler type, depending on the type the Action (accept or reject) logic changes. |
+| [getAction()](#getAction--) | Gets the action associated with the revision (accept or reject). |
+| [setAction(RevisionAction value)](#setAction-com.groupdocs.comparison.words.revision.RevisionAction-) | Sets the value associated with the revision (accept or reject). |
+| [getText()](#getText--) | Gets the text content of the revision. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the value content of the revision. |
+| [getAuthor()](#getAuthor--) | Gets the author of the revision. |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the value of the revision. |
+| [getType()](#getType--) | Gets the type of the revision, depending on the type the Action (accept or reject) logic changes. |
+| [setType(RevisionType value)](#setType-com.groupdocs.comparison.words.revision.RevisionType-) | Sets the value of the revision, depending on the value the Action (accept or reject) logic changes. |
 ### RevisionInfo() {#RevisionInfo--}
 ```
 public RevisionInfo()
@@ -42,22 +60,22 @@ public RevisionAction getAction()
 ```
 
 
-Action (accept or reject). This field allows you to influence the display of the revision.
+Gets the action associated with the revision (accept or reject). This field allows you to influence the display of the revision.
 
 **Returns:**
-[RevisionAction](../../com.groupdocs.comparison.words.revision/revisionaction) - the action
-### setAction(RevisionAction action) {#setAction-com.groupdocs.comparison.words.revision.RevisionAction-}
+[RevisionAction](../../com.groupdocs.comparison.words.revision/revisionaction) - the action associated with the revision.
+### setAction(RevisionAction value) {#setAction-com.groupdocs.comparison.words.revision.RevisionAction-}
 ```
-public void setAction(RevisionAction action)
+public void setAction(RevisionAction value)
 ```
 
 
-Action (accept or reject). This field allows you to influence the display of the revision.
+Sets the value associated with the revision (accept or reject). This field allows you to influence the display of the revision.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | [RevisionAction](../../com.groupdocs.comparison.words.revision/revisionaction) | the action |
+| value | [RevisionAction](../../com.groupdocs.comparison.words.revision/revisionaction) | The value associated with the revision. |
 
 ### getText() {#getText--}
 ```
@@ -65,22 +83,22 @@ public String getText()
 ```
 
 
-The text that is in revision.
+Gets the text content of the revision.
 
 **Returns:**
-java.lang.String - the text
-### setText(String text) {#setText-java.lang.String-}
+java.lang.String - the text content of the revision.
+### setText(String value) {#setText-java.lang.String-}
 ```
-public void setText(String text)
+public void setText(String value)
 ```
 
 
-The text that is in revision.
+Sets the value content of the revision.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | the text |
+| value | java.lang.String | The value content of the revision. |
 
 ### getAuthor() {#getAuthor--}
 ```
@@ -88,22 +106,22 @@ public String getAuthor()
 ```
 
 
-Author.
+Gets the author of the revision.
 
 **Returns:**
-java.lang.String - the author
-### setAuthor(String author) {#setAuthor-java.lang.String-}
+java.lang.String - the author of the revision.
+### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
-public void setAuthor(String author)
+public void setAuthor(String value)
 ```
 
 
-Author.
+Sets the value of the revision.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | java.lang.String | the author |
+| value | java.lang.String | The value of the revision. |
 
 ### getType() {#getType--}
 ```
@@ -111,20 +129,20 @@ public RevisionType getType()
 ```
 
 
-RevisionHandler type, depending on the type the Action (accept or reject) logic changes.
+Gets the type of the revision, depending on the type the Action (accept or reject) logic changes.
 
 **Returns:**
-[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) - the type
-### setType(RevisionType type) {#setType-com.groupdocs.comparison.words.revision.RevisionType-}
+[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) - the type of the revision.
+### setType(RevisionType value) {#setType-com.groupdocs.comparison.words.revision.RevisionType-}
 ```
-public void setType(RevisionType type)
+public void setType(RevisionType value)
 ```
 
 
-RevisionHandler type, depending on the type the Action (accept or reject) logic changes.
+Sets the value of the revision, depending on the value the Action (accept or reject) logic changes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | [RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) | the type |
+| value | [RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) | The value of the revision. |
 
