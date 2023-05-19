@@ -7,7 +7,9 @@ weight: 10
 url: /java/com.groupdocs.comparison/
 ---
 
-The package provides classes to compare documents for all popular document formats. The Main classes in this package are:
+The package provides classes to compare documents for all popular document formats.
+
+The Main classes in this package are:
 
  *  [Comparer](../../com.groupdocs.comparison/comparer) is the entry point for comparing documents.
  *  [Document](../../com.groupdocs.comparison/document) provides details about a document.

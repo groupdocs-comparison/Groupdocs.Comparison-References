@@ -51,9 +51,9 @@ Example usage:
 | [setX(double value)](#setX-double-) | Sets the x-coordinate of the top-left corner of the rectangle. |
 | [getY()](#getY--) | Gets the y-coordinate of the top-left corner of the rectangle. |
 | [setY(double value)](#setY-double-) | Sets the y-coordinate of the top-left corner of the rectangle. |
-| [equals(Object o)](#equals-java.lang.Object-) |  |
-| [hashCode()](#hashCode--) |  |
-| [toString()](#toString--) |  |
+| [equals(Object o)](#equals-java.lang.Object-) | \{@inheritDoc\} |
+| [hashCode()](#hashCode--) | \{@inheritDoc\} |
+| [toString()](#toString--) | \{@inheritDoc\} |
 ### Rectangle() {#Rectangle--}
 ```
 public Rectangle()

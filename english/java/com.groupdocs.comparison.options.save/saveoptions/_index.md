@@ -39,8 +39,8 @@ Example usage:
 | --- | --- |
 | [getCloneMetadataType()](#getCloneMetadataType--) | Gets a strategy of processing metadata saving result document. |
 | [setCloneMetadataType(MetadataType value)](#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-) | Sets a stragegy of processing metadata saving result document. |
-| [getFileAuthorMetadata()](#getFileAuthorMetadata--) | Gets a metadata object that will be set into result document when \#setCloneMetadataType(MetadataType).setCloneMetadataType(MetadataType) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
-| [setFileAuthorMetadata(FileAuthorMetadata value)](#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-) | Sets a metadata object that should be set into result document when \#setCloneMetadataType(MetadataType).setCloneMetadataType(MetadataType) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
+| [getFileAuthorMetadata()](#getFileAuthorMetadata--) | Gets a metadata object that will be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
+| [setFileAuthorMetadata(FileAuthorMetadata value)](#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-) | Sets a metadata object that should be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
 | [getPassword()](#getPassword--) | Gets a password for result document. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for result document. |
 | [getFolderPath()](#getFolderPath--) | Gets a folder path to which result images will be saved. |
@@ -87,7 +87,7 @@ public final FileAuthorMetadata getFileAuthorMetadata()
 ```
 
 
-Gets a metadata object that will be set into result document when \#setCloneMetadataType(MetadataType).setCloneMetadataType(MetadataType) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
+Gets a metadata object that will be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
 
 **Returns:**
 [FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) - the metadata object
@@ -97,7 +97,7 @@ public final void setFileAuthorMetadata(FileAuthorMetadata value)
 ```
 
 
-Sets a metadata object that should be set into result document when \#setCloneMetadataType(MetadataType).setCloneMetadataType(MetadataType) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
+Sets a metadata object that should be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |

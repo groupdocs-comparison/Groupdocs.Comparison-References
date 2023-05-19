@@ -3,7 +3,7 @@ title: Utils
 second_title: GroupDocs.Comparison for Java API Reference
 description: Utility class that provides common helper methods which can be useful when using Comparison API.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.comparison.common/utils/
 ---
 **Inheritance:**

@@ -53,8 +53,8 @@ Example usage:
 | [setNewValue(Object value)](#setNewValue-java.lang.Object-) | Sets the new value of the property. |
 | [getOldValue()](#getOldValue--) | Gets the old value of the property. |
 | [setOldValue(Object value)](#setOldValue-java.lang.Object-) | Sets the old value of the property. |
-| [equals(Object o)](#equals-java.lang.Object-) |  |
-| [hashCode()](#hashCode--) |  |
+| [equals(Object o)](#equals-java.lang.Object-) | \{@inheritDoc\} |
+| [hashCode()](#hashCode--) | \{@inheritDoc\} |
 ### StyleChangeInfo() {#StyleChangeInfo--}
 ```
 public StyleChangeInfo()

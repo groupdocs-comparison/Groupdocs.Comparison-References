@@ -36,16 +36,16 @@ Example usage:
 
 | Constructor | Description |
 | --- | --- |
-| [Document(InputStream stream)](#Document-java.io.InputStream-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream. |
-| [Document(String filePath)](#Document-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path. |
-| [Document(Path filePath)](#Document-java.nio.file.Path-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path. |
-| [Document(Path filePath, String password)](#Document-java.nio.file.Path-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and a password. |
-| [Document(Path filePath, LoadOptions loadOptions)](#Document-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and load options. |
-| [Document(String filePath, String password)](#Document-java.lang.String-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and a password. |
-| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and load options. |
-| [Document(InputStream stream, String password)](#Document-java.io.InputStream-java.lang.String-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream and a password. |
-| [Document(String filePathOrTextContent, boolean isLoadText)](#Document-java.lang.String-boolean-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path or text content and a flag that indicates what was passed. |
-| [Document(InputStream inputStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream and load options. |
+| [Document(InputStream stream)](#Document-java.io.InputStream-) | Initializes new instance of Document class with the specified document stream. |
+| [Document(String filePath)](#Document-java.lang.String-) | Initializes new instance of Document class with the specified document path. |
+| [Document(Path filePath)](#Document-java.nio.file.Path-) | Initializes new instance of Document class with the specified document path. |
+| [Document(Path filePath, String password)](#Document-java.nio.file.Path-java.lang.String-) | Initializes new instance of Document class with the specified document path and a password. |
+| [Document(Path filePath, LoadOptions loadOptions)](#Document-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Document class with the specified document path and load options. |
+| [Document(String filePath, String password)](#Document-java.lang.String-java.lang.String-) | Initializes new instance of Document class with the specified document path and a password. |
+| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Document class with the specified document path and load options. |
+| [Document(InputStream stream, String password)](#Document-java.io.InputStream-java.lang.String-) | Initializes new instance of Document class with the specified document stream and a password. |
+| [Document(String filePathOrTextContent, boolean isLoadText)](#Document-java.lang.String-boolean-) | Initializes new instance of Document class with the specified document path or text content and a flag that indicates what was passed. |
+| [Document(InputStream inputStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Document class with the specified document stream and load options. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public Document(InputStream stream)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream.
+Initializes new instance of Document class with the specified document stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,7 +81,7 @@ public Document(String filePath)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path.
+Initializes new instance of Document class with the specified document path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -94,7 +94,7 @@ public Document(Path filePath)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path.
+Initializes new instance of Document class with the specified document path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -107,7 +107,7 @@ public Document(Path filePath, String password)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and a password.
+Initializes new instance of Document class with the specified document path and a password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public Document(Path filePath, LoadOptions loadOptions)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and load options.
+Initializes new instance of Document class with the specified document path and load options.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -135,7 +135,7 @@ public Document(String filePath, String password)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and a password.
+Initializes new instance of Document class with the specified document path and a password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public Document(String filePath, LoadOptions loadOptions)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path and load options.
+Initializes new instance of Document class with the specified document path and load options.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -163,7 +163,7 @@ public Document(InputStream stream, String password)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream and a password.
+Initializes new instance of Document class with the specified document stream and a password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ public Document(String filePathOrTextContent, boolean isLoadText)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document path or text content and a flag that indicates what was passed.
+Initializes new instance of Document class with the specified document path or text content and a flag that indicates what was passed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ public Document(InputStream inputStream, LoadOptions loadOptions)
 ```
 
 
-Initializes new instance of [Document](../../com.groupdocs.comparison/document) class with the specified document stream and load options.
+Initializes new instance of Document class with the specified document stream and load options.
 
 **Parameters:**
 | Parameter | Type | Description |

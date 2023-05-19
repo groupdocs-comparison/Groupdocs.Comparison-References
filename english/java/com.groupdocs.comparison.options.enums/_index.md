@@ -1,11 +1,23 @@
 ---
 title: com.groupdocs.comparison.options.enums
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: Provides enumerations for various options and settings in GroupDocs.Comparison.
 type: docs
 weight: 21
 url: /java/com.groupdocs.comparison.options.enums/
 ---
+
+Provides enumerations for various options and settings in GroupDocs.Comparison.
+
+The classes in this package contain enumerations that define different options and settings used in GroupDocs.Comparison for customization and configuration purposes. These enumerations are used as parameters in various methods and classes to control the behavior and appearance of the document comparison process.
+
+Some of the key enumerations in this package include [ChangeType](../../com.groupdocs.comparison.result/changetype), com.groupdocs.comparison.cells.style.ComparisonStyle, and more. These enumerations allow you to get the type of changes, the style of comparison and other options for the document comparison process.
+
+For more details on the available options and how to use them in GroupDocs.Comparison, please refer to the [GroupDocs.Comparison Documentation][].
+
+
+[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+
 
 ## Enumerations
 

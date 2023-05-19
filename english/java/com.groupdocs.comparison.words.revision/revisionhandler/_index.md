@@ -43,10 +43,10 @@ Example usage:
 
 | Constructor | Description |
 | --- | --- |
-| [RevisionHandler(String filePath)](#RevisionHandler-java.lang.String-) | Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file containing revisions. |
-| [RevisionHandler(Path filePath)](#RevisionHandler-java.nio.file.Path-) | Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file containing revisions. |
-| [RevisionHandler(InputStream file, FileType fileType)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-) | Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a file stream containing revisions. |
-| [RevisionHandler(Document document)](#RevisionHandler-com.aspose.words.Document-) | Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a document. |
+| [RevisionHandler(String filePath)](#RevisionHandler-java.lang.String-) | Initializes a new instance of the RevisionHandler class with the path to the file containing revisions. |
+| [RevisionHandler(Path filePath)](#RevisionHandler-java.nio.file.Path-) | Initializes a new instance of the RevisionHandler class with the path to the file containing revisions. |
+| [RevisionHandler(InputStream file, FileType fileType)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-) | Initializes a new instance of the RevisionHandler class with a file stream containing revisions. |
+| [RevisionHandler(Document document)](#RevisionHandler-com.aspose.words.Document-) | Initializes a new instance of the RevisionHandler class with a document. |
 ## Methods
 
 | Method | Description |
@@ -63,7 +63,7 @@ public RevisionHandler(String filePath)
 ```
 
 
-Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file containing revisions.
+Initializes a new instance of the RevisionHandler class with the path to the file containing revisions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -76,7 +76,7 @@ public RevisionHandler(Path filePath)
 ```
 
 
-Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with the path to the file containing revisions.
+Initializes a new instance of the RevisionHandler class with the path to the file containing revisions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -89,7 +89,7 @@ public RevisionHandler(InputStream file, FileType fileType)
 ```
 
 
-Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a file stream containing revisions.
+Initializes a new instance of the RevisionHandler class with a file stream containing revisions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -103,7 +103,7 @@ public RevisionHandler(Document document)
 ```
 
 
-Initializes a new instance of the [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler) class with a document.
+Initializes a new instance of the RevisionHandler class with a document.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ second_title: GroupDocs.Comparison for Java API Reference
 description: Cleans different resources to free memory.
 type: docs
 weight: 10
-url: /java/com.groupdocs.comparison.utils/memorycleaner/
+url: /java/com.groupdocs.comparison.common/memorycleaner/
 ---
 **Inheritance:**
 java.lang.Object

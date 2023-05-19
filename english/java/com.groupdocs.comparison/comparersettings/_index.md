@@ -63,7 +63,7 @@ public final void setLogger(ILogger value)
 
 Sets the logger implementation for logging.
 
-Use com.groupdocs.foundation.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging.
+Use com.groupdocs.comparison.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging.
 
 **Parameters:**
 | Parameter | Type | Description |

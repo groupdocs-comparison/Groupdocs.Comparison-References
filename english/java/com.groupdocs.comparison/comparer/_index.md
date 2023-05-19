@@ -78,12 +78,12 @@ Example usage:
 | [compare(Path filePath, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.nio.file.Path-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
 | [add(String filePath)](#add-java.lang.String-) | Adds the specified target document to the comparison process. |
 | [add(Path filePath)](#add-java.nio.file.Path-) | Adds the specified target document to the comparison process. |
-| [add(String[] filePaths)](#add-java.lang.String...-) | Adds the specified target document to the comparison process. |
-| [add(Path[] filePaths)](#add-java.nio.file.Path...-) | Adds the specified target document to the comparison process. |
+| [add(String[] filePaths)](#add-java.lang.String...-) | Adds the specified target documents to the comparison process. |
+| [add(Path[] filePaths)](#add-java.nio.file.Path...-) | Adds the specified target documents to the comparison process. |
 | [add(String filePath, LoadOptions loadOptions)](#add-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
 | [add(Path filePath, LoadOptions loadOptions)](#add-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
 | [add(InputStream document)](#add-java.io.InputStream-) | Adds the specified target document to the comparison process. |
-| [add(InputStream[] documents)](#add-java.io.InputStream...-) | Adds the specified target document to the comparison process. |
+| [add(InputStream[] documents)](#add-java.io.InputStream...-) | Adds the specified target documents to the comparison process. |
 | [add(InputStream document, LoadOptions loadOptions)](#add-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
 | [getChanges()](#getChanges--) | Retrieves an array of [ChangeInfo](../../com.groupdocs.comparison.result/changeinfo) objects representing the changes detected during the comparison process. |
 | [getChanges(GetChangeOptions getChangeOptions)](#getChanges-com.groupdocs.comparison.options.GetChangeOptions-) | Retrieves an array of [ChangeInfo](../../com.groupdocs.comparison.result/changeinfo) objects representing the changes detected during the comparison process. |
@@ -95,7 +95,6 @@ Example usage:
 | [applyChanges(OutputStream document, SaveOptions saveOptions, ApplyChangeOptions applyChangeOptions)](#applyChanges-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.ApplyChangeOptions-) | Accepts or rejects changes and applies them to resultant document. |
 | [getResultString()](#getResultString--) | Gets result string after comparison (For Text Comparison only). |
 | [close()](#close--) | Releases resources. |
-| [dispose()](#dispose--) | Releases resources. |
 ### Comparer(String filePath) {#Comparer-java.lang.String-}
 ```
 public Comparer(String filePath)
@@ -803,7 +802,7 @@ public final void add(String[] filePaths)
 ```
 
 
-Adds the specified target document to the comparison process.
+Adds the specified target documents to the comparison process.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,7 +815,7 @@ public final void add(Path[] filePaths)
 ```
 
 
-Adds the specified target document to the comparison process.
+Adds the specified target documents to the comparison process.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -897,7 +896,7 @@ public final void add(InputStream[] documents)
 ```
 
 
-Adds the specified target document to the comparison process.
+Adds the specified target documents to the comparison process.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1102,14 +1101,6 @@ java.lang.String - the result string
 ### close() {#close--}
 ```
 public void close()
-```
-
-
-Releases resources.
-
-### dispose() {#dispose--}
-```
-public final void dispose()
 ```
 
 

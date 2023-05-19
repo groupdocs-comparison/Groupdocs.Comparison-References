@@ -1,11 +1,25 @@
 ---
 title: com.groupdocs.comparison.words.revision
 second_title: GroupDocs.Comparison for Java API Reference
-description: 
+description: Provides classes and interfaces for representing revisions and tracked changes in Word documents during the comparison process in GroupDocs.Comparison for Java.
 type: docs
 weight: 27
 url: /java/com.groupdocs.comparison.words.revision/
 ---
+
+Provides classes and interfaces for representing revisions and tracked changes in Word documents during the comparison process in GroupDocs.Comparison for Java.
+
+The classes in this package are used to represent revisions and tracked changes made to Word documents during the comparison process. These revisions include insertions, deletions, formatting changes, and other modifications to the document content.
+
+The key classes in this package include [RevisionHandler](../../com.groupdocs.comparison.words.revision/revisionhandler), [RevisionAction](../../com.groupdocs.comparison.words.revision/revisionaction), and [RevisionInfo](../../com.groupdocs.comparison.words.revision/revisioninfo).
+
+By using the classes and interfaces in this package, you can access, analyze, and manipulate revisions and tracked changes in Word documents.
+
+For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+
+
+[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+
 
 ## Classes
 
