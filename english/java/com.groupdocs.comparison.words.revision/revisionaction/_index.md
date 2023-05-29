@@ -38,34 +38,34 @@ Example usage:
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Indicates that no action is to be taken. |
-| [Accept](#Accept) | Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION. |
-| [Reject](#Reject) | Indicates that the revision will be removed if it is of type INSERTION, or it will be displayed if the type is DELETION. |
+| [NONE](#NONE) | Indicates that no action is to be taken. |
+| [ACCEPT](#ACCEPT) | Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION. |
+| [REJECT](#REJECT) | Indicates that the revision will be removed if it is of type INSERTION, or it will be displayed if the type is DELETION. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-### None {#None}
+### NONE {#NONE}
 ```
-public static final RevisionAction None
+public static final RevisionAction NONE
 ```
 
 
 Indicates that no action is to be taken.
 
-### Accept {#Accept}
+### ACCEPT {#ACCEPT}
 ```
-public static final RevisionAction Accept
+public static final RevisionAction ACCEPT
 ```
 
 
 Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION.
 
-### Reject {#Reject}
+### REJECT {#REJECT}
 ```
-public static final RevisionAction Reject
+public static final RevisionAction REJECT
 ```
 
 

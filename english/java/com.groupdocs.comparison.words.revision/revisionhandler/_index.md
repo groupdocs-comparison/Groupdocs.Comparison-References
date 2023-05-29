@@ -47,6 +47,11 @@ Example usage:
 | [RevisionHandler(Path filePath)](#RevisionHandler-java.nio.file.Path-) | Initializes a new instance of the RevisionHandler class with the path to the file containing revisions. |
 | [RevisionHandler(InputStream file, FileType fileType)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-) | Initializes a new instance of the RevisionHandler class with a file stream containing revisions. |
 | [RevisionHandler(Document document)](#RevisionHandler-com.aspose.words.Document-) | Initializes a new instance of the RevisionHandler class with a document. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [SOURCE_PATH_IS_NULL](#SOURCE-PATH-IS-NULL) |  |
 ## Methods
 
 | Method | Description |
@@ -109,6 +114,12 @@ Initializes a new instance of the RevisionHandler class with a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | com.aspose.words.Document | The document. |
+
+### SOURCE_PATH_IS_NULL {#SOURCE-PATH-IS-NULL}
+```
+public static final String SOURCE_PATH_IS_NULL
+```
+
 
 ### getRevisions() {#getRevisions--}
 ```
