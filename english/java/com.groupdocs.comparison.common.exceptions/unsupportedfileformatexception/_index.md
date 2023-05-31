@@ -1,56 +1,56 @@
 ---
 title: UnsupportedFileFormatException
 second_title: GroupDocs.Comparison for Java API Reference
-description: The exception that is thrown when file of this format doesnt support comparison
+description: The exception that is thrown when file of this format is not supported by Comparison.
 type: docs
-weight: 22
+weight: 15
 url: /java/com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception/
 ---
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.groupdocs.foundation.exception.GroupDocsException, [com.groupdocs.comparison.common.exceptions.ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception)
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.groupdocs.foundation.exception.GroupDocsException, [com.groupdocs.comparison.common.exceptions.ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception)
 ```
 public class UnsupportedFileFormatException extends ComparisonException
 ```
 
-The exception that is thrown when file of this format doesn't support comparison
+The exception that is thrown when file of this format is not supported by Comparison.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnsupportedFileFormatException()](#UnsupportedFileFormatException--) | Initializes a new instance of [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class. |
-| [UnsupportedFileFormatException(Throwable e)](#UnsupportedFileFormatException-java.lang.Throwable-) | Instantiates a new Unsupported file format exception. |
-| [UnsupportedFileFormatException(String pathFile)](#UnsupportedFileFormatException-java.lang.String-) | Initializes a new instance of [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class. |
+| [UnsupportedFileFormatException()](#UnsupportedFileFormatException--) | Initializes a new instance of the UnsupportedFileFormatException class. |
+| [UnsupportedFileFormatException(String filePath)](#UnsupportedFileFormatException-java.lang.String-) | Initializes a new instance of the UnsupportedFileFormatException class with path to the file. |
+| [UnsupportedFileFormatException(Throwable cause)](#UnsupportedFileFormatException-java.lang.Throwable-) | Initializes a new instance of the UnsupportedFileFormatException class with an object that represents the cause of the exception. |
 ### UnsupportedFileFormatException() {#UnsupportedFileFormatException--}
 ```
 public UnsupportedFileFormatException()
 ```
 
 
-Initializes a new instance of [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class.
+Initializes a new instance of the UnsupportedFileFormatException class.
 
-### UnsupportedFileFormatException(Throwable e) {#UnsupportedFileFormatException-java.lang.Throwable-}
+### UnsupportedFileFormatException(String filePath) {#UnsupportedFileFormatException-java.lang.String-}
 ```
-public UnsupportedFileFormatException(Throwable e)
+public UnsupportedFileFormatException(String filePath)
 ```
 
 
-Instantiates a new Unsupported file format exception.
+Initializes a new instance of the UnsupportedFileFormatException class with path to the file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| e | java.lang.Throwable | the e |
+| filePath | java.lang.String | The path to the file |
 
-### UnsupportedFileFormatException(String pathFile) {#UnsupportedFileFormatException-java.lang.String-}
+### UnsupportedFileFormatException(Throwable cause) {#UnsupportedFileFormatException-java.lang.Throwable-}
 ```
-public UnsupportedFileFormatException(String pathFile)
+public UnsupportedFileFormatException(Throwable cause)
 ```
 
 
-Initializes a new instance of [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class.
+Initializes a new instance of the UnsupportedFileFormatException class with an object that represents the cause of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pathFile | java.lang.String | the path file |
+| cause | java.lang.Throwable | The cause of the exception |
 

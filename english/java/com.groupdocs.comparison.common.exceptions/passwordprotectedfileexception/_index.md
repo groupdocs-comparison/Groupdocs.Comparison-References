@@ -1,43 +1,43 @@
 ---
 title: PasswordProtectedFileException
 second_title: GroupDocs.Comparison for Java API Reference
-description: The type Password protected file exception.
+description: The exception that is thrown when document is protected by password but the password was not provided.
 type: docs
-weight: 21
+weight: 14
 url: /java/com.groupdocs.comparison.common.exceptions/passwordprotectedfileexception/
 ---
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.groupdocs.foundation.exception.GroupDocsException, [com.groupdocs.comparison.common.exceptions.ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception)
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.groupdocs.foundation.exception.GroupDocsException, [com.groupdocs.comparison.common.exceptions.ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception)
 ```
 public class PasswordProtectedFileException extends ComparisonException
 ```
 
-The type Password protected file exception.
+The exception that is thrown when document is protected by password but the password was not provided.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PasswordProtectedFileException()](#PasswordProtectedFileException--) | The exception that is thrown when the document is protected by password. |
-| [PasswordProtectedFileException(String message, Throwable e)](#PasswordProtectedFileException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of [InvalidPasswordException](../../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) class. |
+| [PasswordProtectedFileException()](#PasswordProtectedFileException--) | Initializes a new instance of the PasswordProtectedFileException class. |
+| [PasswordProtectedFileException(String message, Throwable cause)](#PasswordProtectedFileException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the PasswordProtectedFileException class with error message and an object that represents the cause of the exception. |
 ### PasswordProtectedFileException() {#PasswordProtectedFileException--}
 ```
 public PasswordProtectedFileException()
 ```
 
 
-The exception that is thrown when the document is protected by password.
+Initializes a new instance of the PasswordProtectedFileException class.
 
-### PasswordProtectedFileException(String message, Throwable e) {#PasswordProtectedFileException-java.lang.String-java.lang.Throwable-}
+### PasswordProtectedFileException(String message, Throwable cause) {#PasswordProtectedFileException-java.lang.String-java.lang.Throwable-}
 ```
-public PasswordProtectedFileException(String message, Throwable e)
+public PasswordProtectedFileException(String message, Throwable cause)
 ```
 
 
-Initializes a new instance of [InvalidPasswordException](../../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) class.
+Initializes a new instance of the PasswordProtectedFileException class with error message and an object that represents the cause of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | the message |
-| e | java.lang.Throwable | the e |
+| message | java.lang.String | The error message |
+| cause | java.lang.Throwable | The cause of the exception |
 

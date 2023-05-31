@@ -17,10 +17,10 @@ Enumerates the type of cell merge.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Cell does not merge. |
-| [HORIZONTAL](#HORIZONTAL) | Cell merges along row. |
-| [VERTICAL](#VERTICAL) | Cell merges along column. |
-| [RANGE](#RANGE) | Cell merges along row and column creating area. |
+| [NONE](#NONE) | Indicates that the cell does not merge. |
+| [HORIZONTAL](#HORIZONTAL) | Indicates that the cell merges along the row. |
+| [VERTICAL](#VERTICAL) | Indicates that the cell merges along the column. |
+| [RANGE](#RANGE) | Indicates that the cell merges along the row and column, creating an area. |
 ## Methods
 
 | Method | Description |
@@ -33,7 +33,7 @@ public static final MergeType NONE
 ```
 
 
-Cell does not merge.
+Indicates that the cell does not merge.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -41,7 +41,7 @@ public static final MergeType HORIZONTAL
 ```
 
 
-Cell merges along row.
+Indicates that the cell merges along the row.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -49,7 +49,7 @@ public static final MergeType VERTICAL
 ```
 
 
-Cell merges along column.
+Indicates that the cell merges along the column.
 
 ### RANGE {#RANGE}
 ```
@@ -57,7 +57,7 @@ public static final MergeType RANGE
 ```
 
 
-Cell merges along row and column creating area.
+Indicates that the cell merges along the row and column, creating an area.
 
 ### values() {#values--}
 ```

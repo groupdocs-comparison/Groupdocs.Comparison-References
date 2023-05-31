@@ -1,9 +1,9 @@
 ---
 title: Utils
 second_title: GroupDocs.Comparison for Java API Reference
-description: The type Utils.
+description: Utility class that provides common helper methods which can be useful when using Comparison API.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.comparison.common/utils/
 ---
 **Inheritance:**
@@ -12,161 +12,54 @@ java.lang.Object
 public class Utils
 ```
 
-The type Utils.
+Utility class that provides common helper methods which can be useful when using Comparison API.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [Utils()](#Utils--) |  |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [ARGB_TEMPLATE](#ARGB-TEMPLATE) |  |
-| [SINGLE](#SINGLE) |  |
-| [DOUBLE](#DOUBLE) |  |
-| [NONE](#NONE) |  |
-| [AUTOMATIC](#AUTOMATIC) |  |
-| [GRADIENT](#GRADIENT) |  |
-| [SOLID](#SOLID) |  |
-| [HEAVY](#HEAVY) |  |
-| [DOTTED](#DOTTED) |  |
-| [GROUP](#GROUP) |  |
-| [DASH_DOT](#DASH-DOT) |  |
-| [DASH_DOT_DOT](#DASH-DOT-DOT) |  |
-| [CUSTOM](#CUSTOM) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [closeStreams(Closeable[] streams)](#closeStreams-java.io.Closeable...-) | Close all streams in array of streams |
-| [wordsRevisionTypeToComparison(int wordRevisionType)](#wordsRevisionTypeToComparison-int-) |  |
-| [ifNotNullAnd(Object objToCheck, Utils.IfNotNullAnd ifNotNullAndCallback)](#ifNotNullAnd-java.lang.Object-com.groupdocs.comparison.common.Utils.IfNotNullAnd-) |  |
+| [closeStreams(Closeable[] closeables)](#closeStreams-java.io.Closeable...-) | Quietly closes all provided objects catching and logging all IOException. |
+| [closeStreams(BiConsumer<Closeable,IOException> consumer, Closeable[] closeables)](#closeStreams-java.util.function.BiConsumer-java.io.Closeable-java.io.IOException--java.io.Closeable...-) | Closes the specified streams, suppressing any exceptions that occur logging or processing IOException |
 ### Utils() {#Utils--}
 ```
 public Utils()
 ```
 
 
-### ARGB_TEMPLATE {#ARGB-TEMPLATE}
+### closeStreams(Closeable[] closeables) {#closeStreams-java.io.Closeable...-}
 ```
-public static final String ARGB_TEMPLATE
-```
-
-
-### SINGLE {#SINGLE}
-```
-public static final String SINGLE
+public static boolean closeStreams(Closeable[] closeables)
 ```
 
 
-### DOUBLE {#DOUBLE}
-```
-public static final String DOUBLE
-```
-
-
-### NONE {#NONE}
-```
-public static final String NONE
-```
-
-
-### AUTOMATIC {#AUTOMATIC}
-```
-public static final String AUTOMATIC
-```
-
-
-### GRADIENT {#GRADIENT}
-```
-public static final String GRADIENT
-```
-
-
-### SOLID {#SOLID}
-```
-public static final String SOLID
-```
-
-
-### HEAVY {#HEAVY}
-```
-public static final String HEAVY
-```
-
-
-### DOTTED {#DOTTED}
-```
-public static final String DOTTED
-```
-
-
-### GROUP {#GROUP}
-```
-public static final String GROUP
-```
-
-
-### DASH_DOT {#DASH-DOT}
-```
-public static final String DASH_DOT
-```
-
-
-### DASH_DOT_DOT {#DASH-DOT-DOT}
-```
-public static final String DASH_DOT_DOT
-```
-
-
-### CUSTOM {#CUSTOM}
-```
-public static final String CUSTOM
-```
-
-
-### closeStreams(Closeable[] streams) {#closeStreams-java.io.Closeable...-}
-```
-public static void closeStreams(Closeable[] streams)
-```
-
-
-Close all streams in array of streams
+Quietly closes all provided objects catching and logging all IOException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| streams | java.io.Closeable[] | streams |
-
-### wordsRevisionTypeToComparison(int wordRevisionType) {#wordsRevisionTypeToComparison-int-}
-```
-public static RevisionType wordsRevisionTypeToComparison(int wordRevisionType)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| wordRevisionType | int |  |
+| closeables | java.io.Closeable[] | Any object that implements Closeable interface, may be null |
 
 **Returns:**
-[RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype)
-### ifNotNullAnd(Object objToCheck, Utils.IfNotNullAnd ifNotNullAndCallback) {#ifNotNullAnd-java.lang.Object-com.groupdocs.comparison.common.Utils.IfNotNullAnd-}
+boolean - true if all closeable objects were closed without exception, otherwise false
+### closeStreams(BiConsumer<Closeable,IOException> consumer, Closeable[] closeables) {#closeStreams-java.util.function.BiConsumer-java.io.Closeable-java.io.IOException--java.io.Closeable...-}
 ```
-public static boolean ifNotNullAnd(Object objToCheck, Utils.IfNotNullAnd ifNotNullAndCallback)
+public static boolean closeStreams(BiConsumer<Closeable,IOException> consumer, Closeable[] closeables)
 ```
 
 
+Closes the specified streams, suppressing any exceptions that occur logging or processing IOException
 
+If any of the streams is null or encounters an exception while closing, it is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objToCheck | java.lang.Object |  |
-| ifNotNullAndCallback | [IfNotNullAnd](../../com.groupdocs.comparison.common/ifnotnulland) |  |
+| consumer | java.util.function.BiConsumer<java.io.Closeable,java.io.IOException> | Will be called for each pair of closeable and IOException when closing throws the exception, may be null |
+| closeables | java.io.Closeable[] | Any object that implements Closeable interface, may be null |
 
 **Returns:**
-boolean
+boolean - true if all closeable objects were closed without exception, otherwise false

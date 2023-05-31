@@ -1,7 +1,7 @@
 ---
 title: SaveOptions
 second_title: GroupDocs.Comparison for Java API Reference
-description: Allows to specify additional options such as password when saving a document.
+description: Allows specifying additional options when saving a document.
 type: docs
 weight: 10
 url: /java/com.groupdocs.comparison.options.save/saveoptions/
@@ -12,32 +12,47 @@ java.lang.Object
 public class SaveOptions
 ```
 
-Allows to specify additional options (such as password) when saving a document.
+Allows specifying additional options when saving a document.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+    comparer.add(targetFile);
+
+    final SaveOptions saveOptions = new SaveOptions();
+    saveOptions.setPassword("passw");
+
+    comparer.compare(resultFile, saveOptions);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SaveOptions()](#SaveOptions--) | Initializes a new instance of the [SaveOptions](../../com.groupdocs.comparison.options.save/saveoptions) class. |
+| [SaveOptions()](#SaveOptions--) | Initializes a new instance of the SaveOptions class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCloneMetadataType()](#getCloneMetadataType--) | Gets or sets a value indicating whether to clone metadata to target document or not. |
-| [setCloneMetadataType(MetadataType value)](#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-) | Gets or sets a value indicating whether to clone metadata to target document or not. |
-| [getFileAuthorMetadata()](#getFileAuthorMetadata--) | Used when MetadataType is set to FileAuthor. |
-| [setFileAuthorMetadata(FileAuthorMetadata value)](#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-) | Used when MetadataType is set to FileAuthor. |
-| [getPassword()](#getPassword--) | Gets or sets the password for result document. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Gets or sets the password for result document. |
-| [getFolderPath()](#getFolderPath--) | Gets or sets the folder path for saving result images(For Imaging Comparison only). |
-| [setFolderPath(String value)](#setFolderPath-java.lang.String-) | Gets or sets the folder path for saving result images(For Imaging Comparison only). |
-| [setFolderPath(Path value)](#setFolderPath-java.nio.file.Path-) | Gets or sets the folder path for saving result images(For Imaging Comparison only). |
+| [getCloneMetadataType()](#getCloneMetadataType--) | Gets a strategy of processing metadata saving result document. |
+| [setCloneMetadataType(MetadataType value)](#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-) | Sets a stragegy of processing metadata saving result document. |
+| [getFileAuthorMetadata()](#getFileAuthorMetadata--) | Gets a metadata object that will be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
+| [setFileAuthorMetadata(FileAuthorMetadata value)](#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-) | Sets a metadata object that should be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR). |
+| [getPassword()](#getPassword--) | Gets a password for result document. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for result document. |
+| [getFolderPath()](#getFolderPath--) | Gets a folder path to which result images will be saved. |
+| [setFolderPath(String value)](#setFolderPath-java.lang.String-) | Sets a folder path to which result images should be saved. |
+| [setFolderPath(Path value)](#setFolderPath-java.nio.file.Path-) | Sets a folder path to which result images should be saved. |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
 ```
 
 
-Initializes a new instance of the [SaveOptions](../../com.groupdocs.comparison.options.save/saveoptions) class.
+Initializes a new instance of the SaveOptions class.
 
 ### getCloneMetadataType() {#getCloneMetadataType--}
 ```
@@ -45,22 +60,26 @@ public final MetadataType getCloneMetadataType()
 ```
 
 
-Gets or sets a value indicating whether to clone metadata to target document or not.
+Gets a strategy of processing metadata saving result document.
+
+Possible values are in enum [MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype)
 
 **Returns:**
-[MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) - the clone metadata type
+[MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) - the stragegy of processing metadata
 ### setCloneMetadataType(MetadataType value) {#setCloneMetadataType-com.groupdocs.comparison.options.enums.MetadataType-}
 ```
 public final void setCloneMetadataType(MetadataType value)
 ```
 
 
-Gets or sets a value indicating whether to clone metadata to target document or not.
+Sets a stragegy of processing metadata saving result document.
+
+Possible values are in enum [MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) | the value |
+| value | [MetadataType](../../com.groupdocs.comparison.options.enums/metadatatype) | The stragegy of processing metadata |
 
 ### getFileAuthorMetadata() {#getFileAuthorMetadata--}
 ```
@@ -68,22 +87,22 @@ public final FileAuthorMetadata getFileAuthorMetadata()
 ```
 
 
-Used when MetadataType is set to FileAuthor.
+Gets a metadata object that will be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
 
 **Returns:**
-[FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) - the file author metadata
+[FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) - the metadata object
 ### setFileAuthorMetadata(FileAuthorMetadata value) {#setFileAuthorMetadata-com.groupdocs.comparison.options.FileAuthorMetadata-}
 ```
 public final void setFileAuthorMetadata(FileAuthorMetadata value)
 ```
 
 
-Used when MetadataType is set to FileAuthor.
+Sets a metadata object that should be set into result document when [setCloneMetadataType(MetadataType)](../../com.groupdocs.comparison.options.save/saveoptions\#setCloneMetadataType-MetadataType-) is set to [MetadataType.FILE\_AUTHOR](../../com.groupdocs.comparison.options.enums/metadatatype\#FILE-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) | the value |
+| value | [FileAuthorMetadata](../../com.groupdocs.comparison.options/fileauthormetadata) | The metadata object |
 
 ### getPassword() {#getPassword--}
 ```
@@ -91,7 +110,7 @@ public final String getPassword()
 ```
 
 
-Gets or sets the password for result document.
+Gets a password for result document.
 
 **Returns:**
 java.lang.String - the password
@@ -101,12 +120,12 @@ public final void setPassword(String value)
 ```
 
 
-Gets or sets the password for result document.
+Sets a password for result document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | The password |
 
 ### getFolderPath() {#getFolderPath--}
 ```
@@ -114,22 +133,26 @@ public final String getFolderPath()
 ```
 
 
-Gets or sets the folder path for saving result images(For Imaging Comparison only).
+Gets a folder path to which result images will be saved.
+
+Used for Imaging Comparison only.
 
 **Returns:**
-java.lang.String - the folder path
+java.lang.String - the folder path to save result images
 ### setFolderPath(String value) {#setFolderPath-java.lang.String-}
 ```
 public final void setFolderPath(String value)
 ```
 
 
-Gets or sets the folder path for saving result images(For Imaging Comparison only).
+Sets a folder path to which result images should be saved.
+
+Used for Imaging Comparison only.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | The folder path to save result images |
 
 ### setFolderPath(Path value) {#setFolderPath-java.nio.file.Path-}
 ```
@@ -137,10 +160,12 @@ public final void setFolderPath(Path value)
 ```
 
 
-Gets or sets the folder path for saving result images(For Imaging Comparison only).
+Sets a folder path to which result images should be saved.
+
+Used for Imaging Comparison only.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.file.Path | the value |
+| value | java.nio.file.Path | The folder path to save result images |
 

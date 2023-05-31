@@ -1,9 +1,9 @@
 ---
 title: FileType
 second_title: GroupDocs.Comparison for Java API Reference
-description: Represents file type.
+description: The FileType enum represents the type of a file used in the document comparison process.
 type: docs
-weight: 18
+weight: 16
 url: /java/com.groupdocs.comparison.result/filetype/
 ---
 **Inheritance:**
@@ -15,10 +15,28 @@ com.aspose.ms.System.IEquatable
 public enum FileType extends Enum<FileType> implements System.IEquatable<FileType>
 ```
 
-Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Comparison, detect file type by extension etc.
+The FileType enum represents the type of a file used in the document comparison process.
+
+It defines different file types such as Word documents, PDF files, and more. Provides methods to obtain list of all file types supported by GroupDocs.Comparison, detect file type by extension etc. Use this enum to specify the file type when working with the GroupDocs.Comparison library.
 
  *  Learn more about file formats supported by GroupDocs.Comparison: [Full list of supported document formats][]
  *  Learn more about getting supported file types in Java: [How to get supported file formats in Java][]
+
+Example usage:
+
+```
+
+  // Set the file type to Word document
+  final FileType fileType = FileType.DOCX;
+  // Perform comparison using the specified file type
+  final LoadOptions loadOptions = new LoadOptions(fileType);
+  try (Comparer comparer = new Comparer(sourceFile, loadOptions)) {
+      comparer.add(targetFile);
+
+      comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 
 
 [Full list of supported document formats]: https://docs.groupdocs.com/display/comparisonjava/Supported+Document+Formats
@@ -30,7 +48,7 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [UNKNOWN](#UNKNOWN) | Unknown type |
 | [AS](#AS) | ActionScript Programming Language format |
 | [AS3](#AS3) | ActionScript Programming Language format |
-| [ASM](#ASM) | ASM format |
+| [ASM](#ASM) | Assembler Programming Language format |
 | [BAT](#BAT) | Script file in DOS, OS/2 and Microsoft Windows |
 | [CMD](#CMD) | Script file in DOS, OS/2 and Microsoft Windows |
 | [C](#C) | C-Based Programming Language format |
@@ -188,13 +206,13 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-| [fromFileNameOrExtension(String fileNameOrExtension)](#fromFileNameOrExtension-java.lang.String-) | Return FileType based on file name or extension |
-| [getSupportedFileTypes()](#getSupportedFileTypes--) | Get supported file types enumeration |
-| [areEquals(FileType left, FileType right)](#areEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-) | Operator overload |
-| [areNotEquals(FileType left, FileType right)](#areNotEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-) | Operator overload |
-| [getFileFormat()](#getFileFormat--) | File format |
-| [getExtension()](#getExtension--) | File extention |
-| [toString()](#toString--) | ToString |
+| [fromFileNameOrExtension(String value)](#fromFileNameOrExtension-java.lang.String-) | Return FileType based on file name or extension |
+| [getSupportedFileTypes()](#getSupportedFileTypes--) | Gets list of supported file types |
+| [areEquals(FileType left, FileType right)](#areEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-) | Checks the equality of provided file types |
+| [areNotEquals(FileType left, FileType right)](#areNotEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-) | Checks are provided file types not equals |
+| [getFileFormat()](#getFileFormat--) | Gets text description of the file type |
+| [getExtension()](#getExtension--) | Gets the extension of the file type |
+| [toString()](#toString--) | Gets string representation of [FileType](../../com.groupdocs.comparison.result/filetype), for example  'PHP Programming Language format (.php)'  |
 ### UNKNOWN {#UNKNOWN}
 ```
 public static final FileType UNKNOWN
@@ -225,7 +243,7 @@ public static final FileType ASM
 ```
 
 
-ASM format
+Assembler Programming Language format
 
 ### BAT {#BAT}
 ```
@@ -1460,9 +1478,9 @@ public static FileType valueOf(String name)
 
 **Returns:**
 [FileType](../../com.groupdocs.comparison.result/filetype)
-### fromFileNameOrExtension(String fileNameOrExtension) {#fromFileNameOrExtension-java.lang.String-}
+### fromFileNameOrExtension(String value) {#fromFileNameOrExtension-java.lang.String-}
 ```
-public static FileType fromFileNameOrExtension(String fileNameOrExtension)
+public static FileType fromFileNameOrExtension(String value)
 ```
 
 
@@ -1471,27 +1489,27 @@ Return FileType based on file name or extension
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileNameOrExtension | java.lang.String | File name or extension |
+| value | java.lang.String | File name or extension, not null |
 
 **Returns:**
-[FileType](../../com.groupdocs.comparison.result/filetype) - file type
+[FileType](../../com.groupdocs.comparison.result/filetype) - the file type
 ### getSupportedFileTypes() {#getSupportedFileTypes--}
 ```
 public static List<FileType> getSupportedFileTypes()
 ```
 
 
-Get supported file types enumeration
+Gets list of supported file types
 
 **Returns:**
-java.util.List<com.groupdocs.comparison.result.FileType> - Enumeration of FileType
+java.util.List<com.groupdocs.comparison.result.FileType> - list of FileType
 ### areEquals(FileType left, FileType right) {#areEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-}
 ```
 public static boolean areEquals(FileType left, FileType right)
 ```
 
 
-Operator overload
+Checks the equality of provided file types
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1500,14 +1518,14 @@ Operator overload
 | right | [FileType](../../com.groupdocs.comparison.result/filetype) | Right [FileType](../../com.groupdocs.comparison.result/filetype) object. |
 
 **Returns:**
-boolean - true if equal
+boolean - true if equal, otherwise false
 ### areNotEquals(FileType left, FileType right) {#areNotEquals-com.groupdocs.comparison.result.FileType-com.groupdocs.comparison.result.FileType-}
 ```
 public static boolean areNotEquals(FileType left, FileType right)
 ```
 
 
-Operator overload
+Checks are provided file types not equals
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1516,34 +1534,34 @@ Operator overload
 | right | [FileType](../../com.groupdocs.comparison.result/filetype) | Right [FileType](../../com.groupdocs.comparison.result/filetype) object. |
 
 **Returns:**
-boolean - true if not equal
+boolean - true if not equal, otherwise false
 ### getFileFormat() {#getFileFormat--}
 ```
 public String getFileFormat()
 ```
 
 
-File format
+Gets text description of the file type
 
 **Returns:**
-java.lang.String - file format
+java.lang.String - file type descriptiuon
 ### getExtension() {#getExtension--}
 ```
 public String getExtension()
 ```
 
 
-File extention
+Gets the extension of the file type
 
 **Returns:**
-java.lang.String - extension
+java.lang.String - extension of the file type
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-ToString
+Gets string representation of [FileType](../../com.groupdocs.comparison.result/filetype), for example  'PHP Programming Language format (.php)' 
 
 **Returns:**
 java.lang.String - string representation

@@ -1,7 +1,7 @@
 ---
 title: ComparerSettings
 second_title: GroupDocs.Comparison for Java API Reference
-description: Defines settings for customizing  behaviour.
+description: Defines settings for customizing the behavior of the  class.
 type: docs
 weight: 11
 url: /java/com.groupdocs.comparison/comparersettings/
@@ -12,7 +12,22 @@ java.lang.Object
 public class ComparerSettings
 ```
 
-Defines settings for customizing [Comparer](../../com.groupdocs.comparison/comparer) behaviour.
+Defines settings for customizing the behavior of the [Comparer](../../com.groupdocs.comparison/comparer) class.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+     comparer.add(targetFile);
+
+     final ComparerSettings comparerSettings = new ComparerSettings();
+     comparerSettings.setLogger(new ConsoleLogger(false, false, true, true));
+
+     comparer.compare(resultFile, comparerSettings);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +37,8 @@ Defines settings for customizing [Comparer](../../com.groupdocs.comparison/compa
 
 | Method | Description |
 | --- | --- |
-| [getLogger()](#getLogger--) | Logger implementation |
-| [setLogger(ILogger value)](#setLogger-com.groupdocs.foundation.logging.ILogger-) | Logger implementation, use com.groupdocs.foundation.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging |
+| [getLogger()](#getLogger--) | Gets the logger implementation used for logging. |
+| [setLogger(ILogger value)](#setLogger-com.groupdocs.foundation.logging.ILogger-) | Sets the logger implementation for logging. |
 ### ComparerSettings() {#ComparerSettings--}
 ```
 public ComparerSettings()
@@ -36,7 +51,7 @@ public final ILogger getLogger()
 ```
 
 
-Logger implementation
+Gets the logger implementation used for logging.
 
 **Returns:**
 com.groupdocs.foundation.logging.ILogger - the logger
@@ -46,10 +61,12 @@ public final void setLogger(ILogger value)
 ```
 
 
-Logger implementation, use com.groupdocs.foundation.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging
+Sets the logger implementation for logging.
+
+Use com.groupdocs.comparison.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.foundation.logging.ILogger | the value |
+| value | com.groupdocs.foundation.logging.ILogger | the logger implementation to set |
 

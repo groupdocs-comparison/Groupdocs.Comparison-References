@@ -1,7 +1,7 @@
 ---
 title: PasswordSaveOption
 second_title: GroupDocs.Comparison for Java API Reference
-description: Specifies the password save option.
+description: Enumerates the options for saving password information in a document during the comparison process.
 type: docs
 weight: 13
 url: /java/com.groupdocs.comparison.options.enums/passwordsaveoption/
@@ -12,30 +12,45 @@ java.lang.Object, java.lang.Enum
 public enum PasswordSaveOption extends Enum<PasswordSaveOption>
 ```
 
-Specifies the password save option.
+Enumerates the options for saving password information in a document during the comparison process.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+    comparer.add(targetFile);
+
+    CompareOptions compareOptions = new CompareOptions();
+    compareOptions.setPasswordSaveOption(PasswordSaveOption.SOURCE);
+
+    comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Default password. |
-| [SOURCE](#SOURCE) | Source password. |
-| [TARGET](#TARGET) | Target password. |
-| [USER](#USER) | The user password. |
+| [NONE](#NONE) | Do not save the password. |
+| [SOURCE](#SOURCE) | Use password from source document. |
+| [TARGET](#TARGET) | Use password from target document. |
+| [USER](#USER) | \* Use password provided by user. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-| [fromString(String toStringValue)](#fromString-java.lang.String-) |  |
-| [toString()](#toString--) |  |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of PasswordSaveOption to get the enum constant. |
+| [toString()](#toString--) | String representation of PasswordSaveOption. |
 ### NONE {#NONE}
 ```
 public static final PasswordSaveOption NONE
 ```
 
 
-Default password.
+Do not save the password.
 
 ### SOURCE {#SOURCE}
 ```
@@ -43,7 +58,7 @@ public static final PasswordSaveOption SOURCE
 ```
 
 
-Source password.
+Use password from source document.
 
 ### TARGET {#TARGET}
 ```
@@ -51,7 +66,7 @@ public static final PasswordSaveOption TARGET
 ```
 
 
-Target password.
+Use password from target document.
 
 ### USER {#USER}
 ```
@@ -59,7 +74,7 @@ public static final PasswordSaveOption USER
 ```
 
 
-The user password.
+\* Use password provided by user.
 
 ### values() {#values--}
 ```
@@ -92,22 +107,22 @@ public static PasswordSaveOption fromString(String toStringValue)
 ```
 
 
-
+Parses string representation of PasswordSaveOption to get the enum constant.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| toStringValue | java.lang.String |  |
+| toStringValue | java.lang.String | The string representation of PasswordSaveOption |
 
 **Returns:**
-[PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption)
+[PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) - PasswordSaveOption enum constant associated with input string
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-
+String representation of PasswordSaveOption.
 
 **Returns:**
-java.lang.String
+java.lang.String - string value of enum constant

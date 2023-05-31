@@ -1,7 +1,7 @@
 ---
 title: License
 second_title: GroupDocs.Comparison for Java API Reference
-description: Provides methods to license the component.
+description: The License class provides methods to set and apply licenses for GroupDocs.Comparison.
 type: docs
 weight: 10
 url: /java/com.groupdocs.comparison.license/license/
@@ -12,10 +12,21 @@ java.lang.Object
 public class License
 ```
 
-Provides methods to license the component. Learn more about licensing  here 
+The License class provides methods to set and apply licenses for GroupDocs.Comparison.
+
+It allows you to enable or disable specific features of the library based on the license applied.
 
  *  More about licensing: [GroupDocs Licensing FAQ][]
  *  More about GroupDocs.Comparison licensing: [Evaluation Limitations and Licensing][]
+
+Example usage:
+
+```
+
+ final License license = new License();
+ license.setLicense("GroupDocs.License.lic");
+ 
+```
 
 
 [GroupDocs Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing
@@ -29,10 +40,10 @@ Provides methods to license the component. Learn more about licensing  here
 
 | Method | Description |
 | --- | --- |
-| [isValidLicense()](#isValidLicense--) | Gets a value indicating whether this instance is valid license. |
-| [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) | Licenses the component. |
-| [setLicense(Path licensePath)](#setLicense-java.nio.file.Path-) | Licenses the component. |
-| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component. |
+| [isValidLicense()](#isValidLicense--) | Gets a value indicating whether license was set or no. |
+| [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) | Sets a license to Comparison using input stream. |
+| [setLicense(Path licensePath)](#setLicense-java.nio.file.Path-) | Sets a license to Comparison using license file path. |
+| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Sets a license to Comparison using license file path. |
 ### License() {#License--}
 ```
 public License()
@@ -45,24 +56,22 @@ public static boolean isValidLicense()
 ```
 
 
-Gets a value indicating whether this instance is valid license.
-
-Value:  true  if this instance is valid license; otherwise,  false .
+Gets a value indicating whether license was set or no.
 
 **Returns:**
-boolean - the boolean
+boolean - true if license was set successfully, otherwise false
 ### setLicense(InputStream licenseStream) {#setLicense-java.io.InputStream-}
 ```
 public final void setLicense(InputStream licenseStream)
 ```
 
 
-Licenses the component.
+Sets a license to Comparison using input stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseStream | java.io.InputStream | The license stream. |
+| licenseStream | java.io.InputStream | The license stream, null unsets license |
 
 ### setLicense(Path licensePath) {#setLicense-java.nio.file.Path-}
 ```
@@ -70,12 +79,12 @@ public final void setLicense(Path licensePath)
 ```
 
 
-Licenses the component.
+Sets a license to Comparison using license file path.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licensePath | java.nio.file.Path | The license path. |
+| licensePath | java.nio.file.Path | The license file path |
 
 ### setLicense(String licensePath) {#setLicense-java.lang.String-}
 ```
@@ -83,10 +92,10 @@ public final void setLicense(String licensePath)
 ```
 
 
-Licenses the component.
+Sets a license to Comparison using license file path.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licensePath | java.lang.String | The license path. |
+| licensePath | java.lang.String | The license file path |
 

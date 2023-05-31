@@ -1,7 +1,7 @@
 ---
 title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for Java API Reference
-description: Diagram master settings
+description: Represents the settings for diagram master comparison.
 type: docs
 weight: 10
 url: /java/com.groupdocs.comparison.options.style/diagrammastersetting/
@@ -12,27 +12,45 @@ java.lang.Object
 public class DiagramMasterSetting
 ```
 
-Diagram master settings
+Represents the settings for diagram master comparison.
+
+Example usage:
+
+```
+
+ try (Comparer comparer = new Comparer(sourceFile)) {
+    comparer.add(targetFile);
+
+    final DiagramMasterSetting diagramMasterSetting = new DiagramMasterSetting();
+    diagramMasterSetting.setMasterPath(masterFilePath);
+
+    final CompareOptions compareOptions = new CompareOptions();
+    compareOptions.setDiagramMasterSetting(diagramMasterSetting);
+
+    comparer.compare(resultFile, compareOptions);
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DiagramMasterSetting()](#DiagramMasterSetting--) | Initializes a new instance of the [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) class. |
+| [DiagramMasterSetting()](#DiagramMasterSetting--) | Initializes a new instance of the DiagramMasterSetting class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isUseSourceMaster()](#isUseSourceMaster--) | Set true for use master with source document or use false value for use Master with Path |
-| [setUseSourceMaster(boolean value)](#setUseSourceMaster-boolean-) | Set true for use master with source document or use false value for use Master with Path |
-| [getMasterPath()](#getMasterPath--) | Path for Master. |
-| [setMasterPath(String value)](#setMasterPath-java.lang.String-) | Path for Master. |
+| [isUseSourceMaster()](#isUseSourceMaster--) | Gets a flag that indicates whether source master path will be used. |
+| [setUseSourceMaster(boolean value)](#setUseSourceMaster-boolean-) | Gets a flag that indicates whether source master path should be used. |
+| [getMasterPath()](#getMasterPath--) | Gets a master path that will be used to render documents. |
+| [setMasterPath(String value)](#setMasterPath-java.lang.String-) | Sets a master path that should be used to render documents. |
 ### DiagramMasterSetting() {#DiagramMasterSetting--}
 ```
 public DiagramMasterSetting()
 ```
 
 
-Initializes a new instance of the [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) class.
+Initializes a new instance of the DiagramMasterSetting class.
 
 ### isUseSourceMaster() {#isUseSourceMaster--}
 ```
@@ -40,22 +58,22 @@ public final boolean isUseSourceMaster()
 ```
 
 
-Set true for use master with source document or use false value for use Master with Path
+Gets a flag that indicates whether source master path will be used.
 
 **Returns:**
-boolean - the use source master
+boolean - true if source master path will be shown, otherwise false
 ### setUseSourceMaster(boolean value) {#setUseSourceMaster-boolean-}
 ```
 public final void setUseSourceMaster(boolean value)
 ```
 
 
-Set true for use master with source document or use false value for use Master with Path
+Gets a flag that indicates whether source master path should be used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | the value |
+| value | boolean | true if source master path should be shown, otherwise false |
 
 ### getMasterPath() {#getMasterPath--}
 ```
@@ -63,20 +81,20 @@ public final String getMasterPath()
 ```
 
 
-Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes
+Gets a master path that will be used to render documents. MasterPath is needed to create a result document from a set of default shapes.
 
 **Returns:**
-java.lang.String - the master path
+java.lang.String - path of master document if it is set, otherwise default master path
 ### setMasterPath(String value) {#setMasterPath-java.lang.String-}
 ```
 public final void setMasterPath(String value)
 ```
 
 
-Path for Master. Set this value or use default Comparison Master
+Sets a master path that should be used to render documents. MasterPath is needed to create a result document from a set of default shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the value |
+| value | java.lang.String | Path of master document if it is set, otherwise default master path |
 

@@ -1,30 +1,35 @@
 ---
 title: com.groupdocs.comparison.common.exceptions
 second_title: GroupDocs.Comparison for Java API Reference
-description: The package provides different exception classes.
+description: Provides exceptions which can be thrown during comparison process in GroupDocs.Comparison.
 type: docs
 weight: 14
 url: /java/com.groupdocs.comparison.common.exceptions/
 ---
 
-The package provides different exception classes.
+Provides exceptions which can be thrown during comparison process in GroupDocs.Comparison.
+
+The main exception classes in this package are:
+
+ *  [ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception) - The base exception class for all exceptions related to document comparison.
+ *  [InvalidPasswordException](../../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) - The exception that is thrown when an invalid password is provided for a password-protected document.
+ *  [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) - The exception that is thrown when file of this format is not supported by Comparison.
+
+The exceptions in this package provide specific error handling and reporting for common operations in GroupDocs.Comparison. They allow for more granular error detection and handling, enabling developers to respond appropriately to different error scenarios.
+
+For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+
+
+[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
 
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [AlignerException](../com.groupdocs.comparison.common.exceptions/alignerexception) | The base class for all exceptions that have occurred in Aligner of different formats |
-| [BaseFormatException](../com.groupdocs.comparison.common.exceptions/baseformatexception) | The exception that is thrown when file of this format doesn't support comparison. |
-| [CompareStylesException](../com.groupdocs.comparison.common.exceptions/comparestylesexception) | Base class for all exceptions that occurred when comparing styles. |
-| [ComparisonException](../com.groupdocs.comparison.common.exceptions/comparisonexception) | Base class for all comparison process exceptions. |
-| [ConvertToDocumentException](../com.groupdocs.comparison.common.exceptions/converttodocumentexception) | Base class for exceptions that occur when converting documents |
-| [CreateSummaryPageException](../com.groupdocs.comparison.common.exceptions/createsummarypageexception) | The base class for all exceptions that occurred during the creation of the summary page. |
+| [ComparisonException](../com.groupdocs.comparison.common.exceptions/comparisonexception) | Base class for all exception that is thrown while using Comparison API. |
 | [DocumentComparisonException](../com.groupdocs.comparison.common.exceptions/documentcomparisonexception) | The exception that is thrown when an error occurs while comparing documents. |
-| [FileFormatException](../com.groupdocs.comparison.common.exceptions/fileformatexception) | The exception that is thrown when comparing files with different formats. |
-| [FileNotFoundException](../com.groupdocs.comparison.common.exceptions/filenotfoundexception) | Represents the the exception that throws when file or directory was not found. |
+| [FileFormatException](../com.groupdocs.comparison.common.exceptions/fileformatexception) | The exception that is thrown when comparing files with different comparison types. |
 | [InvalidPasswordException](../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) | The exception that is thrown when specified password is incorrect. |
-| [ParagraphDiffException](../com.groupdocs.comparison.common.exceptions/paragraphdiffexception) | The base class for all exceptions that have occurred in ParagraphDiff of different formats |
-| [PasswordProtectedFileException](../com.groupdocs.comparison.common.exceptions/passwordprotectedfileexception) | The type Password protected file exception. |
-| [UnsupportedFileFormatException](../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) | The exception that is thrown when file of this format doesn't support comparison |
-| [WordSeparatorException](../com.groupdocs.comparison.common.exceptions/wordseparatorexception) | The base class for all exceptions that have occurred in WordSeparator of different formats |
+| [PasswordProtectedFileException](../com.groupdocs.comparison.common.exceptions/passwordprotectedfileexception) | The exception that is thrown when document is protected by password but the password was not provided. |
+| [UnsupportedFileFormatException](../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) | The exception that is thrown when file of this format is not supported by Comparison. |
