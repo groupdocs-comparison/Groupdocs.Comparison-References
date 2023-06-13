@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Author.
+description: Author of revision.
 type: docs
 weight: 30
 url: /net/groupdocs.comparison.words.revision/revisioninfo/author/
 ---
 ## RevisionInfo.Author property
 
-Author.
+Author of revision.
 
 ```csharp
 public string Author { get; }

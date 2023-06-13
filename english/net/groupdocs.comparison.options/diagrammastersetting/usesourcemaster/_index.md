@@ -1,14 +1,14 @@
 ---
 title: UseSourceMaster
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Set true for use master with source document or use false value for use Master with Path
+description: Set true for use master with source document or use false value for use Master with Path .
 type: docs
 weight: 30
 url: /net/groupdocs.comparison.options/diagrammastersetting/usesourcemaster/
 ---
 ## DiagramMasterSetting.UseSourceMaster property
 
-Set true for use master with source document or use false value for use Master with Path
+Set true for use master with source document or use false value for use Master with Path .
 
 ```csharp
 public bool UseSourceMaster { get; set; }

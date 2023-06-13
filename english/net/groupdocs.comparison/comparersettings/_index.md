@@ -24,7 +24,7 @@ public class ComparerSettings
 
 | Name | Description |
 | --- | --- |
-| [Logger](../../groupdocs.comparison/comparersettings/logger) { get; set; } | Logger implementation |
+| [Logger](../../groupdocs.comparison/comparersettings/logger) { get; set; } | Logger implementation. |
 
 ### See Also
 

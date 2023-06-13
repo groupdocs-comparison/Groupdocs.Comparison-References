@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Logs warning message
+description: Logs warning message.
 type: docs
 weight: 40
 url: /net/groupdocs.comparison.logging/consolelogger/warning/
 ---
 ## ConsoleLogger.Warning method
 
-Logs warning message
+Logs warning message.
 
 ```csharp
 public void Warning(string message)
@@ -16,7 +16,7 @@ public void Warning(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The Message |
+| message | String | Warning message |
 
 ### See Also
 

@@ -18,10 +18,10 @@ public interface IDocumentInfo
 
 | Name | Description |
 | --- | --- |
-| [FileType](../../groupdocs.comparison.interfaces/idocumentinfo/filetype) { get; set; } | Document type |
-| [PageCount](../../groupdocs.comparison.interfaces/idocumentinfo/pagecount) { get; set; } | Number of pages |
-| [PagesInfo](../../groupdocs.comparison.interfaces/idocumentinfo/pagesinfo) { get; set; } | Pages Information ( Page Number, Width, Height ) |
-| [Size](../../groupdocs.comparison.interfaces/idocumentinfo/size) { get; set; } | File size |
+| [FileType](../../groupdocs.comparison.interfaces/idocumentinfo/filetype) { get; set; } | Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Comparison, detect file type by extension etc. |
+| [PageCount](../../groupdocs.comparison.interfaces/idocumentinfo/pagecount) { get; set; } | Number of pages in document. |
+| [PagesInfo](../../groupdocs.comparison.interfaces/idocumentinfo/pagesinfo) { get; set; } | Pages Information (Page Number, Width, Height). |
+| [Size](../../groupdocs.comparison.interfaces/idocumentinfo/size) { get; set; } | File size. |
 
 ### See Also
 

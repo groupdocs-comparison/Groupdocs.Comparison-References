@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Provides methods to license the component. Learn more about licensing herehttps//purchase.groupdocs.com/faqs/licensing
+description: Provides methods to license the component. Learn more about licensing herehttps//purchase.groupdocs.com/faqs/licensing.
 type: docs
 weight: 140
 url: /net/groupdocs.comparison/license/
 ---
 ## License class
 
-Provides methods to license the component. Learn more about licensing [here](https://purchase.groupdocs.com/faqs/licensing)
+Provides methods to license the component. Learn more about licensing [here](https://purchase.groupdocs.com/faqs/licensing).
 
 ```csharp
 public class License
@@ -24,8 +24,8 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../groupdocs.comparison/license/setlicense#setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../groupdocs.comparison/license/setlicense#setlicense_1)(string) | Licenses the component. |
+| [SetLicense](../../groupdocs.comparison/license/setlicense#setlicense)(Stream) | Licenses the component using license stream. |
+| [SetLicense](../../groupdocs.comparison/license/setlicense#setlicense_1)(string) | Licenses the component using license path. |
 
 ### Remarks
 

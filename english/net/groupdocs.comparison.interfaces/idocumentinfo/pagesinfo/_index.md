@@ -1,14 +1,14 @@
 ---
 title: PagesInfo
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Pages Information  Page Number Width Height 
+description: Pages Information Page Number Width Height.
 type: docs
 weight: 30
 url: /net/groupdocs.comparison.interfaces/idocumentinfo/pagesinfo/
 ---
 ## IDocumentInfo.PagesInfo property
 
-Pages Information ( Page Number, Width, Height )
+Pages Information (Page Number, Width, Height).
 
 ```csharp
 public List<PageInfo> PagesInfo { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SupportedLocales
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Class that provides methods for checking supported locales of GroupDocs.Comparison
+description: Class that provides methods for checking supported locales of GroupDocs.Comparison.
 type: docs
 weight: 150
 url: /net/groupdocs.comparison.localization/supportedlocales/
 ---
 ## SupportedLocales class
 
-Class that provides methods for checking supported locales of GroupDocs.Comparison
+Class that provides methods for checking supported locales of GroupDocs.Comparison.
 
 ```csharp
 public static class SupportedLocales
@@ -18,8 +18,8 @@ public static class SupportedLocales
 
 | Name | Description |
 | --- | --- |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | Determines whether [is locale supported] [the specified culture]. |
-| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | Determines whether [is locale supported] [the specified culture]. |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported)(CultureInfo) | Determines whether the locale is supported. |
+| static [IsLocaleSupported](../../groupdocs.comparison.localization/supportedlocales/islocalesupported#islocalesupported_1)(string) | Determines whether the locale is supported. |
 
 ### See Also
 

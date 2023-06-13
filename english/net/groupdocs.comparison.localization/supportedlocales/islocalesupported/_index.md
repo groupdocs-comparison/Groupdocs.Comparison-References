@@ -1,14 +1,14 @@
 ---
 title: IsLocaleSupported
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Determines whether is locale supported the specified culture.
+description: Determines whether the locale is supported.
 type: docs
 weight: 10
 url: /net/groupdocs.comparison.localization/supportedlocales/islocalesupported/
 ---
 ## IsLocaleSupported(string) {#islocalesupported_1}
 
-Determines whether [is locale supported] [the specified culture].
+Determines whether the locale is supported.
 
 ```csharp
 public static bool IsLocaleSupported(string culture)
@@ -28,7 +28,7 @@ public static bool IsLocaleSupported(string culture)
 
 ## IsLocaleSupported(CultureInfo) {#islocalesupported}
 
-Determines whether [is locale supported] [the specified culture].
+Determines whether the locale is supported.
 
 ```csharp
 public static bool IsLocaleSupported(CultureInfo culture)

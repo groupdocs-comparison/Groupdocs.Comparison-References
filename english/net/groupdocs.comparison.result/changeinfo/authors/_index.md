@@ -1,14 +1,14 @@
 ---
 title: Authors
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Authors.
+description: List of Authors.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.result/changeinfo/authors/
 ---
 ## ChangeInfo.Authors property
 
-Authors.
+List of Authors.
 
 ```csharp
 public List<string> Authors { get; set; }

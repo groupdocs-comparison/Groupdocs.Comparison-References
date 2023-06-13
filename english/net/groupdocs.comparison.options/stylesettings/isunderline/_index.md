@@ -1,14 +1,14 @@
 ---
 title: IsUnderline
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Gets or sets a value indicating whether this is underline
+description: Gets or sets a value indicating whether this is underline.
 type: docs
 weight: 80
 url: /net/groupdocs.comparison.options/stylesettings/isunderline/
 ---
 ## StyleSettings.IsUnderline property
 
-Gets or sets a value indicating whether this is underline
+Gets or sets a value indicating whether this is underline.
 
 ```csharp
 public bool IsUnderline { get; set; }

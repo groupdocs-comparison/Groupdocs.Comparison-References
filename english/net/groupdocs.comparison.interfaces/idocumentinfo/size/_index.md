@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Comparison for .NET API Reference
-description: File size
+description: File size.
 type: docs
 weight: 40
 url: /net/groupdocs.comparison.interfaces/idocumentinfo/size/
 ---
 ## IDocumentInfo.Size property
 
-File size
+File size.
 
 ```csharp
 public long Size { get; set; }

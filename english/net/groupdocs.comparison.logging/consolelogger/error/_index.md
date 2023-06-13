@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Logs error message
+description: Logs error message.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.logging/consolelogger/error/
 ---
 ## ConsoleLogger.Error method
 
-Logs error message
+Logs error message.
 
 ```csharp
 public void Error(string message, Exception ex)
@@ -16,7 +16,7 @@ public void Error(string message, Exception ex)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The Message |
+| message | String | Error message |
 | ex | Exception | Exception object |
 
 ### See Also

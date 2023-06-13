@@ -25,7 +25,7 @@ public class RevisionInfo
 | Name | Description |
 | --- | --- |
 | [Action](../../groupdocs.comparison.words.revision/revisioninfo/action) { get; set; } | Action (accept or reject). This field allows you to influence the display of the revision. |
-| [Author](../../groupdocs.comparison.words.revision/revisioninfo/author) { get; } | Author. |
+| [Author](../../groupdocs.comparison.words.revision/revisioninfo/author) { get; } | Author of revision. |
 | [Text](../../groupdocs.comparison.words.revision/revisioninfo/text) { get; } | The text that is in revision. |
 | [Type](../../groupdocs.comparison.words.revision/revisioninfo/type) { get; } | RevisionHandler type, depending on the type the Action (accept or reject) logic changes. |
 

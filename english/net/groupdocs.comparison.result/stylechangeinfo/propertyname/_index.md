@@ -1,14 +1,14 @@
 ---
 title: PropertyName
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Gets or Sets the name of the property that was changed
+description: Gets or Sets the name of the property that was changed.
 type: docs
 weight: 40
 url: /net/groupdocs.comparison.result/stylechangeinfo/propertyname/
 ---
 ## StyleChangeInfo.PropertyName property
 
-Gets or Sets the name of the property that was changed
+Gets or Sets the name of the property that was changed.
 
 ```csharp
 public string PropertyName { get; set; }

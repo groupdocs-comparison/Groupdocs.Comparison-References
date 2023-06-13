@@ -24,9 +24,9 @@ public sealed class ConsoleLogger : ILogger
 
 | Name | Description |
 | --- | --- |
-| [Error](../../groupdocs.comparison.logging/consolelogger/error)(string, Exception) | Logs error message |
+| [Error](../../groupdocs.comparison.logging/consolelogger/error)(string, Exception) | Logs error message. |
 | [Trace](../../groupdocs.comparison.logging/consolelogger/trace)(string) | Logs the process of comparison. |
-| [Warning](../../groupdocs.comparison.logging/consolelogger/warning)(string) | Logs warning message |
+| [Warning](../../groupdocs.comparison.logging/consolelogger/warning)(string) | Logs warning message. |
 
 ### See Also
 

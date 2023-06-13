@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Document size
+description: Document size.
 type: docs
 weight: 350
 url: /net/groupdocs.comparison.options/size/
 ---
 ## Size class
 
-Document size
+Document size.
 
 ```csharp
 public class Size
@@ -24,8 +24,8 @@ public class Size
 
 | Name | Description |
 | --- | --- |
-| [Height](../../groupdocs.comparison.options/size/height) { get; set; } | Height of original document |
-| [Width](../../groupdocs.comparison.options/size/width) { get; set; } | Width of original document |
+| [Height](../../groupdocs.comparison.options/size/height) { get; set; } | Height of original document. |
+| [Width](../../groupdocs.comparison.options/size/width) { get; set; } | Width of original document. |
 
 ### See Also
 

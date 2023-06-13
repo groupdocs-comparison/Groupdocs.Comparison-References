@@ -1,14 +1,14 @@
 ---
 title: SetLicense
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Licenses the component.
+description: Licenses the component using license stream.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison/license/setlicense/
 ---
 ## SetLicense(Stream) {#setlicense}
 
-Licenses the component.
+Licenses the component using license stream.
 
 ```csharp
 public void SetLicense(Stream licenseStream)
@@ -28,7 +28,7 @@ public void SetLicense(Stream licenseStream)
 
 ## SetLicense(string) {#setlicense_1}
 
-Licenses the component.
+Licenses the component using license path.
 
 ```csharp
 public void SetLicense(string licensePath)

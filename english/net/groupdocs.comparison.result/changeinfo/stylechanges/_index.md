@@ -1,14 +1,14 @@
 ---
 title: StyleChanges
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Style changes.
+description: Array of style changes.
 type: docs
 weight: 90
 url: /net/groupdocs.comparison.result/changeinfo/stylechanges/
 ---
 ## ChangeInfo.StyleChanges property
 
-Style changes.
+Array of style changes.
 
 ```csharp
 public StyleChangeInfo[] StyleChanges { get; set; }

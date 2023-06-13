@@ -1,14 +1,14 @@
 ---
 title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Diagram master settings
+description: Diagram master settings.
 type: docs
 weight: 230
 url: /net/groupdocs.comparison.options/diagrammastersetting/
 ---
 ## DiagramMasterSetting class
 
-Diagram master settings
+Diagram master settings.
 
 ```csharp
 public class DiagramMasterSetting
@@ -24,8 +24,8 @@ public class DiagramMasterSetting
 
 | Name | Description |
 | --- | --- |
-| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes |
-| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | Set true for use master with source document or use false value for use Master with Path |
+| [MasterPath](../../groupdocs.comparison.options/diagrammastersetting/masterpath) { get; set; } | Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes. |
+| [UseSourceMaster](../../groupdocs.comparison.options/diagrammastersetting/usesourcemaster) { get; set; } | Set true for use master with source document or use false value for use Master with Path . |
 
 ### See Also
 
