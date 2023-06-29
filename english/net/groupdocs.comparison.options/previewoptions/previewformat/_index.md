@@ -3,7 +3,7 @@ title: PreviewFormat
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Preview image format.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison.options/previewoptions/previewformat/
 ---
 ## PreviewOptions.PreviewFormat property

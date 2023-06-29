@@ -3,7 +3,7 @@ title: PageNumbers
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Page numbers that will be previewed.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison.options/previewoptions/pagenumbers/
 ---
 ## PreviewOptions.PageNumbers property

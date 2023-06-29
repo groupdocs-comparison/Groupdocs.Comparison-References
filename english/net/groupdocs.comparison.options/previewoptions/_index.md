@@ -25,17 +25,12 @@ public class PreviewOptions
 
 | Name | Description |
 | --- | --- |
+| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) { get; set; } | Delegate which defines method to create output page preview stream. |
 | [Height](../../groupdocs.comparison.options/previewoptions/height) { get; set; } | Preview height. |
 | [PageNumbers](../../groupdocs.comparison.options/previewoptions/pagenumbers) { get; set; } | Page numbers that will be previewed. |
 | [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | Preview image format. |
+| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) { get; set; } | Delegate which defines method to remove output page preview stream. |
 | [Width](../../groupdocs.comparison.options/previewoptions/width) { get; set; } | Preview width. |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) | Delegate which defines method to create output page preview stream. |
-| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) | Delegate which defines method to remove output page preview stream. |
 
 ### See Also
 
