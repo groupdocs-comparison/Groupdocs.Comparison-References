@@ -1,14 +1,14 @@
 ---
 title: FileInfo
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Information about document
+description: Information about documents type and pages.
 type: docs
 weight: 400
 url: /net/groupdocs.comparison.result/fileinfo/
 ---
 ## FileInfo class
 
-Information about document
+Information about document's type and pages.
 
 ```csharp
 public class FileInfo

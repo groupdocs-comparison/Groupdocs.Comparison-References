@@ -6,12 +6,12 @@ type: docs
 weight: 30
 url: /net/groupdocs.comparison.words.revision/applyrevisionoptions/commonhandler/
 ---
-## ApplyRevisionOptions.CommonHandler field
+## ApplyRevisionOptions.CommonHandler property
 
 Indicates whether to apply one action for all revisions
 
 ```csharp
-public RevisionAction CommonHandler;
+public RevisionAction CommonHandler { get; set; }
 ```
 
 ### See Also

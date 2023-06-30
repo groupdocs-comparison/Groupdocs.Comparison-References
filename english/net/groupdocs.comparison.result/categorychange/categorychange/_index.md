@@ -1,14 +1,14 @@
 ---
 title: CategoryChange
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Create new Instance of CategoryChange
+description: Create new Instance of CategoryChange.
 type: docs
 weight: 10
 url: /net/groupdocs.comparison.result/categorychange/categorychange/
 ---
 ## CategoryChange constructor
 
-Create new Instance of CategoryChange
+Create new Instance of CategoryChange.
 
 ```csharp
 public CategoryChange(string categoryName)

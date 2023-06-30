@@ -1,14 +1,14 @@
 ---
 title: ComparisonException
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Initializes a new instance of the ComparisonException class.
+description: Initializes a new instance of the ComparisonExceptiongroupdocs.comparison.common.exceptions/comparisonexception class.
 type: docs
 weight: 10
 url: /net/groupdocs.comparison.common.exceptions/comparisonexception/comparisonexception/
 ---
 ## ComparisonException() {#constructor}
 
-Initializes a new instance of the ComparisonException class.
+Initializes a new instance of the [`ComparisonException`](../../comparisonexception) class.
 
 ```csharp
 public ComparisonException()
@@ -24,7 +24,7 @@ public ComparisonException()
 
 ## ComparisonException(string) {#constructor_1}
 
-Initializes a new instance of the ComparisonException class with a specified error message.
+Initializes a new instance of the [`ComparisonException`](../../comparisonexception) class with a specified error message.
 
 ```csharp
 public ComparisonException(string message)
@@ -44,7 +44,7 @@ public ComparisonException(string message)
 
 ## ComparisonException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the ComparisonException class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`ComparisonException`](../../comparisonexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public ComparisonException(string message, Exception innerException)

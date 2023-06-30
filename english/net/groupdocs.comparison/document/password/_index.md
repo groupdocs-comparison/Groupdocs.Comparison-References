@@ -14,6 +14,12 @@ Document password.
 public string Password { get; }
 ```
 
+### Remarks
+
+**Learn more**
+
+* More about how to open and compare password-protected documents: [Open and compare password-protected documents](https://docs.groupdocs.com/display/comparisonnet/Load+password-protected+documents)
+
 ### See Also
 
 * class [Document](../../document)

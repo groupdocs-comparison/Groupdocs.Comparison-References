@@ -1,14 +1,14 @@
 ---
 title: MasterPath
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes
+description: Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.options/diagrammastersetting/masterpath/
 ---
 ## DiagramMasterSetting.MasterPath property
 
-Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes
+Path for Master. Set this value or use default Comparison Master. MasterPath is needed to create a document result from a set of default shapes.
 
 ```csharp
 public string MasterPath { get; set; }

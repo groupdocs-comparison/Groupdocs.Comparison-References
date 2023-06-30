@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Height of original document
+description: Height of original document.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.options/size/height/
 ---
 ## Size.Height property
 
-Height of original document
+Height of original document.
 
 ```csharp
 public int Height { get; set; }

@@ -3,7 +3,7 @@ title: Height
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Preview height.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.comparison.options/previewoptions/height/
 ---
 ## PreviewOptions.Height property

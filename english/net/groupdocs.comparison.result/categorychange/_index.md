@@ -1,14 +1,14 @@
 ---
 title: CategoryChange
 second_title: GroupDocs.Comparison for .NET API Reference
-description: The separation of changes divided into categories
+description: The separation of changes divided into categories.
 type: docs
 weight: 370
 url: /net/groupdocs.comparison.result/categorychange/
 ---
 ## CategoryChange class
 
-The separation of changes divided into categories
+The separation of changes divided into categories.
 
 ```csharp
 public class CategoryChange
@@ -18,7 +18,7 @@ public class CategoryChange
 
 | Name | Description |
 | --- | --- |
-| [CategoryChange](categorychange)(string) | Create new Instance of CategoryChange |
+| [CategoryChange](categorychange)(string) | Create new Instance of CategoryChange. |
 
 ## Properties
 

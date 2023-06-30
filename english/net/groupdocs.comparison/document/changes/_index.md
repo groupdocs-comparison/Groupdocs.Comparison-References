@@ -1,14 +1,14 @@
 ---
 title: Changes
 second_title: GroupDocs.Comparison for .NET API Reference
-description: List of changes.
+description: List of changes. Contains extensive description about change type position content etc.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison/document/changes/
 ---
 ## Document.Changes property
 
-List of changes.
+List of changes. Contains extensive description about change type, position, content etc.
 
 ```csharp
 public List<ChangeInfo> Changes { get; set; }

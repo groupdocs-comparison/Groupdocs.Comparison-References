@@ -16,7 +16,7 @@ public void Trace(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The Message |
+| message | String | Log message |
 
 ### See Also
 

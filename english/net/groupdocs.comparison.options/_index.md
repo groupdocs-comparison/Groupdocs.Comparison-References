@@ -14,15 +14,15 @@ The namespace provides classes that allows to specify additional options for doc
 | --- | --- |
 | [ApplyChangeOptions](./applychangeoptions) | Allows to update the list of changes before applying them to the resulting document. |
 | [CompareOptions](./compareoptions) | Allows to set different compare options. |
-| [DiagramMasterSetting](./diagrammastersetting) | Diagram master settings |
+| [DiagramMasterSetting](./diagrammastersetting) | Diagram master settings. |
 | [FileAuthorMetadata](./fileauthormetadata) | Information about document's author metadata. |
 | [GetChangeOptions](./getchangeoptions) | The option allows to filter changes by type. |
 | [LoadOptions](./loadoptions) | Allows to specify additional options when loading a document. |
 | [OriginalSize](./originalsize) | Represents original page size. Used only for comparing image with different formats. |
 | [PreviewOptions](./previewoptions) | Represents document preview options. |
 | [SaveOptions](./saveoptions) | Allows to specify additional options (such as password) when saving a document. |
-| [Size](./size) | Document size |
-| [StyleSettings](./stylesettings) | Style settings |
+| [Size](./size) | Document size. |
+| [StyleSettings](./stylesettings) | Style settings. Allows to define style rules for changes. Used in [`CompareOptions`](../groupdocs.comparison.options/compareoptions) class. |
 ## Enumeration
 
 | Enumeration | Description |

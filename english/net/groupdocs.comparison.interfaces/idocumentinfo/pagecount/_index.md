@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Number of pages
+description: Number of pages in document.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.interfaces/idocumentinfo/pagecount/
 ---
 ## IDocumentInfo.PageCount property
 
-Number of pages
+Number of pages in document.
 
 ```csharp
 public int PageCount { get; set; }

@@ -25,12 +25,7 @@ public class ApplyRevisionOptions
 | Name | Description |
 | --- | --- |
 | [Changes](../../groupdocs.comparison.words.revision/applyrevisionoptions/changes) { get; set; } | The list of revisions processed, which will be applied to the resulting document. |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [CommonHandler](../../groupdocs.comparison.words.revision/applyrevisionoptions/commonhandler) | Indicates whether to apply one action for all revisions |
+| [CommonHandler](../../groupdocs.comparison.words.revision/applyrevisionoptions/commonhandler) { get; set; } | Indicates whether to apply one action for all revisions |
 
 ### See Also
 

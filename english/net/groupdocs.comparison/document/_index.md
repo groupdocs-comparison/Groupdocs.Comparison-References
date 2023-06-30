@@ -27,7 +27,7 @@ public class Document
 
 | Name | Description |
 | --- | --- |
-| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | List of changes. |
+| [Changes](../../groupdocs.comparison/document/changes) { get; set; } | List of changes. Contains extensive description about change type, position, content etc. |
 | [Name](../../groupdocs.comparison/document/name) { get; set; } | Document name. |
 | [Password](../../groupdocs.comparison/document/password) { get; } | Document password. |
 | [Stream](../../groupdocs.comparison/document/stream) { get; } | Document stream. |

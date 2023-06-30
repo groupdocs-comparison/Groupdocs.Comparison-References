@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Represents information about page
+description: Represents information about pages size and number.
 type: docs
 weight: 420
 url: /net/groupdocs.comparison.result/pageinfo/
 ---
 ## PageInfo class
 
-Represents information about page
+Represents information about page's size and number.
 
 ```csharp
 public class PageInfo

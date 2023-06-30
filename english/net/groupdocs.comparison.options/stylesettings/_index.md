@@ -1,14 +1,14 @@
 ---
 title: StyleSettings
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Style settings
+description: Style settings. Allows to define style rules for changes. Used in CompareOptions./compareoptions class.
 type: docs
 weight: 360
 url: /net/groupdocs.comparison.options/stylesettings/
 ---
 ## StyleSettings class
 
-Style settings
+Style settings. Allows to define style rules for changes. Used in [`CompareOptions`](../compareoptions) class.
 
 ```csharp
 public class StyleSettings
@@ -28,10 +28,10 @@ public class StyleSettings
 | [FontColor](../../groupdocs.comparison.options/stylesettings/fontcolor) { get; set; } | Gets or sets the font color. |
 | [HighlightColor](../../groupdocs.comparison.options/stylesettings/highlightcolor) { get; set; } | Gets or sets the highlight color. |
 | [IsBold](../../groupdocs.comparison.options/stylesettings/isbold) { get; set; } | Gets or sets a value indicating whether this is bold. |
-| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | Gets or sets a value indicating whether this is italic |
-| [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | Gets or sets a value indicating whether strike through |
-| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | Gets or sets a value indicating whether this is underline |
-| [OriginalSize](../../groupdocs.comparison.options/stylesettings/originalsize) { get; set; } | Get or sets the original sizes of comparing documents |
+| [IsItalic](../../groupdocs.comparison.options/stylesettings/isitalic) { get; set; } | Gets or sets a value indicating whether this is italic. |
+| [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | Gets or sets a value indicating whether strike through. |
+| [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | Gets or sets a value indicating whether this is underline. |
+| [OriginalSize](../../groupdocs.comparison.options/stylesettings/originalsize) { get; set; } | Get or sets the original sizes of comparing documents. |
 | [StartStringSeparator](../../groupdocs.comparison.options/stylesettings/startstringseparator) { get; set; } | Gets or sets the begin separator string. |
 | [WordsSeparators](../../groupdocs.comparison.options/stylesettings/wordsseparators) { get; set; } | Gets or sets the words separator chars. |
 

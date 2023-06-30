@@ -18,9 +18,9 @@ public class ComparisonException : ApplicationException
 
 | Name | Description |
 | --- | --- |
-| [ComparisonException](comparisonexception#constructor)() | Initializes a new instance of the ComparisonException class. |
-| [ComparisonException](comparisonexception#constructor_1)(string) | Initializes a new instance of the ComparisonException class with a specified error message. |
-| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | Initializes a new instance of the ComparisonException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [ComparisonException](comparisonexception#constructor)() | Initializes a new instance of the [`ComparisonException`](../comparisonexception) class. |
+| [ComparisonException](comparisonexception#constructor_1)(string) | Initializes a new instance of the [`ComparisonException`](../comparisonexception) class with a specified error message. |
+| [ComparisonException](comparisonexception#constructor_2)(string, Exception) | Initializes a new instance of the [`ComparisonException`](../comparisonexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### See Also
 

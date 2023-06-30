@@ -24,15 +24,15 @@ public class ChangeInfo
 
 | Name | Description |
 | --- | --- |
-| [Authors](../../groupdocs.comparison.result/changeinfo/authors) { get; set; } | Authors. |
+| [Authors](../../groupdocs.comparison.result/changeinfo/authors) { get; set; } | List of Authors. |
 | [Box](../../groupdocs.comparison.result/changeinfo/box) { get; set; } | Coordinates of changed element. |
 | [ComparisonAction](../../groupdocs.comparison.result/changeinfo/comparisonaction) { get; set; } | Action (accept or reject). This field tells comparison what to do with this change. |
-| [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | Type of changed component |
+| [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | Type of changed component. |
 | [Id](../../groupdocs.comparison.result/changeinfo/id) { get; set; } | Id of change. |
 | [PageInfo](../../groupdocs.comparison.result/changeinfo/pageinfo) { get; set; } | Page where current change is placed. |
-| [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | Changed text of source doc. |
-| [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | Style changes. |
-| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | Changed text of target doc. |
+| [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | Changed text of source document. |
+| [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | Array of style changes. |
+| [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | Changed text of target document. |
 | [Text](../../groupdocs.comparison.result/changeinfo/text) { get; set; } | Text value of change. |
 | [Type](../../groupdocs.comparison.result/changeinfo/type) { get; } | Type of change. |
 

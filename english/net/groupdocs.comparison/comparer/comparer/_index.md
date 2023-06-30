@@ -35,11 +35,23 @@ public Comparer(string filePath)
 
 ## Comparer(string, CompareOptions) {#constructor_6}
 
-Folder comparer.
+Initializes new instance of [`Comparer`](../../comparer) with source folder path and [`CompareOptions`](../../../groupdocs.comparison.options/compareoptions).
 
 ```csharp
 public Comparer(string folderPath, CompareOptions compareOptions)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderPath | String | Folder path |
+| compareOptions | CompareOptions | Compare options |
+
+### Remarks
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Comparison: [Document formats supported by GroupDocs.Comparison](https://docs.groupdocs.com/display/comparisonnet/Supported+Document+Formats)
+* More about GroupDocs.Comparison for .NET features: [Developer Guide](https://docs.groupdocs.com/display/comparisonnet/Developer+Guide)
 
 ### See Also
 
@@ -91,7 +103,7 @@ public Comparer(string filePath, ComparerSettings settings)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | File pats |
+| filePath | String | File path |
 | settings | ComparerSettings | Settings for comparison |
 
 ### Remarks

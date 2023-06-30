@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Logger interface
+description: Logger interface.
 type: docs
 weight: 170
 url: /net/groupdocs.comparison.logging/ilogger/
 ---
 ## ILogger interface
 
-Logger interface
+Logger interface.
 
 ```csharp
 public interface ILogger
@@ -18,9 +18,9 @@ public interface ILogger
 
 | Name | Description |
 | --- | --- |
-| [Error](../../groupdocs.comparison.logging/ilogger/error)(string, Exception) | Error message |
-| [Trace](../../groupdocs.comparison.logging/ilogger/trace)(string) | Trace message |
-| [Warning](../../groupdocs.comparison.logging/ilogger/warning)(string) | Warning message |
+| [Error](../../groupdocs.comparison.logging/ilogger/error)(string, Exception) | Error message. |
+| [Trace](../../groupdocs.comparison.logging/ilogger/trace)(string) | Trace message. |
+| [Warning](../../groupdocs.comparison.logging/ilogger/warning)(string) | Warning message. |
 
 ### See Also
 

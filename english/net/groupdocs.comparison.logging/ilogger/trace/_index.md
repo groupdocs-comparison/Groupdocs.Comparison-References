@@ -1,14 +1,14 @@
 ---
 title: Trace
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Trace message
+description: Trace message.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison.logging/ilogger/trace/
 ---
 ## ILogger.Trace method
 
-Trace message
+Trace message.
 
 ```csharp
 public void Trace(string message)

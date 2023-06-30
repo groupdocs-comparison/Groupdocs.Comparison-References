@@ -1,14 +1,14 @@
 ---
 title: StyleChangeInfo
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Style change info
+description: Represents information about style change.
 type: docs
 weight: 440
 url: /net/groupdocs.comparison.result/stylechangeinfo/
 ---
 ## StyleChangeInfo class
 
-Style change info
+Represents information about style change.
 
 ```csharp
 public sealed class StyleChangeInfo : IEquatable<StyleChangeInfo>
@@ -24,16 +24,16 @@ public sealed class StyleChangeInfo : IEquatable<StyleChangeInfo>
 
 | Name | Description |
 | --- | --- |
-| [NewValue](../../groupdocs.comparison.result/stylechangeinfo/newvalue) { get; set; } | Gets or Sets the new value of property |
-| [OldValue](../../groupdocs.comparison.result/stylechangeinfo/oldvalue) { get; set; } | Gets or Sets the old value of property |
-| [PropertyName](../../groupdocs.comparison.result/stylechangeinfo/propertyname) { get; set; } | Gets or Sets the name of the property that was changed |
+| [NewValue](../../groupdocs.comparison.result/stylechangeinfo/newvalue) { get; set; } | Gets or Sets the new value of property. |
+| [OldValue](../../groupdocs.comparison.result/stylechangeinfo/oldvalue) { get; set; } | Gets or Sets the old value of property. |
+| [PropertyName](../../groupdocs.comparison.result/stylechangeinfo/propertyname) { get; set; } | Gets or Sets the name of the property that was changed. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | Equivalence check with object |
-| [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | Style change equivalence check |
+| override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | Equivalence check with object. |
+| [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | Style change equivalence check. |
 
 ### See Also
 

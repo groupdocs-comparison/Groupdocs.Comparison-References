@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Logger implementation
+description: Logger implementation.
 type: docs
 weight: 20
 url: /net/groupdocs.comparison/comparersettings/logger/
 ---
 ## ComparerSettings.Logger property
 
-Logger implementation
+Logger implementation.
 
 ```csharp
 public ILogger Logger { get; set; }

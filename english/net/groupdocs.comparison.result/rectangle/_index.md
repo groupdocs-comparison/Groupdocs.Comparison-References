@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Rectangle model
+description: Rectangle model.
 type: docs
 weight: 430
 url: /net/groupdocs.comparison.result/rectangle/
 ---
 ## Rectangle structure
 
-Rectangle model
+Rectangle model.
 
 ```csharp
 public struct Rectangle

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Width of original document
+description: Width of original document.
 type: docs
 weight: 30
 url: /net/groupdocs.comparison.options/size/width/
 ---
 ## Size.Width property
 
-Width of original document
+Width of original document.
 
 ```csharp
 public int Width { get; set; }

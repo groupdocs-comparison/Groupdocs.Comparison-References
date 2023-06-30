@@ -22,7 +22,7 @@ public class Comparer : IDisposable
 | [Comparer](comparer#constructor_4)(string) | Initializes new instance of [`Comparer`](../comparer) class with source file path. |
 | [Comparer](comparer#constructor_1)(Stream, ComparerSettings) | Initializes new instance of [`Comparer`](../comparer) class with source document stream and [`ComparerSettings`](../comparersettings). |
 | [Comparer](comparer#constructor_2)(Stream, LoadOptions) | Initializes new instance of [`Comparer`](../comparer) with source document stream and [`LoadOptions`](../../groupdocs.comparison.options/loadoptions). |
-| [Comparer](comparer#constructor_6)(string, CompareOptions) | Folder comparer. |
+| [Comparer](comparer#constructor_6)(string, CompareOptions) | Initializes new instance of [`Comparer`](../comparer) with source folder path and [`CompareOptions`](../../groupdocs.comparison.options/compareoptions). |
 | [Comparer](comparer#constructor_5)(string, ComparerSettings) | Initializes new instance of [`Comparer`](../comparer) class with source file path and [`ComparerSettings`](../comparersettings). |
 | [Comparer](comparer#constructor_7)(string, LoadOptions) | Initializes new instance of [`Comparer`](../comparer) with source file path and [`LoadOptions`](../../groupdocs.comparison.options/loadoptions). |
 | [Comparer](comparer#constructor_3)(Stream, LoadOptions, ComparerSettings) | Initializes new instance of [`Comparer`](../comparer) class with document stream, [`LoadOptions`](../../groupdocs.comparison.options/loadoptions) and [`ComparerSettings`](../comparersettings). |

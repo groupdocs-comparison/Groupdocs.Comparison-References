@@ -1,14 +1,14 @@
 ---
 title: OldValue
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Gets or Sets the old value of property
+description: Gets or Sets the old value of property.
 type: docs
 weight: 30
 url: /net/groupdocs.comparison.result/stylechangeinfo/oldvalue/
 ---
 ## StyleChangeInfo.OldValue property
 
-Gets or Sets the old value of property
+Gets or Sets the old value of property.
 
 ```csharp
 public object OldValue { get; set; }

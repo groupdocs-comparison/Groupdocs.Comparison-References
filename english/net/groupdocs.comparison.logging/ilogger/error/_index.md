@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Error message
+description: Error message.
 type: docs
 weight: 10
 url: /net/groupdocs.comparison.logging/ilogger/error/
 ---
 ## ILogger.Error method
 
-Error message
+Error message.
 
 ```csharp
 public void Error(string message, Exception ex)

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Equivalence check with object
+description: Equivalence check with object.
 type: docs
 weight: 50
 url: /net/groupdocs.comparison.result/stylechangeinfo/equals/
 ---
 ## Equals(object) {#equals_1}
 
-Equivalence check with object
+Equivalence check with object.
 
 ```csharp
 public override bool Equals(object obj)
@@ -32,7 +32,7 @@ True if file types is equivalent, false if not
 
 ## Equals(StyleChangeInfo) {#equals}
 
-Style change equivalence check
+Style change equivalence check.
 
 ```csharp
 public bool Equals(StyleChangeInfo other)
