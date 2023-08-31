@@ -3,7 +3,7 @@ title: ChangeInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents information about change.
 type: docs
-weight: 380
+weight: 370
 url: /net/groupdocs.comparison.result/changeinfo/
 ---
 ## ChangeInfo class

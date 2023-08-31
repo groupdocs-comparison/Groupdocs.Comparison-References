@@ -12,9 +12,7 @@ The namespace provides classes which represents the comparison results.
 
 | Class | Description |
 | --- | --- |
-| [CategoryChange](./categorychange) | The separation of changes divided into categories. |
 | [ChangeInfo](./changeinfo) | Represents information about change. |
-| [FileInfo](./fileinfo) | Information about document's type and pages. |
 | [FileType](./filetype) | Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Comparison, detect file type by extension etc. |
 | [PageInfo](./pageinfo) | Represents information about page's size and number. |
 | [StyleChangeInfo](./stylechangeinfo) | Represents information about style change. |
