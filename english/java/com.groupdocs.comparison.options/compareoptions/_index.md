@@ -43,6 +43,10 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
+| [getUserMasterPath()](#getUserMasterPath--) | Gets the path to the user master's template for Diagrams. |
+| [setUserMasterPath(String userMasterPath)](#setUserMasterPath-java.lang.String-) | Sets the path to the user master's template for Diagrams. |
+| [getRevisionAuthorName()](#getRevisionAuthorName--) | Gets or sets revision author name. |
+| [setRevisionAuthorName(String revisionAuthorName)](#setRevisionAuthorName-java.lang.String-) | Sets the revision author name. |
 | [isLeaveGaps()](#isLeaveGaps--) | Gets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
 | [setLeaveGaps(boolean value)](#setLeaveGaps-boolean-) | Sets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
 | [getComparisonType()](#getComparisonType--) | Gets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
@@ -96,6 +100,12 @@ Example usage:
 | [setShowRevisions(boolean value)](#setShowRevisions-boolean-) | Sets a flag that indicates whether others revisions in the resulting document should be displayed. |
 | [isWordTrackChanges()](#isWordTrackChanges--) | Gets a flag that indicates whether Words Track Revisions will be compared. |
 | [setWordTrackChanges(boolean value)](#setWordTrackChanges-boolean-) | Sets a flag that indicates whether Words Track Revisions should be compared. |
+| [isDirectoryCompare()](#isDirectoryCompare--) | Returns a flag that indicates whether directory comparison is enabled. |
+| [setDirectoryCompare(boolean directoryCompare)](#setDirectoryCompare-boolean-) | Sets a flag that indicates whether directory comparison should be enabled. |
+| [isShowOnlyChanged()](#isShowOnlyChanged--) | Returns a boolean value that indicates whether only changed items should be displayed. |
+| [setShowOnlyChanged(boolean showOnlyChanged)](#setShowOnlyChanged-boolean-) | Sets the value indicating whether only changed items should be displayed. |
+| [getFolderComparisonExtension()](#getFolderComparisonExtension--) | Gets the format of the resulting folder comparison file. |
+| [setFolderComparisonExtension(FolderComparisonExtension folderComparisonExtension)](#setFolderComparisonExtension-com.groupdocs.comparison.options.enums.FolderComparisonExtension-) | Sets the format of the resulting folder comparison file. |
 ### CompareOptions() {#CompareOptions--}
 ```
 public CompareOptions()
@@ -118,6 +128,52 @@ Initializes a new instance of the CompareOptions class with settings for differe
 | insertedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for inserted items |
 | deletedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for deleted items |
 | changedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for changed style items |
+
+### getUserMasterPath() {#getUserMasterPath--}
+```
+public String getUserMasterPath()
+```
+
+
+Gets the path to the user master's template for Diagrams.
+
+**Returns:**
+java.lang.String - The path to the user master's template for Diagrams.
+### setUserMasterPath(String userMasterPath) {#setUserMasterPath-java.lang.String-}
+```
+public void setUserMasterPath(String userMasterPath)
+```
+
+
+Sets the path to the user master's template for Diagrams.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userMasterPath | java.lang.String | The path to the user master's template for Diagrams. |
+
+### getRevisionAuthorName() {#getRevisionAuthorName--}
+```
+public String getRevisionAuthorName()
+```
+
+
+Gets or sets revision author name. Enabled if not null.
+
+**Returns:**
+java.lang.String - The revision author name.
+### setRevisionAuthorName(String revisionAuthorName) {#setRevisionAuthorName-java.lang.String-}
+```
+public void setRevisionAuthorName(String revisionAuthorName)
+```
+
+
+Sets the revision author name. Enabled if not null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| revisionAuthorName | java.lang.String | The new revision author name to be set. |
 
 ### isLeaveGaps() {#isLeaveGaps--}
 ```
@@ -755,4 +811,73 @@ Sets a flag that indicates whether Words Track Revisions should be compared.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | true if Words Track Revisions should be compared, otherwise false |
+
+### isDirectoryCompare() {#isDirectoryCompare--}
+```
+public boolean isDirectoryCompare()
+```
+
+
+Returns a flag that indicates whether directory comparison is enabled.
+
+**Returns:**
+boolean - true if directory comparison is enabled, otherwise false
+### setDirectoryCompare(boolean directoryCompare) {#setDirectoryCompare-boolean-}
+```
+public void setDirectoryCompare(boolean directoryCompare)
+```
+
+
+Sets a flag that indicates whether directory comparison should be enabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| directoryCompare | boolean | true if directory comparison should be enabled, otherwise false |
+
+### isShowOnlyChanged() {#isShowOnlyChanged--}
+```
+public boolean isShowOnlyChanged()
+```
+
+
+Returns a boolean value that indicates whether only changed items should be displayed.
+
+**Returns:**
+boolean - true if only changed items should be displayed, otherwise false
+### setShowOnlyChanged(boolean showOnlyChanged) {#setShowOnlyChanged-boolean-}
+```
+public void setShowOnlyChanged(boolean showOnlyChanged)
+```
+
+
+Sets the value indicating whether only changed items should be displayed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showOnlyChanged | boolean | the boolean value indicating whether only changed items should be displayed |
+
+### getFolderComparisonExtension() {#getFolderComparisonExtension--}
+```
+public FolderComparisonExtension getFolderComparisonExtension()
+```
+
+
+Gets the format of the resulting folder comparison file.
+
+**Returns:**
+com.groupdocs.comparison.options.enums.FolderComparisonExtension - the FolderComparisonExtension representing the format of the resulting folder comparison file
+### setFolderComparisonExtension(FolderComparisonExtension folderComparisonExtension) {#setFolderComparisonExtension-com.groupdocs.comparison.options.enums.FolderComparisonExtension-}
+```
+public void setFolderComparisonExtension(FolderComparisonExtension folderComparisonExtension)
+```
+
+
+Sets the format of the resulting folder comparison file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderComparisonExtension | com.groupdocs.comparison.options.enums.FolderComparisonExtension | the FolderComparisonExtension representing the format of the resulting folder comparison file |
 

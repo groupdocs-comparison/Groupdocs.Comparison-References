@@ -38,13 +38,17 @@ Example usage:
 | Constructor | Description |
 | --- | --- |
 | [Comparer(String filePath)](#Comparer-java.lang.String-) | Initializes new instance of Comparer class with the specified source file path. |
+| [Comparer(String filePath, CompareOptions compareOptions)](#Comparer-java.lang.String-com.groupdocs.comparison.options.CompareOptions-) | Initializes a new instance of the Comparer class with the specified folder path and compare options. |
 | [Comparer(Path filePath)](#Comparer-java.nio.file.Path-) | Initializes new instance of Comparer class with the specified source file path. |
 | [Comparer(String filePath, LoadOptions loadOptions)](#Comparer-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Comparer with the specified source file path and [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions). |
 | [Comparer(Path filePath, LoadOptions loadOptions)](#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Comparer with the specified source file path and [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions). |
+| [Comparer(Path filePath, CompareOptions compareOptions)](#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-) | Initializes new instance of Comparer with the specified source file path and [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions). |
 | [Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings)](#Comparer-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
+| [Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions)](#Comparer-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-com.groupdocs.comparison.options.CompareOptions-) | Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(String filePath, ComparerSettings settings)](#Comparer-java.lang.String-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of Comparer class with the specified source file path and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(Path filePath, ComparerSettings settings)](#Comparer-java.nio.file.Path-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of Comparer class with the specified source file path and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(Path filePath, LoadOptions loadOptions, ComparerSettings settings)](#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
+| [Comparer(Path filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions)](#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-com.groupdocs.comparison.options.CompareOptions-) | Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
 | [Comparer(InputStream document)](#Comparer-java.io.InputStream-) | Initializes new instance of Comparer class with the specified source document stream. |
 | [Comparer(InputStream document, LoadOptions loadOptions)](#Comparer-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) | Initializes new instance of Comparer with the specified source document stream and [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions). |
 | [Comparer(InputStream document, ComparerSettings settings)](#Comparer-java.io.InputStream-com.groupdocs.comparison.ComparerSettings-) | Initializes new instance of Comparer class with the specified source document stream and [ComparerSettings](../../com.groupdocs.comparison/comparersettings). |
@@ -75,13 +79,17 @@ Example usage:
 | [compare(CompareOptions compareOptions)](#compare-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents without saving result. |
 | [compare(OutputStream outputStream, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided output stream. |
 | [compare(String filePath, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.lang.String-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
+| [compareDirectory(String filePath, CompareOptions compareOptions)](#compareDirectory-java.lang.String-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified directory with the target directory and saves the comparison result to the provided file path. |
+| [compareDirectory(Path filePath, CompareOptions compareOptions)](#compareDirectory-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified directory with the target directory and saves the comparison result to the provided file path. |
 | [compare(Path filePath, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.nio.file.Path-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
 | [add(String filePath)](#add-java.lang.String-) | Adds the specified target document to the comparison process. |
+| [add(String filePath, CompareOptions compareOptions)](#add-java.lang.String-com.groupdocs.comparison.options.CompareOptions-) | Adds the specified target document or folder to the comparison process. |
 | [add(Path filePath)](#add-java.nio.file.Path-) | Adds the specified target document to the comparison process. |
 | [add(String[] filePaths)](#add-java.lang.String...-) | Adds the specified target documents to the comparison process. |
 | [add(Path[] filePaths)](#add-java.nio.file.Path...-) | Adds the specified target documents to the comparison process. |
 | [add(String filePath, LoadOptions loadOptions)](#add-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
 | [add(Path filePath, LoadOptions loadOptions)](#add-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
+| [add(Path filePath, CompareOptions compareOptions)](#add-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-) | Adds the specified target document to the comparison process with loading options specified. |
 | [add(InputStream document)](#add-java.io.InputStream-) | Adds the specified target document to the comparison process. |
 | [add(InputStream[] documents)](#add-java.io.InputStream...-) | Adds the specified target documents to the comparison process. |
 | [add(InputStream document, LoadOptions loadOptions)](#add-java.io.InputStream-com.groupdocs.comparison.options.load.LoadOptions-) | Adds the specified target document to the comparison process with loading options specified. |
@@ -94,6 +102,8 @@ Example usage:
 | [applyChanges(Path filePath, SaveOptions saveOptions, ApplyChangeOptions applyChangeOptions)](#applyChanges-java.nio.file.Path-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.ApplyChangeOptions-) | Accepts or rejects changes and applies them to resultant document. |
 | [applyChanges(OutputStream document, SaveOptions saveOptions, ApplyChangeOptions applyChangeOptions)](#applyChanges-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.ApplyChangeOptions-) | Accepts or rejects changes and applies them to resultant document. |
 | [getResultString()](#getResultString--) | Gets result string after comparison (For Text Comparison only). |
+| [getSourceFolder()](#getSourceFolder--) | Returns the source folder that is being compared. |
+| [getTargetFolder()](#getTargetFolder--) | Returns the target folder that is being compared. |
 | [close()](#close--) | Releases resources. |
 ### Comparer(String filePath) {#Comparer-java.lang.String-}
 ```
@@ -114,6 +124,27 @@ Initializes new instance of Comparer class with the specified source file path.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | The path to the source document |
+
+### Comparer(String filePath, CompareOptions compareOptions) {#Comparer-java.lang.String-com.groupdocs.comparison.options.CompareOptions-}
+```
+public Comparer(String filePath, CompareOptions compareOptions)
+```
+
+
+Initializes a new instance of the Comparer class with the specified folder path and compare options.
+
+ *  More about file types supported by GroupDocs.Comparison: [Document formats supported by GroupDocs.Comparison][]
+ *  More about GroupDocs.Comparison for Java features: [Developer Guide][]
+
+
+[Document formats supported by GroupDocs.Comparison]: https://docs.groupdocs.com/display/comparisonjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/comparisonjava/Developer+Guide
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the source document or folder |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The compare options for folder comparison |
 
 ### Comparer(Path filePath) {#Comparer-java.nio.file.Path-}
 ```
@@ -185,6 +216,31 @@ Initializes new instance of Comparer with the specified source file path and [Lo
 | filePath | java.nio.file.Path | The path to the source document |
 | loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
 
+### Comparer(Path filePath, CompareOptions compareOptions) {#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-}
+```
+public Comparer(Path filePath, CompareOptions compareOptions)
+```
+
+
+Initializes new instance of Comparer with the specified source file path and [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions).
+
+ *  More about file types supported by GroupDocs.Comparison: [Document formats supported by GroupDocs.Comparison][]
+ *  More about GroupDocs.Comparison for Java features: [Developer Guide][]
+ *  More about how to open and compare password-protected documents: [Open and compare password-protected documents][]
+ *  More about how to open and compare document from URL, FTP, Amazon S3 and others: [Open and compare documents from third-party storages][]
+
+
+[Document formats supported by GroupDocs.Comparison]: https://docs.groupdocs.com/display/comparisonjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/comparisonjava/Developer+Guide
+[Open and compare password-protected documents]: https://docs.groupdocs.com/display/comparisonjava/Load+password-protected+documents
+[Open and compare documents from third-party storages]: https://docs.groupdocs.com/display/comparisonjava/Loading
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.nio.file.Path | The path to the source document |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The compare options for folder comparison |
+
 ### Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings) {#Comparer-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-}
 ```
 public Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings)
@@ -210,6 +266,33 @@ Initializes new instance of Comparer class with the specified source file path, 
 | filePath | java.lang.String | The path to the source document |
 | loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
 | settings | [ComparerSettings](../../com.groupdocs.comparison/comparersettings) | The comparer settings to be used for the comparison process |
+
+### Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions) {#Comparer-java.lang.String-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-com.groupdocs.comparison.options.CompareOptions-}
+```
+public Comparer(String filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions)
+```
+
+
+Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings).
+
+ *  More about file types supported by GroupDocs.Comparison: [Document formats supported by GroupDocs.Comparison][]
+ *  More about GroupDocs.Comparison for Java features: [Developer Guide][]
+ *  More about how to open and compare password-protected documents: [Open and compare password-protected documents][]
+ *  More about how to open and compare document from URL, FTP, Amazon S3 and others: [Open and compare documents from third-party storages][]
+
+
+[Document formats supported by GroupDocs.Comparison]: https://docs.groupdocs.com/display/comparisonjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/comparisonjava/Developer+Guide
+[Open and compare password-protected documents]: https://docs.groupdocs.com/display/comparisonjava/Load+password-protected+documents
+[Open and compare documents from third-party storages]: https://docs.groupdocs.com/display/comparisonjava/Loading
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the source document or folder or text to be compared |
+| loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
+| settings | [ComparerSettings](../../com.groupdocs.comparison/comparersettings) | The comparer settings to be used for the comparison process |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The compare options for folder comparison |
 
 ### Comparer(String filePath, ComparerSettings settings) {#Comparer-java.lang.String-com.groupdocs.comparison.ComparerSettings-}
 ```
@@ -278,6 +361,33 @@ Initializes new instance of Comparer class with the specified source file path, 
 | filePath | java.nio.file.Path | The path to the source document |
 | loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
 | settings | [ComparerSettings](../../com.groupdocs.comparison/comparersettings) | The comparer settings to be used for the comparison process |
+
+### Comparer(Path filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions) {#Comparer-java.nio.file.Path-com.groupdocs.comparison.options.load.LoadOptions-com.groupdocs.comparison.ComparerSettings-com.groupdocs.comparison.options.CompareOptions-}
+```
+public Comparer(Path filePath, LoadOptions loadOptions, ComparerSettings settings, CompareOptions compareOptions)
+```
+
+
+Initializes new instance of Comparer class with the specified source file path, [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) and [ComparerSettings](../../com.groupdocs.comparison/comparersettings).
+
+ *  More about file types supported by GroupDocs.Comparison: [Document formats supported by GroupDocs.Comparison][]
+ *  More about GroupDocs.Comparison for Java features: [Developer Guide][]
+ *  More about how to open and compare password-protected documents: [Open and compare password-protected documents][]
+ *  More about how to open and compare document from URL, FTP, Amazon S3 and others: [Open and compare documents from third-party storages][]
+
+
+[Document formats supported by GroupDocs.Comparison]: https://docs.groupdocs.com/display/comparisonjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/comparisonjava/Developer+Guide
+[Open and compare password-protected documents]: https://docs.groupdocs.com/display/comparisonjava/Load+password-protected+documents
+[Open and compare documents from third-party storages]: https://docs.groupdocs.com/display/comparisonjava/Loading
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.nio.file.Path | The path to the source document or folder |
+| loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
+| settings | [ComparerSettings](../../com.groupdocs.comparison/comparersettings) | The comparer settings to be used for the comparison process |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The compare options for folder comparison |
 
 ### Comparer(InputStream document) {#Comparer-java.io.InputStream-}
 ```
@@ -744,6 +854,34 @@ Compares the specified file with the target documents and writes a comparison re
 
 **Returns:**
 java.nio.file.Path - result file path, in some situations it's extension can be changed
+### compareDirectory(String filePath, CompareOptions compareOptions) {#compareDirectory-java.lang.String-com.groupdocs.comparison.options.CompareOptions-}
+```
+public void compareDirectory(String filePath, CompareOptions compareOptions)
+```
+
+
+Compares the specified directory with the target directory and saves the comparison result to the provided file path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The file path where the comparison result will be saved. |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The options to be used for the directory comparison process. |
+
+### compareDirectory(Path filePath, CompareOptions compareOptions) {#compareDirectory-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-}
+```
+public void compareDirectory(Path filePath, CompareOptions compareOptions)
+```
+
+
+Compares the specified directory with the target directory and saves the comparison result to the provided file path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.nio.file.Path | The file path where the comparison result will be saved. |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The options to be used for the directory comparison process. |
+
 ### compare(Path filePath, SaveOptions saveOptions, CompareOptions compareOptions) {#compare-java.nio.file.Path-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-}
 ```
 public final Path compare(Path filePath, SaveOptions saveOptions, CompareOptions compareOptions)
@@ -782,6 +920,20 @@ Adds the specified target document to the comparison process.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | The path to the target document to be added |
+
+### add(String filePath, CompareOptions compareOptions) {#add-java.lang.String-com.groupdocs.comparison.options.CompareOptions-}
+```
+public void add(String filePath, CompareOptions compareOptions)
+```
+
+
+Adds the specified target document or folder to the comparison process.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the target document or folder to be added |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The options for the comparison |
 
 ### add(Path filePath) {#add-java.nio.file.Path-}
 ```
@@ -867,6 +1019,29 @@ Adds the specified target document to the comparison process with loading option
 | --- | --- | --- |
 | filePath | java.nio.file.Path | Path to the target document to be added |
 | loadOptions | [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) | The custom load options to be applied to the document |
+
+### add(Path filePath, CompareOptions compareOptions) {#add-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-}
+```
+public final void add(Path filePath, CompareOptions compareOptions)
+```
+
+
+Adds the specified target document to the comparison process with loading options specified.
+
+ *  More about how to open and compare password-protected documents using GroupDocs.Comparison for Java: [How to open and compare password-protected documents][]
+ *  More about how to open and compare documents stored at local disk: [How to open and compare files by file path][]
+ *  More about how to open and compare documents from URL, FTP, Amazon S3 and other storages: [How to open and compare files from third-party storages][]
+
+
+[How to open and compare password-protected documents]: https://docs.groupdocs.com/display/comparisonjava/Load+password-protected+documents
+[How to open and compare files by file path]: https://docs.groupdocs.com/display/comparisonjava/Load+document+from+local+disk
+[How to open and compare files from third-party storages]: https://docs.groupdocs.com/display/comparisonjava/Load+document+from+stream
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.nio.file.Path | The path to the target document or folder to be added |
+| compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The options for the comparison |
 
 ### add(InputStream document) {#add-java.io.InputStream-}
 ```
@@ -1098,6 +1273,26 @@ Gets result string after comparison (For Text Comparison only).
 
 **Returns:**
 java.lang.String - the result string
+### getSourceFolder() {#getSourceFolder--}
+```
+public String getSourceFolder()
+```
+
+
+Returns the source folder that is being compared.
+
+**Returns:**
+java.lang.String - the source folder
+### getTargetFolder() {#getTargetFolder--}
+```
+public String getTargetFolder()
+```
+
+
+Returns the target folder that is being compared.
+
+**Returns:**
+java.lang.String - the target folder
 ### close() {#close--}
 ```
 public void close()
