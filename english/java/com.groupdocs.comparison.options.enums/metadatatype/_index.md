@@ -3,7 +3,7 @@ title: MetadataType
 second_title: GroupDocs.Comparison for Java API Reference
 description: Determines from where the result document will take metadata information.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.comparison.options.enums/metadatatype/
 ---
 **Inheritance:**

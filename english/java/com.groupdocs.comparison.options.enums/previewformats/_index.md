@@ -3,7 +3,7 @@ title: PreviewFormats
 second_title: GroupDocs.Comparison for Java API Reference
 description: Enumerates the supported preview formats for document comparison.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.comparison.options.enums/previewformats/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PasswordSaveOption
 second_title: GroupDocs.Comparison for Java API Reference
 description: Enumerates the options for saving password information in a document during the comparison process.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.comparison.options.enums/passwordsaveoption/
 ---
 **Inheritance:**
