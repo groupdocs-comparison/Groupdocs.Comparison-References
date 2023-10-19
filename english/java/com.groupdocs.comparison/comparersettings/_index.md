@@ -32,7 +32,8 @@ Example usage:
 
 | Constructor | Description |
 | --- | --- |
-| [ComparerSettings()](#ComparerSettings--) |  |
+| [ComparerSettings()](#ComparerSettings--) | Instantiates new instance of ComparerSettings class. |
+| [ComparerSettings(ILogger logger)](#ComparerSettings-com.groupdocs.foundation.logging.ILogger-) | Instantiates new instance of ComparerSettings class. |
 ## Methods
 
 | Method | Description |
@@ -44,6 +45,21 @@ Example usage:
 public ComparerSettings()
 ```
 
+
+Instantiates new instance of ComparerSettings class.
+
+### ComparerSettings(ILogger logger) {#ComparerSettings-com.groupdocs.foundation.logging.ILogger-}
+```
+public ComparerSettings(ILogger logger)
+```
+
+
+Instantiates new instance of ComparerSettings class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| logger | com.groupdocs.foundation.logging.ILogger | logger to be used |
 
 ### getLogger() {#getLogger--}
 ```

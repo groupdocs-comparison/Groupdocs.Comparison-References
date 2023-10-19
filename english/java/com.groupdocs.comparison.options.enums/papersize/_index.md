@@ -3,7 +3,7 @@ title: PaperSize
 second_title: GroupDocs.Comparison for Java API Reference
 description: Represents the paper size options for document comparison.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.comparison.options.enums/papersize/
 ---
 **Inheritance:**
