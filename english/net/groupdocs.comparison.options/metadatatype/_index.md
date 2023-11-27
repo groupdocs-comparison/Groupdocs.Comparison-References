@@ -3,7 +3,7 @@ title: MetadataType
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Determines from where result document will take metadata information
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.comparison.options/metadatatype/
 ---
 ## MetadataType enumeration

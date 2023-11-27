@@ -3,7 +3,7 @@ title: CompareOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows to set different compare options.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.comparison.options/compareoptions/
 ---
 ## CompareOptions class
@@ -25,6 +25,7 @@ public class CompareOptions
 | Name | Description |
 | --- | --- |
 | [CalculateCoordinates](../../groupdocs.comparison.options/compareoptions/calculatecoordinates) { get; set; } | Indicates whether to calculate coordinates for changed components. |
+| [CalculateCoordinatesMode](../../groupdocs.comparison.options/compareoptions/calculatecoordinatesmode) { get; set; } | Specifies the coordinate calculation for changed components mode. |
 | [ChangedItemStyle](../../groupdocs.comparison.options/compareoptions/changeditemstyle) { get; set; } | Describes style for changed components. |
 | [CompareBookmarks](../../groupdocs.comparison.options/compareoptions/comparebookmarks) { get; set; } | Control to turn on comparison of bookmarks in Word format. |
 | [CompareDocumentProperty](../../groupdocs.comparison.options/compareoptions/comparedocumentproperty) { get; set; } | Control to turn on comparison of built and custom properties in Word format. |
