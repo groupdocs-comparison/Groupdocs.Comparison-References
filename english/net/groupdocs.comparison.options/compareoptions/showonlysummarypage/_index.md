@@ -3,7 +3,7 @@ title: ShowOnlySummaryPage
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to leave in the resulting document only a page with statistics of detected changes in the resulting document or not.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.comparison.options/compareoptions/showonlysummarypage/
 ---
 ## CompareOptions.ShowOnlySummaryPage property

@@ -3,7 +3,7 @@ title: RevisionInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Provides information about one revision.
 type: docs
-weight: 460
+weight: 470
 url: /net/groupdocs.comparison.words.revision/revisioninfo/
 ---
 ## RevisionInfo class

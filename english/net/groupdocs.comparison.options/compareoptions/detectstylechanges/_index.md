@@ -3,7 +3,7 @@ title: DetectStyleChanges
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to detect style changes or not.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.comparison.options/compareoptions/detectstylechanges/
 ---
 ## CompareOptions.DetectStyleChanges property

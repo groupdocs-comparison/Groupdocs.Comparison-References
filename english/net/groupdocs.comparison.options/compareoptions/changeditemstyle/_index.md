@@ -3,7 +3,7 @@ title: ChangedItemStyle
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Describes style for changed components.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison.options/compareoptions/changeditemstyle/
 ---
 ## CompareOptions.ChangedItemStyle property

@@ -27,6 +27,7 @@ The namespace provides classes that allows to specify additional options for doc
 
 | Enumeration | Description |
 | --- | --- |
+| [CalculateCoordinatesModeEnumeration](./calculatecoordinatesmodeenumeration) | Enumerates the type of coordinates calculation. |
 | [ChangeType](./changetype) | Specifies change type. |
 | [DetalisationLevel](./detalisationlevel) | Specifies the level of comparison details. |
 | [FolderComparisonExtension](./foldercomparisonextension) | Folder extensions. |

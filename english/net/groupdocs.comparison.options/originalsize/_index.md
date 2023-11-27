@@ -3,7 +3,7 @@ title: OriginalSize
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents original page size. Used only for comparing image with different formats.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.comparison.options/originalsize/
 ---
 ## OriginalSize class

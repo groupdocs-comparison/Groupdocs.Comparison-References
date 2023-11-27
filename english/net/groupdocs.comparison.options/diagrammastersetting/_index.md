@@ -3,7 +3,7 @@ title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Diagram master settings.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.comparison.options/diagrammastersetting/
 ---
 ## DiagramMasterSetting class

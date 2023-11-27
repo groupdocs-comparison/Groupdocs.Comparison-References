@@ -3,7 +3,7 @@ title: CompareDocumentProperty
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of built and custom properties in Word format.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.comparison.options/compareoptions/comparedocumentproperty/
 ---
 ## CompareOptions.CompareDocumentProperty property

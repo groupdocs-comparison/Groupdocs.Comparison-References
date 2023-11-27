@@ -3,7 +3,7 @@ title: WordTrackChanges
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of Words Track Revisions.
 type: docs
-weight: 320
+weight: 330
 url: /net/groupdocs.comparison.options/compareoptions/wordtrackchanges/
 ---
 ## CompareOptions.WordTrackChanges property
