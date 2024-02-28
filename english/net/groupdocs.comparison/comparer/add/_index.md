@@ -3,7 +3,7 @@ title: Add
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Adds file to comparison.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.comparison/comparer/add/
 ---
 ## Add(string) {#add_2}

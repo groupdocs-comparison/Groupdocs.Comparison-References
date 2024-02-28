@@ -3,7 +3,7 @@ title: GeneratePreview
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Generates document pages preview.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.comparison/document/generatepreview/
 ---
 ## Document.GeneratePreview method

@@ -3,7 +3,7 @@ title: Stream
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Document stream.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.comparison/document/stream/
 ---
 ## Document.Stream property

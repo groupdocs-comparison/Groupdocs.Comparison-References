@@ -1,21 +1,22 @@
 ---
-title: targetFolder
+title: Result
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Target folder that is being compared.
+description: Result document.
 type: docs
-weight: 50
-url: /net/groupdocs.comparison/comparer/targetfolder/
+weight: 20
+url: /net/groupdocs.comparison/comparer/result/
 ---
-## Comparer.targetFolder property
+## Comparer.Result property
 
-Target folder that is being compared.
+Result document.
 
 ```csharp
-public string targetFolder { get; set; }
+public Document Result { get; }
 ```
 
 ### See Also
 
+* class [Document](../../document)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
 * assembly [GroupDocs.Comparison](../../../)

@@ -3,7 +3,7 @@ title: sourceFolder
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Source folder that is being compared.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison/comparer/sourcefolder/
 ---
 ## Comparer.sourceFolder property

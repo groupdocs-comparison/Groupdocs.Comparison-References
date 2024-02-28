@@ -3,7 +3,7 @@ title: Dispose
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Releases resources.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.comparison/comparer/dispose/
 ---
 ## Comparer.Dispose method

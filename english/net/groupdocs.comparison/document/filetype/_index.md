@@ -1,21 +1,22 @@
 ---
-title: Name
+title: FileType
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Document name.
+description: Document file type.
 type: docs
-weight: 40
-url: /net/groupdocs.comparison/document/name/
+weight: 30
+url: /net/groupdocs.comparison/document/filetype/
 ---
-## Document.Name property
+## Document.FileType property
 
-Document name.
+Document file type.
 
 ```csharp
-public string Name { get; set; }
+public FileType FileType { get; }
 ```
 
 ### See Also
 
+* class [FileType](../../../groupdocs.comparison.result/filetype)
 * class [Document](../../document)
 * namespace [GroupDocs.Comparison](../../document)
 * assembly [GroupDocs.Comparison](../../../)
