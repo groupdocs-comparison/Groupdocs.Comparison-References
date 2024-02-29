@@ -3,7 +3,7 @@ title: GetDocumentInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets information about document  document type pages count page sizes etc.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.comparison/document/getdocumentinfo/
 ---
 ## Document.GetDocumentInfo method

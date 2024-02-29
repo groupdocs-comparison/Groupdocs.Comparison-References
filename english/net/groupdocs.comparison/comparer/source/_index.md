@@ -3,7 +3,7 @@ title: Source
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Source file that is being compared.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.comparison/comparer/source/
 ---
 ## Comparer.Source property

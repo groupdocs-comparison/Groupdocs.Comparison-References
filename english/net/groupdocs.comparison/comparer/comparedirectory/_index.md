@@ -3,7 +3,7 @@ title: CompareDirectory
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Compares directory and saves result to file path
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.comparison/comparer/comparedirectory/
 ---
 ## Comparer.CompareDirectory method

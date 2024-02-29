@@ -3,7 +3,7 @@ title: Compare
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Compares documents without saving result with default options
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.comparison/comparer/compare/
 ---
 ## Compare() {#compare}
@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison/comparer/compare/
 Compares documents without saving result with default options
 
 ```csharp
-public void Compare()
+public Document Compare()
 ```
 
 ### Remarks
@@ -23,6 +23,7 @@ public void Compare()
 
 ### See Also
 
+* class [Document](../../document)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
 * assembly [GroupDocs.Comparison](../../../)
@@ -34,7 +35,7 @@ public void Compare()
 Compares documents and saves result to file path
 
 ```csharp
-public void Compare(string filePath)
+public Document Compare(string filePath)
 ```
 
 | Parameter | Type | Description |
@@ -50,6 +51,7 @@ public void Compare(string filePath)
 
 ### See Also
 
+* class [Document](../../document)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
 * assembly [GroupDocs.Comparison](../../../)
@@ -61,7 +63,7 @@ public void Compare(string filePath)
 Compares documents and saves result to file stream
 
 ```csharp
-public void Compare(Stream document)
+public Document Compare(Stream document)
 ```
 
 | Parameter | Type | Description |
@@ -77,6 +79,7 @@ public void Compare(Stream document)
 
 ### See Also
 
+* class [Document](../../document)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
 * assembly [GroupDocs.Comparison](../../../)
@@ -88,7 +91,7 @@ public void Compare(Stream document)
 Compares documents and saves result to file path
 
 ```csharp
-public void Compare(string filePath, CompareOptions compareOptions)
+public Document Compare(string filePath, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -106,6 +109,7 @@ public void Compare(string filePath, CompareOptions compareOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
@@ -118,7 +122,7 @@ public void Compare(string filePath, CompareOptions compareOptions)
 Compares documents and saves result to file stream
 
 ```csharp
-public void Compare(Stream document, CompareOptions compareOptions)
+public Document Compare(Stream document, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -136,6 +140,7 @@ public void Compare(Stream document, CompareOptions compareOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
@@ -148,7 +153,7 @@ public void Compare(Stream document, CompareOptions compareOptions)
 Compares documents without saving result.
 
 ```csharp
-public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
+public Document Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -166,6 +171,7 @@ public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [SaveOptions](../../../groupdocs.comparison.options/saveoptions)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)
@@ -179,7 +185,7 @@ public void Compare(SaveOptions saveOptions, CompareOptions compareOptions)
 Compares documents and save result to file path
 
 ```csharp
-public void Compare(string filePath, SaveOptions saveOptions)
+public Document Compare(string filePath, SaveOptions saveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -196,6 +202,7 @@ public void Compare(string filePath, SaveOptions saveOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [SaveOptions](../../../groupdocs.comparison.options/saveoptions)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
@@ -208,7 +215,7 @@ public void Compare(string filePath, SaveOptions saveOptions)
 Compares documents and save result to file stream
 
 ```csharp
-public void Compare(Stream document, SaveOptions saveOptions)
+public Document Compare(Stream document, SaveOptions saveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -225,6 +232,7 @@ public void Compare(Stream document, SaveOptions saveOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [SaveOptions](../../../groupdocs.comparison.options/saveoptions)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
@@ -237,7 +245,7 @@ public void Compare(Stream document, SaveOptions saveOptions)
 Compares documents without saving result.
 
 ```csharp
-public void Compare(CompareOptions compareOptions)
+public Document Compare(CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -253,6 +261,7 @@ public void Compare(CompareOptions compareOptions)
 
 ### See Also
 
+* class [Document](../../document)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../comparer)
@@ -265,7 +274,7 @@ public void Compare(CompareOptions compareOptions)
 Compares documents and saves result to a stream.
 
 ```csharp
-public void Compare(Stream document, SaveOptions saveOptions, CompareOptions compareOptions)
+public Document Compare(Stream document, SaveOptions saveOptions, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -284,6 +293,7 @@ public void Compare(Stream document, SaveOptions saveOptions, CompareOptions com
 
 ### See Also
 
+* class [Document](../../document)
 * class [SaveOptions](../../../groupdocs.comparison.options/saveoptions)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)
@@ -297,7 +307,7 @@ public void Compare(Stream document, SaveOptions saveOptions, CompareOptions com
 Compares documents and saves result to file path
 
 ```csharp
-public void Compare(string filePath, SaveOptions saveOptions, CompareOptions compareOptions)
+public Document Compare(string filePath, SaveOptions saveOptions, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -316,6 +326,7 @@ public void Compare(string filePath, SaveOptions saveOptions, CompareOptions com
 
 ### See Also
 
+* class [Document](../../document)
 * class [SaveOptions](../../../groupdocs.comparison.options/saveoptions)
 * class [CompareOptions](../../../groupdocs.comparison.options/compareoptions)
 * class [Comparer](../../comparer)

@@ -3,7 +3,7 @@ title: Targets
 second_title: GroupDocs.Comparison for .NET API Reference
 description: List of target files to compare with source file.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.comparison/comparer/targets/
 ---
 ## Comparer.Targets property

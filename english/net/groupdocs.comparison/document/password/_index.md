@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Document password.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison/document/password/
 ---
 ## Document.Password property

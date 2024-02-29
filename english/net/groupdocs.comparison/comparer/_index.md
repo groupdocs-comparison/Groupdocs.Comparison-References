@@ -32,6 +32,7 @@ public class Comparer : IDisposable
 
 | Name | Description |
 | --- | --- |
+| [Result](../../groupdocs.comparison/comparer/result) { get; } | Result document. |
 | [Source](../../groupdocs.comparison/comparer/source) { get; } | Source file that is being compared. |
 | [sourceFolder](../../groupdocs.comparison/comparer/sourcefolder) { get; } | Source folder that is being compared. |
 | [targetFolder](../../groupdocs.comparison/comparer/targetfolder) { get; set; } | Target folder that is being compared. |
@@ -65,6 +66,7 @@ public class Comparer : IDisposable
 | [Dispose](../../groupdocs.comparison/comparer/dispose)() | Releases resources. |
 | [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges)() | Gets list of changes between source and target file(s). |
 | [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges_1)(GetChangeOptions) | Gets list of changes between source and target file(s). |
+| [GetResultDocumentStream](../../groupdocs.comparison/comparer/getresultdocumentstream)() | Gets the stream of result document, returns null if stream does not exist |
 | [GetResultString](../../groupdocs.comparison/comparer/getresultstring)() | Get result string after comparison (For Text Comparison only). |
 
 ### See Also
