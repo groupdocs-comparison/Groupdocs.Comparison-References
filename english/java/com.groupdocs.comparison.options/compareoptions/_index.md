@@ -43,6 +43,8 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
+| [getCalculateCoordinatesMode()](#getCalculateCoordinatesMode--) |  |
+| [setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode)](#setCalculateCoordinatesMode-com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration-) |  |
 | [getUserMasterPath()](#getUserMasterPath--) | Gets the path to the user master's template for Diagrams. |
 | [setUserMasterPath(String userMasterPath)](#setUserMasterPath-java.lang.String-) | Sets the path to the user master's template for Diagrams. |
 | [getRevisionAuthorName()](#getRevisionAuthorName--) | Gets or sets revision author name. |
@@ -128,6 +130,29 @@ Initializes a new instance of the CompareOptions class with settings for differe
 | insertedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for inserted items |
 | deletedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for deleted items |
 | changedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for changed style items |
+
+### getCalculateCoordinatesMode() {#getCalculateCoordinatesMode--}
+```
+public CalculateCoordinatesModeEnumeration getCalculateCoordinatesMode()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration
+### setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode) {#setCalculateCoordinatesMode-com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration-}
+```
+public void setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calculateCoordinatesMode | com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration |  |
 
 ### getUserMasterPath() {#getUserMasterPath--}
 ```
