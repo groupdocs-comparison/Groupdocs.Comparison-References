@@ -53,6 +53,8 @@ Example usage:
 | [setComparisonType(ComparisonType comparisonType)](#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-) | Sets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
 | [getPaperSize()](#getPaperSize--) | Gets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object. |
 | [setPaperSize(PaperSize value)](#setPaperSize-com.groupdocs.comparison.options.enums.PaperSize-) | Sets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object. |
+| [getCalculateCoordinatesMode()](#getCalculateCoordinatesMode--) | Gets a calculate coordinates mode as [CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) object. |
+| [setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode)](#setCalculateCoordinatesMode-com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration-) | Sets a calculate coordinates mode as [CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) object. |
 | [isShowDeletedContent()](#isShowDeletedContent--) | Gets a flag that indicates whether to show deleted components in resultant document or not. |
 | [setShowDeletedContent(boolean value)](#setShowDeletedContent-boolean-) | Sets a flag that indicates whether to show deleted components in resultant document or not. |
 | [isShowInsertedContent()](#isShowInsertedContent--) | Gets a flag that indicates whether to show inserted components in resultant document or not. |
@@ -251,6 +253,29 @@ Sets a size of a paper in result document as [PaperSize](../../com.groupdocs.com
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) | The size of a paper in result document |
+
+### getCalculateCoordinatesMode() {#getCalculateCoordinatesMode--}
+```
+public CalculateCoordinatesModeEnumeration getCalculateCoordinatesMode()
+```
+
+
+Gets a calculate coordinates mode as [CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) object.
+
+**Returns:**
+[CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) - the calculate coordinates mode
+### setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode) {#setCalculateCoordinatesMode-com.groupdocs.comparison.options.enums.CalculateCoordinatesModeEnumeration-}
+```
+public void setCalculateCoordinatesMode(CalculateCoordinatesModeEnumeration calculateCoordinatesMode)
+```
+
+
+Sets a calculate coordinates mode as [CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calculateCoordinatesMode | [CalculateCoordinatesModeEnumeration](../../com.groupdocs.comparison.options.enums/calculatecoordinatesmodeenumeration) | The calculate coordinates mode |
 
 ### isShowDeletedContent() {#isShowDeletedContent--}
 ```
