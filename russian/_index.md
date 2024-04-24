@@ -20,6 +20,7 @@ url: /ru/
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по API GroupDocs.Comparison для .NET](/comparison/ru/net/)
+- [GroupDocs.Comparison для учебных пособий по .NET API](/tutorials/comparison/ru/net/)
 
 
 ## GroupDocs.Comparison для Java

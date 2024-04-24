@@ -20,6 +20,7 @@ Windows Forms, ASP.NET, WPF, WCF ve diğer .NET Framework tabanlı uygulamalar i
 Bunlar bazı faydalı kaynaklara bağlantılar:
 
 - [.NET API Başvurusu için GroupDocs.Comparison](/comparison/tr/net/)
+- [.NET API Eğitimleri için GroupDocs.Comparison](/tutorials/comparison/tr/net/)
 
 
 ## Java için GroupDocs.Comparison

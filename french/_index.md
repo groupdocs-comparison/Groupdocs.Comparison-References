@@ -20,6 +20,7 @@ API .NET native pour Windows Forms, ASP.NET, WPF, WCF et autres applications bas
 Voici des liens vers des ressources utiles :
 
 - [Référence de l'API GroupDocs.Comparison pour .NET](/comparison/fr/net/)
+- [GroupDocs.Comparison pour les didacticiels de l'API .NET](/tutorials/comparison/fr/net/)
 
 
 ## GroupDocs.Comparison pour Java

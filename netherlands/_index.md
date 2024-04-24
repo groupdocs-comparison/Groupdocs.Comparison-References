@@ -20,6 +20,7 @@ Native .NET API voor Windows Forms, ASP.NET, WPF, WCF en andere op .NET Framewor
 Dit zijn links naar enkele nuttige bronnen:
 
 - [GroupDocs.Comparison voor .NET API-referentie](/comparison/nl/net/)
+- [GroupDocs.Vergelijking voor .NET API-zelfstudies](/tutorials/comparison/nl/net/)
 
 
 ## GroupDocs.Comparison voor Java

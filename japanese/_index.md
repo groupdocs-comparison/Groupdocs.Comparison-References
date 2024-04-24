@@ -20,6 +20,7 @@ Windows フォーム、ASP.NET、WPF、WCF、およびその他の .NET Framewor
 これらは、いくつかの有用なリソースへのリンクです。
 
 - [GroupDocs.Comparison for .NET API リファレンス](/comparison/ja/net/)
+- [.NET API チュートリアルの GroupDocs.Comparison](/tutorials/comparison/ja/net/)
 
 
 ## GroupDocs.Comparison for Java

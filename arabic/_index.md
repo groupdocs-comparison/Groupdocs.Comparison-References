@@ -20,6 +20,7 @@ url: /ar/
 هذه روابط لبعض المصادر المفيدة:
 
 - [GroupDocs.Comparison لمرجع .NET API](/comparison/ar/net/)
+- [GroupDocs.Comparison لبرامج .NET API التعليمية](/tutorials/comparison/ar/net/)
 
 
 ## GroupDocs.Comparison for Java

@@ -20,6 +20,7 @@ Windows Forms, ASP.NET, WPF, WCF 및 기타 .NET Framework 기반 응용 프로�
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 
 - [.NET API 참조용 GroupDocs.Comparison](/comparison/ko/net/)
+- [.NET API 자습서용 GroupDocs.Comparison](/tutorials/comparison/ko/net/)
 
 
 ## GroupDocs.Comparison for Java

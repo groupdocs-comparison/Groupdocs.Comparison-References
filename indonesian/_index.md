@@ -20,6 +20,7 @@ Native .NET API untuk Windows Forms, ASP.NET, WPF, WCF & aplikasi berbasis .NET 
 Ini adalah tautan ke beberapa sumber daya yang berguna:
 
 - [GroupDocs.Comparison untuk Referensi .NET API](/comparison/id/net/)
+- [GroupDocs.Perbandingan untuk Tutorial .NET API](/tutorials/comparison/id/net/)
 
 
 ## GroupDocs.Perbandingan untuk Java

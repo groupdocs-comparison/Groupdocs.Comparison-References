@@ -20,6 +20,7 @@ url: /zh/
 这些是一些有用资源的链接：
 
 - [GroupDocs.Comparison for .NET API 参考](/comparison/zh/net/)
+- [.NET API 教程的 GroupDocs.Comparison](/tutorials/comparison/zh/net/)
 
 
 ## GroupDocs.Comparison for Java
