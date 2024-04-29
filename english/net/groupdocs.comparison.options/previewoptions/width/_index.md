@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Preview width.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.comparison.options/previewoptions/width/
 ---
 ## PreviewOptions.Width property
