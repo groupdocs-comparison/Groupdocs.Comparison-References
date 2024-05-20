@@ -42,6 +42,7 @@ public class CompareOptions
 | [InsertedItemStyle](../../groupdocs.comparison.options/compareoptions/inserteditemstyle) { get; set; } | Describes style for inserted components. |
 | [LeaveGaps](../../groupdocs.comparison.options/compareoptions/leavegaps) { get; set; } | Indicates whether to display empty lines instead of inserted / deleted components in the final document or not (used with ShowInsertedContent or ShowDeletedContent properties). |
 | [MarkChangedContent](../../groupdocs.comparison.options/compareoptions/markchangedcontent) { get; set; } | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
+| [MarkLineBreaks](../../groupdocs.comparison.options/compareoptions/marklinebreaks) { get; set; } | Gets or sets a value indicating whether to mark line breaks. |
 | [MarkNestedContent](../../groupdocs.comparison.options/compareoptions/marknestedcontent) { get; set; } | Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted. |
 | [OriginalSize](../../groupdocs.comparison.options/compareoptions/originalsize) { get; set; } | Get or sets the original sizes of compared documents. |
 | [PaperSize](../../groupdocs.comparison.options/compareoptions/papersize) { get; set; } | Gets or sets the result document paper size. |

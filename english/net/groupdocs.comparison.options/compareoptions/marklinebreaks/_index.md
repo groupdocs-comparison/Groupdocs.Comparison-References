@@ -1,22 +1,21 @@
 ---
-title: OriginalSize
+title: MarkLineBreaks
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Get or sets the original sizes of compared documents.
+description: Gets or sets a value indicating whether to mark line breaks.
 type: docs
-weight: 220
-url: /net/groupdocs.comparison.options/compareoptions/originalsize/
+weight: 200
+url: /net/groupdocs.comparison.options/compareoptions/marklinebreaks/
 ---
-## CompareOptions.OriginalSize property
+## CompareOptions.MarkLineBreaks property
 
-Get or sets the original sizes of compared documents.
+Gets or sets a value indicating whether to mark line breaks.
 
 ```csharp
-public OriginalSize OriginalSize { get; set; }
+public bool MarkLineBreaks { get; set; }
 ```
 
 ### See Also
 
-* class [OriginalSize](../../originalsize)
 * class [CompareOptions](../../compareoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)
