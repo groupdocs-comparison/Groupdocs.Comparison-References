@@ -83,6 +83,8 @@ Example usage:
 | [setDeletedItemStyle(StyleSettings value)](#setDeletedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to deleted items. |
 | [getChangedItemStyle()](#getChangedItemStyle--) | Gets a style settings that will be applied to changed items. |
 | [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to changed items. |
+| [getMarkLineBreaks()](#getMarkLineBreaks--) | Get a value indicating whether to mark line breaks. |
+| [setMarkLineBreaks(boolean value)](#setMarkLineBreaks-boolean-) | Set a value indicating whether to mark line breaks. |
 | [isCompareBookmarks()](#isCompareBookmarks--) | Gets a flag that indicates whether bookmarks in Word documents will be compared. |
 | [setCompareBookmarks(boolean value)](#setCompareBookmarks-boolean-) | Sets a flag that indicates whether bookmarks in Word documents should be compared. |
 | [isCompareVariableProperty()](#isCompareVariableProperty--) | Gets a flag that indicates whether variables properties in Word documents will be compared. |
@@ -602,6 +604,29 @@ Sets a style settings that will be applied to changed items.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of changed items |
+
+### getMarkLineBreaks() {#getMarkLineBreaks--}
+```
+public final boolean getMarkLineBreaks()
+```
+
+
+Get a value indicating whether to mark line breaks.
+
+**Returns:**
+boolean - style settings of changed items
+### setMarkLineBreaks(boolean value) {#setMarkLineBreaks-boolean-}
+```
+public final void setMarkLineBreaks(boolean value)
+```
+
+
+Set a value indicating whether to mark line breaks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Style settings of changed items |
 
 ### isCompareBookmarks() {#isCompareBookmarks--}
 ```
