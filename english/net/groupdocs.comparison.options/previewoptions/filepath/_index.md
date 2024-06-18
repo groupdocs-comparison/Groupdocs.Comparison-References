@@ -1,17 +1,17 @@
 ---
-title: CreatePageStream
+title: FilePath
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Method to create output page preview stream.
+description: Path to the file.
 type: docs
-weight: 70
-url: /net/groupdocs.comparison.options/previewoptions/createpagestream/
+weight: 20
+url: /net/groupdocs.comparison.options/previewoptions/filepath/
 ---
-## PreviewOptions.CreatePageStream method
+## PreviewOptions.FilePath property
 
-Method to create output page preview stream.
+Path to the file.
 
 ```csharp
-public Stream CreatePageStream(int index)
+public string FilePath { get; set; }
 ```
 
 ### See Also
