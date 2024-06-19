@@ -3,7 +3,7 @@ title: ApplyChangeOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows to update the list of changes before applying them to the resulting document.
 type: docs
-weight: 190
+weight: 180
 url: /net/groupdocs.comparison.options/applychangeoptions/
 ---
 ## ApplyChangeOptions class

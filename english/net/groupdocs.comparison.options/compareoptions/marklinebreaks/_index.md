@@ -3,7 +3,7 @@ title: MarkLineBreaks
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a value indicating whether to mark line breaks.
 type: docs
-weight: 200
+weight: 190
 url: /net/groupdocs.comparison.options/compareoptions/marklinebreaks/
 ---
 ## CompareOptions.MarkLineBreaks property

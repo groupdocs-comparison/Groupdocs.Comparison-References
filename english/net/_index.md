@@ -13,7 +13,6 @@ version:
 | Namespace | Description |
 | --- | --- |
 | [GroupDocs.Comparison](./groupdocs.comparison) | The namespace provides classes to compare documents for all popular document formats. |
-| [GroupDocs.Comparison.Cells.Style](./groupdocs.comparison.cells.style) | The namespace provides classes for working with component styles in Cells format file. |
 | [GroupDocs.Comparison.Common.Delegates](./groupdocs.comparison.common.delegates) | The namespace provides classes for creating and releasing streams used by [`PreviewOptions`](groupdocs.comparison.options/previewoptions). |
 | [GroupDocs.Comparison.Common.Exceptions](./groupdocs.comparison.common.exceptions) | The namespace provides different exception classes. |
 | [GroupDocs.Comparison.Interfaces](./groupdocs.comparison.interfaces) | The namespace provides interfaces to instantiate output objects. |

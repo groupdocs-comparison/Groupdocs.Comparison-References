@@ -3,7 +3,7 @@ title: ChangeType
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Specifies change type.
 type: docs
-weight: 210
+weight: 200
 url: /net/groupdocs.comparison.options/changetype/
 ---
 ## ChangeType enumeration

@@ -3,7 +3,7 @@ title: ShowDeletedContent
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to show deleted components in resultant document or not.
 type: docs
-weight: 270
+weight: 260
 url: /net/groupdocs.comparison.options/compareoptions/showdeletedcontent/
 ---
 ## CompareOptions.ShowDeletedContent property

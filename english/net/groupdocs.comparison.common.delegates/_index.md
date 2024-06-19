@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Common.Delegates
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes for creating and releasing streams used by PreviewOptionsgroupdocs.comparison.options/previewoptions.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.comparison.common.delegates/
 ---
 The namespace provides classes for creating and releasing streams used by [`PreviewOptions`](groupdocs.comparison.options/previewoptions).

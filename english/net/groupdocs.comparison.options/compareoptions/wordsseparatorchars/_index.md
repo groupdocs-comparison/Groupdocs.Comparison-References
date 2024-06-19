@@ -3,7 +3,7 @@ title: WordsSeparatorChars
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets an array of delimiters to split text into words.
 type: docs
-weight: 330
+weight: 320
 url: /net/groupdocs.comparison.options/compareoptions/wordsseparatorchars/
 ---
 ## CompareOptions.WordsSeparatorChars property

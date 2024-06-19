@@ -3,7 +3,7 @@ title: PasswordSaveOption
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Specifies the password save option.
 type: docs
-weight: 320
+weight: 300
 url: /net/groupdocs.comparison.options/passwordsaveoption/
 ---
 ## PasswordSaveOption enumeration

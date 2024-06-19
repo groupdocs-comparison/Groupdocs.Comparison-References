@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Common.Exceptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides different exception classes.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.comparison.common.exceptions/
 ---
 The namespace provides different exception classes.
