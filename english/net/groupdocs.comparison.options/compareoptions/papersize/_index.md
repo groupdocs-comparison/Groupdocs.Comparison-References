@@ -3,7 +3,7 @@ title: PaperSize
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the result document paper size.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.comparison.options/compareoptions/papersize/
 ---
 ## CompareOptions.PaperSize property

@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Logger interface.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.comparison.logging/ilogger/
 ---
 ## ILogger interface

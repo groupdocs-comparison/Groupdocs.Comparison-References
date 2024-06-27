@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Defines document description properties.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.comparison.interfaces/idocumentinfo/
 ---
 ## IDocumentInfo interface

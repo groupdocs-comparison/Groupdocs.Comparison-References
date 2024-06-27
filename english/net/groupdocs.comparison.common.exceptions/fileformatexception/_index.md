@@ -3,7 +3,7 @@ title: FileFormatException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The exception that is thrown when comparing files with different formats.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.comparison.common.exceptions/fileformatexception/
 ---
 ## FileFormatException class

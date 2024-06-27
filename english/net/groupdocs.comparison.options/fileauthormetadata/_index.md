@@ -3,7 +3,7 @@ title: FileAuthorMetadata
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Information about documents author metadata.
 type: docs
-weight: 230
+weight: 250
 url: /net/groupdocs.comparison.options/fileauthormetadata/
 ---
 ## FileAuthorMetadata class

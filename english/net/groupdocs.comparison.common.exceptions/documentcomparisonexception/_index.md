@@ -3,7 +3,7 @@ title: DocumentComparisonException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The exception that is thrown when an error occurs while comparing documents.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison.common.exceptions/documentcomparisonexception/
 ---
 ## DocumentComparisonException class
