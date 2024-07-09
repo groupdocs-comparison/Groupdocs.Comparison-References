@@ -3,7 +3,7 @@ title: PasswordProtectedFileException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The exception that is thrown when the document is protected by password.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.comparison.common.exceptions/passwordprotectedfileexception/
 ---
 ## PasswordProtectedFileException class

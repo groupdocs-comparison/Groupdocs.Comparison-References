@@ -3,7 +3,7 @@ title: ComparerSettings
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Defines settings for customizing Comparer./comparer behaviour.
 type: docs
-weight: 110
+weight: 100
 url: /net/groupdocs.comparison/comparersettings/
 ---
 ## ComparerSettings class

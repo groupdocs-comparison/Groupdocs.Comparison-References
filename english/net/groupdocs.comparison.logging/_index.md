@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Logging
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes for working with integrated or your own logger.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.comparison.logging/
 ---
 The namespace provides classes for working with integrated or your own logger.

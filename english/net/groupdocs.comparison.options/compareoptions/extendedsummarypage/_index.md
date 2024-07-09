@@ -3,7 +3,7 @@ title: ExtendedSummaryPage
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to add extended file comparison information to the summary page or not.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.comparison.options/compareoptions/extendedsummarypage/
 ---
 ## CompareOptions.ExtendedSummaryPage property

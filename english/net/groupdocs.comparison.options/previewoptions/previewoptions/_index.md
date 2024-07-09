@@ -6,44 +6,20 @@ type: docs
 weight: 10
 url: /net/groupdocs.comparison.options/previewoptions/previewoptions/
 ---
-## PreviewOptions(CreatePageStream) {#constructor}
+## PreviewOptions constructor
 
 Initializes a new instance of [`PreviewOptions`](../../previewoptions) class.
 
 ```csharp
-public PreviewOptions(CreatePageStream createPageStream)
+public PreviewOptions(string filePath)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | CreatePageStream | Delegate which defines method to create output page preview stream. |
+| filePath | String | Defines path to create output page preview. |
 
 ### See Also
 
-* delegate [CreatePageStream](../../../groupdocs.comparison.common.delegates/createpagestream)
-* class [PreviewOptions](../../previewoptions)
-* namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
-* assembly [GroupDocs.Comparison](../../../)
-
----
-
-## PreviewOptions(CreatePageStream, ReleasePageStream) {#constructor_1}
-
-Initializes a new instance of [`PreviewOptions`](../../previewoptions) class.
-
-```csharp
-public PreviewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| createPageStream | CreatePageStream | Delegate which defines method to create output page preview stream. |
-| releasePageStream | ReleasePageStream | Delegate which defines method to release output page preview stream. |
-
-### See Also
-
-* delegate [CreatePageStream](../../../groupdocs.comparison.common.delegates/createpagestream)
-* delegate [ReleasePageStream](../../../groupdocs.comparison.common.delegates/releasepagestream)
 * class [PreviewOptions](../../previewoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)

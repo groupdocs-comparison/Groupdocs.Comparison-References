@@ -3,7 +3,7 @@ title: CalculateCoordinatesModeEnumeration
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Enumerates the type of coordinates calculation.
 type: docs
-weight: 200
+weight: 190
 url: /net/groupdocs.comparison.options/calculatecoordinatesmodeenumeration/
 ---
 ## CalculateCoordinatesModeEnumeration enumeration
