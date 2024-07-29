@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents document preview options.
 type: docs
-weight: 320
+weight: 340
 url: /net/groupdocs.comparison.options/previewoptions/
 ---
 ## PreviewOptions class
@@ -18,24 +18,19 @@ public class PreviewOptions
 
 | Name | Description |
 | --- | --- |
-| [PreviewOptions](previewoptions)(string) | Initializes a new instance of [`PreviewOptions`](../previewoptions) class. |
+| [PreviewOptions](previewoptions#constructor)(CreatePageStream) | Initializes a new instance of [`PreviewOptions`](../previewoptions) class. |
+| [PreviewOptions](previewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | Initializes a new instance of [`PreviewOptions`](../previewoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FilePath](../../groupdocs.comparison.options/previewoptions/filepath) { get; set; } | Path to the file. |
+| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream) { get; set; } | Delegate which defines method to create output page preview stream. |
 | [Height](../../groupdocs.comparison.options/previewoptions/height) { get; set; } | Preview height. |
 | [PageNumbers](../../groupdocs.comparison.options/previewoptions/pagenumbers) { get; set; } | Page numbers that will be previewed. |
 | [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | Preview image format. |
+| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) { get; set; } | Delegate which defines method to remove output page preview stream. |
 | [Width](../../groupdocs.comparison.options/previewoptions/width) { get; set; } | Preview width. |
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [CreatePageStream](../../groupdocs.comparison.options/previewoptions/createpagestream)(int) | Method to create output page preview stream. |
-| [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream)(int, Stream) | Method to remove output page preview stream. |
 
 ### See Also
 

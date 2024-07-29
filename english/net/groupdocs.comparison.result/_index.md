@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Result
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes which represents the comparison results.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.comparison.result/
 ---
 The namespace provides classes which represents the comparison results.

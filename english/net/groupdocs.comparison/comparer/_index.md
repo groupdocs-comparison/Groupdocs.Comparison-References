@@ -3,7 +3,7 @@ title: Comparer
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents main class that controls the documents comparison process.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.comparison/comparer/
 ---
 ## Comparer class

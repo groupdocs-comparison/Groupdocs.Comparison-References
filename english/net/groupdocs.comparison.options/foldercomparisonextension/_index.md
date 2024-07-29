@@ -3,7 +3,7 @@ title: FolderComparisonExtension
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Folder extensions.
 type: docs
-weight: 240
+weight: 260
 url: /net/groupdocs.comparison.options/foldercomparisonextension/
 ---
 ## FolderComparisonExtension enumeration

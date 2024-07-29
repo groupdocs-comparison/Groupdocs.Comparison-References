@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Interfaces
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides interfaces to instantiate output objects.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison.interfaces/
 ---
 The namespace provides interfaces to instantiate output objects.

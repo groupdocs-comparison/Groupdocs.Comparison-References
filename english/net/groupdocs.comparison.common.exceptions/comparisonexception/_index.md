@@ -3,7 +3,7 @@ title: ComparisonException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Base class for all comparison process exceptions.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison.common.exceptions/comparisonexception/
 ---
 ## ComparisonException class

@@ -1,21 +1,22 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Method to remove output page preview stream.
+description: Delegate which defines method to remove output page preview stream.
 type: docs
-weight: 80
+weight: 60
 url: /net/groupdocs.comparison.options/previewoptions/releasepagestream/
 ---
-## PreviewOptions.ReleasePageStream method
+## PreviewOptions.ReleasePageStream property
 
-Method to remove output page preview stream.
+Delegate which defines method to remove output page preview stream.
 
 ```csharp
-public void ReleasePageStream(int index, Stream stream)
+public ReleasePageStream ReleasePageStream { get; set; }
 ```
 
 ### See Also
 
+* delegate [ReleasePageStream](../../../groupdocs.comparison.common.delegates/releasepagestream)
 * class [PreviewOptions](../../previewoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)

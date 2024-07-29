@@ -1,21 +1,22 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Method to create output page preview stream.
+description: Delegate which defines method to create output page preview stream.
 type: docs
-weight: 70
+weight: 20
 url: /net/groupdocs.comparison.options/previewoptions/createpagestream/
 ---
-## PreviewOptions.CreatePageStream method
+## PreviewOptions.CreatePageStream property
 
-Method to create output page preview stream.
+Delegate which defines method to create output page preview stream.
 
 ```csharp
-public Stream CreatePageStream(int index)
+public CreatePageStream CreatePageStream { get; set; }
 ```
 
 ### See Also
 
+* delegate [CreatePageStream](../../../groupdocs.comparison.common.delegates/createpagestream)
 * class [PreviewOptions](../../previewoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)

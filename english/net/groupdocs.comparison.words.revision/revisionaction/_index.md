@@ -3,7 +3,7 @@ title: RevisionAction
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Action that can be applied to a revision.
 type: docs
-weight: 430
+weight: 450
 url: /net/groupdocs.comparison.words.revision/revisionaction/
 ---
 ## RevisionAction enumeration
