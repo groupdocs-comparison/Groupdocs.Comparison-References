@@ -49,6 +49,7 @@ public class CompareOptions
 | [PasswordSaveOption](../../groupdocs.comparison.options/compareoptions/passwordsaveoption) { get; set; } | Gets or sets the password save option. |
 | [RevisionAuthorName](../../groupdocs.comparison.options/compareoptions/revisionauthorname) { get; set; } | Gets or sets revision author name. Enabled if not null. |
 | [SensitivityOfComparison](../../groupdocs.comparison.options/compareoptions/sensitivityofcomparison) { get; set; } | Gets or sets a sensitivity of comparison. |
+| [SensitivityOfComparisonForTables](../../groupdocs.comparison.options/compareoptions/sensitivityofcomparisonfortables) { get; set; } | Gets or sets a sensitivity of comparison for tables. |
 | [ShowDeletedContent](../../groupdocs.comparison.options/compareoptions/showdeletedcontent) { get; set; } | Indicates whether to show deleted components in resultant document or not. |
 | [ShowInsertedContent](../../groupdocs.comparison.options/compareoptions/showinsertedcontent) { get; set; } | Indicates whether to show inserted components in resultant document or not. |
 | [ShowOnlyChanged](../../groupdocs.comparison.options/compareoptions/showonlychanged) { get; set; } | Controls to enable the display of only changed items. |
