@@ -18,7 +18,7 @@ public class PasswordProtectedFileException : ComparisonException
 
 | Name | Description |
 | --- | --- |
-| [PasswordProtectedFileException](passwordprotectedfileexception)() | Initializes a new instance of [`InvalidPasswordException`](../invalidpasswordexception) class. |
+| [PasswordProtectedFileException](passwordprotectedfileexception)() | Initializes a new instance of [`PasswordProtectedFileException`](../passwordprotectedfileexception) class. |
 
 ### See Also
 

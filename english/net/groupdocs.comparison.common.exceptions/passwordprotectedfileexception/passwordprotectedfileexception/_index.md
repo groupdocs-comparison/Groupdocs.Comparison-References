@@ -1,14 +1,14 @@
 ---
 title: PasswordProtectedFileException
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Initializes a new instance of InvalidPasswordExceptiongroupdocs.comparison.common.exceptions/invalidpasswordexception class.
+description: Initializes a new instance of PasswordProtectedFileExceptiongroupdocs.comparison.common.exceptions/passwordprotectedfileexception class.
 type: docs
 weight: 10
 url: /net/groupdocs.comparison.common.exceptions/passwordprotectedfileexception/passwordprotectedfileexception/
 ---
 ## PasswordProtectedFileException constructor
 
-Initializes a new instance of [`InvalidPasswordException`](../../invalidpasswordexception) class.
+Initializes a new instance of [`PasswordProtectedFileException`](../../passwordprotectedfileexception) class.
 
 ```csharp
 public PasswordProtectedFileException()
