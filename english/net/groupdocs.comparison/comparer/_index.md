@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison/comparer/
 Represents main class that controls the documents comparison process.
 
 ```csharp
-public class Comparer : IDisposable
+public sealed class Comparer : IDisposable
 ```
 
 ## Constructors
