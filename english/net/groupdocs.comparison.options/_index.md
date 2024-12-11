@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Options
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes that allows to specify additional options for documents comparison process.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.comparison.options/
 ---
 The namespace provides classes that allows to specify additional options for documents comparison process.
@@ -14,7 +14,6 @@ The namespace provides classes that allows to specify additional options for doc
 | --- | --- |
 | [ApplyChangeOptions](./applychangeoptions) | Allows to update the list of changes before applying them to the resulting document. |
 | [CompareOptions](./compareoptions) | Allows to set different compare options. |
-| [DiagramMasterSetting](./diagrammastersetting) | Diagram master settings. |
 | [FileAuthorMetadata](./fileauthormetadata) | Information about document's author metadata. |
 | [GetChangeOptions](./getchangeoptions) | The option allows to filter changes by type. |
 | [LoadOptions](./loadoptions) | Allows to specify additional options when loading a document. |

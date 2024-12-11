@@ -3,7 +3,7 @@ title: UserMasterPath
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Path to user masters template for Diagrams.
 type: docs
-weight: 330
+weight: 320
 url: /net/groupdocs.comparison.options/compareoptions/usermasterpath/
 ---
 ## CompareOptions.UserMasterPath property

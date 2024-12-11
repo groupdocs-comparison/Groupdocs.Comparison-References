@@ -3,7 +3,7 @@ title: DirectoryCompare
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of folders.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.comparison.options/compareoptions/directorycompare/
 ---
 ## CompareOptions.DirectoryCompare property

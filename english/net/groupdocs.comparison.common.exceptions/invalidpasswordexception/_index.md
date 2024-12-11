@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The exception that is thrown when specified password is incorrect.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.comparison.common.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class

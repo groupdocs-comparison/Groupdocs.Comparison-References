@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Words.Revision
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes for working with revisions in WORD format file.
 type: docs
-weight: 100
+weight: 90
 url: /net/groupdocs.comparison.words.revision/
 ---
 The namespace provides classes for working with revisions in WORD format file.

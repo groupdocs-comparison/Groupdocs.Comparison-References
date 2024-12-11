@@ -3,7 +3,7 @@ title: Document
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents compared document.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.comparison/document/
 ---
 ## Document class

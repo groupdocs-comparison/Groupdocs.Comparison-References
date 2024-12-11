@@ -3,7 +3,7 @@ title: RevisionAuthorName
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets revision author name. Enabled if not null.
 type: docs
-weight: 250
+weight: 240
 url: /net/groupdocs.comparison.options/compareoptions/revisionauthorname/
 ---
 ## CompareOptions.RevisionAuthorName property

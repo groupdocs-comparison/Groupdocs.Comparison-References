@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Provides methods to license the component. Learn more about licensing herehttps//purchase.groupdocs.com/faqs/licensing.
 type: docs
-weight: 140
+weight: 130
 url: /net/groupdocs.comparison/license/
 ---
 ## License class

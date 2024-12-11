@@ -3,7 +3,7 @@ title: ShowInsertedContent
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to show inserted components in resultant document or not.
 type: docs
-weight: 290
+weight: 280
 url: /net/groupdocs.comparison.options/compareoptions/showinsertedcontent/
 ---
 ## CompareOptions.ShowInsertedContent property

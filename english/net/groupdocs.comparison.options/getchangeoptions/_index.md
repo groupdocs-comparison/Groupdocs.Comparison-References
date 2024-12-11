@@ -3,7 +3,7 @@ title: GetChangeOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The option allows to filter changes by type.
 type: docs
-weight: 270
+weight: 250
 url: /net/groupdocs.comparison.options/getchangeoptions/
 ---
 ## GetChangeOptions class
