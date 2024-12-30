@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents logger implementation which sends all messages to console.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.comparison.logging/consolelogger/
 ---
 ## ConsoleLogger class

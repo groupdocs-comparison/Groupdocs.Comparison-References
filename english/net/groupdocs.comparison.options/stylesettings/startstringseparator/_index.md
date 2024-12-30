@@ -3,7 +3,7 @@ title: StartStringSeparator
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the begin separator string.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.comparison.options/stylesettings/startstringseparator/
 ---
 ## StyleSettings.StartStringSeparator property

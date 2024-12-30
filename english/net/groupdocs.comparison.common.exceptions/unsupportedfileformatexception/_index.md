@@ -3,7 +3,7 @@ title: UnsupportedFileFormatException
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The exception that is thrown when file of this format doesnt support comparison.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class

@@ -3,7 +3,7 @@ title: SupportedLocales
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Class that provides methods for checking supported locales of GroupDocs.Comparison.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.comparison.localization/supportedlocales/
 ---
 ## SupportedLocales class

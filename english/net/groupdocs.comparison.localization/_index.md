@@ -3,7 +3,7 @@ title: GroupDocs.Comparison.Localization
 second_title: GroupDocs.Comparison for .NET API Reference
 description: The namespace provides classes checking supported locales.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.comparison.localization/
 ---
 The namespace provides classes checking supported locales.

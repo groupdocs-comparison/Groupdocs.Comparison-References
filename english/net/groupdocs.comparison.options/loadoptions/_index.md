@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows to specify additional options when loading a document.
 type: docs
-weight: 260
+weight: 280
 url: /net/groupdocs.comparison.options/loadoptions/
 ---
 ## LoadOptions class

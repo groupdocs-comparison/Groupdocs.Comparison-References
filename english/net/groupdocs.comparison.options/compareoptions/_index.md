@@ -3,7 +3,7 @@ title: CompareOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows to set different compare options.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.comparison.options/compareoptions/
 ---
 ## CompareOptions class
@@ -33,6 +33,7 @@ public class CompareOptions
 | [DeletedItemStyle](../../groupdocs.comparison.options/compareoptions/deleteditemstyle) { get; set; } | Describes style for deleted components. |
 | [DetalisationLevel](../../groupdocs.comparison.options/compareoptions/detalisationlevel) { get; set; } | Gets or sets the comparison detail level. |
 | [DetectStyleChanges](../../groupdocs.comparison.options/compareoptions/detectstylechanges) { get; set; } | Indicates whether to detect style changes or not. |
+| [DiagramMasterSetting](../../groupdocs.comparison.options/compareoptions/diagrammastersetting) { get; set; } | Gets or sets the path value for master or use compare without path of master. This option only for Diagram. |
 | [DirectoryCompare](../../groupdocs.comparison.options/compareoptions/directorycompare) { get; set; } | Control to turn on comparison of folders. |
 | [ExtendedSummaryPage](../../groupdocs.comparison.options/compareoptions/extendedsummarypage) { get; set; } | Indicates whether to add extended file comparison information to the summary page or not. |
 | [FolderComparisonExtension](../../groupdocs.comparison.options/compareoptions/foldercomparisonextension) { get; set; } | Gets or sets the format of the resulting folder comparison file. |

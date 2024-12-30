@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Delegate which defines method to release output page preview stream used by PreviewOptions../groupdocs.comparison.options/previewoptions.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.comparison.common.delegates/releasepagestream/
 ---
 ## ReleasePageStream delegate
