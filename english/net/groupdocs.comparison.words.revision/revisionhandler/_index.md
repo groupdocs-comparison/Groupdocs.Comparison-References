@@ -11,7 +11,7 @@ url: /net/groupdocs.comparison.words.revision/revisionhandler/
 Represents the main class that controls revision handling.
 
 ```csharp
-public class RevisionHandler : IDisposable
+public sealed class RevisionHandler : IDisposable
 ```
 
 ## Constructors

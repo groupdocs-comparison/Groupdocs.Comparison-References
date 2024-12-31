@@ -1,17 +1,17 @@
 ---
-title: StartStringSeparator
+title: ShapeColor
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Gets or sets the begin separator string.
+description: Gets or sets the shape color. If not set then the FontColor color is used.
 type: docs
-weight: 110
-url: /net/groupdocs.comparison.options/stylesettings/startstringseparator/
+weight: 100
+url: /net/groupdocs.comparison.options/stylesettings/shapecolor/
 ---
-## StyleSettings.StartStringSeparator property
+## StyleSettings.ShapeColor property
 
-Gets or sets the begin separator string.
+Gets or sets the shape color. If not set, then the FontColor color is used.
 
 ```csharp
-public string StartStringSeparator { get; set; }
+public Color ShapeColor { get; set; }
 ```
 
 ### See Also

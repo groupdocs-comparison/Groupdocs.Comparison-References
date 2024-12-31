@@ -32,6 +32,7 @@ public class StyleSettings
 | [IsStrikethrough](../../groupdocs.comparison.options/stylesettings/isstrikethrough) { get; set; } | Gets or sets a value indicating whether strike through. |
 | [IsUnderline](../../groupdocs.comparison.options/stylesettings/isunderline) { get; set; } | Gets or sets a value indicating whether this is underline. |
 | [OriginalSize](../../groupdocs.comparison.options/stylesettings/originalsize) { get; set; } | Get or sets the original sizes of comparing documents. |
+| [ShapeColor](../../groupdocs.comparison.options/stylesettings/shapecolor) { get; set; } | Gets or sets the shape color. If not set, then the FontColor color is used. |
 | [StartStringSeparator](../../groupdocs.comparison.options/stylesettings/startstringseparator) { get; set; } | Gets or sets the begin separator string. |
 | [WordsSeparators](../../groupdocs.comparison.options/stylesettings/wordsseparators) { get; set; } | Gets or sets the words separator chars. |
 
