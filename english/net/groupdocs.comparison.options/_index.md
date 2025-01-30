@@ -17,6 +17,7 @@ The namespace provides classes that allows to specify additional options for doc
 | [DiagramMasterSetting](./diagrammastersetting) | Diagram master settings. |
 | [FileAuthorMetadata](./fileauthormetadata) | Information about document's author metadata. |
 | [GetChangeOptions](./getchangeoptions) | The option allows to filter changes by type. |
+| [IgnoreChangeSensitivitySettings](./ignorechangesensitivitysettings) | The option allows to ignore changes by similarity percentage. |
 | [LoadOptions](./loadoptions) | Allows to specify additional options when loading a document. |
 | [OriginalSize](./originalsize) | Represents original page size. Used only for comparing image with different formats. |
 | [PreviewOptions](./previewoptions) | Represents document preview options. |
@@ -31,6 +32,7 @@ The namespace provides classes that allows to specify additional options for doc
 | [ChangeType](./changetype) | Specifies change type. |
 | [DetalisationLevel](./detalisationlevel) | Specifies the level of comparison details. |
 | [FolderComparisonExtension](./foldercomparisonextension) | Folder extensions. |
+| [ImagesInheritance](./imagesinheritance) | Source of images inheritance when image comparison is disabled. |
 | [MetadataType](./metadatatype) | Determines from where result document will take metadata information |
 | [PaperSize](./papersize) | The option to set the Paper size of the result document after comparison. |
 | [PasswordSaveOption](./passwordsaveoption) | Specifies the password save option. |

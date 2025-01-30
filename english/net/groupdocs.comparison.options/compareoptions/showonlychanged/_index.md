@@ -3,7 +3,7 @@ title: ShowOnlyChanged
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Controls to enable the display of only changed items.
 type: docs
-weight: 300
+weight: 330
 url: /net/groupdocs.comparison.options/compareoptions/showonlychanged/
 ---
 ## CompareOptions.ShowOnlyChanged property

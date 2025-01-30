@@ -3,7 +3,7 @@ title: StyleChangeInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents information about style change.
 type: docs
-weight: 430
+weight: 450
 url: /net/groupdocs.comparison.result/stylechangeinfo/
 ---
 ## StyleChangeInfo class
@@ -34,6 +34,7 @@ public sealed class StyleChangeInfo : IEquatable<StyleChangeInfo>
 | --- | --- |
 | override [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals_1)(object) | Equivalence check with object. |
 | [Equals](../../groupdocs.comparison.result/stylechangeinfo/equals#equals)(StyleChangeInfo) | Style change equivalence check. |
+| override [GetHashCode](../../groupdocs.comparison.result/stylechangeinfo/gethashcode)() | Generates a hash code for the current StyleChangeInfo instance. |
 
 ### See Also
 

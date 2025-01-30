@@ -3,7 +3,7 @@ title: LeaveGaps
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to display empty lines instead of inserted / deleted components in the final document or not used with ShowInsertedContent or ShowDeletedContent properties.
 type: docs
-weight: 180
+weight: 210
 url: /net/groupdocs.comparison.options/compareoptions/leavegaps/
 ---
 ## CompareOptions.LeaveGaps property

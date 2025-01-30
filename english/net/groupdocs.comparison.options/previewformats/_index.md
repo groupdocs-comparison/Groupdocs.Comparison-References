@@ -3,7 +3,7 @@ title: PreviewFormats
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Document preview supported formats.
 type: docs
-weight: 330
+weight: 350
 url: /net/groupdocs.comparison.options/previewformats/
 ---
 ## PreviewFormats enumeration

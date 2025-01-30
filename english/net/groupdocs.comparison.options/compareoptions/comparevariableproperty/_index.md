@@ -3,7 +3,7 @@ title: CompareVariableProperty
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of variables properties in Word format.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.comparison.options/compareoptions/comparevariableproperty/
 ---
 ## CompareOptions.CompareVariableProperty property

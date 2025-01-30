@@ -1,22 +1,21 @@
 ---
-title: DeletedItemStyle
+title: CompareImagesPdf
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Describes style for deleted components.
+description: Control to turn on comparison of images in PDF format.
 type: docs
-weight: 90
-url: /net/groupdocs.comparison.options/compareoptions/deleteditemstyle/
+weight: 70
+url: /net/groupdocs.comparison.options/compareoptions/compareimagespdf/
 ---
-## CompareOptions.DeletedItemStyle property
+## CompareOptions.CompareImagesPdf property
 
-Describes style for deleted components.
+Control to turn on comparison of images in PDF format.
 
 ```csharp
-public StyleSettings DeletedItemStyle { get; set; }
+public bool CompareImagesPdf { get; set; }
 ```
 
 ### See Also
 
-* class [StyleSettings](../../stylesettings)
 * class [CompareOptions](../../compareoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)

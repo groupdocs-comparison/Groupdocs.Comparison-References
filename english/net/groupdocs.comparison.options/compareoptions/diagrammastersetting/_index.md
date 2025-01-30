@@ -3,7 +3,7 @@ title: DiagramMasterSetting
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the path value for master or use compare without path of master. This option only for Diagram.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.comparison.options/compareoptions/diagrammastersetting/
 ---
 ## CompareOptions.DiagramMasterSetting property

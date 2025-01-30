@@ -3,7 +3,7 @@ title: MarkNestedContent
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted.
 type: docs
-weight: 210
+weight: 240
 url: /net/groupdocs.comparison.options/compareoptions/marknestedcontent/
 ---
 ## CompareOptions.MarkNestedContent property
