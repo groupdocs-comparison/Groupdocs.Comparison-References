@@ -3,7 +3,7 @@ title: SensitivityOfComparison
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a sensitivity of comparison.
 type: docs
-weight: 260
+weight: 290
 url: /net/groupdocs.comparison.options/compareoptions/sensitivityofcomparison/
 ---
 ## CompareOptions.SensitivityOfComparison property

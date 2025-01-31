@@ -3,7 +3,7 @@ title: InsertedItemStyle
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Describes style for inserted components.
 type: docs
-weight: 170
+weight: 200
 url: /net/groupdocs.comparison.options/compareoptions/inserteditemstyle/
 ---
 ## CompareOptions.InsertedItemStyle property

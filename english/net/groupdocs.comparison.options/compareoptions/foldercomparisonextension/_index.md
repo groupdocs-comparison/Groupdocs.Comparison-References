@@ -3,7 +3,7 @@ title: FolderComparisonExtension
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the format of the resulting folder comparison file.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.comparison.options/compareoptions/foldercomparisonextension/
 ---
 ## CompareOptions.FolderComparisonExtension property

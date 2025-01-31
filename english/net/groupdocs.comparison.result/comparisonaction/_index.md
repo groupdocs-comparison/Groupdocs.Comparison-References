@@ -3,7 +3,7 @@ title: ComparisonAction
 second_title: GroupDocs.Comparison for .NET API Reference
 description: An action that can be applied to change.
 type: docs
-weight: 390
+weight: 410
 url: /net/groupdocs.comparison.result/comparisonaction/
 ---
 ## ComparisonAction enumeration

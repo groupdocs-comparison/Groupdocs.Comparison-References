@@ -3,7 +3,7 @@ title: DetalisationLevel
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the comparison detail level.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.comparison.options/compareoptions/detalisationlevel/
 ---
 ## CompareOptions.DetalisationLevel property
