@@ -3,7 +3,7 @@ title: FontDirectories
 second_title: GroupDocs.Comparison for .NET API Reference
 description: List of font directories to load.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.comparison.options/loadoptions/fontdirectories/
 ---
 ## LoadOptions.FontDirectories property
