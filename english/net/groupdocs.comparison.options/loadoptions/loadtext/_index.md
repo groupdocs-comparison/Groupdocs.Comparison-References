@@ -3,7 +3,7 @@ title: LoadText
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates that the strings passed are comparison text not file paths For Text Comparison only.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison.options/loadoptions/loadtext/
 ---
 ## LoadOptions.LoadText property

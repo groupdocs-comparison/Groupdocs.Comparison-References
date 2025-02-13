@@ -24,6 +24,7 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [FileType](../../groupdocs.comparison.options/loadoptions/filetype) { get; set; } | Manually set the file type for comparison to override automatic file type detection. |
 | [FontDirectories](../../groupdocs.comparison.options/loadoptions/fontdirectories) { get; set; } | List of font directories to load. |
 | [LoadText](../../groupdocs.comparison.options/loadoptions/loadtext) { get; set; } | Indicates that the strings passed are comparison text, not file paths (For Text Comparison only). |
 | [Password](../../groupdocs.comparison.options/loadoptions/password) { get; set; } | Password of document. |

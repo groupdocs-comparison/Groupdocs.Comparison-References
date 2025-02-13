@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Password of document.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison.options/loadoptions/password/
 ---
 ## LoadOptions.Password property
