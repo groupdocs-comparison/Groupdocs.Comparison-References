@@ -39,10 +39,17 @@ Example usage:
 | --- | --- |
 | [CompareOptions()](#CompareOptions--) | Initializes a new instance of the CompareOptions class. |
 | [CompareOptions(StyleSettings insertedItemStyle, StyleSettings deletedItemStyle, StyleSettings changedItemStyle)](#CompareOptions-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-com.groupdocs.comparison.options.style.StyleSettings-) | Initializes a new instance of the CompareOptions class with settings for different styles. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [ignoreChangeSettings](#ignoreChangeSettings) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getIgnoreChangeSettings()](#getIgnoreChangeSettings--) | Get settings to ignore changes based on similarity. |
+| [setIgnoreChangeSettings(IgnoreChangeSensitivitySettings ignoreChangeSettings)](#setIgnoreChangeSettings-com.groupdocs.comparison.options.IgnoreChangeSensitivitySettings-) | Sets settings to ignore changes based on similarity. |
 | [getUserMasterPath()](#getUserMasterPath--) | Gets the path to the user master's template for Diagrams. |
 | [setUserMasterPath(String userMasterPath)](#setUserMasterPath-java.lang.String-) | Sets the path to the user master's template for Diagrams. |
 | [getRevisionAuthorName()](#getRevisionAuthorName--) | Gets or sets revision author name. |
@@ -85,6 +92,10 @@ Example usage:
 | [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to changed items. |
 | [getMarkLineBreaks()](#getMarkLineBreaks--) | Get a value indicating whether to mark line breaks. |
 | [setMarkLineBreaks(boolean value)](#setMarkLineBreaks-boolean-) | Set a value indicating whether to mark line breaks. |
+| [isCompareImagesPdf()](#isCompareImagesPdf--) | Get a value indicating whether to compare images. |
+| [setCompareImagesPdf(boolean compareImagesPdf)](#setCompareImagesPdf-boolean-) | Set a value indicating whether to compare images. |
+| [getImagesInheritanceMode()](#getImagesInheritanceMode--) | Get a value indicating whether images inheritance mode |
+| [setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode)](#setImagesInheritanceMode-com.groupdocs.comparison.options.enums.ImagesInheritance-) | Set a value indicating whether to images inheritance mode. |
 | [isCompareBookmarks()](#isCompareBookmarks--) | Gets a flag that indicates whether bookmarks in Word documents will be compared. |
 | [setCompareBookmarks(boolean value)](#setCompareBookmarks-boolean-) | Sets a flag that indicates whether bookmarks in Word documents should be compared. |
 | [isCompareVariableProperty()](#isCompareVariableProperty--) | Gets a flag that indicates whether variables properties in Word documents will be compared. |
@@ -93,6 +104,8 @@ Example usage:
 | [setCompareDocumentProperty(boolean value)](#setCompareDocumentProperty-boolean-) | Sets a flag that indicates whether built and custom properties in Word documents should be compared. |
 | [getSensitivityOfComparison()](#getSensitivityOfComparison--) | Gets a sensitivity of comparison. |
 | [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets a sensitivity of comparison. |
+| [setSensitivityOfComparisonForTables(Integer value)](#setSensitivityOfComparisonForTables-java.lang.Integer-) | Sets a sensitivity of comparison for tables. |
+| [getSensitivityOfComparisonForTables()](#getSensitivityOfComparisonForTables--) | Get a sensitivity of comparison for tables. |
 | [setWordsSeparatorChars(char[] value)](#setWordsSeparatorChars-char---) | Sets an array of delimiters which will be used to split text into words. |
 | [getPasswordSaveOption()](#getPasswordSaveOption--) | Gets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object. |
 | [setPasswordSaveOption(PasswordSaveOption value)](#setPasswordSaveOption-com.groupdocs.comparison.options.enums.PasswordSaveOption-) | Sets a password save option represented by [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) object. |
@@ -132,6 +145,35 @@ Initializes a new instance of the CompareOptions class with settings for differe
 | insertedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for inserted items |
 | deletedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for deleted items |
 | changedItemStyle | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings for changed style items |
+
+### ignoreChangeSettings {#ignoreChangeSettings}
+```
+public IgnoreChangeSensitivitySettings ignoreChangeSettings
+```
+
+
+### getIgnoreChangeSettings() {#getIgnoreChangeSettings--}
+```
+public IgnoreChangeSensitivitySettings getIgnoreChangeSettings()
+```
+
+
+Get settings to ignore changes based on similarity.
+
+**Returns:**
+com.groupdocs.comparison.options.IgnoreChangeSensitivitySettings - Settings to ignore changes.
+### setIgnoreChangeSettings(IgnoreChangeSensitivitySettings ignoreChangeSettings) {#setIgnoreChangeSettings-com.groupdocs.comparison.options.IgnoreChangeSensitivitySettings-}
+```
+public void setIgnoreChangeSettings(IgnoreChangeSensitivitySettings ignoreChangeSettings)
+```
+
+
+Sets settings to ignore changes based on similarity.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreChangeSettings | com.groupdocs.comparison.options.IgnoreChangeSensitivitySettings | Settings to ignore changes. |
 
 ### getUserMasterPath() {#getUserMasterPath--}
 ```
@@ -628,6 +670,52 @@ Set a value indicating whether to mark line breaks.
 | --- | --- | --- |
 | value | boolean | Style settings of changed items |
 
+### isCompareImagesPdf() {#isCompareImagesPdf--}
+```
+public boolean isCompareImagesPdf()
+```
+
+
+Get a value indicating whether to compare images.
+
+**Returns:**
+boolean - compare images
+### setCompareImagesPdf(boolean compareImagesPdf) {#setCompareImagesPdf-boolean-}
+```
+public void setCompareImagesPdf(boolean compareImagesPdf)
+```
+
+
+Set a value indicating whether to compare images.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| compareImagesPdf | boolean | Compare images |
+
+### getImagesInheritanceMode() {#getImagesInheritanceMode--}
+```
+public ImagesInheritance getImagesInheritanceMode()
+```
+
+
+Get a value indicating whether images inheritance mode
+
+**Returns:**
+com.groupdocs.comparison.options.enums.ImagesInheritance - compare images
+### setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode) {#setImagesInheritanceMode-com.groupdocs.comparison.options.enums.ImagesInheritance-}
+```
+public void setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode)
+```
+
+
+Set a value indicating whether to images inheritance mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imagesInheritanceMode | com.groupdocs.comparison.options.enums.ImagesInheritance | Images inheritance mode |
+
 ### isCompareBookmarks() {#isCompareBookmarks--}
 ```
 public boolean isCompareBookmarks()
@@ -734,6 +822,43 @@ The percentage of deleted and inserted elements of two compared objects in relat
 | --- | --- | --- |
 | value | int | The sensitivity of comparison |
 
+### setSensitivityOfComparisonForTables(Integer value) {#setSensitivityOfComparisonForTables-java.lang.Integer-}
+```
+public void setSensitivityOfComparisonForTables(Integer value)
+```
+
+
+Sets a sensitivity of comparison for tables.
+
+If the value is null, SensitivityOfComparison is used instead. The percentage of deleted and inserted elements of two compared objects in relation to all elements of these objects.
+
+ *  if this percentage if exceeded, the object aren't compared but are considered completely inserted and deleted.
+ *  Min value - 0% => The comparison doesn't occur for any length of the common subsequence of two compared object.
+ *  Default value - 75% => Comparison occurs, if the percentage of deleted and inserted elements of two compared object with respect to all elements of these objects isn't more then 75.
+ *  Max value - 100% => The comparison occurs at any length of the common subsequence of two compared objects.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Integer | The sensitivity of comparison for tables |
+
+### getSensitivityOfComparisonForTables() {#getSensitivityOfComparisonForTables--}
+```
+public final Integer getSensitivityOfComparisonForTables()
+```
+
+
+Get a sensitivity of comparison for tables.
+
+If the value is null, SensitivityOfComparison is used instead. The percentage of deleted and inserted elements of two compared objects in relation to all elements of these objects.
+
+ *  if this percentage if exceeded, the object aren't compared but are considered completely inserted and deleted.
+ *  Min value - 0% => The comparison doesn't occur for any length of the common subsequence of two compared object.
+ *  Default value - 75% => Comparison occurs, if the percentage of deleted and inserted elements of two compared object with respect to all elements of these objects isn't more then 75.
+ *  Max value - 100% => The comparison occurs at any length of the common subsequence of two compared objects.
+
+**Returns:**
+java.lang.Integer - The sensitivity of comparison for tables
 ### setWordsSeparatorChars(char[] value) {#setWordsSeparatorChars-char---}
 ```
 public final void setWordsSeparatorChars(char[] value)
