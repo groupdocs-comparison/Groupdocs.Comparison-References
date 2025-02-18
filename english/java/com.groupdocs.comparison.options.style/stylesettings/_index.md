@@ -46,6 +46,8 @@ Example usage:
 | --- | --- |
 | [getFontColor()](#getFontColor--) | Gets the font color. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Sets the font color. |
+| [getShapeColor()](#getShapeColor--) | Gets the shape color. |
+| [setShapeColor(Color value)](#setShapeColor-java.awt.Color-) | Sets the shape color. |
 | [getHighlightColor()](#getHighlightColor--) | Gets the highlight color. |
 | [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | Sets the highlight color. |
 | [isBold()](#isBold--) | Gets a flag that indicates whether the text will be bold or not. |
@@ -94,6 +96,29 @@ Sets the font color.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The new font color. |
+
+### getShapeColor() {#getShapeColor--}
+```
+public final Color getShapeColor()
+```
+
+
+Gets the shape color.
+
+**Returns:**
+java.awt.Color - the shape color.
+### setShapeColor(Color value) {#setShapeColor-java.awt.Color-}
+```
+public final void setShapeColor(Color value)
+```
+
+
+Sets the shape color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color | The new shape color. |
 
 ### getHighlightColor() {#getHighlightColor--}
 ```
