@@ -274,12 +274,12 @@ public Document Compare(CompareOptions compareOptions)
 Compares documents and saves result to a stream.
 
 ```csharp
-public Document Compare(Stream document, SaveOptions saveOptions, CompareOptions compareOptions)
+public Document Compare(Stream stream, SaveOptions saveOptions, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Stream | Result document stream |
+| stream | Stream | Result document stream |
 | saveOptions | SaveOptions | Save options |
 | compareOptions | CompareOptions | Compare options |
 
