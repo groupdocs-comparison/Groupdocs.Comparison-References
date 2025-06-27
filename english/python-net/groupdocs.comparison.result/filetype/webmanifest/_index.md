@@ -1,0 +1,18 @@
+﻿---
+title: WEBMANIFEST property
+second_title: GroupDocs.Comparison for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.comparison.result/filetype/webmanifest/
+is_root: false
+weight: 1480
+---
+
+## WEBMANIFEST property
+
+
+Manifest file includes information about the app
+
+### See Also
+* module [`groupdocs.comparison.result`](../../)
+* class [`FileType`](/comparison/python-net/groupdocs.comparison.result/filetype)
