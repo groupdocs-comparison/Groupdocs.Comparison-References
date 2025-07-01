@@ -3,7 +3,7 @@ title: IsStrikethrough
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a value indicating whether strike through.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.comparison.options/stylesettings/isstrikethrough/
 ---
 ## StyleSettings.IsStrikethrough property

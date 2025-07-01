@@ -24,6 +24,7 @@ public class StyleSettings
 
 | Name | Description |
 | --- | --- |
+| [BoarderColor](../../groupdocs.comparison.options/stylesettings/boardercolor) { get; set; } | Gets or sets the boarder color. If not set, then the FontColor color is used. |
 | [EndStringSeparator](../../groupdocs.comparison.options/stylesettings/endstringseparator) { get; set; } | Gets or sets the end separator string. |
 | [FontColor](../../groupdocs.comparison.options/stylesettings/fontcolor) { get; set; } | Gets or sets the font color. |
 | [HighlightColor](../../groupdocs.comparison.options/stylesettings/highlightcolor) { get; set; } | Gets or sets the highlight color. |

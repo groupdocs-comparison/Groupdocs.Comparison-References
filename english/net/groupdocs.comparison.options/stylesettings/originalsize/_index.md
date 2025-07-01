@@ -3,7 +3,7 @@ title: OriginalSize
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Get or sets the original sizes of comparing documents.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.comparison.options/stylesettings/originalsize/
 ---
 ## StyleSettings.OriginalSize property

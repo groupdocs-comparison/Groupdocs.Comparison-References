@@ -3,7 +3,7 @@ title: HighlightColor
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the highlight color.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.comparison.options/stylesettings/highlightcolor/
 ---
 ## StyleSettings.HighlightColor property

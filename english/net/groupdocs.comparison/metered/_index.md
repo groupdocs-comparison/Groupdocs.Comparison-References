@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Provides methods for applying Meteredhttps//purchase.groupdocs.com/faqs/licensing/metered license.
+description: Provides methods for applying Metered license.
 type: docs
 weight: 180
 url: /net/groupdocs.comparison/metered/
 ---
 ## Metered class
 
-Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license.
+Provides methods for applying Metered license.
 
 ```csharp
 public class Metered
