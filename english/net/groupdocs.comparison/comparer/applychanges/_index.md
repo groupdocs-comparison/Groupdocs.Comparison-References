@@ -39,12 +39,12 @@ public void ApplyChanges(string filePath, ApplyChangeOptions applyChangeOptions)
 Accepts or rejects changes and applies them to resultant document.
 
 ```csharp
-public void ApplyChanges(Stream document, ApplyChangeOptions applyChangeOptions)
+public void ApplyChanges(Stream stream, ApplyChangeOptions applyChangeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Stream | Result document |
+| stream | Stream | Result document |
 | applyChangeOptions | ApplyChangeOptions | Apply change options |
 
 ### Remarks
@@ -98,13 +98,13 @@ public void ApplyChanges(string filePath, SaveOptions saveOptions,
 Accepts or rejects changes and applies them to resultant document.
 
 ```csharp
-public void ApplyChanges(Stream document, SaveOptions saveOptions, 
+public void ApplyChanges(Stream stream, SaveOptions saveOptions, 
     ApplyChangeOptions applyChangeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Stream | Result document |
+| stream | Stream | Result document |
 | saveOptions | SaveOptions | Save options |
 | applyChangeOptions | ApplyChangeOptions | Apply change options |
 
