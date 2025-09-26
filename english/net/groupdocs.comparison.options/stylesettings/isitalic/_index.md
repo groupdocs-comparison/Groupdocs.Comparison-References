@@ -3,7 +3,7 @@ title: IsItalic
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a value indicating whether this is italic.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.comparison.options/stylesettings/isitalic/
 ---
 ## StyleSettings.IsItalic property

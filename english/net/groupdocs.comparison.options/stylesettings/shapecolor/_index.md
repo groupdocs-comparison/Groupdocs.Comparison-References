@@ -3,7 +3,7 @@ title: ShapeColor
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the shape color. If not set then the FontColor color is used.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.comparison.options/stylesettings/shapecolor/
 ---
 ## StyleSettings.ShapeColor property

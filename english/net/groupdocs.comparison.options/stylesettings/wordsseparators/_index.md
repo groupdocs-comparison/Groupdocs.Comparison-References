@@ -3,7 +3,7 @@ title: WordsSeparators
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the words separator chars.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.comparison.options/stylesettings/wordsseparators/
 ---
 ## StyleSettings.WordsSeparators property

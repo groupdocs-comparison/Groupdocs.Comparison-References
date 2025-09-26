@@ -3,7 +3,7 @@ title: EndStringSeparator
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the end separator string.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.comparison.options/stylesettings/endstringseparator/
 ---
 ## StyleSettings.EndStringSeparator property

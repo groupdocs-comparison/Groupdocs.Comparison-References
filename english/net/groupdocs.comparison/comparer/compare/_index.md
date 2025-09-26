@@ -63,12 +63,12 @@ public Document Compare(string filePath)
 Compares documents and saves result to file stream
 
 ```csharp
-public Document Compare(Stream document)
+public Document Compare(Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Stream | Result document stream |
+| stream | Stream | Result document stream |
 
 ### Remarks
 

@@ -1,17 +1,17 @@
 ---
-title: IsBold
+title: BoarderColor
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Gets or sets a value indicating whether this is bold.
+description: Gets or sets the boarder color. If not set then the FontColor color is used.
 type: docs
-weight: 60
-url: /net/groupdocs.comparison.options/stylesettings/isbold/
+weight: 20
+url: /net/groupdocs.comparison.options/stylesettings/boardercolor/
 ---
-## StyleSettings.IsBold property
+## StyleSettings.BoarderColor property
 
-Gets or sets a value indicating whether this is bold.
+Gets or sets the boarder color. If not set, then the FontColor color is used.
 
 ```csharp
-public bool IsBold { get; set; }
+public Color BoarderColor { get; set; }
 ```
 
 ### See Also

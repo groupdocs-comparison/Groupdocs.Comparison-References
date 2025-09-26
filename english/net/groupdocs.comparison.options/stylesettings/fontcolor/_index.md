@@ -3,7 +3,7 @@ title: FontColor
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets the font color.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.comparison.options/stylesettings/fontcolor/
 ---
 ## StyleSettings.FontColor property
