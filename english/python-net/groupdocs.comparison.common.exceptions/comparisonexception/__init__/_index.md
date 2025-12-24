@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`ComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception) class with a specified error message.
 
@@ -36,7 +36,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str | The exception message |
+| message | System.String | The exception message |
 
 
 

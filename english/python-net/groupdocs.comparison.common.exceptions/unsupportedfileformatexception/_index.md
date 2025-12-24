@@ -25,7 +25,7 @@ The UnsupportedFileFormatException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception/__init__/#) | Initializes a new instance of [`UnsupportedFileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception/__init__/#str) | Initializes a new instance of [`UnsupportedFileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception/__init__/#System.String) | Initializes a new instance of [`UnsupportedFileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class. |
 
 
 

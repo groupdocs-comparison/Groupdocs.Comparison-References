@@ -25,7 +25,7 @@ def set_license(self, license_stream):
 | license_stream | io.RawIOBase | The license stream. |
 
 
-## set_license {#str}
+## set_license {#System.String}
 
 Licenses the component using license path.
 
@@ -39,7 +39,7 @@ def set_license(self, license_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| license_path | str | The license path. |
+| license_path | System.String | The license path. |
 
 
 

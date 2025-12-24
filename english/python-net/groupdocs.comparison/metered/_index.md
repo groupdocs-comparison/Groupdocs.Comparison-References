@@ -25,7 +25,7 @@ The Metered type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_metered_key](/comparison/python-net/groupdocs.comparison/metered/set_metered_key/#str-str) | Sets metered public and private key |
+| [set_metered_key](/comparison/python-net/groupdocs.comparison/metered/set_metered_key/#System.String-System.String) | Sets metered public and private key |
 | [get_consumption_quantity](/comparison/python-net/groupdocs.comparison/metered/get_consumption_quantity/#) | Gets consumption quantity |
 | [get_consumption_credit](/comparison/python-net/groupdocs.comparison/metered/get_consumption_credit/#) | Retrieves amount of used credits |
 

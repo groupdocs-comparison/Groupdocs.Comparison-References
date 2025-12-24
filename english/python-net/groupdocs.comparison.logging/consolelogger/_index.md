@@ -25,8 +25,8 @@ The ConsoleLogger type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [warning](/comparison/python-net/groupdocs.comparison.logging/consolelogger/warning/#str) | Logs warning message. |
-| [trace](/comparison/python-net/groupdocs.comparison.logging/consolelogger/trace/#str) | Logs the process of comparison. |
+| [warning](/comparison/python-net/groupdocs.comparison.logging/consolelogger/warning/#System.String) | Logs warning message. |
+| [trace](/comparison/python-net/groupdocs.comparison.logging/consolelogger/trace/#System.String) | Logs the process of comparison. |
 
 
 

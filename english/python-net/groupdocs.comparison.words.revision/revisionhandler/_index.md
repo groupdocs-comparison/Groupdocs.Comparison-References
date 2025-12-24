@@ -19,7 +19,7 @@ The RevisionHandler type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/__init__/#str) | Initializes new instance of [`RevisionHandler`](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler) class with the path to the file with revisions. |
+| [__init__](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/__init__/#System.String) | Initializes new instance of [`RevisionHandler`](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler) class with the path to the file with revisions. |
 | [__init__](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/__init__/#io.RawIOBase) | Initializes new instance of [`RevisionHandler`](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler) class with a file stream with revisions. |
 
 
@@ -27,7 +27,7 @@ The RevisionHandler type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [apply_revision_changes](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/apply_revision_changes/#groupdocs.comparison.words.revision.ApplyRevisionOptions) | Processes changes in revisions and applies them to the same file from which the revisions were taken. |
-| [apply_revision_changes](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/apply_revision_changes/#str-groupdocs.comparison.words.revision.ApplyRevisionOptions) | Processes changes in revisions, and the result is written to the specified file by path. |
+| [apply_revision_changes](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/apply_revision_changes/#System.String-groupdocs.comparison.words.revision.ApplyRevisionOptions) | Processes changes in revisions, and the result is written to the specified file by path. |
 | [apply_revision_changes](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/apply_revision_changes/#io.RawIOBase-groupdocs.comparison.words.revision.ApplyRevisionOptions) | Processes changes in revisions and the result is written to the document stream. |
 | [get_revisions](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler/get_revisions/#) | Gets list of all revisions. |
 

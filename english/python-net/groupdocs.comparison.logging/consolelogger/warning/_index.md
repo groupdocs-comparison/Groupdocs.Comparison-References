@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## warning {#str}
+## warning {#System.String}
 
 Logs warning message.
 
@@ -22,7 +22,7 @@ def warning(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str | Warning message |
+| message | System.String | Warning message |
 
 
 

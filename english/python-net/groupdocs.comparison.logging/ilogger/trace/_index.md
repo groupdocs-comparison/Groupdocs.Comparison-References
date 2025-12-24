@@ -8,7 +8,7 @@ is_root: false
 weight: 20
 ---
 
-## trace {#str}
+## trace {#System.String}
 
 Trace message.
 
@@ -22,7 +22,7 @@ def trace(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str | The message |
+| message | System.String | The message |
 
 
 

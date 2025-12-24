@@ -27,7 +27,7 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`StyleChangeInfo`](/comparison/python-net/groupdocs.comparison.result/stylechangeinfo) | StyleChangeInfo object |
+| other | groupdocs.comparison.result.StyleChangeInfo | StyleChangeInfo object |
 
 
 

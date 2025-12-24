@@ -24,7 +24,7 @@ The FileFormatException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/fileformatexception/__init__/#str-str) | Initializes a new instance of [`FileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/fileformatexception) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/fileformatexception/__init__/#System.String-System.String) | Initializes a new instance of [`FileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/fileformatexception) class. |
 
 
 

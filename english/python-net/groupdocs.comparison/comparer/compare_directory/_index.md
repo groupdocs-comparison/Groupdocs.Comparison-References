@@ -8,7 +8,7 @@ is_root: false
 weight: 50
 ---
 
-## compare_directory {#str-groupdocs.comparison.options.CompareOptions}
+## compare_directory {#System.String-groupdocs.comparison.options.CompareOptions}
 
 Compares directory and saves result to file path
 
@@ -22,7 +22,7 @@ def compare_directory(self, file_path, compare_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str |  |
+| file_path | System.String |  |
 | compare_options | groupdocs.comparison.options.CompareOptions |  |
 
 

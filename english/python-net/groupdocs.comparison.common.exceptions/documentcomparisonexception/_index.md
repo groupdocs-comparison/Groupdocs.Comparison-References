@@ -24,7 +24,7 @@ The DocumentComparisonException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/documentcomparisonexception/__init__/#str) | Initializes a new instance of [`DocumentComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/documentcomparisonexception) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/documentcomparisonexception/__init__/#System.String) | Initializes a new instance of [`DocumentComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/documentcomparisonexception) class. |
 
 
 

@@ -19,8 +19,8 @@ The ILogger type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [warning](/comparison/python-net/groupdocs.comparison.logging/ilogger/warning/#str) | Warning message. |
-| [trace](/comparison/python-net/groupdocs.comparison.logging/ilogger/trace/#str) | Trace message. |
+| [warning](/comparison/python-net/groupdocs.comparison.logging/ilogger/warning/#System.String) | Warning message. |
+| [trace](/comparison/python-net/groupdocs.comparison.logging/ilogger/trace/#System.String) | Trace message. |
 
 
 

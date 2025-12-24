@@ -177,7 +177,7 @@ The FileType type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [from_file_name_or_extension](/comparison/python-net/groupdocs.comparison.result/filetype/from_file_name_or_extension/#str) | Return FileType based on file name or extension |
+| [from_file_name_or_extension](/comparison/python-net/groupdocs.comparison.result/filetype/from_file_name_or_extension/#System.String) | Return FileType based on file name or extension |
 | [get_supported_file_types](/comparison/python-net/groupdocs.comparison.result/filetype/get_supported_file_types/#) | Get supported file types enumeration |
 | [equals](/comparison/python-net/groupdocs.comparison.result/filetype/equals/#groupdocs.comparison.result.FileType) | File type equivalence check |
 

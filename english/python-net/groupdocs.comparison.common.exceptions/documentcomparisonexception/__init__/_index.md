@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of [`DocumentComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/documentcomparisonexception) class.
 
@@ -22,7 +22,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str |  |
+| message | System.String |  |
 
 
 

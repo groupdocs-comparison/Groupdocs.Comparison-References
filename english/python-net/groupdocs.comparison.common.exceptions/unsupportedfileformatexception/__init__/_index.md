@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of [`UnsupportedFileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/unsupportedfileformatexception) class.
 
@@ -36,7 +36,7 @@ def __init__(self, path_file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path_file | str |  |
+| path_file | System.String |  |
 
 
 

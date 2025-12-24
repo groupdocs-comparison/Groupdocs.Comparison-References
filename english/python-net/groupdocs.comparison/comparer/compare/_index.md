@@ -22,7 +22,7 @@ def compare(self):
 
 
 
-## compare {#str}
+## compare {#System.String}
 
 Compares documents and saves result to file path
 
@@ -36,7 +36,7 @@ def compare(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result document path |
+| file_path | System.String | Result document path |
 
 
 ## compare {#io.RawIOBase}
@@ -46,14 +46,14 @@ Compares documents and saves result to file stream
 
 
 ```python
-def compare(self, document):
+def compare(self, stream):
     ...
 ```
 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | Result document stream |
+| stream | io.RawIOBase |  |
 
 
 ## compare {#groupdocs.comparison.options.CompareOptions}
@@ -73,7 +73,7 @@ def compare(self, compare_options):
 | compare_options | groupdocs.comparison.options.CompareOptions | Compare options |
 
 
-## compare {#str-groupdocs.comparison.options.CompareOptions}
+## compare {#System.String-groupdocs.comparison.options.CompareOptions}
 
 Compares documents and saves result to file path
 
@@ -87,7 +87,7 @@ def compare(self, file_path, compare_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result document file path |
+| file_path | System.String | Result document file path |
 | compare_options | groupdocs.comparison.options.CompareOptions | Compare options |
 
 
@@ -127,7 +127,7 @@ def compare(self, save_options, compare_options):
 | compare_options | groupdocs.comparison.options.CompareOptions | Compare options |
 
 
-## compare {#str-groupdocs.comparison.options.SaveOptions}
+## compare {#System.String-groupdocs.comparison.options.SaveOptions}
 
 Compares documents and save result to file path
 
@@ -141,7 +141,7 @@ def compare(self, file_path, save_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result document file path |
+| file_path | System.String | Result document file path |
 | save_options | groupdocs.comparison.options.SaveOptions | Save options |
 
 
@@ -182,7 +182,7 @@ def compare(self, stream, save_options, compare_options):
 | compare_options | groupdocs.comparison.options.CompareOptions | Compare options |
 
 
-## compare {#str-groupdocs.comparison.options.SaveOptions-groupdocs.comparison.options.CompareOptions}
+## compare {#System.String-groupdocs.comparison.options.SaveOptions-groupdocs.comparison.options.CompareOptions}
 
 Compares documents and saves result to file path
 
@@ -196,7 +196,7 @@ def compare(self, file_path, save_options, compare_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result document file path |
+| file_path | System.String | Result document file path |
 | save_options | groupdocs.comparison.options.SaveOptions | Save options |
 | compare_options | groupdocs.comparison.options.CompareOptions | Compare options |
 
@@ -205,3 +205,4 @@ def compare(self, file_path, save_options, compare_options):
 ### See Also
 * module [`groupdocs.comparison`](../../)
 * class [`Comparer`](/comparison/python-net/groupdocs.comparison/comparer)
+* class [`Document`](/comparison/python-net/groupdocs.comparison/document)

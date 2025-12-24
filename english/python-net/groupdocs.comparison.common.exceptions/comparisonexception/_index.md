@@ -20,7 +20,7 @@ The ComparisonException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception/__init__/#) | Initializes a new instance of the [`ComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception/__init__/#str) | Initializes a new instance of the [`ComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception) class with a specified error message. |
+| [__init__](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception/__init__/#System.String) | Initializes a new instance of the [`ComparisonException`](/comparison/python-net/groupdocs.comparison.common.exceptions/comparisonexception) class with a specified error message. |
 
 
 

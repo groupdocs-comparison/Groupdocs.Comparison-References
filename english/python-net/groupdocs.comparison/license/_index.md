@@ -26,7 +26,7 @@ The License type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [set_license](/comparison/python-net/groupdocs.comparison/license/set_license/#io.RawIOBase) | Licenses the component using license stream. |
-| [set_license](/comparison/python-net/groupdocs.comparison/license/set_license/#str) | Licenses the component using license path. |
+| [set_license](/comparison/python-net/groupdocs.comparison/license/set_license/#System.String) | Licenses the component using license path. |
 
 
 

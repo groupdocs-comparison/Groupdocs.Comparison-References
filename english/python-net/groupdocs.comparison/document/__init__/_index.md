@@ -25,7 +25,7 @@ def __init__(self, stream):
 | stream | io.RawIOBase | Document stream |
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class.
 
@@ -39,10 +39,10 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Document path |
+| file_path | System.String | Document path |
 
 
-## __init__ {#str-str}
+## __init__ {#System.String-System.String}
 
 Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class.
 
@@ -56,11 +56,11 @@ def __init__(self, file_path, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Document path |
-| password | str | Document password |
+| file_path | System.String | Document path |
+| password | System.String | Document password |
 
 
-## __init__ {#io.RawIOBase-str}
+## __init__ {#io.RawIOBase-System.String}
 
 Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class.
 
@@ -75,7 +75,7 @@ def __init__(self, stream, password):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | io.RawIOBase | Document stream |
-| password | str | Document password |
+| password | System.String | Document password |
 
 
 

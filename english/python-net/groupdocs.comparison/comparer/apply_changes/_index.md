@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## apply_changes {#str-groupdocs.comparison.options.ApplyChangeOptions}
+## apply_changes {#System.String-groupdocs.comparison.options.ApplyChangeOptions}
 
 Accepts or rejects changes and applies them to resultant document.
 
@@ -22,7 +22,7 @@ def apply_changes(self, file_path, apply_change_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result file path |
+| file_path | System.String | Result file path |
 | apply_change_options | groupdocs.comparison.options.ApplyChangeOptions | Apply change options |
 
 
@@ -33,18 +33,18 @@ Accepts or rejects changes and applies them to resultant document.
 
 
 ```python
-def apply_changes(self, document, apply_change_options):
+def apply_changes(self, stream, apply_change_options):
     ...
 ```
 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | Result document |
+| stream | io.RawIOBase |  |
 | apply_change_options | groupdocs.comparison.options.ApplyChangeOptions | Apply change options |
 
 
-## apply_changes {#str-groupdocs.comparison.options.SaveOptions-groupdocs.comparison.options.ApplyChangeOptions}
+## apply_changes {#System.String-groupdocs.comparison.options.SaveOptions-groupdocs.comparison.options.ApplyChangeOptions}
 
 Accepts or rejects changes and applies them to resultant document.
 
@@ -58,7 +58,7 @@ def apply_changes(self, file_path, save_options, apply_change_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result file path |
+| file_path | System.String | Result file path |
 | save_options | groupdocs.comparison.options.SaveOptions | Save options |
 | apply_change_options | groupdocs.comparison.options.ApplyChangeOptions | Apply change options |
 
@@ -70,14 +70,14 @@ Accepts or rejects changes and applies them to resultant document.
 
 
 ```python
-def apply_changes(self, document, save_options, apply_change_options):
+def apply_changes(self, stream, save_options, apply_change_options):
     ...
 ```
 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | Result document |
+| stream | io.RawIOBase |  |
 | save_options | groupdocs.comparison.options.SaveOptions | Save options |
 | apply_change_options | groupdocs.comparison.options.ApplyChangeOptions | Apply change options |
 

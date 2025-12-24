@@ -19,7 +19,7 @@ The SupportedLocales type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [is_locale_supported](/comparison/python-net/groupdocs.comparison.localization/supportedlocales/is_locale_supported/#str) | Determines whether the locale is supported. |
+| [is_locale_supported](/comparison/python-net/groupdocs.comparison.localization/supportedlocales/is_locale_supported/#System.String) | Determines whether the locale is supported. |
 
 
 

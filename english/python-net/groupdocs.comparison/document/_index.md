@@ -20,9 +20,9 @@ The Document type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#io.RawIOBase) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#str) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#str-str) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#io.RawIOBase-str) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#System.String-System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
+| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#io.RawIOBase-System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
 
 
 ### Properties

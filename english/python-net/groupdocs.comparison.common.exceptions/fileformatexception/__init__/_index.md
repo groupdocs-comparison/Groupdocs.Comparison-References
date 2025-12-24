@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str-str}
+## __init__ {#System.String-System.String}
 
 Initializes a new instance of [`FileFormatException`](/comparison/python-net/groupdocs.comparison.common.exceptions/fileformatexception) class.
 
@@ -22,8 +22,8 @@ def __init__(self, source_path, target_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_path | str | The source file path |
-| target_path | str | The target file path |
+| source_path | System.String | The source file path |
+| target_path | System.String | The target file path |
 
 
 

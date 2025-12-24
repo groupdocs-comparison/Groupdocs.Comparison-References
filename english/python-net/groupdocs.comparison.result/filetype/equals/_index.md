@@ -27,7 +27,7 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`FileType`](/comparison/python-net/groupdocs.comparison.result/filetype) | FileType object |
+| other | groupdocs.comparison.result.FileType | FileType object |
 
 
 

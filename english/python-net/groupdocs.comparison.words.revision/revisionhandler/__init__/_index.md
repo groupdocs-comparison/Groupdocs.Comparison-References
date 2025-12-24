@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes new instance of [`RevisionHandler`](/comparison/python-net/groupdocs.comparison.words.revision/revisionhandler) class with the path to the file with revisions.
 
@@ -22,7 +22,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | File path |
+| file_path | System.String | File path |
 
 
 ## __init__ {#io.RawIOBase}

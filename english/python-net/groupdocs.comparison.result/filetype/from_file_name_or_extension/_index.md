@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## from_file_name_or_extension {#str}
+## from_file_name_or_extension {#System.String}
 
 Return FileType based on file name or extension
 
@@ -22,7 +22,7 @@ def from_file_name_or_extension(self, file_name_or_extension):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name_or_extension | str | File name or extension |
+| file_name_or_extension | System.String | File name or extension |
 
 
 

@@ -8,7 +8,7 @@ is_root: false
 weight: 20
 ---
 
-## add {#str}
+## add {#System.String}
 
 Adds file to comparison.
 
@@ -22,7 +22,7 @@ def add(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Compared file path |
+| file_path | System.String | Compared file path |
 
 
 ## add {#io.RawIOBase}
@@ -42,7 +42,7 @@ def add(self, document):
 | document | io.RawIOBase | Compared document stream |
 
 
-## add {#str-groupdocs.comparison.options.CompareOptions}
+## add {#System.String-groupdocs.comparison.options.CompareOptions}
 
 Adds folder to comparison.
 
@@ -56,11 +56,11 @@ def add(self, file_path, compare_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str |  |
+| file_path | System.String |  |
 | compare_options | groupdocs.comparison.options.CompareOptions |  |
 
 
-## add {#str-groupdocs.comparison.options.LoadOptions}
+## add {#System.String-groupdocs.comparison.options.LoadOptions}
 
 Adds file to comparison with loading options specified.
 
@@ -74,7 +74,7 @@ def add(self, file_path, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Compared file path |
+| file_path | System.String | Compared file path |
 | load_options | groupdocs.comparison.options.LoadOptions | Load options |
 
 

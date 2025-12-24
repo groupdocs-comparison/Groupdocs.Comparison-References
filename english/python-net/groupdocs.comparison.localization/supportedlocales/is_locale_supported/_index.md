@@ -8,7 +8,7 @@ is_root: false
 weight: 20
 ---
 
-## is_locale_supported {#str}
+## is_locale_supported {#System.String}
 
 Determines whether the locale is supported.
 
@@ -27,7 +27,7 @@ def is_locale_supported(self, culture):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| culture | str | The culture. |
+| culture | System.String | The culture. |
 
 
 

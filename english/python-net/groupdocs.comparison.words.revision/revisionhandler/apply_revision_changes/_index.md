@@ -22,10 +22,10 @@ def apply_revision_changes(self, changes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| changes | [`ApplyRevisionOptions`](/comparison/python-net/groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
+| changes | groupdocs.comparison.words.revision.ApplyRevisionOptions | List of changed revisions |
 
 
-## apply_revision_changes {#str-groupdocs.comparison.words.revision.ApplyRevisionOptions}
+## apply_revision_changes {#System.String-groupdocs.comparison.words.revision.ApplyRevisionOptions}
 
 Processes changes in revisions, and the result is written to the specified file by path.
 
@@ -39,8 +39,8 @@ def apply_revision_changes(self, file_path, changes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Result file path |
-| changes | [`ApplyRevisionOptions`](/comparison/python-net/groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
+| file_path | System.String | Result file path |
+| changes | groupdocs.comparison.words.revision.ApplyRevisionOptions | List of changed revisions |
 
 
 ## apply_revision_changes {#io.RawIOBase-groupdocs.comparison.words.revision.ApplyRevisionOptions}
@@ -58,7 +58,7 @@ def apply_revision_changes(self, document, changes):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | document | io.RawIOBase | Result document |
-| changes | [`ApplyRevisionOptions`](/comparison/python-net/groupdocs.comparison.words.revision/applyrevisionoptions) | List of changed revisions |
+| changes | groupdocs.comparison.words.revision.ApplyRevisionOptions | List of changed revisions |
 
 
 
