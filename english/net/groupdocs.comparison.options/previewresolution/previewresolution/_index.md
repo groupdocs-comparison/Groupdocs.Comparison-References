@@ -1,22 +1,22 @@
 ---
-title: Width
+title: PreviewResolution
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Preview width.
+description: The default constructor.
 type: docs
-weight: 80
-url: /net/groupdocs.comparison.options/previewoptions/width/
+weight: 10
+url: /net/groupdocs.comparison.options/previewresolution/previewresolution/
 ---
-## PreviewOptions.Width property
+## PreviewResolution constructor
 
-Preview width.
+The default constructor.
 
 ```csharp
-public int Width { get; set; }
+public PreviewResolution()
 ```
 
 ### See Also
 
-* class [PreviewOptions](../../previewoptions)
+* class [PreviewResolution](../../previewresolution)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)
 

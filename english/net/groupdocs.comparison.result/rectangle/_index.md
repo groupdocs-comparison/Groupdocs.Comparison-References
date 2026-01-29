@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Rectangle model.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.comparison.result/rectangle/
 ---
 ## Rectangle structure

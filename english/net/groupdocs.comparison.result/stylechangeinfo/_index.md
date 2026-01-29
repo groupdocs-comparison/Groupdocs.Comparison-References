@@ -3,7 +3,7 @@ title: StyleChangeInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents information about style change.
 type: docs
-weight: 450
+weight: 460
 url: /net/groupdocs.comparison.result/stylechangeinfo/
 ---
 ## StyleChangeInfo class

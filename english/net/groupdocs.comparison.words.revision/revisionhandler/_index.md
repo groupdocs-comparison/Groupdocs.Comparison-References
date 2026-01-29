@@ -3,7 +3,7 @@ title: RevisionHandler
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents the main class that controls revision handling.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.comparison.words.revision/revisionhandler/
 ---
 ## RevisionHandler class

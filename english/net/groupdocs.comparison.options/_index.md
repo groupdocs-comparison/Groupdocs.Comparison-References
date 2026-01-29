@@ -21,6 +21,7 @@ The namespace provides classes that allows to specify additional options for doc
 | [LoadOptions](./loadoptions) | Allows to specify additional options when loading a document. |
 | [OriginalSize](./originalsize) | Represents original page size. Used only for comparing image with different formats. |
 | [PreviewOptions](./previewoptions) | Represents document preview options. |
+| [PreviewResolution](./previewresolution) | Represents resolution settings for document preview generation. |
 | [SaveOptions](./saveoptions) | Allows to specify additional options (such as password) when saving a document. |
 | [Size](./size) | Document size. |
 | [StyleSettings](./stylesettings) | Style settings. Allows to define style rules for changes. Used in [`CompareOptions`](../groupdocs.comparison.options/compareoptions) class. |

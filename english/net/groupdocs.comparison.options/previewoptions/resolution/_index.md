@@ -1,21 +1,22 @@
 ---
-title: Width
+title: Resolution
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Preview width.
+description: Resolution settings for preview generation.
 type: docs
-weight: 80
-url: /net/groupdocs.comparison.options/previewoptions/width/
+weight: 70
+url: /net/groupdocs.comparison.options/previewoptions/resolution/
 ---
-## PreviewOptions.Width property
+## PreviewOptions.Resolution property
 
-Preview width.
+Resolution settings for preview generation.
 
 ```csharp
-public int Width { get; set; }
+public PreviewResolution Resolution { get; set; }
 ```
 
 ### See Also
 
+* class [PreviewResolution](../../previewresolution)
 * class [PreviewOptions](../../previewoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)

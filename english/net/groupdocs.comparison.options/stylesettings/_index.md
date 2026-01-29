@@ -3,7 +3,7 @@ title: StyleSettings
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Style settings. Allows to define style rules for changes. Used in CompareOptions./compareoptions class.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.comparison.options/stylesettings/
 ---
 ## StyleSettings class
