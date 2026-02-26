@@ -34,8 +34,8 @@ public sealed class Comparer : IDisposable
 | --- | --- |
 | [Result](../../groupdocs.comparison/comparer/result) { get; } | Result document. |
 | [Source](../../groupdocs.comparison/comparer/source) { get; } | Source file that is being compared. |
-| [sourceFolder](../../groupdocs.comparison/comparer/sourcefolder) { get; } | Source folder that is being compared. |
-| [targetFolder](../../groupdocs.comparison/comparer/targetfolder) { get; set; } | Target folder that is being compared. |
+| [SourceFolder](../../groupdocs.comparison/comparer/sourcefolder) { get; } | Source folder that is being compared. |
+| [TargetFolder](../../groupdocs.comparison/comparer/targetfolder) { get; set; } | Target folder that is being compared. |
 | [Targets](../../groupdocs.comparison/comparer/targets) { get; } | List of target files to compare with source file. |
 
 ## Methods
@@ -65,7 +65,8 @@ public sealed class Comparer : IDisposable
 | [CompareDirectory](../../groupdocs.comparison/comparer/comparedirectory)(string, CompareOptions) | Compares directory and saves result to file path |
 | [Dispose](../../groupdocs.comparison/comparer/dispose)() | Releases resources. |
 | [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges)() | Gets list of changes between source and target file(s). |
-| [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges_1)(GetChangeOptions) | Gets list of changes between source and target file(s). |
+| [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges_1)(ChangeType) | Gets list of changes between source and target file(s). |
+| [GetChanges](../../groupdocs.comparison/comparer/getchanges#getchanges_2)(GetChangeOptions) | Gets list of changes between source and target file(s). |
 | [GetResultDocumentStream](../../groupdocs.comparison/comparer/getresultdocumentstream)() | Gets the stream of result document, returns null if stream does not exist |
 | [GetResultString](../../groupdocs.comparison/comparer/getresultstring)() | Get result string after comparison (For Text Comparison only). |
 

@@ -25,12 +25,14 @@ The namespace provides classes that allows to specify additional options for doc
 | [SaveOptions](./saveoptions) | Allows to specify additional options (such as password) when saving a document. |
 | [Size](./size) | Document size. |
 | [StyleSettings](./stylesettings) | Style settings. Allows to define style rules for changes. Used in [`CompareOptions`](../groupdocs.comparison.options/compareoptions) class. |
+| [WordCompareOptions](./wordcompareoptions) | Word document specific compare options. Inherits common options from [`CompareOptions`](../groupdocs.comparison.options/compareoptions). |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
 | [CalculateCoordinatesModeEnumeration](./calculatecoordinatesmodeenumeration) | Enumerates the type of coordinates calculation. |
 | [ChangeType](./changetype) | Specifies change type. |
+| [WordCompareOptions.ComparisonDisplayMode](./wordcompareoptions.comparisondisplaymode) | Defines how Word comparison results are displayed for [`WordCompareOptions`](../groupdocs.comparison.options/wordcompareoptions). |
 | [DetalisationLevel](./detalisationlevel) | Specifies the level of comparison details. |
 | [FolderComparisonExtension](./foldercomparisonextension) | Folder extensions. |
 | [ImagesInheritance](./imagesinheritance) | Source of images inheritance when image comparison is disabled. |

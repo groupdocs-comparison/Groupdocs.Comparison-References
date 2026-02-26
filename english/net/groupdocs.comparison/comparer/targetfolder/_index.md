@@ -1,17 +1,17 @@
 ---
-title: targetFolder
+title: TargetFolder
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Target folder that is being compared.
 type: docs
 weight: 50
 url: /net/groupdocs.comparison/comparer/targetfolder/
 ---
-## Comparer.targetFolder property
+## Comparer.TargetFolder property
 
 Target folder that is being compared.
 
 ```csharp
-public string targetFolder { get; set; }
+public string TargetFolder { get; set; }
 ```
 
 ### See Also

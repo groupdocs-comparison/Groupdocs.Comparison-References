@@ -30,7 +30,7 @@ public ChangeInfo[] GetChanges()
 
 ---
 
-## GetChanges(GetChangeOptions) {#getchanges_1}
+## GetChanges(GetChangeOptions) {#getchanges_2}
 
 Gets list of changes between source and target file(s).
 
@@ -53,6 +53,28 @@ public ChangeInfo[] GetChanges(GetChangeOptions getChangeOptions)
 
 * class [ChangeInfo](../../../groupdocs.comparison.result/changeinfo)
 * class [GetChangeOptions](../../../groupdocs.comparison.options/getchangeoptions)
+* class [Comparer](../../comparer)
+* namespace [GroupDocs.Comparison](../../../groupdocs.comparison)
+* assembly [GroupDocs.Comparison](../../../)
+
+---
+
+## GetChanges(ChangeType) {#getchanges_1}
+
+Gets list of changes between source and target file(s).
+
+```csharp
+public ChangeInfo[] GetChanges(ChangeType filter)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filter | ChangeType | Specifies change type |
+
+### See Also
+
+* class [ChangeInfo](../../../groupdocs.comparison.result/changeinfo)
+* enum [ChangeType](../../../groupdocs.comparison.options/changetype)
 * class [Comparer](../../comparer)
 * namespace [GroupDocs.Comparison](../../../groupdocs.comparison)
 * assembly [GroupDocs.Comparison](../../../)

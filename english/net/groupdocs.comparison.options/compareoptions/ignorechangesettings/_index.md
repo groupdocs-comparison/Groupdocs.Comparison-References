@@ -3,7 +3,7 @@ title: IgnoreChangeSettings
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets settings to ignore changes based on similarity.
 type: docs
-weight: 180
+weight: 150
 url: /net/groupdocs.comparison.options/compareoptions/ignorechangesettings/
 ---
 ## CompareOptions.IgnoreChangeSettings property

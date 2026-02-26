@@ -3,7 +3,7 @@ title: CompareImagesPdf
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of images in PDF format.
 type: docs
-weight: 70
+weight: 50
 url: /net/groupdocs.comparison.options/compareoptions/compareimagespdf/
 ---
 ## CompareOptions.CompareImagesPdf property

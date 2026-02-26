@@ -3,7 +3,7 @@ title: ApplyRevisionOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Allows you to update the state of revisions before they are applied to the final document.
 type: docs
-weight: 470
+weight: 490
 url: /net/groupdocs.comparison.words.revision/applyrevisionoptions/
 ---
 ## ApplyRevisionOptions class
