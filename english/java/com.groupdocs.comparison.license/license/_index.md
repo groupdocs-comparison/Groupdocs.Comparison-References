@@ -16,7 +16,6 @@ The License class provides methods to set and apply licenses for GroupDocs.Compa
 
 It allows you to enable or disable specific features of the library based on the license applied.
 
- *  More about licensing: [GroupDocs Licensing FAQ][]
  *  More about GroupDocs.Comparison licensing: [Evaluation Limitations and Licensing][]
 
 Example usage:
@@ -29,7 +28,6 @@ Example usage:
 ```
 
 
-[GroupDocs Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing
 [Evaluation Limitations and Licensing]: https://docs.groupdocs.com/display/comparisonjava/Evaluation+Limitations+and+Licensing+of+GroupDocs.Comparison
 ## Constructors
 

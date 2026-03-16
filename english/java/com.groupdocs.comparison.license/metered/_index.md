@@ -14,7 +14,6 @@ public class Metered
 
 Provides methods to apply metered license to Comparison.
 
- *  More about Metered licensing: [Metered Licensing FAQ][]
  *  More about GroupDocs.Comparison licensing: [Evaluation Limitations and Licensing][]
 
 Short example usage:
@@ -27,7 +26,6 @@ Short example usage:
 ```
 
 
-[Metered Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing/metered
 [Evaluation Limitations and Licensing]: https://docs.groupdocs.com/display/comparisonjava/Evaluation+Limitations+and+Licensing+of+GroupDocs.Comparison
 ## Constructors
 

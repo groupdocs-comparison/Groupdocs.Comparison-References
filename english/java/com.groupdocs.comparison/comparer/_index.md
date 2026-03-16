@@ -71,11 +71,11 @@ Example usage:
 | [compare(OutputStream outputStream)](#compare-java.io.OutputStream-) | Compares the specified file with the target documents and writes a comparison result to the output stream. |
 | [compare(String filePath, CompareOptions compareOptions)](#compare-java.lang.String-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
 | [compare(Path filePath, CompareOptions compareOptions)](#compare-java.nio.file.Path-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
-| [compare(OutputStream document, CompareOptions compareOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the output stream. |
+| [compare(OutputStream stream, CompareOptions compareOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the output stream. |
 | [compare(SaveOptions saveOptions, CompareOptions compareOptions)](#compare-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents without saving result. |
 | [compare(String filePath, SaveOptions saveOptions)](#compare-java.lang.String-com.groupdocs.comparison.options.save.SaveOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
 | [compare(Path filePath, SaveOptions saveOptions)](#compare-java.nio.file.Path-com.groupdocs.comparison.options.save.SaveOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
-| [compare(OutputStream document, SaveOptions saveOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
+| [compare(OutputStream stream, SaveOptions saveOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
 | [compare(CompareOptions compareOptions)](#compare-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents without saving result. |
 | [compare(OutputStream outputStream, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided output stream. |
 | [compare(String filePath, SaveOptions saveOptions, CompareOptions compareOptions)](#compare-java.lang.String-com.groupdocs.comparison.options.save.SaveOptions-com.groupdocs.comparison.options.CompareOptions-) | Compares the specified file with the target documents and writes a comparison result to the provided file path. |
@@ -104,6 +104,7 @@ Example usage:
 | [getResultString()](#getResultString--) | Gets result string after comparison (For Text Comparison only). |
 | [getSourceFolder()](#getSourceFolder--) | Returns the source folder that is being compared. |
 | [getTargetFolder()](#getTargetFolder--) | Returns the target folder that is being compared. |
+| [selfComparisonCheck(Document source, Document target)](#selfComparisonCheck-com.groupdocs.comparison.Document-com.groupdocs.comparison.Document-) | Self-comparison check (e498c23). |
 | [close()](#close--) | Releases resources. |
 ### Comparer(String filePath) {#Comparer-java.lang.String-}
 ```
@@ -655,9 +656,9 @@ Compares the specified file with the target documents and writes a comparison re
 
 **Returns:**
 java.nio.file.Path - result file path, in some situations it's extension can be changed
-### compare(OutputStream document, CompareOptions compareOptions) {#compare-java.io.OutputStream-com.groupdocs.comparison.options.CompareOptions-}
+### compare(OutputStream stream, CompareOptions compareOptions) {#compare-java.io.OutputStream-com.groupdocs.comparison.options.CompareOptions-}
 ```
-public final Path compare(OutputStream document, CompareOptions compareOptions)
+public final Path compare(OutputStream stream, CompareOptions compareOptions)
 ```
 
 
@@ -677,7 +678,7 @@ Note: In case return value is null, use data that was written into outputStream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.OutputStream | Result document stream |
+| stream | java.io.OutputStream | Result document stream |
 | compareOptions | [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) | The compare options to be used for the comparison process |
 
 **Returns:**
@@ -753,9 +754,9 @@ Compares the specified file with the target documents and writes a comparison re
 
 **Returns:**
 java.nio.file.Path - result file path, in some situations it's extension can be changed
-### compare(OutputStream document, SaveOptions saveOptions) {#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-}
+### compare(OutputStream stream, SaveOptions saveOptions) {#compare-java.io.OutputStream-com.groupdocs.comparison.options.save.SaveOptions-}
 ```
-public final Path compare(OutputStream document, SaveOptions saveOptions)
+public final Path compare(OutputStream stream, SaveOptions saveOptions)
 ```
 
 
@@ -773,7 +774,7 @@ Note: In case return value is null, use data that was written into outputStream
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.OutputStream | Result document stream |
+| stream | java.io.OutputStream | Result document stream |
 | saveOptions | [SaveOptions](../../com.groupdocs.comparison.options.save/saveoptions) | Save options |
 
 **Returns:**
@@ -1293,6 +1294,20 @@ Returns the target folder that is being compared.
 
 **Returns:**
 java.lang.String - the target folder
+### selfComparisonCheck(Document source, Document target) {#selfComparisonCheck-com.groupdocs.comparison.Document-com.groupdocs.comparison.Document-}
+```
+public static void selfComparisonCheck(Document source, Document target)
+```
+
+
+Self-comparison check (e498c23). C\# 7a7668c internal; kept public so core.common tests can call.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | [Document](../../com.groupdocs.comparison/document) |  |
+| target | [Document](../../com.groupdocs.comparison/document) |  |
+
 ### close() {#close--}
 ```
 public void close()
