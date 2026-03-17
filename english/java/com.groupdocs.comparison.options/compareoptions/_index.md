@@ -52,10 +52,6 @@ Example usage:
 | [setIgnoreChangeSettings(IgnoreChangeSensitivitySettings ignoreChangeSettings)](#setIgnoreChangeSettings-com.groupdocs.comparison.options.IgnoreChangeSensitivitySettings-) | Sets settings to ignore changes based on similarity. |
 | [getUserMasterPath()](#getUserMasterPath--) | Gets the path to the user master's template for Diagrams. |
 | [setUserMasterPath(String userMasterPath)](#setUserMasterPath-java.lang.String-) | Sets the path to the user master's template for Diagrams. |
-| [getRevisionAuthorName()](#getRevisionAuthorName--) | Gets or sets revision author name. |
-| [setRevisionAuthorName(String revisionAuthorName)](#setRevisionAuthorName-java.lang.String-) | Sets the revision author name. |
-| [isLeaveGaps()](#isLeaveGaps--) | Gets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
-| [setLeaveGaps(boolean value)](#setLeaveGaps-boolean-) | Sets a flag that determines whether to leave empty lines instead of inserted/deleted components or not. |
 | [getComparisonType()](#getComparisonType--) | Gets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
 | [setComparisonType(ComparisonType comparisonType)](#setComparisonType-com.groupdocs.comparison.options.enums.ComparisonType-) | Sets a type of source and target documents as [ComparisonType](../../com.groupdocs.comparison.options.enums/comparisontype) object so that Comparison will know how to compare them. |
 | [getPaperSize()](#getPaperSize--) | Gets a size of a paper in result document as [PaperSize](../../com.groupdocs.comparison.options.enums/papersize) object. |
@@ -90,18 +86,10 @@ Example usage:
 | [setDeletedItemStyle(StyleSettings value)](#setDeletedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to deleted items. |
 | [getChangedItemStyle()](#getChangedItemStyle--) | Gets a style settings that will be applied to changed items. |
 | [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to changed items. |
-| [getMarkLineBreaks()](#getMarkLineBreaks--) | Get a value indicating whether to mark line breaks. |
-| [setMarkLineBreaks(boolean value)](#setMarkLineBreaks-boolean-) | Set a value indicating whether to mark line breaks. |
 | [isCompareImagesPdf()](#isCompareImagesPdf--) | Get a value indicating whether to compare images. |
 | [setCompareImagesPdf(boolean compareImagesPdf)](#setCompareImagesPdf-boolean-) | Set a value indicating whether to compare images. |
 | [getImagesInheritanceMode()](#getImagesInheritanceMode--) | Get a value indicating whether images inheritance mode |
 | [setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode)](#setImagesInheritanceMode-com.groupdocs.comparison.options.enums.ImagesInheritance-) | Set a value indicating whether to images inheritance mode. |
-| [isCompareBookmarks()](#isCompareBookmarks--) | Gets a flag that indicates whether bookmarks in Word documents will be compared. |
-| [setCompareBookmarks(boolean value)](#setCompareBookmarks-boolean-) | Sets a flag that indicates whether bookmarks in Word documents should be compared. |
-| [isCompareVariableProperty()](#isCompareVariableProperty--) | Gets a flag that indicates whether variables properties in Word documents will be compared. |
-| [setCompareVariableProperty(boolean value)](#setCompareVariableProperty-boolean-) | Sets a flag that indicates whether variables properties in Word documents should be compared. |
-| [isCompareDocumentProperty()](#isCompareDocumentProperty--) | Gets a flag that indicates whether built and custom properties in Word documents will be compared. |
-| [setCompareDocumentProperty(boolean value)](#setCompareDocumentProperty-boolean-) | Sets a flag that indicates whether built and custom properties in Word documents should be compared. |
 | [getSensitivityOfComparison()](#getSensitivityOfComparison--) | Gets a sensitivity of comparison. |
 | [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets a sensitivity of comparison. |
 | [setSensitivityOfComparisonForTables(Integer value)](#setSensitivityOfComparisonForTables-java.lang.Integer-) | Sets a sensitivity of comparison for tables. |
@@ -113,10 +101,6 @@ Example usage:
 | [setOriginalSize(OriginalSize value)](#setOriginalSize-com.groupdocs.comparison.options.OriginalSize-) | Sets an original sizes of compared documents represented by [OriginalSize](../../com.groupdocs.comparison.options/originalsize) object. |
 | [getDiagramMasterSetting()](#getDiagramMasterSetting--) | Gets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object. |
 | [setDiagramMasterSetting(DiagramMasterSetting value)](#setDiagramMasterSetting-com.groupdocs.comparison.options.style.DiagramMasterSetting-) | Sets a setting of master page for Diagram documents represented by [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) object. |
-| [isShowRevisions()](#isShowRevisions--) | Gets a flag that indicates whether others revisions in the resulting document will be displayed. |
-| [setShowRevisions(boolean value)](#setShowRevisions-boolean-) | Sets a flag that indicates whether others revisions in the resulting document should be displayed. |
-| [isWordTrackChanges()](#isWordTrackChanges--) | Gets a flag that indicates whether Words Track Revisions will be compared. |
-| [setWordTrackChanges(boolean value)](#setWordTrackChanges-boolean-) | Sets a flag that indicates whether Words Track Revisions should be compared. |
 | [isDirectoryCompare()](#isDirectoryCompare--) | Returns a flag that indicates whether directory comparison is enabled. |
 | [setDirectoryCompare(boolean directoryCompare)](#setDirectoryCompare-boolean-) | Sets a flag that indicates whether directory comparison should be enabled. |
 | [isShowOnlyChanged()](#isShowOnlyChanged--) | Returns a boolean value that indicates whether only changed items should be displayed. |
@@ -197,56 +181,6 @@ Sets the path to the user master's template for Diagrams.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | userMasterPath | java.lang.String | The path to the user master's template for Diagrams. |
-
-### getRevisionAuthorName() {#getRevisionAuthorName--}
-```
-public String getRevisionAuthorName()
-```
-
-
-Gets or sets revision author name. Enabled if not null.
-
-**Returns:**
-java.lang.String - The revision author name.
-### setRevisionAuthorName(String revisionAuthorName) {#setRevisionAuthorName-java.lang.String-}
-```
-public void setRevisionAuthorName(String revisionAuthorName)
-```
-
-
-Sets the revision author name. Enabled if not null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| revisionAuthorName | java.lang.String | The new revision author name to be set. |
-
-### isLeaveGaps() {#isLeaveGaps--}
-```
-public boolean isLeaveGaps()
-```
-
-
-Gets a flag that determines whether to leave empty lines instead of inserted/deleted components or not.
-
-Whether to display empty lines instead of inserted/deleted components in the final document or not. Used with [isShowInsertedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowInsertedContent--) or [isShowDeletedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowDeletedContent--) properties.
-
-**Returns:**
-boolean - true if empty lines should be displayed instead of inserted/deleted components, otherwise false
-### setLeaveGaps(boolean value) {#setLeaveGaps-boolean-}
-```
-public void setLeaveGaps(boolean value)
-```
-
-
-Sets a flag that determines whether to leave empty lines instead of inserted/deleted components or not.
-
-Whether to display empty lines instead of inserted/deleted components in the final document or not. Used with [isShowInsertedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowInsertedContent--) or [isShowDeletedContent()](../../com.groupdocs.comparison.options/compareoptions\#isShowDeletedContent--) properties.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if empty lines should be displayed instead of inserted/deleted components, otherwise false |
 
 ### getComparisonType() {#getComparisonType--}
 ```
@@ -647,29 +581,6 @@ Sets a style settings that will be applied to changed items.
 | --- | --- | --- |
 | value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of changed items |
 
-### getMarkLineBreaks() {#getMarkLineBreaks--}
-```
-public final boolean getMarkLineBreaks()
-```
-
-
-Get a value indicating whether to mark line breaks.
-
-**Returns:**
-boolean - style settings of changed items
-### setMarkLineBreaks(boolean value) {#setMarkLineBreaks-boolean-}
-```
-public final void setMarkLineBreaks(boolean value)
-```
-
-
-Set a value indicating whether to mark line breaks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Style settings of changed items |
-
 ### isCompareImagesPdf() {#isCompareImagesPdf--}
 ```
 public boolean isCompareImagesPdf()
@@ -715,75 +626,6 @@ Set a value indicating whether to images inheritance mode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imagesInheritanceMode | com.groupdocs.comparison.options.enums.ImagesInheritance | Images inheritance mode |
-
-### isCompareBookmarks() {#isCompareBookmarks--}
-```
-public boolean isCompareBookmarks()
-```
-
-
-Gets a flag that indicates whether bookmarks in Word documents will be compared.
-
-**Returns:**
-boolean - true if bookmarks in Word documents will be compared, otherwise false
-### setCompareBookmarks(boolean value) {#setCompareBookmarks-boolean-}
-```
-public void setCompareBookmarks(boolean value)
-```
-
-
-Sets a flag that indicates whether bookmarks in Word documents should be compared.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if bookmarks in Word documents should be compared, otherwise false |
-
-### isCompareVariableProperty() {#isCompareVariableProperty--}
-```
-public boolean isCompareVariableProperty()
-```
-
-
-Gets a flag that indicates whether variables properties in Word documents will be compared.
-
-**Returns:**
-boolean - true if variables properties in Word documents will be compared, otherwise false
-### setCompareVariableProperty(boolean value) {#setCompareVariableProperty-boolean-}
-```
-public void setCompareVariableProperty(boolean value)
-```
-
-
-Sets a flag that indicates whether variables properties in Word documents should be compared.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if variables properties in Word documents should be compared, otherwise false |
-
-### isCompareDocumentProperty() {#isCompareDocumentProperty--}
-```
-public boolean isCompareDocumentProperty()
-```
-
-
-Gets a flag that indicates whether built and custom properties in Word documents will be compared.
-
-**Returns:**
-boolean - true if built and custom properties in Word documents will be compared, otherwise false
-### setCompareDocumentProperty(boolean value) {#setCompareDocumentProperty-boolean-}
-```
-public void setCompareDocumentProperty(boolean value)
-```
-
-
-Sets a flag that indicates whether built and custom properties in Word documents should be compared.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if built and custom properties in Word documents should be compared, otherwise false |
 
 ### getSensitivityOfComparison() {#getSensitivityOfComparison--}
 ```
@@ -940,52 +782,6 @@ Sets a setting of master page for Diagram documents represented by [DiagramMaste
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DiagramMasterSetting](../../com.groupdocs.comparison.options.style/diagrammastersetting) | The diagram master page setting |
-
-### isShowRevisions() {#isShowRevisions--}
-```
-public boolean isShowRevisions()
-```
-
-
-Gets a flag that indicates whether others revisions in the resulting document will be displayed.
-
-**Returns:**
-boolean - value true if others revisions in the resulting document will be displayed, otherwise false
-### setShowRevisions(boolean value) {#setShowRevisions-boolean-}
-```
-public void setShowRevisions(boolean value)
-```
-
-
-Sets a flag that indicates whether others revisions in the resulting document should be displayed.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if others revisions in the resulting document should be displayed, otherwise false |
-
-### isWordTrackChanges() {#isWordTrackChanges--}
-```
-public boolean isWordTrackChanges()
-```
-
-
-Gets a flag that indicates whether Words Track Revisions will be compared.
-
-**Returns:**
-boolean - true if Words Track Revisions will be compared, otherwise false
-### setWordTrackChanges(boolean value) {#setWordTrackChanges-boolean-}
-```
-public void setWordTrackChanges(boolean value)
-```
-
-
-Sets a flag that indicates whether Words Track Revisions should be compared.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | true if Words Track Revisions should be compared, otherwise false |
 
 ### isDirectoryCompare() {#isDirectoryCompare--}
 ```
