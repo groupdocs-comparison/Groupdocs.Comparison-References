@@ -3,7 +3,7 @@ title: DeletedItemStyle
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Describes style for deleted components.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.comparison.options/compareoptions/deleteditemstyle/
 ---
 ## CompareOptions.DeletedItemStyle property

@@ -3,7 +3,7 @@ title: GenerateSummaryPage
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Indicates whether to add summary page with detected changes statistics to resultant document or not.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.comparison.options/compareoptions/generatesummarypage/
 ---
 ## CompareOptions.GenerateSummaryPage property

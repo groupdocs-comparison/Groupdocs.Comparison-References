@@ -27,7 +27,6 @@ public class CompareOptions
 | [CalculateCoordinates](../../groupdocs.comparison.options/compareoptions/calculatecoordinates) { get; set; } | Indicates whether to calculate coordinates for changed components. |
 | [CalculateCoordinatesMode](../../groupdocs.comparison.options/compareoptions/calculatecoordinatesmode) { get; set; } | Specifies the coordinate calculation for changed components mode. |
 | [ChangedItemStyle](../../groupdocs.comparison.options/compareoptions/changeditemstyle) { get; set; } | Describes style for changed components. |
-| [CompareImagesPdf](../../groupdocs.comparison.options/compareoptions/compareimagespdf) { get; set; } | Control to turn on comparison of images in PDF format. |
 | [DeletedItemStyle](../../groupdocs.comparison.options/compareoptions/deleteditemstyle) { get; set; } | Describes style for deleted components. |
 | [DetalisationLevel](../../groupdocs.comparison.options/compareoptions/detalisationlevel) { get; set; } | Gets or sets the comparison detail level. |
 | [DetectStyleChanges](../../groupdocs.comparison.options/compareoptions/detectstylechanges) { get; set; } | Indicates whether to detect style changes or not. |
@@ -38,7 +37,6 @@ public class CompareOptions
 | [GenerateSummaryPage](../../groupdocs.comparison.options/compareoptions/generatesummarypage) { get; set; } | Indicates whether to add summary page with detected changes statistics to resultant document or not. |
 | [HeaderFootersComparison](../../groupdocs.comparison.options/compareoptions/headerfooterscomparison) { get; set; } | Control to turn on comparison of header/footer contents. |
 | [IgnoreChangeSettings](../../groupdocs.comparison.options/compareoptions/ignorechangesettings) { get; set; } | Gets or sets settings to ignore changes based on similarity. |
-| [ImagesInheritanceMode](../../groupdocs.comparison.options/compareoptions/imagesinheritancemode) { get; set; } | Specifies the source of images inheritance when image comparison is disabled. |
 | [InsertedItemStyle](../../groupdocs.comparison.options/compareoptions/inserteditemstyle) { get; set; } | Describes style for inserted components. |
 | [MarkChangedContent](../../groupdocs.comparison.options/compareoptions/markchangedcontent) { get; set; } | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |
 | [MarkNestedContent](../../groupdocs.comparison.options/compareoptions/marknestedcontent) { get; set; } | Gets or sets a value indicating whether to mark the children of the deleted or inserted element as deleted or inserted. |

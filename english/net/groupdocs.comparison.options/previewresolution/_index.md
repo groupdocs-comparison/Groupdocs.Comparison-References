@@ -3,7 +3,7 @@ title: PreviewResolution
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents resolution settings for document preview generation.
 type: docs
-weight: 370
+weight: 400
 url: /net/groupdocs.comparison.options/previewresolution/
 ---
 ## PreviewResolution class

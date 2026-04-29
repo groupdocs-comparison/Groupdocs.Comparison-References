@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents document preview options.
 type: docs
-weight: 360
+weight: 390
 url: /net/groupdocs.comparison.options/previewoptions/
 ---
 ## PreviewOptions class

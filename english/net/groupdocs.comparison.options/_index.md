@@ -20,6 +20,8 @@ The namespace provides classes that allows to specify additional options for doc
 | [IgnoreChangeSensitivitySettings](./ignorechangesensitivitysettings) | The option allows to ignore changes by similarity percentage. |
 | [LoadOptions](./loadoptions) | Allows to specify additional options when loading a document. |
 | [OriginalSize](./originalsize) | Represents original page size. Used only for comparing image with different formats. |
+| [PagesSetup](./pagessetup) | Specifies which pages to include in the comparison. |
+| [PdfCompareOptions](./pdfcompareoptions) | PDF document specific compare options. Inherits common options from [`CompareOptions`](../groupdocs.comparison.options/compareoptions). |
 | [PreviewOptions](./previewoptions) | Represents document preview options. |
 | [PreviewResolution](./previewresolution) | Represents resolution settings for document preview generation. |
 | [SaveOptions](./saveoptions) | Allows to specify additional options (such as password) when saving a document. |
@@ -32,6 +34,7 @@ The namespace provides classes that allows to specify additional options for doc
 | --- | --- |
 | [CalculateCoordinatesModeEnumeration](./calculatecoordinatesmodeenumeration) | Enumerates the type of coordinates calculation. |
 | [ChangeType](./changetype) | Specifies change type. |
+| [PdfCompareOptions.ComparisonDisplayMode](./pdfcompareoptions.comparisondisplaymode) | Controls how Pdf comparison result document is laid out. |
 | [WordCompareOptions.ComparisonDisplayMode](./wordcompareoptions.comparisondisplaymode) | Defines how Word comparison results are displayed for [`WordCompareOptions`](../groupdocs.comparison.options/wordcompareoptions). |
 | [DetalisationLevel](./detalisationlevel) | Specifies the level of comparison details. |
 | [FolderComparisonExtension](./foldercomparisonextension) | Folder extensions. |

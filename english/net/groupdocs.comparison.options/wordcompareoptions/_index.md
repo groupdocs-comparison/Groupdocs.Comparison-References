@@ -3,7 +3,7 @@ title: WordCompareOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Word document specific compare options. Inherits common options from CompareOptions./compareoptions.
 type: docs
-weight: 410
+weight: 440
 url: /net/groupdocs.comparison.options/wordcompareoptions/
 ---
 ## WordCompareOptions class
@@ -29,7 +29,6 @@ public class WordCompareOptions : CompareOptions
 | [ChangedItemStyle](../../groupdocs.comparison.options/compareoptions/changeditemstyle) { get; set; } | Describes style for changed components. |
 | [CompareBookmarks](../../groupdocs.comparison.options/wordcompareoptions/comparebookmarks) { get; set; } | Gets or sets whether bookmarks in the source and target documents are compared and differences included in the result. |
 | [CompareDocumentProperty](../../groupdocs.comparison.options/wordcompareoptions/comparedocumentproperty) { get; set; } | Gets or sets whether built-in and custom document properties are compared and differences included in the result (e.g. on the properties summary page). |
-| [CompareImagesPdf](../../groupdocs.comparison.options/compareoptions/compareimagespdf) { get; set; } | Control to turn on comparison of images in PDF format. |
 | [CompareVariableProperty](../../groupdocs.comparison.options/wordcompareoptions/comparevariableproperty) { get; set; } | Gets or sets whether document variable properties (e.g. DOCVARIABLE fields) are compared and differences included in the result. |
 | [DeletedItemStyle](../../groupdocs.comparison.options/compareoptions/deleteditemstyle) { get; set; } | Describes style for deleted components. |
 | [DetalisationLevel](../../groupdocs.comparison.options/compareoptions/detalisationlevel) { get; set; } | Gets or sets the comparison detail level. |
@@ -42,7 +41,6 @@ public class WordCompareOptions : CompareOptions
 | [GenerateSummaryPage](../../groupdocs.comparison.options/compareoptions/generatesummarypage) { get; set; } | Indicates whether to add summary page with detected changes statistics to resultant document or not. |
 | [HeaderFootersComparison](../../groupdocs.comparison.options/compareoptions/headerfooterscomparison) { get; set; } | Control to turn on comparison of header/footer contents. |
 | [IgnoreChangeSettings](../../groupdocs.comparison.options/compareoptions/ignorechangesettings) { get; set; } | Gets or sets settings to ignore changes based on similarity. |
-| [ImagesInheritanceMode](../../groupdocs.comparison.options/compareoptions/imagesinheritancemode) { get; set; } | Specifies the source of images inheritance when image comparison is disabled. |
 | [InsertedItemStyle](../../groupdocs.comparison.options/compareoptions/inserteditemstyle) { get; set; } | Describes style for inserted components. |
 | [LeaveGaps](../../groupdocs.comparison.options/wordcompareoptions/leavegaps) { get; set; } | Gets or sets whether empty lines are left in place of inserted or deleted content to preserve layout and line count; used with [`ShowInsertedContent`](../compareoptions/showinsertedcontent) and [`ShowDeletedContent`](../compareoptions/showdeletedcontent). |
 | [MarkChangedContent](../../groupdocs.comparison.options/compareoptions/markchangedcontent) { get; set; } | Indicates whether to use frames for shapes in Word Processing and for rectangles in Image documents. |

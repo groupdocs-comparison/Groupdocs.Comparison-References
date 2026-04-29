@@ -3,7 +3,7 @@ title: HeaderFootersComparison
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Control to turn on comparison of header/footer contents.
 type: docs
-weight: 140
+weight: 130
 url: /net/groupdocs.comparison.options/compareoptions/headerfooterscomparison/
 ---
 ## CompareOptions.HeaderFootersComparison property

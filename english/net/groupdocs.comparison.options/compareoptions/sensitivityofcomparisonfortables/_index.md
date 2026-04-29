@@ -3,7 +3,7 @@ title: SensitivityOfComparisonForTables
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Gets or sets a sensitivity of comparison for tables.
 type: docs
-weight: 240
+weight: 220
 url: /net/groupdocs.comparison.options/compareoptions/sensitivityofcomparisonfortables/
 ---
 ## CompareOptions.SensitivityOfComparisonForTables property

@@ -3,7 +3,7 @@ title: WordCompareOptions.ComparisonDisplayMode
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Defines how Word comparison results are displayed for WordCompareOptions./wordcompareoptions.
 type: docs
-weight: 420
+weight: 450
 url: /net/groupdocs.comparison.options/wordcompareoptions.comparisondisplaymode/
 ---
 ## WordCompareOptions.ComparisonDisplayMode enumeration

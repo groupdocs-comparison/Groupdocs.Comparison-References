@@ -3,7 +3,7 @@ title: RevisionType
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Specifies the type of change being tracked.
 type: docs
-weight: 530
+weight: 560
 url: /net/groupdocs.comparison.words.revision/revisiontype/
 ---
 ## RevisionType enumeration

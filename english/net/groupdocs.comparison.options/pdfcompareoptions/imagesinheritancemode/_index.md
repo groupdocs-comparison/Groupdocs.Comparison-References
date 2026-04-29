@@ -3,10 +3,10 @@ title: ImagesInheritanceMode
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Specifies the source of images inheritance when image comparison is disabled.
 type: docs
-weight: 160
-url: /net/groupdocs.comparison.options/compareoptions/imagesinheritancemode/
+weight: 50
+url: /net/groupdocs.comparison.options/pdfcompareoptions/imagesinheritancemode/
 ---
-## CompareOptions.ImagesInheritanceMode property
+## PdfCompareOptions.ImagesInheritanceMode property
 
 Specifies the source of images inheritance when image comparison is disabled.
 
@@ -17,7 +17,7 @@ public ImagesInheritance ImagesInheritanceMode { get; set; }
 ### See Also
 
 * enum [ImagesInheritance](../../imagesinheritance)
-* class [CompareOptions](../../compareoptions)
+* class [PdfCompareOptions](../../pdfcompareoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)
 

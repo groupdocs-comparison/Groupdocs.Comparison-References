@@ -1,14 +1,14 @@
 ---
 title: CompareImagesPdf
 second_title: GroupDocs.Comparison for .NET API Reference
-description: Control to turn on comparison of images in PDF format.
+description: Gets or sets a value indicating whether to compare images in PDF documents.
 type: docs
-weight: 50
-url: /net/groupdocs.comparison.options/compareoptions/compareimagespdf/
+weight: 30
+url: /net/groupdocs.comparison.options/pdfcompareoptions/compareimagespdf/
 ---
-## CompareOptions.CompareImagesPdf property
+## PdfCompareOptions.CompareImagesPdf property
 
-Control to turn on comparison of images in PDF format.
+Gets or sets a value indicating whether to compare images in PDF documents.
 
 ```csharp
 public bool CompareImagesPdf { get; set; }
@@ -16,7 +16,7 @@ public bool CompareImagesPdf { get; set; }
 
 ### See Also
 
-* class [CompareOptions](../../compareoptions)
+* class [PdfCompareOptions](../../pdfcompareoptions)
 * namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
 * assembly [GroupDocs.Comparison](../../../)
 
