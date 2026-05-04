@@ -1,29 +1,24 @@
-﻿---
-title: ComparisonAction enumeration
+---
+title: ComparisonAction class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.result/comparisonaction/
 is_root: false
-weight: 60
+weight: 20
 ---
 
-## ComparisonAction enumeration
 
-An action that can be applied to change.
-
-
+## ComparisonAction class
 
 The ComparisonAction type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Nothing to do |
-| ACCEPT | Change will be visible on result file |
-| REJECT | Reject will be invisible on result file |
-
-
+| [NONE](/comparison/python-net/groupdocs.comparison.result/comparisonaction/none/) |  |
+| [ACCEPT](/comparison/python-net/groupdocs.comparison.result/comparisonaction/accept/) |  |
+| [REJECT](/comparison/python-net/groupdocs.comparison.result/comparisonaction/reject/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.result`](..)
+* module [`groupdocs.comparison.result`](/comparison/python-net/groupdocs.comparison.result/)

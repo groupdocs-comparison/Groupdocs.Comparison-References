@@ -1,17 +1,16 @@
-﻿---
+---
 title: target_text property
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.result/changeinfo/target_text/
 is_root: false
-weight: 110
+weight: 2090
 ---
+
 
 ## target_text property
 
-
-Changed text of target document.
 ### Definition:
 ```python
 @property
@@ -23,5 +22,4 @@ def target_text(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.comparison.result`](../../)
-* class [`ChangeInfo`](/comparison/python-net/groupdocs.comparison.result/changeinfo)
+* class [`ChangeInfo`](/comparison/python-net/groupdocs.comparison.result/changeinfo/)

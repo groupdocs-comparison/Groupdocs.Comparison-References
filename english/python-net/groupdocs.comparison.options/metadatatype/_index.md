@@ -1,30 +1,25 @@
-﻿---
-title: MetadataType enumeration
+---
+title: MetadataType class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.options/metadatatype/
 is_root: false
-weight: 180
+weight: 140
 ---
 
-## MetadataType enumeration
 
-Determines from where result document will take metadata information
-
-
+## MetadataType class
 
 The MetadataType type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| DEFAULT | Default |
-| SOURCE | Metedata takes from source document |
-| TARGET | Metadata takes from target document |
-| FILE_AUTHOR | Metadata sets by user |
-
-
+| [DEFAULT](/comparison/python-net/groupdocs.comparison.options/metadatatype/default/) |  |
+| [SOURCE](/comparison/python-net/groupdocs.comparison.options/metadatatype/source/) |  |
+| [TARGET](/comparison/python-net/groupdocs.comparison.options/metadatatype/target/) |  |
+| [FILE_AUTHOR](/comparison/python-net/groupdocs.comparison.options/metadatatype/file_author/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.options`](..)
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)

@@ -1,35 +1,34 @@
-﻿---
+---
 title: PageInfo class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.result/pageinfo/
 is_root: false
-weight: 30
+weight: 40
 ---
 
+
 ## PageInfo class
-
-Represents information about page's size and number.
-
-
 
 The PageInfo type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison.result/pageinfo/__init__/#int-int-int) | Create new Instance of PageInfo |
+| [__init__](/comparison/python-net/groupdocs.comparison.result/pageinfo/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_int32_int32_int32](/comparison/python-net/groupdocs.comparison.result/pageinfo/_init_int32_int32_int32/#page_number-width-height) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [width](/comparison/python-net/groupdocs.comparison.result/pageinfo/width) | Page width |
-| [height](/comparison/python-net/groupdocs.comparison.result/pageinfo/height) | Page height |
-| [page_number](/comparison/python-net/groupdocs.comparison.result/pageinfo/page_number) | Page number |
-
-
+| [height](/comparison/python-net/groupdocs.comparison.result/pageinfo/height/) |  |
+| [page_number](/comparison/python-net/groupdocs.comparison.result/pageinfo/page_number/) |  |
+| [width](/comparison/python-net/groupdocs.comparison.result/pageinfo/width/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.result`](..)
+* module [`groupdocs.comparison.result`](/comparison/python-net/groupdocs.comparison.result/)

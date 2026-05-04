@@ -1,48 +1,44 @@
-﻿---
+---
 title: Document class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison/document/
 is_root: false
-weight: 30
+weight: 40
 ---
 
+
 ## Document class
-
-Represents compared document.
-
-
 
 The Document type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#io.RawIOBase) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#System.String-System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/#io.RawIOBase-System.String) | Initializes new instance of [`Document`](/comparison/python-net/groupdocs.comparison/document) class. |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [changes](/comparison/python-net/groupdocs.comparison/document/changes) | List of changes. Contains extensive description about change type, position, content etc. |
-| [name](/comparison/python-net/groupdocs.comparison/document/name) | Document name. |
-| [file_type](/comparison/python-net/groupdocs.comparison/document/file_type) | Document file type. |
-| [stream](/comparison/python-net/groupdocs.comparison/document/stream) | Document stream. |
-| [password](/comparison/python-net/groupdocs.comparison/document/password) | Document password. |
-
+| [__init__](/comparison/python-net/groupdocs.comparison/document/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [generate_preview](/comparison/python-net/groupdocs.comparison/document/generate_preview/#groupdocs.comparison.options.PreviewOptions) | Generates document pages preview. |
-| [get_document_info](/comparison/python-net/groupdocs.comparison/document/get_document_info/#) | Gets information about document - document type, pages count, page sizes etc. |
+| [_generate_preview_preview_options](/comparison/python-net/groupdocs.comparison/document/_generate_preview_preview_options/#preview_options) |  |
+| [_get_document_info_noargs](/comparison/python-net/groupdocs.comparison/document/_get_document_info_noargs/) |  |
+| [_init_stream](/comparison/python-net/groupdocs.comparison/document/_init_stream/#stream) |  |
+| [_init_stream_string](/comparison/python-net/groupdocs.comparison/document/_init_stream_string/#stream-password) |  |
+| [_init_string](/comparison/python-net/groupdocs.comparison/document/_init_string/#file_path) |  |
+| [_init_string_string](/comparison/python-net/groupdocs.comparison/document/_init_string_string/#file_path-password) |  |
+| [generate_preview](/comparison/python-net/groupdocs.comparison/document/generate_preview/) |  |
+| [generate_preview_preview_options](/comparison/python-net/groupdocs.comparison/document/generate_preview_preview_options/) |  |
+| [get_document_info](/comparison/python-net/groupdocs.comparison/document/get_document_info/) |  |
 
-
+### Properties
+| Property | Description |
+| :- | :- |
+| [changes](/comparison/python-net/groupdocs.comparison/document/changes/) |  |
+| [file_type](/comparison/python-net/groupdocs.comparison/document/file_type/) |  |
+| [name](/comparison/python-net/groupdocs.comparison/document/name/) |  |
+| [password](/comparison/python-net/groupdocs.comparison/document/password/) |  |
+| [stream](/comparison/python-net/groupdocs.comparison/document/stream/) |  |
 
 ### See Also
-* module [`groupdocs.comparison`](..)
-* class [`Document`](/comparison/python-net/groupdocs.comparison/document)
+* module [`groupdocs.comparison`](/comparison/python-net/groupdocs.comparison/)

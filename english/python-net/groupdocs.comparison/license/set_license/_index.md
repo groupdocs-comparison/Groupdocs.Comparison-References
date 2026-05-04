@@ -1,48 +1,30 @@
-﻿---
+---
 title: set_license method
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison/license/set_license/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## set_license {#io.RawIOBase}
 
-Licenses the component using license stream.
+## set_license {#license_source}
 
-
+Apply a license to the current process.
 
 ```python
-def set_license(self, license_stream):
+def set_license(self, license_source):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| license_stream | io.RawIOBase | The license stream. |
+| license_source |  | Either a string path to a ``.lic`` file or a readable file-like object that yields the license bytes. File-like inputs are written to a temporary file before being passed to the bridge. |
 
-
-## set_license {#System.String}
-
-Licenses the component using license path.
-
-
-
-```python
-def set_license(self, license_path):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| license_path | System.String | The license path. |
-
-
+| Raises | Description |
+| :- | :- |
+| `TypeError` | If ``license_source`` is neither a string path nor a readable file-like object. |
 
 ### See Also
-* module [`groupdocs.comparison`](../../)
-* class [`License`](/comparison/python-net/groupdocs.comparison/license)
+* class [`License`](/comparison/python-net/groupdocs.comparison/license/)

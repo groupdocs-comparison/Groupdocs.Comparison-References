@@ -1,31 +1,20 @@
-﻿---
+---
 title: trace method
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.logging/consolelogger/trace/
 is_root: false
-weight: 20
+weight: 1080
 ---
 
-## trace {#System.String}
 
-Logs the process of comparison.
-
-
+## trace
 
 ```python
-def trace(self, message):
+def trace(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| message | System.String | Log message |
-
-
-
 ### See Also
-* module [`groupdocs.comparison.logging`](../../)
-* class [`ConsoleLogger`](/comparison/python-net/groupdocs.comparison.logging/consolelogger)
+* class [`ConsoleLogger`](/comparison/python-net/groupdocs.comparison.logging/consolelogger/)

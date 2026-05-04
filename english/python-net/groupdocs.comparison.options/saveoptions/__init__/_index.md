@@ -1,5 +1,5 @@
-﻿---
-title: SaveOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,13 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`SaveOptions`](/comparison/python-net/groupdocs.comparison.options/saveoptions) class.
-
-
+## __init__
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.comparison.options`](../../)
-* class [`SaveOptions`](/comparison/python-net/groupdocs.comparison.options/saveoptions)
+* class [`SaveOptions`](/comparison/python-net/groupdocs.comparison.options/saveoptions/)
