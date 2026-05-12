@@ -1,28 +1,23 @@
-﻿---
-title: ImagesInheritance enumeration
+---
+title: ImagesInheritance class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.options/imagesinheritance/
 is_root: false
-weight: 170
+weight: 120
 ---
 
-## ImagesInheritance enumeration
 
-Source of images inheritance when image comparison is disabled.
-
-
+## ImagesInheritance class
 
 The ImagesInheritance type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| SOURCE | Inherit images from source document. |
-| TARGET | Inherit images from target document. |
-
-
+| [SOURCE](/comparison/python-net/groupdocs.comparison.options/imagesinheritance/source/) |  |
+| [TARGET](/comparison/python-net/groupdocs.comparison.options/imagesinheritance/target/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.options`](..)
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)

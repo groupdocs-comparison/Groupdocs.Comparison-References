@@ -1,44 +1,31 @@
-﻿---
+---
 title: Metered class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison/metered/
 is_root: false
-weight: 50
+weight: 100
 ---
+
 
 ## Metered class
 
-Provides methods for applying Metered license.
+Manages metered (pay-per-use) licensing.
 
-
+Metered licenses bill on actual consumption (typically pages or
+documents processed). Set the public/private key pair once at
+application startup; the wrapper reports usage back to the GroupDocs
+license server in the background.
 
 The Metered type exposes the following members:
-
-### Constructors
-| Constructor | Description |
-| :- | :- |
-| [__init__](/comparison/python-net/groupdocs.comparison/metered/__init__/#) | Initializes a new instance of the [`Metered`](/comparison/python-net/groupdocs.comparison/metered) class. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_metered_key](/comparison/python-net/groupdocs.comparison/metered/set_metered_key/#System.String-System.String) | Sets metered public and private key |
-| [get_consumption_quantity](/comparison/python-net/groupdocs.comparison/metered/get_consumption_quantity/#) | Gets consumption quantity |
-| [get_consumption_credit](/comparison/python-net/groupdocs.comparison/metered/get_consumption_credit/#) | Retrieves amount of used credits |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
+| [get_consumption_credit](/comparison/python-net/groupdocs.comparison/metered/get_consumption_credit/) | Return the remaining metered credit for the current key. |
+| [get_consumption_quantity](/comparison/python-net/groupdocs.comparison/metered/get_consumption_quantity/) | Return the total metered quantity consumed so far. |
+| [set_metered_key](/comparison/python-net/groupdocs.comparison/metered/set_metered_key/#public_key-private_key) | Activate metered billing with the given public/private key pair. |
 
 ### See Also
-* module [`groupdocs.comparison`](..)
-* class [`Metered`](/comparison/python-net/groupdocs.comparison/metered)
+* module [`groupdocs.comparison`](/comparison/python-net/groupdocs.comparison/)

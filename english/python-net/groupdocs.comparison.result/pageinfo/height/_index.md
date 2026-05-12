@@ -1,17 +1,16 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.result/pageinfo/height/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## height property
 
-
-Page height
 ### Definition:
 ```python
 @property
@@ -23,5 +22,4 @@ def height(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.comparison.result`](../../)
-* class [`PageInfo`](/comparison/python-net/groupdocs.comparison.result/pageinfo)
+* class [`PageInfo`](/comparison/python-net/groupdocs.comparison.result/pageinfo/)

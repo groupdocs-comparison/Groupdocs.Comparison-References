@@ -1,17 +1,16 @@
-﻿---
+---
 title: detalisation_level property
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.options/compareoptions/detalisation_level/
 is_root: false
-weight: 110
+weight: 2090
 ---
+
 
 ## detalisation_level property
 
-
-Gets or sets the comparison detail level.
 ### Definition:
 ```python
 @property
@@ -23,6 +22,4 @@ def detalisation_level(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.comparison.options`](../../)
-* class [`CompareOptions`](/comparison/python-net/groupdocs.comparison.options/compareoptions)
-* class [`DetalisationLevel`](/comparison/python-net/groupdocs.comparison.options/detalisationlevel)
+* class [`CompareOptions`](/comparison/python-net/groupdocs.comparison.options/compareoptions/)

@@ -1,30 +1,25 @@
-﻿---
-title: PasswordSaveOption enumeration
+---
+title: PasswordSaveOption class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.options/passwordsaveoption/
 is_root: false
-weight: 200
+weight: 180
 ---
 
-## PasswordSaveOption enumeration
 
-Specifies the password save option.
-
-
+## PasswordSaveOption class
 
 The PasswordSaveOption type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Default password. |
-| SOURCE | Source password. |
-| TARGET | Target password. |
-| USER | The user password. |
-
-
+| [NONE](/comparison/python-net/groupdocs.comparison.options/passwordsaveoption/none/) |  |
+| [SOURCE](/comparison/python-net/groupdocs.comparison.options/passwordsaveoption/source/) |  |
+| [TARGET](/comparison/python-net/groupdocs.comparison.options/passwordsaveoption/target/) |  |
+| [USER](/comparison/python-net/groupdocs.comparison.options/passwordsaveoption/user/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.options`](..)
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)

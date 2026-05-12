@@ -1,29 +1,24 @@
-﻿---
-title: CalculateCoordinatesModeEnumeration enumeration
+---
+title: CalculateCoordinatesModeEnumeration class
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.options/calculatecoordinatesmodeenumeration/
 is_root: false
-weight: 130
+weight: 20
 ---
 
-## CalculateCoordinatesModeEnumeration enumeration
 
-Enumerates the type of coordinates calculation.
-
-
+## CalculateCoordinatesModeEnumeration class
 
 The CalculateCoordinatesModeEnumeration type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| SOURCE | Calculate coordinates of source elements. |
-| TARGET | Calculate coordinates of target elements. |
-| RESULT | Calculate coordinates of result elements (default). |
-
-
+| [SOURCE](/comparison/python-net/groupdocs.comparison.options/calculatecoordinatesmodeenumeration/source/) |  |
+| [TARGET](/comparison/python-net/groupdocs.comparison.options/calculatecoordinatesmodeenumeration/target/) |  |
+| [RESULT](/comparison/python-net/groupdocs.comparison.options/calculatecoordinatesmodeenumeration/result/) |  |
 
 ### See Also
-* module [`groupdocs.comparison.options`](..)
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)

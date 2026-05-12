@@ -1,36 +1,20 @@
-﻿---
+---
 title: equals method
 second_title: GroupDocs.Comparison for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.comparison.result/stylechangeinfo/equals/
 is_root: false
-weight: 20
+weight: 1050
 ---
 
-## equals {#groupdocs.comparison.result.StyleChangeInfo}
 
-Style change equivalence check.
-
-
-### Returns 
-
-
-
-
+## equals
 
 ```python
-def equals(self, other):
+def equals(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| other | groupdocs.comparison.result.StyleChangeInfo | StyleChangeInfo object |
-
-
-
 ### See Also
-* module [`groupdocs.comparison.result`](../../)
-* class [`StyleChangeInfo`](/comparison/python-net/groupdocs.comparison.result/stylechangeinfo)
+* class [`StyleChangeInfo`](/comparison/python-net/groupdocs.comparison.result/stylechangeinfo/)
