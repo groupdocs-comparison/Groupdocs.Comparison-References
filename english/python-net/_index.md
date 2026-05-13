@@ -6,7 +6,7 @@ type: docs
 url: /python-net/
 is_root: true
 weight: 10
-version: 26.4.0
+version: 26.5.0
 ---
 
 
