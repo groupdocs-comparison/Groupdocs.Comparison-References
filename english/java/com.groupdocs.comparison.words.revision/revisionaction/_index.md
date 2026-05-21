@@ -14,9 +14,10 @@ public enum RevisionAction extends Enum<RevisionAction>
 
 Represents an action that can be applied to a revision.
 
+
 Example usage:
 
-```
+````
 
  try (RevisionHandler revisionHandler = new RevisionHandler(sourceFile)) {
      List revisionList = revisionHandler.getRevisions();
@@ -33,14 +34,19 @@ Example usage:
      revisionHandler.applyRevisionChanges(resultFile, revisionChanges);
  }
  
-```
+````
+
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Indicates that no action is to be taken. |
-| [ACCEPT](#ACCEPT) | Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION. |
-| [REJECT](#REJECT) | Indicates that the revision will be removed if it is of type INSERTION, or it will be displayed if the type is DELETION. |
+| [NONE](#NONE) | Indicates that no action is to be taken.
+ |
+| [ACCEPT](#ACCEPT) | Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION.
+ |
+| [REJECT](#REJECT) | Indicates that the revision will be removed if it is of type INSERTION, or it will be displayed if the type is DELETION.
+ |
 ## Methods
 
 | Method | Description |
@@ -55,6 +61,7 @@ public static final RevisionAction NONE
 
 Indicates that no action is to be taken.
 
+
 ### ACCEPT {#ACCEPT}
 ```
 public static final RevisionAction ACCEPT
@@ -63,6 +70,7 @@ public static final RevisionAction ACCEPT
 
 Indicates that the revision will be displayed if it is of type INSERTION, or it will be removed if the type is DELETION.
 
+
 ### REJECT {#REJECT}
 ```
 public static final RevisionAction REJECT
@@ -70,6 +78,7 @@ public static final RevisionAction REJECT
 
 
 Indicates that the revision will be removed if it is of type INSERTION, or it will be displayed if the type is DELETION.
+
 
 ### values() {#values--}
 ```

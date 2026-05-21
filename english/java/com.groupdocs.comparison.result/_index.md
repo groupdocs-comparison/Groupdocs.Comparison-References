@@ -11,14 +11,14 @@ Provides classes and interfaces for working with the result of document comparis
 
 Key classes in this package:
 
- *  [ChangeInfo](../../com.groupdocs.comparison.result/changeinfo) - Represents information about a specific change in the comparison result.
- *  [PageInfo](../../com.groupdocs.comparison.result/pageinfo) - Represents information about a page in the comparison result.
- *  [StyleChangeInfo](../../com.groupdocs.comparison.result/stylechangeinfo) - Represents information about a style change in a compared document.
-
-For more details on working with result of the comparison process using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+* [ChangeInfo](../../com.groupdocs.comparison.result/changeinfo) - Represents information about a specific change in the comparison result.
+* [PageInfo](../../com.groupdocs.comparison.result/pageinfo) - Represents information about a page in the comparison result.
+* [StyleChangeInfo](../../com.groupdocs.comparison.result/stylechangeinfo) - Represents information about a style change in a compared document.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+For more details on working with result of the comparison process using GroupDocs.Comparison for Java,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Classes

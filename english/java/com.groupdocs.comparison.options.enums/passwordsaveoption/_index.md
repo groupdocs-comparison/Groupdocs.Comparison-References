@@ -14,9 +14,10 @@ public enum PasswordSaveOption extends Enum<PasswordSaveOption>
 
 Enumerates the options for saving password information in a document during the comparison process.
 
+
 Example usage:
 
-```
+````
 
  try (Comparer comparer = new Comparer(sourceFile)) {
     comparer.add(targetFile);
@@ -27,23 +28,31 @@ Example usage:
     comparer.compare(resultFile, compareOptions);
  }
  
-```
+````
+
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Do not save the password. |
-| [SOURCE](#SOURCE) | Use password from source document. |
-| [TARGET](#TARGET) | Use password from target document. |
-| [USER](#USER) | \* Use password provided by user. |
+| [NONE](#NONE) | Do not save the password.
+ |
+| [SOURCE](#SOURCE) | Use password from source document.
+ |
+| [TARGET](#TARGET) | Use password from target document.
+ |
+| [USER](#USER) | \* Use password provided by user.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of PasswordSaveOption to get the enum constant. |
-| [toString()](#toString--) | String representation of PasswordSaveOption. |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of PasswordSaveOption to get the enum constant.
+ |
+| [toString()](#toString--) | String representation of PasswordSaveOption.
+ |
 ### NONE {#NONE}
 ```
 public static final PasswordSaveOption NONE
@@ -51,6 +60,7 @@ public static final PasswordSaveOption NONE
 
 
 Do not save the password.
+
 
 ### SOURCE {#SOURCE}
 ```
@@ -60,6 +70,7 @@ public static final PasswordSaveOption SOURCE
 
 Use password from source document.
 
+
 ### TARGET {#TARGET}
 ```
 public static final PasswordSaveOption TARGET
@@ -68,6 +79,7 @@ public static final PasswordSaveOption TARGET
 
 Use password from target document.
 
+
 ### USER {#USER}
 ```
 public static final PasswordSaveOption USER
@@ -75,6 +87,7 @@ public static final PasswordSaveOption USER
 
 
 \* Use password provided by user.
+
 
 ### values() {#values--}
 ```
@@ -109,13 +122,16 @@ public static PasswordSaveOption fromString(String toStringValue)
 
 Parses string representation of PasswordSaveOption to get the enum constant.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| toStringValue | java.lang.String | The string representation of PasswordSaveOption |
+| toStringValue | java.lang.String | The string representation of PasswordSaveOption
+ |
 
 **Returns:**
 [PasswordSaveOption](../../com.groupdocs.comparison.options.enums/passwordsaveoption) - PasswordSaveOption enum constant associated with input string
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -124,5 +140,7 @@ public String toString()
 
 String representation of PasswordSaveOption.
 
+
 **Returns:**
 java.lang.String - string value of enum constant
+

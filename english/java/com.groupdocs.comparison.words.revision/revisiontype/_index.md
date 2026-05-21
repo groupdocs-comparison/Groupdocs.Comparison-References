@@ -14,9 +14,10 @@ public enum RevisionType extends Enum<RevisionType>
 
 Represents the types of revisions in a document.
 
+
 Example usage:
 
-```
+````
 
  try (RevisionHandler revisionHandler = new RevisionHandler(sourceFile)) {
      List revisionList = revisionHandler.getRevisions();
@@ -33,26 +34,37 @@ Example usage:
      revisionHandler.applyRevisionChanges(resultFile, revisionChanges);
  }
  
-```
+````
+
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [INSERTION](#INSERTION) | Represents a type when new content was inserted in the document. |
-| [DELETION](#DELETION) | Represents a type when content was removed from the document. |
-| [FORMAT_CHANGE](#FORMAT-CHANGE) | Represents a type when change of formatting was applied to the parent node. |
-| [STYLE_DEFINITION_CHANGE](#STYLE-DEFINITION-CHANGE) | Represents a type when change of formatting was applied to the parent style. |
-| [MOVING](#MOVING) | Represents a type when content was moved in the document. |
+| [INSERTION](#INSERTION) | Represents a type when new content was inserted in the document.
+ |
+| [DELETION](#DELETION) | Represents a type when content was removed from the document.
+ |
+| [FORMAT_CHANGE](#FORMAT-CHANGE) | Represents a type when change of formatting was applied to the parent node.
+ |
+| [STYLE_DEFINITION_CHANGE](#STYLE-DEFINITION-CHANGE) | Represents a type when change of formatting was applied to the parent style.
+ |
+| [MOVING](#MOVING) | Represents a type when content was moved in the document.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
-| [fromInt(int toIntValue)](#fromInt-int-) | Creates new constant of enum RevisionType using provided numeric value. |
-| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of RevisionType to get the enum constant. |
-| [toInt()](#toInt--) | Numeric representation of RevisionType. |
-| [toString()](#toString--) | String representation of RevisionType. |
+| [fromInt(int toIntValue)](#fromInt-int-) | Creates new constant of enum RevisionType using provided numeric value.
+ |
+| [fromString(String toStringValue)](#fromString-java.lang.String-) | Parses string representation of RevisionType to get the enum constant.
+ |
+| [toInt()](#toInt--) | Numeric representation of RevisionType.
+ |
+| [toString()](#toString--) | String representation of RevisionType.
+ |
 ### INSERTION {#INSERTION}
 ```
 public static final RevisionType INSERTION
@@ -60,6 +72,7 @@ public static final RevisionType INSERTION
 
 
 Represents a type when new content was inserted in the document.
+
 
 ### DELETION {#DELETION}
 ```
@@ -69,6 +82,7 @@ public static final RevisionType DELETION
 
 Represents a type when content was removed from the document.
 
+
 ### FORMAT_CHANGE {#FORMAT-CHANGE}
 ```
 public static final RevisionType FORMAT_CHANGE
@@ -76,6 +90,7 @@ public static final RevisionType FORMAT_CHANGE
 
 
 Represents a type when change of formatting was applied to the parent node.
+
 
 ### STYLE_DEFINITION_CHANGE {#STYLE-DEFINITION-CHANGE}
 ```
@@ -85,6 +100,7 @@ public static final RevisionType STYLE_DEFINITION_CHANGE
 
 Represents a type when change of formatting was applied to the parent style.
 
+
 ### MOVING {#MOVING}
 ```
 public static final RevisionType MOVING
@@ -92,6 +108,7 @@ public static final RevisionType MOVING
 
 
 Represents a type when content was moved in the document.
+
 
 ### values() {#values--}
 ```
@@ -126,13 +143,16 @@ public static RevisionType fromInt(int toIntValue)
 
 Creates new constant of enum RevisionType using provided numeric value.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| toIntValue | int | The numeric representation of RevisionType |
+| toIntValue | int | The numeric representation of RevisionType
+ |
 
 **Returns:**
 [RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) - RevisionType enum constant associated with numeric value
+
 ### fromString(String toStringValue) {#fromString-java.lang.String-}
 ```
 public static RevisionType fromString(String toStringValue)
@@ -141,13 +161,16 @@ public static RevisionType fromString(String toStringValue)
 
 Parses string representation of RevisionType to get the enum constant.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| toStringValue | java.lang.String | The string representation of RevisionType |
+| toStringValue | java.lang.String | The string representation of RevisionType
+ |
 
 **Returns:**
 [RevisionType](../../com.groupdocs.comparison.words.revision/revisiontype) - RevisionType enum constant associated with input string
+
 ### toInt() {#toInt--}
 ```
 public int toInt()
@@ -156,8 +179,10 @@ public int toInt()
 
 Numeric representation of RevisionType.
 
+
 **Returns:**
 int - numeric value of enum constant
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -166,5 +191,7 @@ public String toString()
 
 String representation of RevisionType.
 
+
 **Returns:**
 java.lang.String - string value of enum constant
+

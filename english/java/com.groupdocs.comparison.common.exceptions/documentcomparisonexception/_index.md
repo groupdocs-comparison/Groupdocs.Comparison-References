@@ -13,12 +13,15 @@ public class DocumentComparisonException extends ComparisonException
 ```
 
 The exception that is thrown when an error occurs while comparing documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DocumentComparisonException(String message, Throwable cause)](#DocumentComparisonException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the DocumentComparisonException class with error message and an object that represents the cause of the exception. |
-| [DocumentComparisonException(Throwable cause)](#DocumentComparisonException-java.lang.Throwable-) | Initializes a new instance of the DocumentComparisonException class with an object that represents the cause of the exception. |
+| [DocumentComparisonException(String message, Throwable cause)](#DocumentComparisonException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the DocumentComparisonException class with error message and an object that represents the cause of the exception.
+ |
+| [DocumentComparisonException(Throwable cause)](#DocumentComparisonException-java.lang.Throwable-) | Initializes a new instance of the DocumentComparisonException class with an object that represents the cause of the exception.
+ |
 ### DocumentComparisonException(String message, Throwable cause) {#DocumentComparisonException-java.lang.String-java.lang.Throwable-}
 ```
 public DocumentComparisonException(String message, Throwable cause)
@@ -27,11 +30,14 @@ public DocumentComparisonException(String message, Throwable cause)
 
 Initializes a new instance of the DocumentComparisonException class with error message and an object that represents the cause of the exception.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message |
-| cause | java.lang.Throwable | The cause of the exception |
+| message | java.lang.String | The error message
+ |
+| cause | java.lang.Throwable | The cause of the exception
+ |
 
 ### DocumentComparisonException(Throwable cause) {#DocumentComparisonException-java.lang.Throwable-}
 ```
@@ -41,8 +47,10 @@ public DocumentComparisonException(Throwable cause)
 
 Initializes a new instance of the DocumentComparisonException class with an object that represents the cause of the exception.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cause | java.lang.Throwable | The cause of the exception |
+| cause | java.lang.Throwable | The cause of the exception
+ |
 

@@ -14,9 +14,10 @@ public class Size
 
 Represents the size of document in comparison.
 
+
 Example usage:
 
-```
+````
 
  try (Comparer comparer = new Comparer(sourceFile)) {
      comparer.add(targetFile);
@@ -32,21 +33,29 @@ Example usage:
      comparer.compare(resultFile, compareOptions);
  }
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Size()](#Size--) | Initializes a new instance of the Size class. |
-| [Size(int width, int height)](#Size-int-int-) | Initializes a new instance of the Size class with width and height of a document. |
+| [Size()](#Size--) | Initializes a new instance of the Size class.
+ |
+| [Size(int width, int height)](#Size-int-int-) | Initializes a new instance of the Size class with width and height of a document.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Gets the width of an original document. |
-| [setWidth(int value)](#setWidth-int-) | Sets the width of an original document. |
-| [getHeight()](#getHeight--) | Gets the height of an original document. |
-| [setHeight(int value)](#setHeight-int-) | Sets the height of an original document. |
+| [getWidth()](#getWidth--) | Gets the width of an original document.
+ |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of an original document.
+ |
+| [getHeight()](#getHeight--) | Gets the height of an original document.
+ |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of an original document.
+ |
 ### Size() {#Size--}
 ```
 public Size()
@@ -55,6 +64,7 @@ public Size()
 
 Initializes a new instance of the Size class.
 
+
 ### Size(int width, int height) {#Size-int-int-}
 ```
 public Size(int width, int height)
@@ -62,6 +72,7 @@ public Size(int width, int height)
 
 
 Initializes a new instance of the Size class with width and height of a document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -77,8 +88,10 @@ public final int getWidth()
 
 Gets the width of an original document.
 
+
 **Returns:**
 int - the width of the document
+
 ### setWidth(int value) {#setWidth-int-}
 ```
 public final void setWidth(int value)
@@ -87,10 +100,12 @@ public final void setWidth(int value)
 
 Sets the width of an original document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The width of the document |
+| value | int | The width of the document
+ |
 
 ### getHeight() {#getHeight--}
 ```
@@ -100,8 +115,10 @@ public final int getHeight()
 
 Gets the height of an original document.
 
+
 **Returns:**
 int - the height of the document
+
 ### setHeight(int value) {#setHeight-int-}
 ```
 public final void setHeight(int value)
@@ -110,8 +127,10 @@ public final void setHeight(int value)
 
 Sets the height of an original document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The height of the document |
+| value | int | The height of the document
+ |
 

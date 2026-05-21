@@ -14,9 +14,10 @@ public class ComparerSettings
 
 Defines settings for customizing the behavior of the [Comparer](../../com.groupdocs.comparison/comparer) class.
 
+
 Example usage:
 
-```
+````
 
  try (Comparer comparer = new Comparer(sourceFile)) {
      comparer.add(targetFile);
@@ -27,19 +28,25 @@ Example usage:
      comparer.compare(resultFile, comparerSettings);
  }
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ComparerSettings()](#ComparerSettings--) | Instantiates new instance of ComparerSettings class. |
-| [ComparerSettings(ILogger logger)](#ComparerSettings-com.groupdocs.foundation.logging.ILogger-) | Instantiates new instance of ComparerSettings class. |
+| [ComparerSettings()](#ComparerSettings--) | Instantiates new instance of ComparerSettings class.
+ |
+| [ComparerSettings(ILogger logger)](#ComparerSettings-com.groupdocs.foundation.logging.ILogger-) | Instantiates new instance of ComparerSettings class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLogger()](#getLogger--) | Gets the logger implementation used for logging. |
-| [setLogger(ILogger value)](#setLogger-com.groupdocs.foundation.logging.ILogger-) | Sets the logger implementation for logging. |
+| [getLogger()](#getLogger--) | Gets the logger implementation used for logging.
+ |
+| [setLogger(ILogger value)](#setLogger-com.groupdocs.foundation.logging.ILogger-) | Sets the logger implementation for logging.
+ |
 ### ComparerSettings() {#ComparerSettings--}
 ```
 public ComparerSettings()
@@ -47,6 +54,7 @@ public ComparerSettings()
 
 
 Instantiates new instance of ComparerSettings class.
+
 
 ### ComparerSettings(ILogger logger) {#ComparerSettings-com.groupdocs.foundation.logging.ILogger-}
 ```
@@ -56,10 +64,12 @@ public ComparerSettings(ILogger logger)
 
 Instantiates new instance of ComparerSettings class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| logger | com.groupdocs.foundation.logging.ILogger | logger to be used |
+| logger | com.groupdocs.foundation.logging.ILogger | logger to be used
+ |
 
 ### getLogger() {#getLogger--}
 ```
@@ -69,8 +79,10 @@ public final ILogger getLogger()
 
 Gets the logger implementation used for logging.
 
+
 **Returns:**
 com.groupdocs.foundation.logging.ILogger - the logger
+
 ### setLogger(ILogger value) {#setLogger-com.groupdocs.foundation.logging.ILogger-}
 ```
 public final void setLogger(ILogger value)
@@ -79,10 +91,13 @@ public final void setLogger(ILogger value)
 
 Sets the logger implementation for logging.
 
-Use com.groupdocs.foundation.logging.NullLogger\#NULL\_LOGGER.NULL\_LOGGER to disable logging.
+
+Use com.groupdocs.foundation.logging.NullLogger#NULL_LOGGER.NULL_LOGGER to disable logging.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.foundation.logging.ILogger | the logger implementation to set |
+| value | com.groupdocs.foundation.logging.ILogger | the logger implementation to set
+ |
 

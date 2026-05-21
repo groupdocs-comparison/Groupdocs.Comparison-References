@@ -14,9 +14,10 @@ public class FileAuthorMetadata
 
 Allows configuring information about the document's author metadata.
 
+
 Example usage:
 
-```
+````
 
  try (Comparer comparer = new Comparer(sourceFile)) {
      comparer.add(targetFile);
@@ -34,12 +35,15 @@ Example usage:
      comparer.compare(resultFile, saveOptions);
  }
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileAuthorMetadata()](#FileAuthorMetadata--) | Initializes a new instance of the FileAuthorMetadata class. |
+| [FileAuthorMetadata()](#FileAuthorMetadata--) | Initializes a new instance of the FileAuthorMetadata class.
+ |
 ## Fields
 
 | Field | Description |
@@ -49,12 +53,18 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
-| [getAuthor()](#getAuthor--) | Gets the author of a document. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of a document. |
-| [getLastSaveBy()](#getLastSaveBy--) | Gets name of a person who saved the document for the last time. |
-| [setLastSaveBy(String value)](#setLastSaveBy-java.lang.String-) | Sets name of a person who saved the document for the last time. |
-| [getCompany()](#getCompany--) | Gets name of a company whose document is. |
-| [setCompany(String value)](#setCompany-java.lang.String-) | Sets name of a company whose document is. |
+| [getAuthor()](#getAuthor--) | Gets the author of a document.
+ |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of a document.
+ |
+| [getLastSaveBy()](#getLastSaveBy--) | Gets name of a person who saved the document for the last time.
+ |
+| [setLastSaveBy(String value)](#setLastSaveBy-java.lang.String-) | Sets name of a person who saved the document for the last time.
+ |
+| [getCompany()](#getCompany--) | Gets name of a company whose document is.
+ |
+| [setCompany(String value)](#setCompany-java.lang.String-) | Sets name of a company whose document is.
+ |
 ### FileAuthorMetadata() {#FileAuthorMetadata--}
 ```
 public FileAuthorMetadata()
@@ -62,6 +72,7 @@ public FileAuthorMetadata()
 
 
 Initializes a new instance of the FileAuthorMetadata class.
+
 
 ### GROUP_DOCS {#GROUP-DOCS}
 ```
@@ -77,8 +88,10 @@ public final String getAuthor()
 
 Gets the author of a document.
 
+
 **Returns:**
 java.lang.String - the author
+
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
 public final void setAuthor(String value)
@@ -87,10 +100,12 @@ public final void setAuthor(String value)
 
 Sets the author of a document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The author |
+| value | java.lang.String | The author
+ |
 
 ### getLastSaveBy() {#getLastSaveBy--}
 ```
@@ -100,8 +115,10 @@ public final String getLastSaveBy()
 
 Gets name of a person who saved the document for the last time.
 
+
 **Returns:**
 java.lang.String - the name
+
 ### setLastSaveBy(String value) {#setLastSaveBy-java.lang.String-}
 ```
 public final void setLastSaveBy(String value)
@@ -110,10 +127,12 @@ public final void setLastSaveBy(String value)
 
 Sets name of a person who saved the document for the last time.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The name of a person |
+| value | java.lang.String | The name of a person
+ |
 
 ### getCompany() {#getCompany--}
 ```
@@ -123,8 +142,10 @@ public final String getCompany()
 
 Gets name of a company whose document is.
 
+
 **Returns:**
 java.lang.String - the name of a company
+
 ### setCompany(String value) {#setCompany-java.lang.String-}
 ```
 public final void setCompany(String value)
@@ -133,8 +154,10 @@ public final void setCompany(String value)
 
 Sets name of a company whose document is.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The name of a company |
+| value | java.lang.String | The name of a company
+ |
 

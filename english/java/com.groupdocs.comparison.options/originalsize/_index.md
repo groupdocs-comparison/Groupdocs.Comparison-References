@@ -14,11 +14,13 @@ public class OriginalSize
 
 Represents the original size of a document in a comparison result.
 
+
 The original size includes the dimensions (width and height) of the document's pages.
+
 
 Example usage:
 
-```
+````
 
  try (Comparer comparer = new Comparer(sourceFile)) {
      comparer.add(targetFile);
@@ -31,7 +33,9 @@ Example usage:
      comparer.compare(resultFile, compareOptions);
  }
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
@@ -41,10 +45,14 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Gets the width of the document's pages. |
-| [setWidth(int value)](#setWidth-int-) | Sets the width of the document's pages. |
-| [getHeight()](#getHeight--) | Gets the height of the document's pages. |
-| [setHeight(int value)](#setHeight-int-) | Sets the height of the document's pages. |
+| [getWidth()](#getWidth--) | Gets the width of the document's pages.
+ |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of the document's pages.
+ |
+| [getHeight()](#getHeight--) | Gets the height of the document's pages.
+ |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the document's pages.
+ |
 ### OriginalSize() {#OriginalSize--}
 ```
 public OriginalSize()
@@ -59,8 +67,10 @@ public final int getWidth()
 
 Gets the width of the document's pages.
 
+
 **Returns:**
 int - the width of the document's pages.
+
 ### setWidth(int value) {#setWidth-int-}
 ```
 public final void setWidth(int value)
@@ -69,10 +79,12 @@ public final void setWidth(int value)
 
 Sets the width of the document's pages.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The width of the document's pages. |
+| value | int | The width of the document's pages.
+ |
 
 ### getHeight() {#getHeight--}
 ```
@@ -82,8 +94,10 @@ public final int getHeight()
 
 Gets the height of the document's pages.
 
+
 **Returns:**
 int - the height of the document's pages.
+
 ### setHeight(int value) {#setHeight-int-}
 ```
 public final void setHeight(int value)
@@ -92,8 +106,10 @@ public final void setHeight(int value)
 
 Sets the height of the document's pages.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The height of the document's pages. |
+| value | int | The height of the document's pages.
+ |
 

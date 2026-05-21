@@ -13,14 +13,19 @@ public enum MergeType extends Enum<MergeType>
 ```
 
 Enumerates the type of cell merge.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Indicates that the cell does not merge. |
-| [HORIZONTAL](#HORIZONTAL) | Indicates that the cell merges along the row. |
-| [VERTICAL](#VERTICAL) | Indicates that the cell merges along the column. |
-| [RANGE](#RANGE) | Indicates that the cell merges along the row and column, creating an area. |
+| [NONE](#NONE) | Indicates that the cell does not merge.
+ |
+| [HORIZONTAL](#HORIZONTAL) | Indicates that the cell merges along the row.
+ |
+| [VERTICAL](#VERTICAL) | Indicates that the cell merges along the column.
+ |
+| [RANGE](#RANGE) | Indicates that the cell merges along the row and column, creating an area.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,7 @@ public static final MergeType NONE
 
 Indicates that the cell does not merge.
 
+
 ### HORIZONTAL {#HORIZONTAL}
 ```
 public static final MergeType HORIZONTAL
@@ -42,6 +48,7 @@ public static final MergeType HORIZONTAL
 
 
 Indicates that the cell merges along the row.
+
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -51,6 +58,7 @@ public static final MergeType VERTICAL
 
 Indicates that the cell merges along the column.
 
+
 ### RANGE {#RANGE}
 ```
 public static final MergeType RANGE
@@ -58,6 +66,7 @@ public static final MergeType RANGE
 
 
 Indicates that the cell merges along the row and column, creating an area.
+
 
 ### values() {#values--}
 ```

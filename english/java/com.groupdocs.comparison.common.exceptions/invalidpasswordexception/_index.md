@@ -13,11 +13,13 @@ public class InvalidPasswordException extends ComparisonException
 ```
 
 The exception that is thrown when specified password is incorrect.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [InvalidPasswordException()](#InvalidPasswordException--) | Initializes a new instance of the InvalidPasswordException class. |
+| [InvalidPasswordException()](#InvalidPasswordException--) | Initializes a new instance of the InvalidPasswordException class.
+ |
 ### InvalidPasswordException() {#InvalidPasswordException--}
 ```
 public InvalidPasswordException()
@@ -25,4 +27,5 @@ public InvalidPasswordException()
 
 
 Initializes a new instance of the InvalidPasswordException class.
+
 

@@ -9,14 +9,20 @@ url: /java/com.groupdocs.comparison.options.load/
 
 Provides classes and options for configuring loading documents in GroupDocs.Comparison.
 
-The classes in this package are used to load the source and target documents with specific options. They provide options for specifying document formats, loading password-protected documents, setting fonts directories and more.
 
-The key class in this package is [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions). Classes in the package allow you to configure specific options and settings related to different document formats for accurate and customized document comparison.
+The classes in this package are used to load the source and target documents with specific options.
+They provide options for specifying document formats, loading password-protected documents,
+setting fonts directories and more.
 
-For more details on loading and configuring documents using GroupDocs.Comparison, please refer to the [GroupDocs.Comparison Documentation][].
+
+The key class in this package is [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions).
+Classes in the package allow you to configure specific options and settings related to different
+document formats for accurate and customized document comparison.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+For more details on loading and configuring documents using GroupDocs.Comparison,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Classes

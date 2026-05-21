@@ -11,16 +11,18 @@ Provides classes and interfaces for logging in GroupDocs.Comparison. The logging
 
 The main classes and interfaces in this package are:
 
- *  com.groupdocs.comparison.logging.ILogger - The interface that defines the contract for a logger.
- *  [ComparisonLogger](../../com.groupdocs.comparison.logging/comparisonlogger) - Provides methods and a way to configure integrated or set user defined logger.
- *  com.groupdocs.comparison.logging.ConsoleLogger - Provides logger implementation which sends all messages to console.
-
-By using the logging functionality, you can customize how log messages are handled, such as writing them to a file, console, or any other destination of your choice.
-
-For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+* com.groupdocs.comparison.logging.ILogger - The interface that defines the contract for a logger.
+* [ComparisonLogger](../../com.groupdocs.comparison.logging/comparisonlogger) - Provides methods and a way to configure integrated or set user defined logger.
+* com.groupdocs.comparison.logging.ConsoleLogger - Provides logger implementation which sends all messages to console.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+By using the logging functionality, you can customize how log messages are handled,
+such as writing them to a file, console, or any other destination of your choice.
+
+
+For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Classes

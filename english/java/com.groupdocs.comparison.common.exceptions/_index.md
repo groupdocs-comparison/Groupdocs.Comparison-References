@@ -11,16 +11,18 @@ Provides exceptions which can be thrown during comparison process in GroupDocs.C
 
 The main exception classes in this package are:
 
- *  [ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception) - The base exception class for all exceptions related to document comparison.
- *  [InvalidPasswordException](../../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) - The exception that is thrown when an invalid password is provided for a password-protected document.
- *  [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) - The exception that is thrown when file of this format is not supported by Comparison.
-
-The exceptions in this package provide specific error handling and reporting for common operations in GroupDocs.Comparison. They allow for more granular error detection and handling, enabling developers to respond appropriately to different error scenarios.
-
-For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+* [ComparisonException](../../com.groupdocs.comparison.common.exceptions/comparisonexception) - The base exception class for all exceptions related to document comparison.
+* [InvalidPasswordException](../../com.groupdocs.comparison.common.exceptions/invalidpasswordexception) - The exception that is thrown when an invalid password is provided for a password-protected document.
+* [UnsupportedFileFormatException](../../com.groupdocs.comparison.common.exceptions/unsupportedfileformatexception) - The exception that is thrown when file of this format is not supported by Comparison.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+The exceptions in this package provide specific error handling and reporting for common operations in GroupDocs.Comparison.
+They allow for more granular error detection and handling, enabling developers to respond appropriately to different error scenarios.
+
+
+For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Classes

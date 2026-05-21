@@ -13,13 +13,17 @@ public class UnsupportedFileFormatException extends ComparisonException
 ```
 
 The exception that is thrown when file of this format is not supported by Comparison.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnsupportedFileFormatException()](#UnsupportedFileFormatException--) | Initializes a new instance of the UnsupportedFileFormatException class. |
-| [UnsupportedFileFormatException(String filePath)](#UnsupportedFileFormatException-java.lang.String-) | Initializes a new instance of the UnsupportedFileFormatException class with path to the file. |
-| [UnsupportedFileFormatException(Throwable cause)](#UnsupportedFileFormatException-java.lang.Throwable-) | Initializes a new instance of the UnsupportedFileFormatException class with an object that represents the cause of the exception. |
+| [UnsupportedFileFormatException()](#UnsupportedFileFormatException--) | Initializes a new instance of the UnsupportedFileFormatException class.
+ |
+| [UnsupportedFileFormatException(String filePath)](#UnsupportedFileFormatException-java.lang.String-) | Initializes a new instance of the UnsupportedFileFormatException class with path to the file.
+ |
+| [UnsupportedFileFormatException(Throwable cause)](#UnsupportedFileFormatException-java.lang.Throwable-) | Initializes a new instance of the UnsupportedFileFormatException class with an object that represents the cause of the exception.
+ |
 ### UnsupportedFileFormatException() {#UnsupportedFileFormatException--}
 ```
 public UnsupportedFileFormatException()
@@ -27,6 +31,7 @@ public UnsupportedFileFormatException()
 
 
 Initializes a new instance of the UnsupportedFileFormatException class.
+
 
 ### UnsupportedFileFormatException(String filePath) {#UnsupportedFileFormatException-java.lang.String-}
 ```
@@ -36,10 +41,12 @@ public UnsupportedFileFormatException(String filePath)
 
 Initializes a new instance of the UnsupportedFileFormatException class with path to the file.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file |
+| filePath | java.lang.String | The path to the file
+ |
 
 ### UnsupportedFileFormatException(Throwable cause) {#UnsupportedFileFormatException-java.lang.Throwable-}
 ```
@@ -49,8 +56,10 @@ public UnsupportedFileFormatException(Throwable cause)
 
 Initializes a new instance of the UnsupportedFileFormatException class with an object that represents the cause of the exception.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cause | java.lang.Throwable | The cause of the exception |
+| cause | java.lang.Throwable | The cause of the exception
+ |
 

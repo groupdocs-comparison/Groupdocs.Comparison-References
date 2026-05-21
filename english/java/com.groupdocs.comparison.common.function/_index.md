@@ -13,15 +13,17 @@ The functional interfaces in this package are used to access data of pages when 
 
 The main functional interfaces in this package are:
 
- *  [CreatePageStreamFunction](../../com.groupdocs.comparison.common.function/createpagestreamfunction) - Allows handling creating output stream used by Comparison to save pages data.
- *  [ReleasePageStreamFunction](../../com.groupdocs.comparison.common.function/releasepagestreamfunction) - Allows handling releasing output stream used by Comparison to save pages data.
-
-These functional interfaces can be used to define custom logic and behavior when working with document pages. They provide flexibility to customize how and where to save pages are processed.
-
-For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+* [CreatePageStreamFunction](../../com.groupdocs.comparison.common.function/createpagestreamfunction) - Allows handling creating output stream used by Comparison to save pages data.
+* [ReleasePageStreamFunction](../../com.groupdocs.comparison.common.function/releasepagestreamfunction) - Allows handling releasing output stream used by Comparison to save pages data.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+These functional interfaces can be used to define custom logic and behavior when working with document pages.
+They provide flexibility to customize how and where to save pages are processed.
+
+
+For more details on working with revisions and tracked changes in Word documents using GroupDocs.Comparison for Java,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Interfaces

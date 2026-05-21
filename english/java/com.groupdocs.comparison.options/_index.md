@@ -11,15 +11,15 @@ Provides classes and interfaces for configuring various options and settings rel
 
 Key classes in this package:
 
- *  [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) - Represents the options for document comparison.
- *  [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) - Represents the options for loading documents.
- *  [SaveOptions](../../com.groupdocs.comparison.options.save/saveoptions) - Represents the options for saving comparison results.
- *  [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - Represents style settings for text formatting.
-
-For more details on working with options classes using GroupDocs.Comparison for Java, please refer to the [GroupDocs.Comparison Documentation][].
+* [CompareOptions](../../com.groupdocs.comparison.options/compareoptions) - Represents the options for document comparison.
+* [LoadOptions](../../com.groupdocs.comparison.options.load/loadoptions) - Represents the options for loading documents.
+* [SaveOptions](../../com.groupdocs.comparison.options.save/saveoptions) - Represents the options for saving comparison results.
+* [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) - Represents style settings for text formatting.
 
 
-[GroupDocs.Comparison Documentation]: https://docs.groupdocs.com/comparison/java/
+For more details on working with options classes using GroupDocs.Comparison for Java,
+please refer to the [GroupDocs.Comparison Documentation](../https://docs.groupdocs.com/comparison/java/).
+
 
 
 ## Classes
