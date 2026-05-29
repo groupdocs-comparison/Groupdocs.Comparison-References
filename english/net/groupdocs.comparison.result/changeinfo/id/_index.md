@@ -3,7 +3,7 @@ title: Id
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Id of change.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.comparison.result/changeinfo/id/
 ---
 ## ChangeInfo.Id property

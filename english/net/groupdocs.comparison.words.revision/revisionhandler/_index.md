@@ -3,7 +3,7 @@ title: RevisionHandler
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents the main class that controls revision handling.
 type: docs
-weight: 480
+weight: 540
 url: /net/groupdocs.comparison.words.revision/revisionhandler/
 ---
 ## RevisionHandler class
@@ -19,7 +19,8 @@ public sealed class RevisionHandler : IDisposable
 | Name | Description |
 | --- | --- |
 | [RevisionHandler](revisionhandler#constructor)(Stream) | Initializes new instance of [`RevisionHandler`](../revisionhandler) class with a file stream with revisions. |
-| [RevisionHandler](revisionhandler#constructor_1)(string) | Initializes new instance of [`RevisionHandler`](../revisionhandler) class with the path to the file with revisions. |
+| [RevisionHandler](revisionhandler#constructor_2)(string) | Initializes new instance of [`RevisionHandler`](../revisionhandler) class with the path to the file with revisions. |
+| [RevisionHandler](revisionhandler#constructor_1)(Stream, bool) | Initializes new instance of [`RevisionHandler`](../revisionhandler) class with a file stream with revisions and explicit stream-ownership control. |
 
 ## Methods
 

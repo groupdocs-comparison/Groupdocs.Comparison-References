@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.comparison.words.revision/revisionhandler/revisionhandler/
 ---
-## RevisionHandler(string) {#constructor_1}
+## RevisionHandler(string) {#constructor_2}
 
 Initializes new instance of [`RevisionHandler`](../../revisionhandler) class with the path to the file with revisions.
 
@@ -37,6 +37,27 @@ public RevisionHandler(Stream file)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | Stream | Source document stream |
+
+### See Also
+
+* class [RevisionHandler](../../revisionhandler)
+* namespace [GroupDocs.Comparison.Words.Revision](../../../groupdocs.comparison.words.revision)
+* assembly [GroupDocs.Comparison](../../../)
+
+---
+
+## RevisionHandler(Stream, bool) {#constructor_1}
+
+Initializes new instance of [`RevisionHandler`](../../revisionhandler) class with a file stream with revisions and explicit stream-ownership control.
+
+```csharp
+public RevisionHandler(Stream file, bool leaveOpen)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | Stream | Source document stream |
+| leaveOpen | Boolean | When true, the caller retains ownership of *file* and is responsible for disposing it. When false (default), [`Dispose`](../dispose) closes the stream. |
 
 ### See Also
 

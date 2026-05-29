@@ -3,7 +3,7 @@ title: TargetText
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Changed text of target document.
 type: docs
-weight: 100
+weight: 130
 url: /net/groupdocs.comparison.result/changeinfo/targettext/
 ---
 ## ChangeInfo.TargetText property

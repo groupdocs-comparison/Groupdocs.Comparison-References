@@ -3,7 +3,7 @@ title: Type
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Type of change.
 type: docs
-weight: 120
+weight: 150
 url: /net/groupdocs.comparison.result/changeinfo/type/
 ---
 ## ChangeInfo.Type property

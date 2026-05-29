@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Page where current change is placed.
 type: docs
-weight: 70
+weight: 90
 url: /net/groupdocs.comparison.result/changeinfo/pageinfo/
 ---
 ## ChangeInfo.PageInfo property

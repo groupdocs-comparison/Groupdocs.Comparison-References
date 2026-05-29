@@ -3,7 +3,7 @@ title: SourceText
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Changed text of source document.
 type: docs
-weight: 80
+weight: 110
 url: /net/groupdocs.comparison.result/changeinfo/sourcetext/
 ---
 ## ChangeInfo.SourceText property

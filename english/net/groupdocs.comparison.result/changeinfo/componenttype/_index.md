@@ -3,7 +3,7 @@ title: ComponentType
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Type of changed component.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.comparison.result/changeinfo/componenttype/
 ---
 ## ChangeInfo.ComponentType property

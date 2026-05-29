@@ -3,7 +3,7 @@ title: ChangeInfo
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents information about change.
 type: docs
-weight: 400
+weight: 460
 url: /net/groupdocs.comparison.result/changeinfo/
 ---
 ## ChangeInfo class
@@ -26,10 +26,13 @@ public class ChangeInfo
 | --- | --- |
 | [Authors](../../groupdocs.comparison.result/changeinfo/authors) { get; set; } | List of Authors. |
 | [Box](../../groupdocs.comparison.result/changeinfo/box) { get; set; } | Coordinates of changed element. |
+| [Column](../../groupdocs.comparison.result/changeinfo/column) { get; set; } | Zero-based column index of the changed cell. Populated for Cells comparer (XLSX, CSV, ODS, etc.), null otherwise. |
+| [ColumnHeader](../../groupdocs.comparison.result/changeinfo/columnheader) { get; set; } | Column header text taken from the first row of the worksheet for the corresponding column. Populated for Cells comparer when the first row contains header values, null otherwise. |
 | [ComparisonAction](../../groupdocs.comparison.result/changeinfo/comparisonaction) { get; set; } | Action (accept or reject). This field tells comparison what to do with this change. |
 | [ComponentType](../../groupdocs.comparison.result/changeinfo/componenttype) { get; set; } | Type of changed component. |
 | [Id](../../groupdocs.comparison.result/changeinfo/id) { get; set; } | Id of change. |
 | [PageInfo](../../groupdocs.comparison.result/changeinfo/pageinfo) { get; set; } | Page where current change is placed. |
+| [Row](../../groupdocs.comparison.result/changeinfo/row) { get; set; } | Zero-based row index of the changed cell. Populated for Cells comparer (XLSX, CSV, ODS, etc.), null otherwise. |
 | [SourceText](../../groupdocs.comparison.result/changeinfo/sourcetext) { get; set; } | Changed text of source document. |
 | [StyleChanges](../../groupdocs.comparison.result/changeinfo/stylechanges) { get; set; } | Array of style changes. |
 | [TargetText](../../groupdocs.comparison.result/changeinfo/targettext) { get; set; } | Changed text of target document. |

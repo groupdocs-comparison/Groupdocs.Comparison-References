@@ -3,7 +3,7 @@ title: ComparisonAction
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Action accept or reject. This field tells comparison what to do with this change.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.comparison.result/changeinfo/comparisonaction/
 ---
 ## ChangeInfo.ComparisonAction property

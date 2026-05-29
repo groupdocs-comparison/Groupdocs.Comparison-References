@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Represents document preview options.
 type: docs
-weight: 360
+weight: 390
 url: /net/groupdocs.comparison.options/previewoptions/
 ---
 ## PreviewOptions class
@@ -30,6 +30,7 @@ public class PreviewOptions
 | [PageNumbers](../../groupdocs.comparison.options/previewoptions/pagenumbers) { get; set; } | Page numbers that will be previewed. |
 | [PreviewFormat](../../groupdocs.comparison.options/previewoptions/previewformat) { get; set; } | Preview image format. |
 | [ReleasePageStream](../../groupdocs.comparison.options/previewoptions/releasepagestream) { get; set; } | Delegate which defines method to remove output page preview stream. |
+| [Resolution](../../groupdocs.comparison.options/previewoptions/resolution) { get; set; } | Resolution settings for preview generation. |
 | [Width](../../groupdocs.comparison.options/previewoptions/width) { get; set; } | Preview width. |
 
 ### See Also

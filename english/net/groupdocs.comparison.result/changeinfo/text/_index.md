@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Comparison for .NET API Reference
 description: Text value of change.
 type: docs
-weight: 110
+weight: 140
 url: /net/groupdocs.comparison.result/changeinfo/text/
 ---
 ## ChangeInfo.Text property
