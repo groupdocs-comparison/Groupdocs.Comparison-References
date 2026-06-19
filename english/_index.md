@@ -1,38 +1,54 @@
 ---
-title: GroupDocs.Comparison Product Family
-additionalTitle: GroupDocs API References
+title: "GroupDocs.Comparison"
+linktitle: "GroupDocs.Comparison"
+description: "GroupDocs.Comparison API reference for .NET, Java, Node.js, and Python — Detect and merge changes in text, style, and formatting across documents."
+keywords: "GroupDocs.Comparison, comparison API, API reference, .NET, Java, Python, document processing"
+additionalTitle: "GroupDocs API References"
 type: docs
+layout: family
 weight: 10
-description: "Merge or Compare two similar format document by consuming difference checker APIs for .NET and Java"
 url: /
+lead: "Detect and merge changes in text, style, and formatting across documents."
+
+platforms:
+  - name: ".NET"
+    key: net
+    ref: "/net/"
+    install: "dotnet add package GroupDocs.Comparison"
+  - name: "Java"
+    key: java
+    ref: "/java/"
+    install: "com.groupdocs:groupdocs-comparison"
+  - name: "Python via .NET"
+    version: "26.5.0"
+    key: python
+    ref: "/python-net/"
+    install: "pip install groupdocs-comparison-net"
+
+formats: ["PDF", "Word", "Excel", "PowerPoint", "Text", "Images"]
+
+capabilities:
+  - "Compare text, styles & formatting"
+  - "Accept or reject changes"
+  - "Compare multiple documents"
+  - "Sensitivity settings"
+  - "Compare from stream"
+  - "Generate change summary"
+
+resources:
+  - name: "Documentation"
+    url: "https://docs.groupdocs.com/comparison/"
+    icon: "api"
+  - name: "Code examples"
+    url: "https://github.com/groupdocs-comparison"
+    icon: "code"
+  - name: "Releases & changelog"
+    url: "https://releases.groupdocs.com/comparison/"
+    icon: "demos"
+  - name: "Support forum"
+    url: "https://forum.groupdocs.com/c/comparison/"
+    icon: "free-support"
+  - name: "Product page"
+    url: "https://products.groupdocs.com/comparison/"
+    icon: "total"
 ---
-
-## GroupDocs.Comparison for .NET
-
-{{% alert color="primary" %}} 
-
-![GroupDocs.Comparison for .NET Product Logo](gdocs_net.png)
-
-Native .NET API for Windows Forms, ASP.NET, WPF, WCF & other .NET Framework based applications.
-
-{{% /alert %}} 
-
-These are links to some useful resources:
-
-- [GroupDocs.Comparison for .NET API Reference](/comparison/net/)
-- [GroupDocs.Comparison for .NET API Tutorials](/tutorials/comparison/net/)
-
-
-## GroupDocs.Comparison for Java
-
-{{% alert color="primary" %}}
-
-![GroupDocs.Comparison for Java Product Logo](gdocs_java.png)
-
-Native Java API for the Desktop, Web & other Java SE or EE based applications.
-
-{{% /alert %}}
-
-These are links to some useful resources:
-
-- [GroupDocs.Comparison for Java API Reference](/comparison/java/)
