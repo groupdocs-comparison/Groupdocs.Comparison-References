@@ -12,15 +12,20 @@ lead: "Detect and merge changes in text, style, and formatting across documents.
 
 platforms:
   - name: ".NET"
+    version: "26.5.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.comparison/26.5.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Comparison"
   - name: "Java"
+    version: "26.5"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-comparison/26.5/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-comparison"
   - name: "Python via .NET"
     version: "26.5.0"
+    versionUrl: "https://pypi.org/project/groupdocs-comparison-net/26.5.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-comparison-net"
