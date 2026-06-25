@@ -31,6 +31,8 @@ platforms:
     install: "pip install groupdocs-comparison-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Text", "Images"]
+formatsCount: "50+"
+formatsNote: "…and 40+ more document and image formats."
 
 capabilities:
   - "Compare text, styles & formatting"
