@@ -129,14 +129,6 @@ Example usage:
  |
 | [setChangedItemStyle(StyleSettings value)](#setChangedItemStyle-com.groupdocs.comparison.options.style.StyleSettings-) | Sets a style settings that will be applied to changed items.
  |
-| [isCompareImagesPdf()](#isCompareImagesPdf--) | Get a value indicating whether to compare images.
- |
-| [setCompareImagesPdf(boolean compareImagesPdf)](#setCompareImagesPdf-boolean-) | Set a value indicating whether to compare images.
- |
-| [getImagesInheritanceMode()](#getImagesInheritanceMode--) | Get a value indicating whether images inheritance mode
- |
-| [setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode)](#setImagesInheritanceMode-com.groupdocs.comparison.options.enums.ImagesInheritance-) | Set a value indicating whether to images inheritance mode.
- |
 | [getSensitivityOfComparison()](#getSensitivityOfComparison--) | Gets a sensitivity of comparison.
  |
 | [setSensitivityOfComparison(int value)](#setSensitivityOfComparison-int-) | Sets a sensitivity of comparison.
@@ -720,60 +712,6 @@ Sets a style settings that will be applied to changed items.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [StyleSettings](../../com.groupdocs.comparison.options.style/stylesettings) | Style settings of changed items
- |
-
-### isCompareImagesPdf() {#isCompareImagesPdf--}
-```
-public boolean isCompareImagesPdf()
-```
-
-
-Get a value indicating whether to compare images.
-
-
-**Returns:**
-boolean - compare images
-
-### setCompareImagesPdf(boolean compareImagesPdf) {#setCompareImagesPdf-boolean-}
-```
-public void setCompareImagesPdf(boolean compareImagesPdf)
-```
-
-
-Set a value indicating whether to compare images.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| compareImagesPdf | boolean | Compare images
- |
-
-### getImagesInheritanceMode() {#getImagesInheritanceMode--}
-```
-public ImagesInheritance getImagesInheritanceMode()
-```
-
-
-Get a value indicating whether images inheritance mode
-
-
-**Returns:**
-com.groupdocs.comparison.options.enums.ImagesInheritance - compare images
-
-### setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode) {#setImagesInheritanceMode-com.groupdocs.comparison.options.enums.ImagesInheritance-}
-```
-public void setImagesInheritanceMode(ImagesInheritance imagesInheritanceMode)
-```
-
-
-Set a value indicating whether to images inheritance mode.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imagesInheritanceMode | com.groupdocs.comparison.options.enums.ImagesInheritance | Images inheritance mode
  |
 
 ### getSensitivityOfComparison() {#getSensitivityOfComparison--}
