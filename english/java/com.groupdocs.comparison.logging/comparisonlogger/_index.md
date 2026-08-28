@@ -22,7 +22,7 @@ Example usage:
 
 ````
 
- ComparisonLogger.setLogger(new com.groupdocs.comparison.logging.ConsoleLogger(false, true, true, true));
+ ComparisonLogger.setLogger(new com.groupdocs.foundation.logging.ConsoleLogger(false, true, true, true));
  ComparisonLogger.warning(exceptionObject, "Warning message with parameters: {}, {}", "parameter1", 2);
  
 ````
