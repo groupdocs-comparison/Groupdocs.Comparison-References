@@ -28,6 +28,8 @@ public class LoadOptions
 | [FontDirectories](../../groupdocs.comparison.options/loadoptions/fontdirectories) { get; set; } | List of font directories to load. |
 | [LoadText](../../groupdocs.comparison.options/loadoptions/loadtext) { get; set; } | Indicates that the strings passed are comparison text, not file paths (For Text Comparison only). |
 | [Password](../../groupdocs.comparison.options/loadoptions/password) { get; set; } | Password of document. |
+| [SkipExternalResources](../../groupdocs.comparison.options/loadoptions/skipexternalresources) { get; set; } | Disables loading of all external resources (e.g. images referenced by a remote URL) except [`WhitelistedResources`](./whitelistedresources). |
+| [WhitelistedResources](../../groupdocs.comparison.options/loadoptions/whitelistedresources) { get; set; } | The list of URL fragments corresponding to external resources that should be loaded when [`SkipExternalResources`](./skipexternalresources) is set to `true`. |
 
 ### See Also
 
