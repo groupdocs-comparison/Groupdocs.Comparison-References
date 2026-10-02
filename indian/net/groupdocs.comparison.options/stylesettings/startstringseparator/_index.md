@@ -1,0 +1,23 @@
+---
+title: "StartStringSeparator"
+second_title: "GroupDocs.Comparison for .NET API संदर्भ"
+description: "बिगिन सेपरेटर स्ट्रिंग प्राप्त करता है या सेट करता है।"
+type: docs
+weight: 120
+url: /hi/net/groupdocs.comparison.options/stylesettings/startstringseparator/
+---
+## StyleSettings.StartStringSeparator property
+
+बिगिन सेपरेटर स्ट्रिंग प्राप्त करता है या सेट करता है।
+
+```csharp
+public string StartStringSeparator { get; set; }
+```
+
+### साथ ही देखें
+
+* class [StyleSettings](../../stylesettings)
+* namespace [GroupDocs.Comparison.Options](../../../groupdocs.comparison.options)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Comparison.dll के लिए उत्पन्न किया गया -->
