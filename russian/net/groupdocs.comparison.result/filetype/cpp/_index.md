@@ -1,0 +1,23 @@
+---
+title: "CPP"
+second_title: "Справочник API GroupDocs.Comparison для .NET"
+description: "Формат языка программирования CBased"
+type: docs
+weight: 170
+url: /ru/net/groupdocs.comparison.result/filetype/cpp/
+---
+## FileType.CPP field
+
+Формат языка программирования, основанного на C
+
+```csharp
+public static readonly FileType CPP;
+```
+
+### См. также
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для GroupDocs.Comparison.dll -->
