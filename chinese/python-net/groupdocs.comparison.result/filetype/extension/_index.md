@@ -1,0 +1,22 @@
+---
+title: "extension 属性"
+second_title: "适用于 Python 的 GroupDocs.Comparison via .NET API 参考"
+description: 
+type: docs
+url: /zh/python-net/groupdocs.comparison.result/filetype/extension/
+is_root: false
+weight: 2010
+---
+
+
+## extension property
+
+### Definition:
+```python
+@property
+def extension(self):
+    ...
+```
+
+### 另请参阅
+* class [`FileType`](/comparison/python-net/groupdocs.comparison.result/filetype/)

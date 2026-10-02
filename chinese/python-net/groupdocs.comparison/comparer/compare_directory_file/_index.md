@@ -1,0 +1,20 @@
+---
+title: "compare_directory_file 方法"
+second_title: "适用于 Python 的 GroupDocs.Comparison via .NET API 参考"
+description: 
+type: docs
+url: /zh/python-net/groupdocs.comparison/comparer/compare_directory_file/
+is_root: false
+weight: 1500
+---
+
+
+## compare_directory_file
+
+```python
+def compare_directory_file(self):
+    ...
+```
+
+### 另请参阅
+* class [`Comparer`](/comparison/python-net/groupdocs.comparison/comparer/)
