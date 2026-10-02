@@ -1,0 +1,25 @@
+---
+title: "compare_images_pdf Eigenschaft"
+second_title: "GroupDocs.Comparison für Python über .NET API-Referenzen"
+description: 
+type: docs
+url: /de/python-net/groupdocs.comparison.options/compareoptions/compare_images_pdf/
+is_root: false
+weight: 2060
+---
+
+
+## compare_images_pdf property
+
+### Definition:
+```python
+@property
+def compare_images_pdf(self):
+    ...
+@compare_images_pdf.setter
+def compare_images_pdf(self, value):
+    ...
+```
+
+### Siehe auch
+* class [`CompareOptions`](/comparison/python-net/groupdocs.comparison.options/compareoptions/)
