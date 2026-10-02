@@ -1,0 +1,23 @@
+---
+title: "نوع المكوّن"
+second_title: "مرجع API لـ GroupDocs.Comparison لـ .NET"
+description: "نوع المكوّن المتغيّر."
+type: docs
+weight: 70
+url: /ar/net/groupdocs.comparison.result/changeinfo/componenttype/
+---
+## ChangeInfo.ComponentType property
+
+نوع المكوّن المتغيّر.
+
+```csharp
+public string ComponentType { get; set; }
+```
+
+### انظر أيضًا
+
+* class [ChangeInfo](../../changeinfo)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- لا تقم بالتعديل: تم الإنشاء بواسطة xmldoccmd لـ GroupDocs.Comparison.dll -->
