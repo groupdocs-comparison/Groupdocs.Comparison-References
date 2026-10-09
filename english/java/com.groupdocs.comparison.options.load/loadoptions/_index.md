@@ -66,6 +66,14 @@ Example usage:
  |
 | [setFileType(FileType value)](#setFileType-com.groupdocs.comparison.result.FileType-) | Sets a type of a file that is loading.
  |
+| [isSkipExternalResources()](#isSkipExternalResources--) | Gets whether loading of external resources referenced by a document is disabled.
+ |
+| [setSkipExternalResources(boolean value)](#setSkipExternalResources-boolean-) | Sets whether loading of external resources referenced by a document is disabled.
+ |
+| [getWhitelistedResources()](#getWhitelistedResources--) | Gets the resources that are still loaded while #isSkipExternalResources().isSkipExternalResources() is on.
+ |
+| [setWhitelistedResources(List<String> value)](#setWhitelistedResources-java.util.List-java.lang.String--) | Sets the resources that are still loaded while #isSkipExternalResources().isSkipExternalResources() is on.
+ |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -243,5 +251,65 @@ Sets a type of a file that is loading.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FileType](../../com.groupdocs.comparison.result/filetype) | The type of the file
+ |
+
+### isSkipExternalResources() {#isSkipExternalResources--}
+```
+public boolean isSkipExternalResources()
+```
+
+
+Gets whether loading of external resources referenced by a document is disabled.
+
+
+A document can point at resources outside itself, for example an image given by a remote
+URL. Loading those means the comparison reaches out to whatever address the document
+names, so it is off by default; #getWhitelistedResources().getWhitelistedResources() lets named resources
+through while it is on.
+
+
+**Returns:**
+boolean - true when external resources are not loaded, which is the default
+
+### setSkipExternalResources(boolean value) {#setSkipExternalResources-boolean-}
+```
+public void setSkipExternalResources(boolean value)
+```
+
+
+Sets whether loading of external resources referenced by a document is disabled.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | true to leave external resources unloaded, false to allow them
+ |
+
+### getWhitelistedResources() {#getWhitelistedResources--}
+```
+public List<String> getWhitelistedResources()
+```
+
+
+Gets the resources that are still loaded while #isSkipExternalResources().isSkipExternalResources() is on.
+
+
+**Returns:**
+java.util.List<java.lang.String> - the URL fragments of the allowed resources
+
+### setWhitelistedResources(List<String> value) {#setWhitelistedResources-java.util.List-java.lang.String--}
+```
+public void setWhitelistedResources(List<String> value)
+```
+
+
+Sets the resources that are still loaded while #isSkipExternalResources().isSkipExternalResources() is on.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.List<java.lang.String> | The URL fragments of the allowed resources
  |
 

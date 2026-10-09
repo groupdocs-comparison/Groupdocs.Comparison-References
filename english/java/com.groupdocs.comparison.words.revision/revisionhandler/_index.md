@@ -54,6 +54,8 @@ Example usage:
  |
 | [RevisionHandler(InputStream file, FileType fileType)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-) | Initializes a new instance of the RevisionHandler class with a file stream containing revisions.
  |
+| [RevisionHandler(InputStream file, FileType fileType, boolean leaveOpen)](#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-boolean-) | Initializes a new instance of the RevisionHandler class with a file stream containing revisions and explicit stream ownership.
+ |
 | [RevisionHandler(Document document)](#RevisionHandler-com.aspose.words.Document-) | Initializes a new instance of the RevisionHandler class with a document.
  |
 ## Fields
@@ -121,6 +123,25 @@ Initializes a new instance of the RevisionHandler class with a file stream conta
 | file | java.io.InputStream | The source document stream.
  |
 | fileType | [FileType](../../com.groupdocs.comparison.result/filetype) | The type of the file.
+ |
+
+### RevisionHandler(InputStream file, FileType fileType, boolean leaveOpen) {#RevisionHandler-java.io.InputStream-com.groupdocs.comparison.result.FileType-boolean-}
+```
+public RevisionHandler(InputStream file, FileType fileType, boolean leaveOpen)
+```
+
+
+Initializes a new instance of the RevisionHandler class with a file stream containing revisions and explicit stream ownership.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | java.io.InputStream | The source document stream.
+ |
+| fileType | [FileType](../../com.groupdocs.comparison.result/filetype) | The type of the file.
+ |
+| leaveOpen | boolean | When true the caller keeps ownership of  file  and closes it itself; when false #close().close() closes it.
  |
 
 ### RevisionHandler(Document document) {#RevisionHandler-com.aspose.words.Document-}

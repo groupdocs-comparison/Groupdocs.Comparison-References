@@ -82,6 +82,14 @@ Example usage:
  |
 | [getPassword()](#getPassword--) | Gets the password of the document
  |
+| [isSkipExternalResources()](#isSkipExternalResources--) | Gets whether external resources referenced by this document are left unloaded.
+ |
+| [setSkipExternalResources(boolean value)](#setSkipExternalResources-boolean-) | Sets whether external resources referenced by this document are left unloaded.
+ |
+| [getWhitelistedResources()](#getWhitelistedResources--) | Gets the resources that are loaded even while external resources are skipped.
+ |
+| [setWhitelistedResources(List<String> value)](#setWhitelistedResources-java.util.List-java.lang.String--) | Sets the resources that are loaded even while external resources are skipped.
+ |
 | [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.comparison.options.PreviewOptions-) | Generates document previews based on the provided [PreviewOptions](../../com.groupdocs.comparison.options/previewoptions).
  |
 | [getDocumentInfo()](#getDocumentInfo--) | Gets information about the document, including document type, page count, page sizes, and more.
@@ -377,6 +385,60 @@ Gets the password of the document
 
 **Returns:**
 java.lang.String - the password of the document
+
+### isSkipExternalResources() {#isSkipExternalResources--}
+```
+public boolean isSkipExternalResources()
+```
+
+
+Gets whether external resources referenced by this document are left unloaded.
+
+
+**Returns:**
+boolean - true when they are skipped, which is the default
+
+### setSkipExternalResources(boolean value) {#setSkipExternalResources-boolean-}
+```
+public void setSkipExternalResources(boolean value)
+```
+
+
+Sets whether external resources referenced by this document are left unloaded.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | true to skip them
+ |
+
+### getWhitelistedResources() {#getWhitelistedResources--}
+```
+public List<String> getWhitelistedResources()
+```
+
+
+Gets the resources that are loaded even while external resources are skipped.
+
+
+**Returns:**
+java.util.List<java.lang.String> - the URL fragments of the allowed resources
+
+### setWhitelistedResources(List<String> value) {#setWhitelistedResources-java.util.List-java.lang.String--}
+```
+public void setWhitelistedResources(List<String> value)
+```
+
+
+Sets the resources that are loaded even while external resources are skipped.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.List<java.lang.String> | The URL fragments of the allowed resources
+ |
 
 ### generatePreview(PreviewOptions previewOptions) {#generatePreview-com.groupdocs.comparison.options.PreviewOptions-}
 ```
