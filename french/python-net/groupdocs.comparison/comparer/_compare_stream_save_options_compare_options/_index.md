@@ -1,0 +1,28 @@
+---
+title: "_compare_stream_save_options_compare_options méthode"
+second_title: "GroupDocs.Comparison pour Python via .NET Références d'API"
+description: 
+type: docs
+url: /fr/python-net/groupdocs.comparison/comparer/_compare_stream_save_options_compare_options/
+is_root: false
+weight: 1170
+---
+
+
+## _compare_stream_save_options_compare_options {#stream-save_options-compare_options}
+
+```python
+def _compare_stream_save_options_compare_options(self, stream, save_options, compare_options):
+    ...
+```
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| stream | `Stream` |  |
+| save_options | `SaveOptions` |  |
+| compare_options | `CompareOptions` |  |
+
+**Returns:** Document
+
+### Voir aussi
+* class [`Comparer`](/comparison/python-net/groupdocs.comparison/comparer/)
