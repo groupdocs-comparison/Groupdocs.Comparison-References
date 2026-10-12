@@ -1,0 +1,23 @@
+---
+title: "DOTM"
+second_title: "GroupDocs.Comparison for .NET API संदर्भ"
+description: "Microsoft Word मैक्रो-सक्षम टेम्पलेट"
+type: docs
+weight: 320
+url: /hi/net/groupdocs.comparison.result/filetype/dotm/
+---
+## FileType.DOTM field
+
+Microsoft Word मैक्रो-सक्षम टेम्प्लेट
+
+```csharp
+public static readonly FileType DOTM;
+```
+
+### साथ ही देखें
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Comparison.dll के लिए उत्पन्न किया गया -->

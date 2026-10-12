@@ -1,0 +1,23 @@
+---
+title: "OBJCP"
+second_title: "GroupDocs.Comparison for .NET API संदर्भ"
+description: "ObjectiveC प्रोग्रामिंग भाषा फ़ॉर्मेट"
+type: docs
+weight: 840
+url: /hi/net/groupdocs.comparison.result/filetype/objcp/
+---
+## FileType.OBJCP field
+
+Objective-C++ प्रोग्रामिंग लैंग्वेज फ़ॉर्मेट
+
+```csharp
+public static readonly FileType OBJCP;
+```
+
+### साथ ही देखें
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Comparison.dll के लिए उत्पन्न किया गया -->
