@@ -1,0 +1,25 @@
+---
+title: "company 属性"
+second_title: "适用于 Python 的 GroupDocs.Comparison via .NET API 参考"
+description: 
+type: docs
+url: /zh/python-net/groupdocs.comparison.options/fileauthormetadata/company/
+is_root: false
+weight: 2020
+---
+
+
+## company property
+
+### Definition:
+```python
+@property
+def company(self):
+    ...
+@company.setter
+def company(self, value):
+    ...
+```
+
+### 另请参阅
+* class [`FileAuthorMetadata`](/comparison/python-net/groupdocs.comparison.options/fileauthormetadata/)

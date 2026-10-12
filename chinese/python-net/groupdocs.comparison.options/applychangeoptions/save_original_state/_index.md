@@ -1,0 +1,25 @@
+---
+title: "save_original_state 属性"
+second_title: "适用于 Python 的 GroupDocs.Comparison via .NET API 参考"
+description: 
+type: docs
+url: /zh/python-net/groupdocs.comparison.options/applychangeoptions/save_original_state/
+is_root: false
+weight: 2020
+---
+
+
+## save_original_state property
+
+### Definition:
+```python
+@property
+def save_original_state(self):
+    ...
+@save_original_state.setter
+def save_original_state(self, value):
+    ...
+```
+
+### 另请参阅
+* class [`ApplyChangeOptions`](/comparison/python-net/groupdocs.comparison.options/applychangeoptions/)

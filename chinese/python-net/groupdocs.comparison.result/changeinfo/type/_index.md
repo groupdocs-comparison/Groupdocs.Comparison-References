@@ -1,0 +1,22 @@
+---
+title: "type 属性"
+second_title: "适用于 Python 的 GroupDocs.Comparison via .NET API 参考"
+description: 
+type: docs
+url: /zh/python-net/groupdocs.comparison.result/changeinfo/type/
+is_root: false
+weight: 2110
+---
+
+
+## type property
+
+### Definition:
+```python
+@property
+def type(self):
+    ...
+```
+
+### 另请参阅
+* class [`ChangeInfo`](/comparison/python-net/groupdocs.comparison.result/changeinfo/)
