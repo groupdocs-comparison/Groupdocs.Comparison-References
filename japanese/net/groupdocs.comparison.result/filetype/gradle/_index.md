@@ -1,0 +1,23 @@
+---
+title: "GRADLE"
+second_title: "GroupDocs.Comparison for .NET API リファレンス"
+description: "ビルドオートメーションシステム形式"
+type: docs
+weight: 440
+url: /ja/net/groupdocs.comparison.result/filetype/gradle/
+---
+## FileType.GRADLE field
+
+ビルド自動化システム形式
+
+```csharp
+public static readonly FileType GRADLE;
+```
+
+### 関連項目
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- 編集しないでください: xmldocmd によって GroupDocs.Comparison.dll 用に生成されました -->
