@@ -1,0 +1,39 @@
+---
+title: "PreviewOptions वर्ग"
+second_title: "GroupDocs.Comparison Python के लिए .NET API संदर्भ"
+description: 
+type: docs
+url: /hi/python-net/groupdocs.comparison.options/previewoptions/
+is_root: false
+weight: 210
+---
+
+
+## PreviewOptions class
+
+PreviewOptions प्रकार निम्नलिखित सदस्य उजागर करता है:
+
+### निर्माता
+| निर्माता | विवरण |
+| :- | :- |
+| [__init__](/comparison/python-net/groupdocs.comparison.options/previewoptions/__init__/) |  |
+
+### विधियाँ
+| विधि | विवरण |
+| :- | :- |
+| [_init_create_page_stream](/comparison/python-net/groupdocs.comparison.options/previewoptions/_init_create_page_stream/#create_page_stream) |  |
+| [_init_create_page_stream_release_page_stream](/comparison/python-net/groupdocs.comparison.options/previewoptions/_init_create_page_stream_release_page_stream/#create_page_stream-release_page_stream) |  |
+
+### गुण
+| गुण | विवरण |
+| :- | :- |
+| [create_page_stream](/comparison/python-net/groupdocs.comparison.options/previewoptions/create_page_stream/) |  |
+| [height](/comparison/python-net/groupdocs.comparison.options/previewoptions/height/) |  |
+| [page_numbers](/comparison/python-net/groupdocs.comparison.options/previewoptions/page_numbers/) |  |
+| [preview_format](/comparison/python-net/groupdocs.comparison.options/previewoptions/preview_format/) |  |
+| [release_page_stream](/comparison/python-net/groupdocs.comparison.options/previewoptions/release_page_stream/) |  |
+| [resolution](/comparison/python-net/groupdocs.comparison.options/previewoptions/resolution/) |  |
+| [width](/comparison/python-net/groupdocs.comparison.options/previewoptions/width/) |  |
+
+### संबंधित देखें
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)

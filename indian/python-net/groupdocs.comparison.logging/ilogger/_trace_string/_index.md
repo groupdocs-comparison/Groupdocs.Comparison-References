@@ -1,0 +1,24 @@
+---
+title: "_trace_string विधि"
+second_title: "GroupDocs.Comparison Python के लिए .NET API संदर्भ"
+description: 
+type: docs
+url: /hi/python-net/groupdocs.comparison.logging/ilogger/_trace_string/
+is_root: false
+weight: 1020
+---
+
+
+## _trace_string {#message}
+
+```python
+def _trace_string(self, message):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| message | `str` |  |
+
+### संबंधित देखें
+* class [`ILogger`](/comparison/python-net/groupdocs.comparison.logging/ilogger/)

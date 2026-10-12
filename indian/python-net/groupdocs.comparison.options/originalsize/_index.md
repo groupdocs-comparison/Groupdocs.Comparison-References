@@ -1,0 +1,33 @@
+---
+title: "OriginalSize क्लास"
+second_title: "GroupDocs.Comparison Python के लिए .NET API संदर्भ"
+description: 
+type: docs
+url: /hi/python-net/groupdocs.comparison.options/originalsize/
+is_root: false
+weight: 150
+---
+
+
+## OriginalSize class
+
+OriginalSize प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+### निर्माता
+| निर्माता | विवरण |
+| :- | :- |
+| [__init__](/comparison/python-net/groupdocs.comparison.options/originalsize/__init__/) |  |
+
+### विधियाँ
+| विधि | विवरण |
+| :- | :- |
+| [_init_noargs](/comparison/python-net/groupdocs.comparison.options/originalsize/_init_noargs/) |  |
+
+### गुण
+| गुण | विवरण |
+| :- | :- |
+| [height](/comparison/python-net/groupdocs.comparison.options/originalsize/height/) |  |
+| [width](/comparison/python-net/groupdocs.comparison.options/originalsize/width/) |  |
+
+### संबंधित देखें
+* module [`groupdocs.comparison.options`](/comparison/python-net/groupdocs.comparison.options/)
