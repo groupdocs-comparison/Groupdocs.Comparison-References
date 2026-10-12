@@ -1,0 +1,23 @@
+---
+title: "SVG"
+second_title: "مرجع API لـ GroupDocs.Comparison لـ .NET"
+description: "رسومات المتجهات السكالارية"
+type: docs
+weight: 1330
+url: /ar/net/groupdocs.comparison.result/filetype/svg/
+---
+## FileType.SVG field
+
+رسومات المتجهات السكالارية
+
+```csharp
+public static readonly FileType SVG;
+```
+
+### انظر أيضًا
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Comparison.Result](../../../groupdocs.comparison.result)
+* assembly [GroupDocs.Comparison](../../../)
+
+<!-- لا تقم بالتعديل: تم الإنشاء بواسطة xmldoccmd لـ GroupDocs.Comparison.dll -->
